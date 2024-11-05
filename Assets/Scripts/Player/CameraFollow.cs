@@ -14,6 +14,7 @@ public class CameraFollow : MonoBehaviour
     void Update()
     {
         position.x = player.transform.position.x;
+        position.y = player.transform.position.y;
         transform.position = position;
     }
 }
