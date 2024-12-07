@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jumpdash_main_nagy_0: 8719264575748378210
+      jumpdash_main_nagy_1: 1701447512355261188
+      jumpdash_main_nagy_2: -3169038385125639896
+      jumpdash_main_nagy_3: -881931993723641077
+      jumpdash_main_nagy_4: -436984268790197244
+      jumpdash_main_nagy_5: 4644341002672580009
+      jumpdash_main_nagy_6: -6299215114282919141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

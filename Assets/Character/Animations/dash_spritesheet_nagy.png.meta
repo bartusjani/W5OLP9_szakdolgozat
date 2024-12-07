@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dash_spritesheet_nagy_0: 5357577699398778761
+      dash_spritesheet_nagy_1: -3958645944218912016
+      dash_spritesheet_nagy_2: 1179514897273802719
+      dash_spritesheet_nagy_3: -1568163152204348879
+      dash_spritesheet_nagy_4: -4481058908885075881
+      dash_spritesheet_nagy_5: 2111203612855163501
+      dash_spritesheet_nagy_6: -1756544815450493032
+      dash_spritesheet_nagy_7: -1962121638764829420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
