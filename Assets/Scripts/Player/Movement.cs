@@ -53,13 +53,12 @@ public class Movement : MonoBehaviour
         animator.SetBool("isJumping", Input.GetButton("Jump"));
 
         if(Input.GetKeyDown(KeyCode.E) && canDash)
-        {
-            animator.SetBool("isDashing", true);
+        {  
             StartCoroutine(Dash());
         }
-        else
+        else if(Input.GetKeyDown(KeyCode.E) && canDash && !isGrounded)
         {
-            animator.SetBool("isDashing", false);
+            StartCoroutine(JumpDash());
         }
 
        
@@ -89,7 +88,8 @@ public class Movement : MonoBehaviour
     }
     private IEnumerator Dash()
     {
-        animator.SetBool("isDashing", true);
+
+        animator.SetBool("isDashing", canDash);
         canDash = false;
         isDashing = true;
         float originalGravity = rb.gravityScale;
@@ -100,9 +100,28 @@ public class Movement : MonoBehaviour
         tr.emitting = false;
         rb.gravityScale = originalGravity;
         isDashing = false;
+        animator.SetBool("isDashing", canDash);
         yield return new WaitForSeconds(dashingCooldown);
         canDash = true;
-
+    }
+    private IEnumerator JumpDash()
+    {
+        animator.SetBool("isDashing", canDash);
+        animator.SetBool("isJumping", true);
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
+        rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
+        tr.emitting = true;
+        yield return new WaitForSeconds(dashingTime);
+        tr.emitting = false;
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+        animator.SetBool("isDashing", canDash);
+        animator.SetBool("isJumping", false);
+        yield return new WaitForSeconds(dashingCooldown);
+        canDash = true;
     }
 
 
