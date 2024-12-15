@@ -35,72 +35,79 @@ public class PlayerLedgeGrab : MonoBehaviour
 
     
 
-    protected virtual void FixedUpdate()
+    protected  void Update()
     {
-        
         CheckForLedge();
         LedgeHanging();
     }
 
-    protected virtual void CheckForLedge()
+    protected void CheckForLedge()
     {
-        if (!falling)
-        {
+
             if (transform.localScale.x > 0)
             {
                 topOfPlayer = new Vector2(col.bounds.max.x + .1f, col.bounds.max.y);
                 RaycastHit2D hit = Physics2D.Raycast(topOfPlayer, Vector2.right, .2f);
-                if (hit && hit.collider.gameObject.GetComponent<Ledge>())
+                if (!GrabbingLedge&&hit && hit.collider.gameObject.GetComponent<Ledge>())
                 {
+
                     ledge = hit.collider.gameObject;
                     Collider2D ledgeCollider = ledge.GetComponent<Collider2D>();
-                    
-                    if (col.bounds.max.y < ledgeCollider.bounds.max.y && col.bounds.max.y > ledgeCollider.bounds.center.y && col.bounds.min.x < ledgeCollider.bounds.min.x)
+                    Debug.Log(col.bounds.max.y > ledgeCollider.bounds.center.y);
+                    Debug.Log("2");
+                    Debug.Log(col.bounds.min.x < ledgeCollider.bounds.min.x);
+                    //col.bounds.max.y < ledgeCollider.bounds.max.y &&
+                    //col.bounds.max.y > ledgeCollider.bounds.center.y && 
+                    if (col.bounds.min.x < ledgeCollider.bounds.min.x)
                     {
-                        
+
                         GrabbingLedge = true;
-                        
-                        
+
+
                     }
                 }
             }
-            
+
             else
             {
-                
+
                 topOfPlayer = new Vector2(col.bounds.min.x - .1f, col.bounds.max.y);
-                
+
                 RaycastHit2D hit = Physics2D.Raycast(topOfPlayer, Vector2.left, .2f);
-                
-                if (hit && hit.collider.gameObject.GetComponent<Ledge>())
+
+                if (!GrabbingLedge && hit && hit.collider.gameObject.GetComponent<Ledge>())
                 {
-                    
+
                     ledge = hit.collider.gameObject;
-                    
+
                     Collider2D ledgeCollider = ledge.GetComponent<Collider2D>();
-                    if (col.bounds.max.y < ledgeCollider.bounds.max.y && col.bounds.max.y > ledgeCollider.bounds.center.y && col.bounds.max.x > ledgeCollider.bounds.max.x)
+                    //col.bounds.max.y < ledgeCollider.bounds.max.y &&
+                    if (col.bounds.max.y > ledgeCollider.bounds.center.y && col.bounds.max.x > ledgeCollider.bounds.max.x)
                     {
-                     
-                        
+
+
                         GrabbingLedge = true;
                     }
                 }
             }
-            
+
             if (ledge != null && GrabbingLedge)
             {
                 AdjustPlayerPosition();
                 rb.linearVelocity = Vector2.zero;
+                animator.SetBool("isGrabbingLedge", true);
                 rb.bodyType = RigidbodyType2D.Kinematic;
-                
+
+
             }
             else
             {
-                
+                animator.SetBool("isGrabbingLedge", false);
                 rb.bodyType = RigidbodyType2D.Dynamic;
-                
+
             }
-        }
+        
+        
     }
 
     
@@ -156,6 +163,7 @@ public class PlayerLedgeGrab : MonoBehaviour
         ledge = null;
         moved = false;
         climbing = false;
+        animator.SetBool("isClimbing", climbing);
         GrabbingLedge = false;
         
     }
