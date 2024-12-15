@@ -49,8 +49,12 @@ public class Movement : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
             isGrounded = false;
 
+            animator.SetBool("isJumping",true);
         }
-        animator.SetBool("isJumping", Input.GetButton("Jump"));
+        else
+        {
+            animator.SetBool("isJumping", false);
+        }
 
         if(Input.GetKeyDown(KeyCode.E) && canDash)
         {  
@@ -135,6 +139,7 @@ public class Movement : MonoBehaviour
         rb.linearVelocity = new Vector2(horizontal * speed, rb.linearVelocity.y);
         animator.SetFloat("xVelocity", Math.Abs(rb.linearVelocity.x));
         animator.SetFloat("yVelocity", rb.linearVelocity.y);
+        Debug.Log(rb.linearVelocity.y);
 
         
 
