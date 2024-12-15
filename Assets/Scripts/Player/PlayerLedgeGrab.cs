@@ -21,12 +21,14 @@ public class PlayerLedgeGrab : MonoBehaviour
     private bool GrabbingLedge;
     private Collider2D col;
     private Rigidbody2D rb;
+    Animator animator;
 
     
     private void Start()
     {
         col = GetComponent<Collider2D>();
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
     }
     
@@ -142,6 +144,7 @@ public class PlayerLedgeGrab : MonoBehaviour
 
     protected virtual IEnumerator ClimbingLedge(Vector2 topOfPlatform, float duration)
     {
+        animator.SetBool("isClimbing", climbing);
         float time = 0;
         Vector2 startValue = transform.position;
         while (time <= duration)
@@ -154,6 +157,7 @@ public class PlayerLedgeGrab : MonoBehaviour
         moved = false;
         climbing = false;
         GrabbingLedge = false;
+        
     }
 
     protected virtual void AdjustPlayerPosition()
