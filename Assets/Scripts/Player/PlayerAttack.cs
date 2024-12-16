@@ -8,12 +8,20 @@ public class PlayerAttack : MonoBehaviour
     public int damage=20;
     public LayerMask enemyLayers;
 
+    float attackTime = 0f;
+    public int attackRate = 2;
+
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+
+        if (Time.time >= attackTime)
         {
-            Attack();
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                Attack();
+                attackTime = Time.time + 1f / attackRate;
+            }
         }
     }
 

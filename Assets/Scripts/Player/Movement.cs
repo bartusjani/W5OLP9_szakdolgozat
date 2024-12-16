@@ -11,7 +11,6 @@ public class Movement : MonoBehaviour
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
     bool isGrounded = true;
-    bool isShiftPressed = false;
     Animator animator;
 
 
