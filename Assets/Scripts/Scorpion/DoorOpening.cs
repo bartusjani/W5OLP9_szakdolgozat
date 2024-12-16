@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class DoorOpening : MonoBehaviour
 {
-
+    public GameObject door;
     public int maxHealth = 20;
     private int health;
+    public delegate void EnemyKilledHandler();
+    public static event EnemyKilledHandler OnEnemyKilled;
     void Start()
     {
         health = maxHealth;
@@ -14,8 +16,8 @@ public class EnemyHealth : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
+            OnEnemyKilled.Invoke();
             Destroy(gameObject);
         }
     }
-    
 }
