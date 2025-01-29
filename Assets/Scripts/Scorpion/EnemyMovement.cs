@@ -6,7 +6,6 @@ public class EnemyMovement : MonoBehaviour
     public Transform[] patrolPoints;
     public float moveSpeed;
     public int patrolDestination;
-    private bool movingRight = true;
     public Transform groundCheck;
 
     public Transform player;

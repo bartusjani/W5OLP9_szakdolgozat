@@ -39,6 +39,11 @@ public class PlayerLedgeGrab : MonoBehaviour
     {
         CheckForLedge();
         LedgeHanging();
+        if (GrabbingLedge || climbing)
+        {
+            StopHorizontalMovement();
+        }
+
     }
 
     protected void CheckForLedge()
@@ -53,17 +58,9 @@ public class PlayerLedgeGrab : MonoBehaviour
 
                     ledge = hit.collider.gameObject;
                     Collider2D ledgeCollider = ledge.GetComponent<Collider2D>();
-                    Debug.Log(col.bounds.max.y > ledgeCollider.bounds.center.y);
-                    Debug.Log("2");
-                    Debug.Log(col.bounds.min.x < ledgeCollider.bounds.min.x);
-                    //col.bounds.max.y < ledgeCollider.bounds.max.y &&
-                    //col.bounds.max.y > ledgeCollider.bounds.center.y && 
                     if (col.bounds.min.x < ledgeCollider.bounds.min.x)
                     {
-
                         GrabbingLedge = true;
-
-
                     }
                 }
             }
@@ -93,18 +90,17 @@ public class PlayerLedgeGrab : MonoBehaviour
 
             if (ledge != null && GrabbingLedge)
             {
+                StopHorizontalMovement();
                 AdjustPlayerPosition();
                 rb.linearVelocity = Vector2.zero;
                 animator.SetBool("isGrabbingLedge", true);
                 rb.bodyType = RigidbodyType2D.Kinematic;
-
-
             }
             else
             {
                 animator.SetBool("isGrabbingLedge", false);
                 rb.bodyType = RigidbodyType2D.Dynamic;
-
+                StopHorizontalMovement();
             }
         
         
@@ -116,7 +112,7 @@ public class PlayerLedgeGrab : MonoBehaviour
         
         if (GrabbingLedge && Input.GetAxis("Vertical") > 0 && !climbing)
         {
-            
+            StopHorizontalMovement();
             climbing = true;
             
             if (transform.localScale.x > 0)
@@ -146,6 +142,7 @@ public class PlayerLedgeGrab : MonoBehaviour
             rb.bodyType = RigidbodyType2D.Dynamic;
 
             Invoke("NotFalling", .5f);
+            StopHorizontalMovement();
         }
     }
 
@@ -185,9 +182,23 @@ public class PlayerLedgeGrab : MonoBehaviour
             }
         }
     }
+    void StopHorizontalMovement()
+    {
+        if (GrabbingLedge || climbing)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.angularVelocity = 0;
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+        }
+        else
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+    }
 
     protected virtual void NotFalling()
     {
         falling = false;
+        
     }
 }
