@@ -6,6 +6,8 @@ public class EnemyMovement : MonoBehaviour
     public Transform[] patrolPoints;
     public float moveSpeed;
     public int patrolDestination;
+    private bool movingRight = true;
+    public Transform groundCheck;
 
     public Transform player;
     public bool isChasing=false;
@@ -14,18 +16,27 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
+        RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
+        
 
         if (isChasing)
         {
-            if (transform.position.x > player.position.x)
+            if (groundInfo.collider == false)
             {
-                transform.localScale = new Vector3((float)-0.06303474, (float)0.05184435, (float)1.0141);
-                transform.position += Vector3.left*moveSpeed*Time.deltaTime;
+                isChasing = false;
             }
-            else if(transform.position.x < player.position.x)
+            else
             {
-                transform.localScale = new Vector3((float)0.06303474, (float)0.05184435, (float)1.0141);
-                transform.position += Vector3.right * moveSpeed * Time.deltaTime;
+                if (transform.position.x > player.position.x)
+                {
+                    transform.localScale = new Vector3((float)-0.06303474, (float)0.05184435, (float)1.0141);
+                    transform.position += Vector3.left * moveSpeed * Time.deltaTime;
+                }
+                else if (transform.position.x < player.position.x)
+                {
+                    transform.localScale = new Vector3((float)0.06303474, (float)0.05184435, (float)1.0141);
+                    transform.position += Vector3.right * moveSpeed * Time.deltaTime;
+                }
             }
         }
         else
