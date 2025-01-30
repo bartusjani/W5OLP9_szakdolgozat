@@ -4,10 +4,13 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+
 
 public class Options : MonoBehaviour
 {
+    public GameObject mainMenuUI;
+    public GameObject optionsUI;
+
     public AudioMixer audioMixer;
 
     public Dropdown resDropdown;
@@ -51,5 +54,11 @@ public class Options : MonoBehaviour
     public void SetFullscreen(bool isFullScreen)
     {
         Screen.fullScreen = isFullScreen;
+    }
+
+    public void Back()
+    {
+        mainMenuUI.SetActive(true);
+        optionsUI.SetActive(false);
     }
 }
