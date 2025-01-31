@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -6,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 20;
     private int health;
     public ScorpionHpBar hpBar;
+    public static event Action OnAnyEnemyDeath;
     void Start()
     {
         health = maxHealth;
@@ -17,8 +19,14 @@ public class EnemyHealth : MonoBehaviour
         hpBar.setHealth(health);
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    void Die()
+    {
+        OnAnyEnemyDeath?.Invoke();
+        Destroy(gameObject);
     }
     
 }
