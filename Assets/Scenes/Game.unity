@@ -6247,6 +6247,7 @@ GameObject:
   - component: {fileID: 793944886}
   - component: {fileID: 793944887}
   - component: {fileID: 793944890}
+  - component: {fileID: 793944891}
   - component: {fileID: 793944888}
   - component: {fileID: 793944889}
   m_Layer: 8
@@ -6320,7 +6321,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.89, y: -3.72, z: 0}
+  m_LocalPosition: {x: 4.62, y: -3.52, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6595,6 +6596,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackRate: 2
+--- !u!114 &793944891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793944880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369715c0c20953c45bc5f7113307c72b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {x: 4.62, y: -3.52, z: 0}
 --- !u!1 &806531444
 GameObject:
   m_ObjectHideFlags: 0
