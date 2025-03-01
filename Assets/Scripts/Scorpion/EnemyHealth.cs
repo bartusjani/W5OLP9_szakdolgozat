@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour
 
     public int maxHealth = 20;
     private int health;
-    public ScorpionHpBar hpBar;
+    public EnemyHpBar hpBar;
     public static event Action OnAnyEnemyDeath;
     void Start()
     {

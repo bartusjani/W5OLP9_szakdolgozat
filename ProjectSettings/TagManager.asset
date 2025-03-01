@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Enemy
   - Scorpion
+  - Shield
   layers:
   - Default
   - TransparentFX

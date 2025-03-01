@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScorpionHpBar : MonoBehaviour
+public class EnemyHpBar : MonoBehaviour
 {
     public Slider slider;
 
