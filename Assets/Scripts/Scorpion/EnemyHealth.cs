@@ -8,6 +8,13 @@ public class EnemyHealth : MonoBehaviour
     private int health;
     public EnemyHpBar hpBar;
     public static event Action OnAnyEnemyDeath;
+
+    public int Health
+    {
+        get { return health; }
+        set { health = value; }
+    }
+
     void Start()
     {
         health = maxHealth;
@@ -23,7 +30,7 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    void Die()
+    public void Die()
     {
         OnAnyEnemyDeath?.Invoke();
         Destroy(gameObject);

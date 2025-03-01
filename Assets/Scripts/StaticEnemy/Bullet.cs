@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using System.Net;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -22,17 +23,33 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        if (collision.gameObject.tag == "Player")
+        //if (collision.gameObject.tag == "Player")
+        //{
+        //    ph= collision.gameObject.GetComponent<PlayerHealth>();
+        //    ph.TakeDamage(damage);
+        //    Destroy(gameObject);
+        //}
+        //else if (collision.gameObject.tag=="Shield")
+        //{
+        //    blockedBullets++;
+        //    Debug.Log("Blocked  bullets:"+ blockedBullets);
+        //    Destroy(gameObject);
+        //}
+        switch (collision.gameObject.tag)
         {
-            ph= collision.gameObject.GetComponent<PlayerHealth>();
-            ph.TakeDamage(damage);
-            Destroy(gameObject);
-        }
-        else if (collision.gameObject.tag=="Shield")
-        {
-            blockedBullets++;
-            Debug.Log("Blocked  bullets:"+ blockedBullets);
-            Destroy(gameObject);
+            case "Player":
+                ph = collision.gameObject.GetComponent<PlayerHealth>();
+                ph.TakeDamage(damage);
+                Destroy(gameObject);
+                break;
+            case "Shield":
+                blockedBullets++;
+                Debug.Log("Blocked  bullets:" + blockedBullets);
+                Destroy(gameObject);
+                break;
+            case "Wall":
+                Destroy(gameObject);
+                break;
         }
     }
 
