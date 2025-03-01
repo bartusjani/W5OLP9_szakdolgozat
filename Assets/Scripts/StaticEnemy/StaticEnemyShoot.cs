@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -8,8 +9,7 @@ public class EnemyShoot : MonoBehaviour
     public float fireRate = 1f;
     private float fireTimer;
 
-    private bool canShoot;
-
+    private bool canShoot = true;
     private Transform player;
 
     private void Start()
@@ -19,7 +19,7 @@ public class EnemyShoot : MonoBehaviour
 
     private void Update()
     {
-        if (player == null) return;
+        if (player == null|| !canShoot) return;
 
         fireTimer += Time.deltaTime;
 
@@ -29,9 +29,10 @@ public class EnemyShoot : MonoBehaviour
             fireTimer = 0;
         }
 
-        if (Bullet.blockedBullets == 3)
+        if (Bullet.blockedBullets >= 3)
         {
-            canShoot = false;
+            
+            StartCoroutine(ShootingPaused());
         }
     }
 
@@ -40,5 +41,13 @@ public class EnemyShoot : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
         Vector2 dir = (player.position - firepoint.position).normalized;
         bullet.GetComponent<Bullet>().SetDir(dir);
+    }
+
+    private IEnumerator ShootingPaused()
+    {
+        canShoot = false;
+        Bullet.blockedBullets = 0;
+        yield return new WaitForSeconds(3f);
+        canShoot = true;
     }
 }

@@ -11,7 +11,7 @@ public class GroundDoorTrigger : MonoBehaviour
     private void Start()
     {
         allScorpions = GameObject.FindGameObjectsWithTag("Scorpion").Length;
-        Debug.Log("Scorpions:" + allScorpions);
+        //Debug.Log("Scorpions:" + allScorpions);
 
         EnemyHealth.OnAnyEnemyDeath += EnemyDeathHandler;
 
@@ -20,11 +20,11 @@ public class GroundDoorTrigger : MonoBehaviour
     private void EnemyDeathHandler()
     {
         deadScorpions++;
-        Debug.Log("Enemy remaining:" + (allScorpions - deadScorpions));
+        //Debug.Log("Enemy remaining:" + (allScorpions - deadScorpions));
 
         if(deadScorpions>= allScorpions)
         {
-            Debug.Log("All died");
+            //Debug.Log("All died");
             groundDoor.SetActive(false);
         }
     }

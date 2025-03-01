@@ -1,3 +1,4 @@
+using System.ComponentModel;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -6,9 +7,7 @@ public class Bullet : MonoBehaviour
     public int damage = 10;
 
     private Vector2 dir;
-
     public PlayerHealth ph;
-
     public static int blockedBullets = 0;
 
     public void SetDir(Vector2 direction)
@@ -22,6 +21,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.gameObject.tag == "Player")
         {
             ph= collision.gameObject.GetComponent<PlayerHealth>();
@@ -31,6 +31,7 @@ public class Bullet : MonoBehaviour
         else if (collision.gameObject.tag=="Shield")
         {
             blockedBullets++;
+            Debug.Log("Blocked  bullets:"+ blockedBullets);
             Destroy(gameObject);
         }
     }
