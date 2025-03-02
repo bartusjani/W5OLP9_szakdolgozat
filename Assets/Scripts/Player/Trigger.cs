@@ -8,6 +8,7 @@ public class Trigger : MonoBehaviour
     public GameObject door;
     public GameObject text;
 
+
     void Start()
     {
 

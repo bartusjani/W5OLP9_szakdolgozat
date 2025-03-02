@@ -24,7 +24,6 @@ public class Movement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private TrailRenderer tr;
 
 
     private void Start()
@@ -98,9 +97,9 @@ public class Movement : MonoBehaviour
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
-        tr.emitting = true;
+        
         yield return new WaitForSeconds(dashingTime);
-        tr.emitting = false;
+        
         rb.gravityScale = originalGravity;
         isDashing = false;
         animator.SetBool("isDashing", canDash);
@@ -116,9 +115,9 @@ public class Movement : MonoBehaviour
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
-        tr.emitting = true;
+        
         yield return new WaitForSeconds(dashingTime);
-        tr.emitting = false;
+        
         rb.gravityScale = originalGravity;
         isDashing = false;
         animator.SetBool("isDashing", canDash);
