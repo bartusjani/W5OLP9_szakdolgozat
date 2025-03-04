@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: e4e424e48e3611d48ae74925cd15f74c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 79626666575592391
+    second: attack_area_sheet.gif_0
+  - first:
+      213: 7757504543112968216
+    second: attack_area_sheet.gif_1
+  - first:
+      213: 6888277645497221442
+    second: attack_area_sheet.gif_2
+  - first:
+      213: 10940812231404982
+    second: attack_area_sheet.gif_3
+  - first:
+      213: -6264959670194287144
+    second: attack_area_sheet.gif_4
+  - first:
+      213: 5878530106501737406
+    second: attack_area_sheet.gif_5
+  - first:
+      213: 2131476205582396515
+    second: attack_area_sheet.gif_6
+  - first:
+      213: -8661619776362926384
+    second: attack_area_sheet.gif_7
+  - first:
+      213: 2109660680334264348
+    second: attack_area_sheet.gif_8
+  - first:
+      213: 5397813224861032925
+    second: attack_area_sheet.gif_9
+  - first:
+      213: -110230609058951500
+    second: attack_area_sheet.gif_10
+  - first:
+      213: 2489219736763149687
+    second: attack_area_sheet.gif_11
+  - first:
+      213: 312085972743982262
+    second: attack_area_sheet.gif_12
+  - first:
+      213: -3804276794441510717
+    second: attack_area_sheet.gif_13
+  - first:
+      213: -604048227687528340
+    second: attack_area_sheet.gif_14
+  - first:
+      213: 8256411138658472098
+    second: attack_area_sheet.gif_15
+  - first:
+      213: 1876899112901586523
+    second: attack_area_sheet.gif_16
+  - first:
+      213: 6465175651341210603
+    second: attack_area_sheet.gif_17
+  - first:
+      213: 9044942755298209388
+    second: attack_area_sheet.gif_18
+  - first:
+      213: -3662158077834665759
+    second: attack_area_sheet.gif_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 18
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbf2e70804ea1100800000000000000
+      internalID: 79626666575592391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8183abbe74138ab60800000000000000
+      internalID: 7757504543112968216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 18
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241402ed504189f50800000000000000
+      internalID: 6888277645497221442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 18
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd6b9a5c9ed62000800000000000000
+      internalID: 10940812231404982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 18
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddcbe58f546e09a0800000000000000
+      internalID: -6264959670194287144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 18
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebba97f6cfbb49150800000000000000
+      internalID: 5878530106501737406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 18
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cafe0e056849d10800000000000000
+      internalID: 2131476205582396515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 18
+        width: 101
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dea36264bebbc780800000000000000
+      internalID: -8661619776362926384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_8
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 18
+        width: 114
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18cee71635074d10800000000000000
+      internalID: 2109660680334264348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 18
+        width: 113
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd16fb77782e8ea40800000000000000
+      internalID: 5397813224861032925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_10
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 18
+        width: 113
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be8aa758d1687ef0800000000000000
+      internalID: -110230609058951500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_11
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 18
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77da8a1892c7b8220800000000000000
+      internalID: 2489219736763149687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_12
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 30
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc89c8e980c45400800000000000000
+      internalID: 312085972743982262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_13
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 18
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c05d00596e743bc0800000000000000
+      internalID: -3804276794441510717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 18
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c680b79565dfd97f0800000000000000
+      internalID: -604048227687528340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_15
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 29
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0115faf2aa49270800000000000000
+      internalID: 8256411138658472098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_16
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 18
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eaeb78cc51c0a10800000000000000
+      internalID: 1876899112901586523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_17
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 18
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be392bc300be8b950800000000000000
+      internalID: 6465175651341210603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_18
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 18
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eea478387168d70800000000000000
+      internalID: 9044942755298209388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_19
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 18
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0665391a66d2dc0800000000000000
+      internalID: -3662158077834665759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

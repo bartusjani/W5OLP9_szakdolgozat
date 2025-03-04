@@ -59,20 +59,20 @@ public class ScorpionAttacks : MonoBehaviour
 
     void QuickSlash()
     {
-        Debug.Log("quick");
+        //Debug.Log("quick");
         nextAttack = Time.time + quickAttackCooldown;
         DealDamage(quickSlashDamage);
     }
     void ForwardSlash()
     {
-        Debug.Log("forward");
+        //Debug.Log("forward");
         nextAttack = Time.time + forwardSlashCooldown;
         DealDamage(forwardSlashDamage);
     }
 
     void StrongSlash()
     {
-        Debug.Log("strong");
+       // Debug.Log("strong");
         nextAttack = Time.time + strongSlashCooldown;
         DealDamage(StrongSlashDamage);
     }
