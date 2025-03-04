@@ -3,12 +3,11 @@ using UnityEngine;
 public class BossMovement : MonoBehaviour
 {
     Transform player;
-    public bool isPlayerInRoom;
-
     public float speed = 3f;
     public float stopDis = 10f;
     private Vector2 moveDir;
     private Rigidbody2D rb;
+    EnemyHealth health;
 
     private void Start()
     {
@@ -35,6 +34,18 @@ public class BossMovement : MonoBehaviour
         else
         {
             moveDir = Vector2.zero;
+            ChooseAttack();
+        }
+    }
+    void ChooseAttack()
+    {
+        if (health.Health >= 200)//phase1
+        {
+            
+        }
+        else//phase2
+        {
+
         }
     }
 
