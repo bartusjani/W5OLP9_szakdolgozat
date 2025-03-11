@@ -6,6 +6,8 @@ public class ScorpionAttacks : MonoBehaviour
     public Transform attackPoint;
     public LayerMask playerLayer;
 
+    Animator animator;
+
     public float attackRange = 1f;
 
     public int quickSlashDamage = 10;
@@ -18,6 +20,11 @@ public class ScorpionAttacks : MonoBehaviour
     public float forwardSlashCooldown = 1.5f;
 
     private float nextAttack = 0f;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -43,6 +50,7 @@ public class ScorpionAttacks : MonoBehaviour
     {
         float distanceFromPlayer = Vector2.Distance(transform.position, PlayerPos());
 
+
         if (distanceFromPlayer < 1.5f)
         {
             QuickSlash();
@@ -59,7 +67,8 @@ public class ScorpionAttacks : MonoBehaviour
 
     void QuickSlash()
     {
-        //Debug.Log("quick");
+        animator.SetTrigger("playerNear");
+        Debug.Log("quick");
         nextAttack = Time.time + quickAttackCooldown;
         DealDamage(quickSlashDamage);
     }

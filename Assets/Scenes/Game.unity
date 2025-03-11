@@ -2499,7 +2499,7 @@ Transform:
   m_GameObject: {fileID: 296750845}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.86, y: -20.2, z: 0}
+  m_LocalPosition: {x: -8.9, y: -20.18, z: 0}
   m_LocalScale: {x: 0.06303474, y: 0.05184435, z: 1.0141}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2624,9 +2624,9 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 1.5654635, y: 1.24132}
-  m_Size: {x: 10.2730665, y: 33.027344}
-  m_Direction: 0
+  m_Offset: {x: -0.44688308, y: -0.32523838}
+  m_Size: {x: 33.22688, y: 32.31356}
+  m_Direction: 1
 --- !u!114 &296750853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7452,7 +7452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a52bf2838bd8c4dbaba662309a06bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 10000
   healthbar: {fileID: 1097686210}
 --- !u!95 &793944888
 Animator:
@@ -7509,7 +7509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369715c0c20953c45bc5f7113307c72b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {x: 4.62, y: -3.52, z: 0}
+  respawnPoint: {x: 4.62, y: 0, z: 0}
 --- !u!114 &793944892
 MonoBehaviour:
   m_ObjectHideFlags: 0
