@@ -7,17 +7,25 @@ public class EnemyMovement : MonoBehaviour
     public float moveSpeed;
     public int patrolDestination;
     public Transform groundCheck;
+    Animator animator;
+    Rigidbody2D rb;
 
     public Transform player;
     public bool isChasing=false;
     public float chaseDistance;
 
 
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     void Update()
     {
         RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
-        
 
+        animator.SetBool("isWalking", true);
         if (isChasing)
         {
             if (groundInfo.collider == false)
