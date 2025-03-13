@@ -4,6 +4,7 @@ public class PlayerAttack : MonoBehaviour
 {
 
     public Transform attackPoint;
+    public Transform jumpAttackPoint;
     public Movement movement;
     public float attackRange = 0.5f;
     public int damage=5;
@@ -25,23 +26,23 @@ public class PlayerAttack : MonoBehaviour
                 JumpAttack();
                 attackTime = Time.time + 1f / attackRate;
             }
-            else if (isCombo && Input.GetKeyDown(KeyCode.Q))
+            else if (isCombo && Input.GetKeyDown(KeyCode.Q) && movement.IsGrounded())
             {
                 QuickAttackCombo();
                 attackTime = Time.time + 1f / attackRate;
             }
-            else if (Input.GetKeyDown(KeyCode.Q))
+            else if (Input.GetKeyDown(KeyCode.Q) && movement.IsGrounded())
             {
                 isCombo = true;
                 QuickAttack();
                 attackTime = Time.time + 1f / attackRate;
             }
-            else if (Input.GetKeyDown(KeyCode.Y)) 
+            else if (Input.GetKeyDown(KeyCode.Y) && movement.IsGrounded()) 
             {
                 StrongAttack();
                 attackTime = Time.time + 3f / attackRate;
             }
-            else if (Input.GetKeyDown(KeyCode.X))
+            else if (Input.GetKeyDown(KeyCode.X) && movement.IsGrounded())
             {
                 AreaAttack();
                 attackTime = Time.time + 1f / attackRate;
@@ -91,7 +92,7 @@ public class PlayerAttack : MonoBehaviour
     void JumpAttack()
     {
         Debug.Log("jump attack");
-        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        Collider2D[] hit = Physics2D.OverlapCircleAll(jumpAttackPoint.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hit)
         {

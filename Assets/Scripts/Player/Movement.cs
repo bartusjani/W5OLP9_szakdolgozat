@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
+    public GameObject jumpAttackPoint;
     private float horizontal;
     public float speed = 5f;
     private float jumpingPower = 20f;
@@ -46,12 +46,14 @@ public class Movement : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
             isGrounded = false;
+            jumpAttackPoint.SetActive(true);
 
             animator.SetBool("isJumping",true);
         }
         else
         {
             animator.SetBool("isJumping", false);
+            jumpAttackPoint.SetActive(false);
         }
 
         if(Input.GetKeyDown(KeyCode.E) && canDash)
