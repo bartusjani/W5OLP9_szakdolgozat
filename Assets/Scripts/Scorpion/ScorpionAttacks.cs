@@ -81,7 +81,7 @@ public class ScorpionAttacks : MonoBehaviour
 
     void StrongSlash()
     {
-        animator.SetTrigger("strongAttack");
+        //animator.SetTrigger("strongAttack");
        // Debug.Log("strong");
         nextAttack = Time.time + strongSlashCooldown;
         DealDamage(StrongSlashDamage);

@@ -1,0 +1,1567 @@
+fileFormatVersion: 2
+guid: 0408295ca45f8924fab4022cf55a3bf1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4425838751179360930
+    second: attack_strong_sheet_nagy_0
+  - first:
+      213: -6002347776059280761
+    second: attack_strong_sheet_nagy_1
+  - first:
+      213: -9013900844970063182
+    second: attack_strong_sheet_nagy_2
+  - first:
+      213: 3273419284827639568
+    second: attack_strong_sheet_nagy_3
+  - first:
+      213: -6333577666729373909
+    second: attack_strong_sheet_nagy_4
+  - first:
+      213: 3828392303192149334
+    second: attack_strong_sheet_nagy_5
+  - first:
+      213: -2621067882219445368
+    second: attack_strong_sheet_nagy_6
+  - first:
+      213: -2082459230646185147
+    second: attack_strong_sheet_nagy_7
+  - first:
+      213: 3380411668645015658
+    second: attack_strong_sheet_nagy_8
+  - first:
+      213: 8491642493852187509
+    second: attack_strong_sheet_nagy_9
+  - first:
+      213: -8743559228142276498
+    second: attack_strong_sheet_nagy_10
+  - first:
+      213: -6586490748719055251
+    second: attack_strong_sheet_nagy_11
+  - first:
+      213: -171594146604138611
+    second: attack_strong_sheet_nagy_12
+  - first:
+      213: -3893960215934159574
+    second: attack_strong_sheet_nagy_13
+  - first:
+      213: -6781806983351881392
+    second: attack_strong_sheet_nagy_14
+  - first:
+      213: -2597291127209302817
+    second: attack_strong_sheet_nagy_15
+  - first:
+      213: -3074358229515209703
+    second: attack_strong_sheet_nagy_16
+  - first:
+      213: -6949817361576602427
+    second: attack_strong_sheet_nagy_17
+  - first:
+      213: 7329433488929731144
+    second: attack_strong_sheet_nagy_18
+  - first:
+      213: -6874553163879272928
+    second: attack_strong_sheet_nagy_19
+  - first:
+      213: 4901117433602054944
+    second: attack_strong_sheet_nagy_20
+  - first:
+      213: 7052448504848604522
+    second: attack_strong_sheet_nagy_21
+  - first:
+      213: -9108712230971351899
+    second: attack_strong_sheet_nagy_22
+  - first:
+      213: 4023525435605219493
+    second: attack_strong_sheet_nagy_23
+  - first:
+      213: 8806585024293397591
+    second: attack_strong_sheet_nagy_24
+  - first:
+      213: 5558938542470136044
+    second: attack_strong_sheet_nagy_25
+  - first:
+      213: -2507666690947850189
+    second: attack_strong_sheet_nagy_26
+  - first:
+      213: -5515467496658761112
+    second: attack_strong_sheet_nagy_27
+  - first:
+      213: 3946176801262728178
+    second: attack_strong_sheet_nagy_28
+  - first:
+      213: 8846709142187140127
+    second: attack_strong_sheet_nagy_29
+  - first:
+      213: -3525557269026646648
+    second: attack_strong_sheet_nagy_30
+  - first:
+      213: 7286457140016056069
+    second: attack_strong_sheet_nagy_31
+  - first:
+      213: 7255708524248722804
+    second: attack_strong_sheet_nagy_32
+  - first:
+      213: -3541422479007079007
+    second: attack_strong_sheet_nagy_33
+  - first:
+      213: 2122949755445916179
+    second: attack_strong_sheet_nagy_34
+  - first:
+      213: 8670514074317509479
+    second: attack_strong_sheet_nagy_35
+  - first:
+      213: -7831310387183034386
+    second: attack_strong_sheet_nagy_36
+  - first:
+      213: 1044974719031965136
+    second: attack_strong_sheet_nagy_37
+  - first:
+      213: 6658745206890709149
+    second: attack_strong_sheet_nagy_38
+  - first:
+      213: -7839903675547558684
+    second: attack_strong_sheet_nagy_39
+  - first:
+      213: -4753190680965368383
+    second: attack_strong_sheet_nagy_40
+  - first:
+      213: 6369603735410236706
+    second: attack_strong_sheet_nagy_41
+  - first:
+      213: -5210142146686920578
+    second: attack_strong_sheet_nagy_42
+  - first:
+      213: 5922217199597502059
+    second: attack_strong_sheet_nagy_43
+  - first:
+      213: -4247784417264997288
+    second: attack_strong_sheet_nagy_44
+  - first:
+      213: 6463533159985364762
+    second: attack_strong_sheet_nagy_45
+  - first:
+      213: -8810581658938383836
+    second: attack_strong_sheet_nagy_46
+  - first:
+      213: -8345593709080071069
+    second: attack_strong_sheet_nagy_47
+  - first:
+      213: -3043649307100695631
+    second: attack_strong_sheet_nagy_48
+  - first:
+      213: 1517899356150383895
+    second: attack_strong_sheet_nagy_49
+  - first:
+      213: -1059752485900852330
+    second: attack_strong_sheet_nagy_50
+  - first:
+      213: -4475009328592651470
+    second: attack_strong_sheet_nagy_51
+  - first:
+      213: 5856910905842792381
+    second: attack_strong_sheet_nagy_52
+  - first:
+      213: 5170579406804635232
+    second: attack_strong_sheet_nagy_53
+  - first:
+      213: -3996477334940344786
+    second: attack_strong_sheet_nagy_54
+  - first:
+      213: 8893512572688656359
+    second: attack_strong_sheet_nagy_55
+  - first:
+      213: 8787948217637123541
+    second: attack_strong_sheet_nagy_56
+  - first:
+      213: -4599011617493698700
+    second: attack_strong_sheet_nagy_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 10201
+        y: 152
+        width: 983
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55bbcada134492c0800000000000000
+      internalID: -4425838751179360930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 10567
+        y: 921
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78271addf7063bca0800000000000000
+      internalID: -6002347776059280761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 11430
+        y: 152
+        width: 983
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba47fe60f038e280800000000000000
+      internalID: -9013900844970063182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 11796
+        y: 921
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f80190f758d6d20800000000000000
+      internalID: 3273419284827639568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 152
+        width: 263
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f8f393bac9a18a0800000000000000
+      internalID: -6333577666729373909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 152
+        width: 440
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d8b9c148e212530800000000000000
+      internalID: 3828392303192149334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 152
+        width: 487
+        height: 534
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883ef1ce5a810abd0800000000000000
+      internalID: -2621067882219445368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 6453
+        y: 673
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543d912fc5e9913e0800000000000000
+      internalID: -2082459230646185147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 7482
+        y: 684
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60fb20a082a9ee20800000000000000
+      internalID: 3380411668645015658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 8274
+        y: 661
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bfba58bdf58d570800000000000000
+      internalID: 8491642493852187509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 8676
+        y: 661
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60bdf51533a8a680800000000000000
+      internalID: -8743559228142276498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 13345
+        y: 625
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e343e8f851894a0800000000000000
+      internalID: -6586490748719055251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 16005
+        y: 152
+        width: 262
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fbf1668006e9df0800000000000000
+      internalID: -171594146604138611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 152
+        width: 593
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25bdbf80dfd5f9c0800000000000000
+      internalID: -3893960215934159574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 152
+        width: 699
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0513c0eea7e22e1a0800000000000000
+      internalID: -6781806983351881392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 3900
+        y: 152
+        width: 664
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46a681b7194fbd0800000000000000
+      internalID: -2597291127209302817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_16
+      rect:
+        serializedVersion: 2
+        x: 4787
+        y: 152
+        width: 640
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91472799a7fa555d0800000000000000
+      internalID: -3074358229515209703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_17
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 637
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4526d6ee94d8f90800000000000000
+      internalID: -6949817361576602427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_18
+      rect:
+        serializedVersion: 2
+        x: 7340
+        y: 152
+        width: 628
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8423288dce067b560800000000000000
+      internalID: 7329433488929731144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_19
+      rect:
+        serializedVersion: 2
+        x: 8345
+        y: 152
+        width: 640
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e2075025ea890a0800000000000000
+      internalID: -6874553163879272928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_20
+      rect:
+        serializedVersion: 2
+        x: 12742
+        y: 152
+        width: 901
+        height: 487
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b1350b654440440800000000000000
+      internalID: 4901117433602054944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_21
+      rect:
+        serializedVersion: 2
+        x: 13451
+        y: 602
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d5c38bc845fd160800000000000000
+      internalID: 7052448504848604522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_22
+      rect:
+        serializedVersion: 2
+        x: 15071
+        y: 152
+        width: 368
+        height: 499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac52b76c7a579180800000000000000
+      internalID: -9108712230971351899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_23
+      rect:
+        serializedVersion: 2
+        x: 4763
+        y: 566
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a87ffde01f66d730800000000000000
+      internalID: 4023525435605219493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_24
+      rect:
+        serializedVersion: 2
+        x: 5638
+        y: 152
+        width: 605
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75468499b66473a70800000000000000
+      internalID: 8806585024293397591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_25
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 152
+        width: 581
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce00920e621552d40800000000000000
+      internalID: 5558938542470136044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_26
+      rect:
+        serializedVersion: 2
+        x: 7222
+        y: 543
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33069f64e6af23dd0800000000000000
+      internalID: -2507666690947850189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_27
+      rect:
+        serializedVersion: 2
+        x: 9279
+        y: 152
+        width: 664
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a0173b88f1573b0800000000000000
+      internalID: -5515467496658761112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_28
+      rect:
+        serializedVersion: 2
+        x: 13865
+        y: 152
+        width: 853
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3f62c94e2a3c630800000000000000
+      internalID: 3946176801262728178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_29
+      rect:
+        serializedVersion: 2
+        x: 5626
+        y: 519
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14e34bc713d5ca70800000000000000
+      internalID: 8846709142187140127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_30
+      rect:
+        serializedVersion: 2
+        x: 10177
+        y: 531
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885de50d754b21fc0800000000000000
+      internalID: -3525557269026646648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_31
+      rect:
+        serializedVersion: 2
+        x: 11406
+        y: 531
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50704cdd922be1560800000000000000
+      internalID: 7286457140016056069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_32
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 495
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d6e9dd57471b460800000000000000
+      internalID: 7255708524248722804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_33
+      rect:
+        serializedVersion: 2
+        x: 5496
+        y: 495
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a52333c4075adec0800000000000000
+      internalID: -3541422479007079007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_34
+      rect:
+        serializedVersion: 2
+        x: 8274
+        y: 472
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3123b510e8b367d10800000000000000
+      internalID: 2122949755445916179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_35
+      rect:
+        serializedVersion: 2
+        x: 10165
+        y: 495
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76358bbbc9ad35870800000000000000
+      internalID: 8670514074317509479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_36
+      rect:
+        serializedVersion: 2
+        x: 11395
+        y: 495
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefd026e1b8915390800000000000000
+      internalID: -7831310387183034386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_37
+      rect:
+        serializedVersion: 2
+        x: 4775
+        y: 460
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5f92f68fe708e00800000000000000
+      internalID: 1044974719031965136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_38
+      rect:
+        serializedVersion: 2
+        x: 6406
+        y: 448
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d904e827c7d986c50800000000000000
+      internalID: 6658745206890709149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_39
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 377
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec55b90521133390800000000000000
+      internalID: -7839903675547558684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_40
+      rect:
+        serializedVersion: 2
+        x: 8297
+        y: 377
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5bc575246490eb0800000000000000
+      internalID: -4753190680965368383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_41
+      rect:
+        serializedVersion: 2
+        x: 15425
+        y: 389
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dd02989d0656850800000000000000
+      internalID: 6369603735410236706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_42
+      rect:
+        serializedVersion: 2
+        x: 15449
+        y: 377
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e785f65725bd1b7b0800000000000000
+      internalID: -5210142146686920578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_43
+      rect:
+        serializedVersion: 2
+        x: 15485
+        y: 389
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eb7b07a21ff2250800000000000000
+      internalID: 5922217199597502059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_44
+      rect:
+        serializedVersion: 2
+        x: 7316
+        y: 354
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cea760496dc05c0800000000000000
+      internalID: -4247784417264997288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_45
+      rect:
+        serializedVersion: 2
+        x: 15437
+        y: 318
+        width: 97
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fb2eae92513b950800000000000000
+      internalID: 6463533159985364762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_46
+      rect:
+        serializedVersion: 2
+        x: 4739
+        y: 330
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422e76269a68ab580800000000000000
+      internalID: -8810581658938383836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_47
+      rect:
+        serializedVersion: 2
+        x: 6430
+        y: 330
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3643c8a0dbe7e2c80800000000000000
+      internalID: -8345593709080071069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_48
+      rect:
+        serializedVersion: 2
+        x: 15449
+        y: 271
+        width: 97
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b33665c419c2c5d0800000000000000
+      internalID: -3043649307100695631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_49
+      rect:
+        serializedVersion: 2
+        x: 15544
+        y: 294
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71543281c69a01510800000000000000
+      internalID: 1517899356150383895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_50
+      rect:
+        serializedVersion: 2
+        x: 15603
+        y: 306
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693ea089ab00b41f0800000000000000
+      internalID: -1059752485900852330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_51
+      rect:
+        serializedVersion: 2
+        x: 5531
+        y: 271
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23bfcaaa9b295e1c0800000000000000
+      internalID: -4475009328592651470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_52
+      rect:
+        serializedVersion: 2
+        x: 5614
+        y: 283
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7fed7007de74150800000000000000
+      internalID: 5856910905842792381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_53
+      rect:
+        serializedVersion: 2
+        x: 15567
+        y: 283
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e4a89539691c740800000000000000
+      internalID: 5170579406804635232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_54
+      rect:
+        serializedVersion: 2
+        x: 15579
+        y: 247
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e1bf1c909a988c0800000000000000
+      internalID: -3996477334940344786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_55
+      rect:
+        serializedVersion: 2
+        x: 4751
+        y: 224
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7e394a09a1c6b70800000000000000
+      internalID: 8893512572688656359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_56
+      rect:
+        serializedVersion: 2
+        x: 8274
+        y: 212
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5b9c8e75015f970800000000000000
+      internalID: 8787948217637123541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_strong_sheet_nagy_57
+      rect:
+        serializedVersion: 2
+        x: 6394
+        y: 164
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477b46dec470d20c0800000000000000
+      internalID: -4599011617493698700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

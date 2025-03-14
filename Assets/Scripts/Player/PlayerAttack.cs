@@ -5,13 +5,19 @@ public class PlayerAttack : MonoBehaviour
 
     public Transform attackPoint;
     public Transform jumpAttackPoint;
+    public Transform areaAttackPoint;
     public Movement movement;
-    public float attackRange = 0.5f;
+
     public int damage=5;
     public int strongDamage = 15;
+    public int areaDamage = 10;
+
+
     bool isCombo = false;
     public LayerMask enemyLayers;
 
+    public float attackRange = 0.5f;
+    public float areaAttackRange = 3f;
     float attackTime = 0f;
     public int attackRate = 2;
 
@@ -53,7 +59,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
+        Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        Gizmos.DrawWireSphere(jumpAttackPoint.position, attackRange);
+        Gizmos.DrawWireSphere(areaAttackPoint.position, areaAttackRange);
     }
 
 
@@ -102,11 +111,11 @@ public class PlayerAttack : MonoBehaviour
     void AreaAttack()
     {
         Debug.Log("area attack");
-        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange + 1.5f, enemyLayers);
+        Collider2D[] hit = Physics2D.OverlapCircleAll(areaAttackPoint.position, areaAttackRange , enemyLayers);
 
         foreach (Collider2D enemy in hit)
         {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
+            enemy.GetComponent<EnemyHealth>().TakeDamage(areaDamage);
         }
     }
 

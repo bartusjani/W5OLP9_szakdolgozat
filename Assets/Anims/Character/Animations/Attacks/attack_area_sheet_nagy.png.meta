@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: 6327f29788da5b14a9499ab0d79b2334
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4246165634331577392
+    second: attack_area_sheet_nagy_0
+  - first:
+      213: 5710610609218370006
+    second: attack_area_sheet_nagy_1
+  - first:
+      213: -5340025398396326594
+    second: attack_area_sheet_nagy_2
+  - first:
+      213: 1710457953489230160
+    second: attack_area_sheet_nagy_3
+  - first:
+      213: -8083282720423795031
+    second: attack_area_sheet_nagy_4
+  - first:
+      213: 4638740476730546399
+    second: attack_area_sheet_nagy_5
+  - first:
+      213: 2884503100588354368
+    second: attack_area_sheet_nagy_6
+  - first:
+      213: 2850451628129521432
+    second: attack_area_sheet_nagy_7
+  - first:
+      213: -3327578925524641762
+    second: attack_area_sheet_nagy_8
+  - first:
+      213: -5233892421642389057
+    second: attack_area_sheet_nagy_9
+  - first:
+      213: 6074870597060046640
+    second: attack_area_sheet_nagy_10
+  - first:
+      213: -9175857007711358069
+    second: attack_area_sheet_nagy_11
+  - first:
+      213: -3999639727456104131
+    second: attack_area_sheet_nagy_12
+  - first:
+      213: 7942922286467717622
+    second: attack_area_sheet_nagy_13
+  - first:
+      213: -2583504862889717281
+    second: attack_area_sheet_nagy_14
+  - first:
+      213: -3115963841550633093
+    second: attack_area_sheet_nagy_15
+  - first:
+      213: 6108086665184536974
+    second: attack_area_sheet_nagy_16
+  - first:
+      213: 3070355187999160113
+    second: attack_area_sheet_nagy_17
+  - first:
+      213: 1534499847472342869
+    second: attack_area_sheet_nagy_18
+  - first:
+      213: 6003540668401611394
+    second: attack_area_sheet_nagy_19
+  - first:
+      213: -8020056966170990198
+    second: attack_area_sheet_nagy_20
+  - first:
+      213: -1673520473438860762
+    second: attack_area_sheet_nagy_21
+  - first:
+      213: -1998395554466345380
+    second: attack_area_sheet_nagy_22
+  - first:
+      213: 422913813249830950
+    second: attack_area_sheet_nagy_23
+  - first:
+      213: 3974912554045364607
+    second: attack_area_sheet_nagy_24
+  - first:
+      213: -2456610168320005257
+    second: attack_area_sheet_nagy_25
+  - first:
+      213: 224634768766188690
+    second: attack_area_sheet_nagy_26
+  - first:
+      213: -592258517443692622
+    second: attack_area_sheet_nagy_27
+  - first:
+      213: -148963891624743934
+    second: attack_area_sheet_nagy_28
+  - first:
+      213: -2295313666257197478
+    second: attack_area_sheet_nagy_29
+  - first:
+      213: -5525818903279742364
+    second: attack_area_sheet_nagy_30
+  - first:
+      213: 974927300287831697
+    second: attack_area_sheet_nagy_31
+  - first:
+      213: 2396172943901633967
+    second: attack_area_sheet_nagy_32
+  - first:
+      213: -7171012564237377353
+    second: attack_area_sheet_nagy_33
+  - first:
+      213: -5869080976767276551
+    second: attack_area_sheet_nagy_34
+  - first:
+      213: -3365983238853469596
+    second: attack_area_sheet_nagy_35
+  - first:
+      213: -7916503113970530478
+    second: attack_area_sheet_nagy_36
+  - first:
+      213: -1635697999938648767
+    second: attack_area_sheet_nagy_37
+  - first:
+      213: -3760445485683219771
+    second: attack_area_sheet_nagy_38
+  - first:
+      213: -5846575788832081596
+    second: attack_area_sheet_nagy_39
+  - first:
+      213: 533952895263739100
+    second: attack_area_sheet_nagy_40
+  - first:
+      213: -6947669950982938440
+    second: attack_area_sheet_nagy_41
+  - first:
+      213: 950133954452130229
+    second: attack_area_sheet_nagy_42
+  - first:
+      213: -1466827635513120793
+    second: attack_area_sheet_nagy_43
+  - first:
+      213: 939067116571494155
+    second: attack_area_sheet_nagy_44
+  - first:
+      213: 6115917180984492150
+    second: attack_area_sheet_nagy_45
+  - first:
+      213: -8871842262653301499
+    second: attack_area_sheet_nagy_46
+  - first:
+      213: -8237922758417423690
+    second: attack_area_sheet_nagy_47
+  - first:
+      213: 8541946404068037127
+    second: attack_area_sheet_nagy_48
+  - first:
+      213: -5235155128464048260
+    second: attack_area_sheet_nagy_49
+  - first:
+      213: 5467544700782093713
+    second: attack_area_sheet_nagy_50
+  - first:
+      213: -5722488731870955740
+    second: attack_area_sheet_nagy_51
+  - first:
+      213: -3566185944963379043
+    second: attack_area_sheet_nagy_52
+  - first:
+      213: -4821352129797471389
+    second: attack_area_sheet_nagy_53
+  - first:
+      213: 2935342122035829442
+    second: attack_area_sheet_nagy_54
+  - first:
+      213: -1572380545519806956
+    second: attack_area_sheet_nagy_55
+  - first:
+      213: -7058433953656715969
+    second: attack_area_sheet_nagy_56
+  - first:
+      213: -7449737417654967427
+    second: attack_area_sheet_nagy_57
+  - first:
+      213: -1087384295193912191
+    second: attack_area_sheet_nagy_58
+  - first:
+      213: -8509119355660327805
+    second: attack_area_sheet_nagy_59
+  - first:
+      213: -8767070376200789199
+    second: attack_area_sheet_nagy_60
+  - first:
+      213: 2849930105586210141
+    second: attack_area_sheet_nagy_61
+  - first:
+      213: -4362778548161258401
+    second: attack_area_sheet_nagy_62
+  - first:
+      213: -7523147718127811696
+    second: attack_area_sheet_nagy_63
+  - first:
+      213: -4616401525271774744
+    second: attack_area_sheet_nagy_64
+  - first:
+      213: 5734729552314653267
+    second: attack_area_sheet_nagy_65
+  - first:
+      213: 4793069770128024569
+    second: attack_area_sheet_nagy_66
+  - first:
+      213: -9102019259253507462
+    second: attack_area_sheet_nagy_67
+  - first:
+      213: -7449146030633025095
+    second: attack_area_sheet_nagy_68
+  - first:
+      213: 1587045052537339849
+    second: attack_area_sheet_nagy_69
+  - first:
+      213: -8222669830479531512
+    second: attack_area_sheet_nagy_70
+  - first:
+      213: 2159918718676970321
+    second: attack_area_sheet_nagy_71
+  - first:
+      213: 144820060817887953
+    second: attack_area_sheet_nagy_72
+  - first:
+      213: -1420380498791448149
+    second: attack_area_sheet_nagy_73
+  - first:
+      213: 4633349745310717709
+    second: attack_area_sheet_nagy_74
+  - first:
+      213: -7507129441674851222
+    second: attack_area_sheet_nagy_75
+  - first:
+      213: 3660002551173232648
+    second: attack_area_sheet_nagy_76
+  - first:
+      213: 6607095714200594446
+    second: attack_area_sheet_nagy_77
+  - first:
+      213: -392425422902953884
+    second: attack_area_sheet_nagy_78
+  - first:
+      213: -5176911605316433223
+    second: attack_area_sheet_nagy_79
+  - first:
+      213: -5165221539354181797
+    second: attack_area_sheet_nagy_80
+  - first:
+      213: 8961030374950723948
+    second: attack_area_sheet_nagy_81
+  - first:
+      213: 4514201855640874044
+    second: attack_area_sheet_nagy_82
+  - first:
+      213: 3541903078292630850
+    second: attack_area_sheet_nagy_83
+  - first:
+      213: 73958901065797194
+    second: attack_area_sheet_nagy_84
+  - first:
+      213: -4309047392013671885
+    second: attack_area_sheet_nagy_85
+  - first:
+      213: 1550894381731153688
+    second: attack_area_sheet_nagy_86
+  - first:
+      213: -8881904724350512309
+    second: attack_area_sheet_nagy_87
+  - first:
+      213: -5351045048916772787
+    second: attack_area_sheet_nagy_88
+  - first:
+      213: 1491837669216087986
+    second: attack_area_sheet_nagy_89
+  - first:
+      213: -3796135070475066099
+    second: attack_area_sheet_nagy_90
+  - first:
+      213: -2003211669267017972
+    second: attack_area_sheet_nagy_91
+  - first:
+      213: -2712247597787884503
+    second: attack_area_sheet_nagy_92
+  - first:
+      213: 4386775439603984532
+    second: attack_area_sheet_nagy_93
+  - first:
+      213: 7244443001923128973
+    second: attack_area_sheet_nagy_94
+  - first:
+      213: 7663617516482867034
+    second: attack_area_sheet_nagy_95
+  - first:
+      213: 1719689714172696871
+    second: attack_area_sheet_nagy_96
+  - first:
+      213: -8848048827839031500
+    second: attack_area_sheet_nagy_97
+  - first:
+      213: -8098234011645945825
+    second: attack_area_sheet_nagy_98
+  - first:
+      213: 5141591037282743671
+    second: attack_area_sheet_nagy_99
+  - first:
+      213: 1735393933026435577
+    second: attack_area_sheet_nagy_100
+  - first:
+      213: 4068421110928512707
+    second: attack_area_sheet_nagy_101
+  - first:
+      213: 834569208041126857
+    second: attack_area_sheet_nagy_102
+  - first:
+      213: 1035867699023052370
+    second: attack_area_sheet_nagy_103
+  - first:
+      213: 4438095293666424776
+    second: attack_area_sheet_nagy_104
+  - first:
+      213: 6007965326341549518
+    second: attack_area_sheet_nagy_105
+  - first:
+      213: -4592297788803465686
+    second: attack_area_sheet_nagy_106
+  - first:
+      213: -6413603818520638737
+    second: attack_area_sheet_nagy_107
+  - first:
+      213: 5338735474106789131
+    second: attack_area_sheet_nagy_108
+  - first:
+      213: 6358273558129489940
+    second: attack_area_sheet_nagy_109
+  - first:
+      213: 129238587178393005
+    second: attack_area_sheet_nagy_110
+  - first:
+      213: 265349828731997285
+    second: attack_area_sheet_nagy_111
+  - first:
+      213: 6252575126147136529
+    second: attack_area_sheet_nagy_112
+  - first:
+      213: -1024412649196660101
+    second: attack_area_sheet_nagy_113
+  - first:
+      213: 5551105670941982046
+    second: attack_area_sheet_nagy_114
+  - first:
+      213: 4667415149057883509
+    second: attack_area_sheet_nagy_115
+  - first:
+      213: -7407809173247798781
+    second: attack_area_sheet_nagy_116
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_0
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 229
+        width: 269
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3f13c4ad69215c0800000000000000
+      internalID: -4246165634331577392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 229
+        width: 367
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9b90dc71a204f40800000000000000
+      internalID: 5710610609218370006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_2
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 229
+        width: 451
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de50d513b64e5b0800000000000000
+      internalID: -5340025398396326594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_3
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 229
+        width: 512
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05997f04274ccb710800000000000000
+      internalID: 1710457953489230160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 229
+        width: 573
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6261e513962df80800000000000000
+      internalID: -8083282720423795031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 3385
+        y: 229
+        width: 585
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd810c0f2ed106040800000000000000
+      internalID: 4638740476730546399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 229
+        width: 705
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04be4188940d70820800000000000000
+      internalID: 2884503100588354368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 5388
+        y: 229
+        width: 1021
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f081847a6de8720800000000000000
+      internalID: 2850451628129521432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 6832
+        y: 229
+        width: 1361
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e181706f89012d1d0800000000000000
+      internalID: -3327578925524641762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_9
+      rect:
+        serializedVersion: 2
+        x: 8555
+        y: 229
+        width: 1337
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb97567a29a7d57b0800000000000000
+      internalID: -5233892421642389057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_10
+      rect:
+        serializedVersion: 2
+        x: 10327
+        y: 229
+        width: 1337
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03faa3a3f964e4450800000000000000
+      internalID: 6074870597060046640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_11
+      rect:
+        serializedVersion: 2
+        x: 12245
+        y: 472
+        width: 50
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83f591daaec8a080800000000000000
+      internalID: -9175857007711358069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_12
+      rect:
+        serializedVersion: 2
+        x: 12414
+        y: 570
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31507fdbdc6e78c0800000000000000
+      internalID: -3999639727456104131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_13
+      rect:
+        serializedVersion: 2
+        x: 12475
+        y: 229
+        width: 560
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f911737cbdea3e60800000000000000
+      internalID: 7942922286467717622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_14
+      rect:
+        serializedVersion: 2
+        x: 13082
+        y: 606
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1d6f3e30c852cd0800000000000000
+      internalID: -2583504862889717281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_15
+      rect:
+        serializedVersion: 2
+        x: 13106
+        y: 594
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b96b256fd1c4d0800000000000000
+      internalID: -3115963841550633093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_16
+      rect:
+        serializedVersion: 2
+        x: 13276
+        y: 582
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89ef9fb57844c450800000000000000
+      internalID: 6108086665184536974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_17
+      rect:
+        serializedVersion: 2
+        x: 13422
+        y: 582
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137b7faa6c71c9a20800000000000000
+      internalID: 3070355187999160113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_18
+      rect:
+        serializedVersion: 2
+        x: 14259
+        y: 229
+        width: 463
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557ea7c2b73ab4510800000000000000
+      internalID: 1534499847472342869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_19
+      rect:
+        serializedVersion: 2
+        x: 15606
+        y: 229
+        width: 391
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28270b60e6cd05350800000000000000
+      internalID: 6003540668401611394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_20
+      rect:
+        serializedVersion: 2
+        x: 13082
+        y: 521
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a892bfc6ea803b090800000000000000
+      internalID: -8020056966170990198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_21
+      rect:
+        serializedVersion: 2
+        x: 13276
+        y: 570
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a45500ff576c8e0800000000000000
+      internalID: -1673520473438860762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_22
+      rect:
+        serializedVersion: 2
+        x: 12390
+        y: 521
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e4057c4d54444e0800000000000000
+      internalID: -1998395554466345380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_23
+      rect:
+        serializedVersion: 2
+        x: 12414
+        y: 521
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620bc595fdd7ed500800000000000000
+      internalID: 422913813249830950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_24
+      rect:
+        serializedVersion: 2
+        x: 13094
+        y: 509
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f795d1d68e9b92730800000000000000
+      internalID: 3974912554045364607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_25
+      rect:
+        serializedVersion: 2
+        x: 13276
+        y: 521
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b6cad411e58edd0800000000000000
+      internalID: -2456610168320005257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_26
+      rect:
+        serializedVersion: 2
+        x: 13422
+        y: 436
+        width: 38
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cb28cc1201e1300800000000000000
+      internalID: 224634768766188690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_27
+      rect:
+        serializedVersion: 2
+        x: 14126
+        y: 521
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7b19c2400e7c7f0800000000000000
+      internalID: -592258517443692622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_28
+      rect:
+        serializedVersion: 2
+        x: 12427
+        y: 460
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ce85b3126ceedf0800000000000000
+      internalID: -148963891624743934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_29
+      rect:
+        serializedVersion: 2
+        x: 13106
+        y: 472
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56e3a2b1686520e0800000000000000
+      internalID: -2295313666257197478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_30
+      rect:
+        serializedVersion: 2
+        x: 13288
+        y: 485
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4625fd80cf85053b0800000000000000
+      internalID: -5525818903279742364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_31
+      rect:
+        serializedVersion: 2
+        x: 14866
+        y: 485
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e9c77d633a78d00800000000000000
+      internalID: 974927300287831697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_32
+      rect:
+        serializedVersion: 2
+        x: 13276
+        y: 424
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fada8a5d89ae04120800000000000000
+      internalID: 2396172943901633967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_33
+      rect:
+        serializedVersion: 2
+        x: 15133
+        y: 460
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0a4c401127b7c90800000000000000
+      internalID: -7171012564237377353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_34
+      rect:
+        serializedVersion: 2
+        x: 12232
+        y: 436
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9a8c582f5dc8ea0800000000000000
+      internalID: -5869080976767276551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_35
+      rect:
+        serializedVersion: 2
+        x: 12257
+        y: 424
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a5838f310a941d0800000000000000
+      internalID: -3365983238853469596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_36
+      rect:
+        serializedVersion: 2
+        x: 12378
+        y: 436
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257438c7c5ee22290800000000000000
+      internalID: -7916503113970530478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_37
+      rect:
+        serializedVersion: 2
+        x: 12427
+        y: 436
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14507d9d555dc49e0800000000000000
+      internalID: -1635697999938648767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_38
+      rect:
+        serializedVersion: 2
+        x: 13082
+        y: 424
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c261a421c630dbc0800000000000000
+      internalID: -3760445485683219771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_39
+      rect:
+        serializedVersion: 2
+        x: 14089
+        y: 436
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449b34aeb4accdea0800000000000000
+      internalID: -5846575788832081596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_40
+      rect:
+        serializedVersion: 2
+        x: 15036
+        y: 436
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc8cf8445bf86700800000000000000
+      internalID: 533952895263739100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_41
+      rect:
+        serializedVersion: 2
+        x: 12269
+        y: 375
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0a10b6dfae49f90800000000000000
+      internalID: -6947669950982938440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_42
+      rect:
+        serializedVersion: 2
+        x: 12317
+        y: 400
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9082c2ccd8f2d00800000000000000
+      internalID: 950133954452130229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_43
+      rect:
+        serializedVersion: 2
+        x: 12414
+        y: 400
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7a38e7908c4abe0800000000000000
+      internalID: -1466827635513120793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_44
+      rect:
+        serializedVersion: 2
+        x: 13082
+        y: 387
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b078e7f219c380d00800000000000000
+      internalID: 939067116571494155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_45
+      rect:
+        serializedVersion: 2
+        x: 13106
+        y: 387
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6700a48c54a10e450800000000000000
+      internalID: 6115917180984492150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_46
+      rect:
+        serializedVersion: 2
+        x: 13203
+        y: 387
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d80479772e0e480800000000000000
+      internalID: -8871842262653301499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_47
+      rect:
+        serializedVersion: 2
+        x: 13300
+        y: 387
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b26c69c5e40dad80800000000000000
+      internalID: -8237922758417423690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_48
+      rect:
+        serializedVersion: 2
+        x: 13385
+        y: 400
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70296e05ff61b8670800000000000000
+      internalID: 8541946404068037127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_49
+      rect:
+        serializedVersion: 2
+        x: 13397
+        y: 254
+        width: 63
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ff5dfc52ef857b0800000000000000
+      internalID: -5235155128464048260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_50
+      rect:
+        serializedVersion: 2
+        x: 13980
+        y: 400
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195afa3efee90eb40800000000000000
+      internalID: 5467544700782093713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_51
+      rect:
+        serializedVersion: 2
+        x: 14817
+        y: 387
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427f7a141d2a590b0800000000000000
+      internalID: -5722488731870955740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_52
+      rect:
+        serializedVersion: 2
+        x: 14915
+        y: 387
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90977b07cc528ec0800000000000000
+      internalID: -3566185944963379043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_53
+      rect:
+        serializedVersion: 2
+        x: 12402
+        y: 339
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363495658cd171db0800000000000000
+      internalID: -4821352129797471389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_54
+      rect:
+        serializedVersion: 2
+        x: 13106
+        y: 363
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cadf2e9b1e6cb820800000000000000
+      internalID: 2935342122035829442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_55
+      rect:
+        serializedVersion: 2
+        x: 13313
+        y: 363
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4169e848938cd2ae0800000000000000
+      internalID: -1572380545519806956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_56
+      rect:
+        serializedVersion: 2
+        x: 15024
+        y: 363
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f354cb167b76b0e90800000000000000
+      internalID: -7058433953656715969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_57
+      rect:
+        serializedVersion: 2
+        x: 15157
+        y: 375
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d736dbef9473d9890800000000000000
+      internalID: -7449737417654967427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_58
+      rect:
+        serializedVersion: 2
+        x: 5303
+        y: 339
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cd0a6aeb5d8e0f0800000000000000
+      internalID: -1087384295193912191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_59
+      rect:
+        serializedVersion: 2
+        x: 12257
+        y: 327
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384277e770989e980800000000000000
+      internalID: -8509119355660327805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_60
+      rect:
+        serializedVersion: 2
+        x: 13094
+        y: 339
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133a3b951fb155680800000000000000
+      internalID: -8767070376200789199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_61
+      rect:
+        serializedVersion: 2
+        x: 14114
+        y: 351
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55582ad45cfc8720800000000000000
+      internalID: 2849930105586210141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_62
+      rect:
+        serializedVersion: 2
+        x: 14186
+        y: 339
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c5723860c4473c0800000000000000
+      internalID: -4362778548161258401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_63
+      rect:
+        serializedVersion: 2
+        x: 15121
+        y: 339
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093833c7209689790800000000000000
+      internalID: -7523147718127811696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_64
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 327
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9ba91854f3fefb0800000000000000
+      internalID: -4616401525271774744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_65
+      rect:
+        serializedVersion: 2
+        x: 12184
+        y: 327
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a56a8d42ad59f40800000000000000
+      internalID: 5734729552314653267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_66
+      rect:
+        serializedVersion: 2
+        x: 12329
+        y: 327
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3e428af87648240800000000000000
+      internalID: 4793069770128024569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_67
+      rect:
+        serializedVersion: 2
+        x: 13094
+        y: 302
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a3e6155b12fa180800000000000000
+      internalID: -9102019259253507462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_68
+      rect:
+        serializedVersion: 2
+        x: 13143
+        y: 327
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b18b1407215f9890800000000000000
+      internalID: -7449146030633025095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_69
+      rect:
+        serializedVersion: 2
+        x: 13288
+        y: 302
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf77071111560610800000000000000
+      internalID: 1587045052537339849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_70
+      rect:
+        serializedVersion: 2
+        x: 14041
+        y: 327
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80232f0da5533ed80800000000000000
+      internalID: -8222669830479531512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_71
+      rect:
+        serializedVersion: 2
+        x: 14720
+        y: 327
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b257281a299fd10800000000000000
+      internalID: 2159918718676970321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_72
+      rect:
+        serializedVersion: 2
+        x: 14999
+        y: 302
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d29669f311820200800000000000000
+      internalID: 144820060817887953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_73
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 290
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1c4ab367bc94ce0800000000000000
+      internalID: -1420380498791448149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_74
+      rect:
+        serializedVersion: 2
+        x: 11662
+        y: 302
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0754697b07fc4040800000000000000
+      internalID: 4633349745310717709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_75
+      rect:
+        serializedVersion: 2
+        x: 12245
+        y: 254
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c081a1c8151d790800000000000000
+      internalID: -7507129441674851222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_76
+      rect:
+        serializedVersion: 2
+        x: 12378
+        y: 278
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80834b3cde0fac230800000000000000
+      internalID: 3660002551173232648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_77
+      rect:
+        serializedVersion: 2
+        x: 13337
+        y: 290
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08aee1db8e11bb50800000000000000
+      internalID: 6607095714200594446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_78
+      rect:
+        serializedVersion: 2
+        x: 14101
+        y: 290
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46879033823dd8af0800000000000000
+      internalID: -392425422902953884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_79
+      rect:
+        serializedVersion: 2
+        x: 14235
+        y: 302
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba448bc25ae728b0800000000000000
+      internalID: -5176911605316433223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_80
+      rect:
+        serializedVersion: 2
+        x: 15121
+        y: 290
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ff89060627158b0800000000000000
+      internalID: -5165221539354181797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_81
+      rect:
+        serializedVersion: 2
+        x: 5351
+        y: 278
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c616c6006a9fb5c70800000000000000
+      internalID: 8961030374950723948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_82
+      rect:
+        serializedVersion: 2
+        x: 9890
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c22e1abaaa5ae30800000000000000
+      internalID: 4514201855640874044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_83
+      rect:
+        serializedVersion: 2
+        x: 12402
+        y: 242
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24dae7a751e572130800000000000000
+      internalID: 3541903078292630850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_84
+      rect:
+        serializedVersion: 2
+        x: 13082
+        y: 266
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e410a8a31c60100800000000000000
+      internalID: 73958901065797194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_85
+      rect:
+        serializedVersion: 2
+        x: 13276
+        y: 229
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332a3be2a303334c0800000000000000
+      internalID: -4309047392013671885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_86
+      rect:
+        serializedVersion: 2
+        x: 13470
+        y: 278
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8170c332932e58510800000000000000
+      internalID: 1550894381731153688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_87
+      rect:
+        serializedVersion: 2
+        x: 14781
+        y: 278
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43593826b22db480800000000000000
+      internalID: -8881904724350512309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_88
+      rect:
+        serializedVersion: 2
+        x: 14987
+        y: 266
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48f33a01e44db5b0800000000000000
+      internalID: -5351045048916772787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_89
+      rect:
+        serializedVersion: 2
+        x: 15145
+        y: 278
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfeb20c47214b410800000000000000
+      internalID: 1491837669216087986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_90
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 254
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d056ee4244b615bc0800000000000000
+      internalID: -3796135070475066099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_91
+      rect:
+        serializedVersion: 2
+        x: 6443
+        y: 242
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f0c6ba9992334e0800000000000000
+      internalID: -2003211669267017972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_92
+      rect:
+        serializedVersion: 2
+        x: 12160
+        y: 229
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92452fe0e292c5ad0800000000000000
+      internalID: -2712247597787884503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_93
+      rect:
+        serializedVersion: 2
+        x: 12208
+        y: 242
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498e00b2505f0ec30800000000000000
+      internalID: 4386775439603984532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_94
+      rect:
+        serializedVersion: 2
+        x: 12366
+        y: 254
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e413d078e698460800000000000000
+      internalID: 7244443001923128973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_95
+      rect:
+        serializedVersion: 2
+        x: 13046
+        y: 229
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f2c641783aa5a60800000000000000
+      internalID: 7663617516482867034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_96
+      rect:
+        serializedVersion: 2
+        x: 13106
+        y: 229
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72918290fa09dd710800000000000000
+      internalID: 1719689714172696871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_97
+      rect:
+        serializedVersion: 2
+        x: 13143
+        y: 242
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437d755587a653580800000000000000
+      internalID: -8848048827839031500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_98
+      rect:
+        serializedVersion: 2
+        x: 13252
+        y: 242
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f185bdb921b4d9f80800000000000000
+      internalID: -8098234011645945825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_99
+      rect:
+        serializedVersion: 2
+        x: 13361
+        y: 242
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775f19d9ec99a5740800000000000000
+      internalID: 5141591037282743671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_100
+      rect:
+        serializedVersion: 2
+        x: 13410
+        y: 229
+        width: 87
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1a86b669b551810800000000000000
+      internalID: 1735393933026435577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_101
+      rect:
+        serializedVersion: 2
+        x: 14198
+        y: 242
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c61899e17fe57830800000000000000
+      internalID: 4068421110928512707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_102
+      rect:
+        serializedVersion: 2
+        x: 14854
+        y: 254
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb35c1e54cf49b00800000000000000
+      internalID: 834569208041126857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_103
+      rect:
+        serializedVersion: 2
+        x: 14878
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ef19a1f24206e00800000000000000
+      internalID: 1035867699023052370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_104
+      rect:
+        serializedVersion: 2
+        x: 14902
+        y: 242
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7f152d728479d30800000000000000
+      internalID: 4438095293666424776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_105
+      rect:
+        serializedVersion: 2
+        x: 14963
+        y: 242
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecda37bf1a4906350800000000000000
+      internalID: 6007965326341549518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_106
+      rect:
+        serializedVersion: 2
+        x: 15012
+        y: 254
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ebe8bfd71e440c0800000000000000
+      internalID: -4592297788803465686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_107
+      rect:
+        serializedVersion: 2
+        x: 15036
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea0dface4d4ef6a0800000000000000
+      internalID: -6413603818520638737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_108
+      rect:
+        serializedVersion: 2
+        x: 15084
+        y: 242
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d69ebb0aff61a40800000000000000
+      internalID: 5338735474106789131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_109
+      rect:
+        serializedVersion: 2
+        x: 15157
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41831111d102d3850800000000000000
+      internalID: 6358273558129489940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_110
+      rect:
+        serializedVersion: 2
+        x: 12196
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad9a007fc52bc100800000000000000
+      internalID: 129238587178393005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_111
+      rect:
+        serializedVersion: 2
+        x: 12257
+        y: 229
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c08ca6346bea300800000000000000
+      internalID: 265349828731997285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_112
+      rect:
+        serializedVersion: 2
+        x: 12366
+        y: 229
+        width: 63
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c717d13fb95c650800000000000000
+      internalID: 6252575126147136529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_113
+      rect:
+        serializedVersion: 2
+        x: 13215
+        y: 229
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a57358f1e88c1f0800000000000000
+      internalID: -1024412649196660101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_114
+      rect:
+        serializedVersion: 2
+        x: 13980
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d372b523d790d40800000000000000
+      internalID: 5551105670941982046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_115
+      rect:
+        serializedVersion: 2
+        x: 14089
+        y: 229
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d3fda595df5c040800000000000000
+      internalID: 4667415149057883509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet_nagy_116
+      rect:
+        serializedVersion: 2
+        x: 14817
+        y: 229
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3025fa02ecc223990800000000000000
+      internalID: -7407809173247798781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

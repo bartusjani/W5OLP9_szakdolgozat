@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      corridor_attack_quick_sheet_nagy_0: 3798566095248356975
+      corridor_attack_quick_sheet_nagy_1: 429855376574011538
+      corridor_attack_quick_sheet_nagy_2: -5355467795295924637
+      corridor_attack_quick_sheet_nagy_3: -2824396381865421044
+      corridor_attack_quick_sheet_nagy_4: -7820453392416570026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
