@@ -5,7 +5,7 @@ public class MiniBossMovement : MonoBehaviour
     Transform player;
 
     public float speed = 3f;
-    public float stopDis = 10f;
+    public float stopDis = 3f;
 
     private Vector2 moveDir;
 
@@ -21,11 +21,20 @@ public class MiniBossMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         mba = GetComponent<MiniBossAttacks>();
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            player = playerObject.transform;
+        }
     }
     private void Update()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        TargetingPlayer();
+        if (player != null)
+        {
+
+            TargetingPlayer();
+
+        }
     }
     private void FixedUpdate()
     {
@@ -34,6 +43,7 @@ public class MiniBossMovement : MonoBehaviour
 
     void TargetingPlayer()
     {
+        if (player == null) return;
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
         if(distToPlayer > stopDis)

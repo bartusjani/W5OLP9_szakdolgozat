@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class ScorpionAttacks : MonoBehaviour
@@ -18,6 +19,9 @@ public class ScorpionAttacks : MonoBehaviour
 
     public int forwardSlashDamage = 10;
     public float forwardSlashCooldown = 1.5f;
+
+    public bool isBlocking = false;
+    public float blockCooldown=2f;
 
     private float nextAttack = 0f;
 
@@ -51,6 +55,10 @@ public class ScorpionAttacks : MonoBehaviour
         float distanceFromPlayer = Vector2.Distance(transform.position, PlayerPos());
 
 
+        if (distanceFromPlayer < 1f) 
+        {
+            Block();
+        }
         if (distanceFromPlayer < 1.5f)
         {
             QuickSlash();
@@ -85,6 +93,15 @@ public class ScorpionAttacks : MonoBehaviour
        // Debug.Log("strong");
         nextAttack = Time.time + strongSlashCooldown;
         DealDamage(StrongSlashDamage);
+    }
+
+    IEnumerator Block()
+    {
+        isBlocking = true;
+
+        yield return new WaitForSeconds(blockCooldown);
+
+        isBlocking = false;
     }
 
     void DealDamage(int damage)

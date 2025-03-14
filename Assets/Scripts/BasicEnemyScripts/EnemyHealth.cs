@@ -9,6 +9,9 @@ public class EnemyHealth : MonoBehaviour
     public EnemyHpBar hpBar;
     public static event Action OnAnyEnemyDeath;
 
+    public bool isBoss = false;
+    public bool isScorpion = false;
+
     public int Health
     {
         get { return health; }
@@ -22,6 +25,25 @@ public class EnemyHealth : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
+        if (isBoss)
+        {
+            MiniBossAttacks mba = GetComponent<MiniBossAttacks>();
+            if (mba.isBlocking)
+            {
+                Debug.Log("Blocked attack");
+                return;
+            }
+        }
+        else if (isScorpion)
+        {
+            ScorpionAttacks sa = GetComponent<ScorpionAttacks>();
+            if (sa.isBlocking)
+            {
+                Debug.Log("Blocked attack");
+                return;
+            }
+        }
+
         health -= damage;
         hpBar.setHealth(health);
         if (health <= 0)
