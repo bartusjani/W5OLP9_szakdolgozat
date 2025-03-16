@@ -1,67 +1,70 @@
 fileFormatVersion: 2
-guid: 2a006519e7f76784594f1ee4125e933b
+guid: 4b5a8e1820939e34e8460bbfacb9bac8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5043889914437613364
-    second: attack_single_quick_sheet_nagy_0
+      213: -8898477072970454562
+    second: sewer_out_sheet_nagy_0
   - first:
-      213: 2720932799954682573
-    second: attack_single_quick_sheet_nagy_1
+      213: 6221966992321920407
+    second: sewer_out_sheet_nagy_1
   - first:
-      213: 9202572107398556356
-    second: attack_single_quick_sheet_nagy_2
+      213: -5418021837548072256
+    second: sewer_out_sheet_nagy_2
   - first:
-      213: 2018156654563245973
-    second: attack_single_quick_sheet_nagy_3
+      213: -1750558339565121811
+    second: sewer_out_sheet_nagy_3
   - first:
-      213: -7545456932788966566
-    second: attack_single_quick_sheet_nagy_4
+      213: 408407526259704980
+    second: sewer_out_sheet_nagy_4
   - first:
-      213: 1712874980806253337
-    second: attack_single_quick_sheet_nagy_5
+      213: -4658835712664630700
+    second: sewer_out_sheet_nagy_5
   - first:
-      213: 367996794839249359
-    second: attack_single_quick_sheet_nagy_6
+      213: 4061776093227718254
+    second: sewer_out_sheet_nagy_6
   - first:
-      213: -2478437133381070704
-    second: attack_single_quick_sheet_nagy_7
+      213: -146181690180158430
+    second: sewer_out_sheet_nagy_7
   - first:
-      213: 2167421532229307745
-    second: attack_single_quick_sheet_nagy_8
+      213: 7813505654407053876
+    second: sewer_out_sheet_nagy_8
   - first:
-      213: -1599875742455860792
-    second: attack_single_quick_sheet_nagy_9
+      213: 2226723860587652871
+    second: sewer_out_sheet_nagy_9
   - first:
-      213: 6878082529170183549
-    second: attack_single_quick_sheet_nagy_10
+      213: 5424038653091152135
+    second: sewer_out_sheet_nagy_10
   - first:
-      213: -9045960400816786348
-    second: attack_single_quick_sheet_nagy_11
+      213: -8848246662505696094
+    second: sewer_out_sheet_nagy_11
   - first:
-      213: 9214333430834132540
-    second: attack_single_quick_sheet_nagy_12
+      213: -3251671095361881385
+    second: sewer_out_sheet_nagy_12
   - first:
-      213: 8834697024672796336
-    second: attack_single_quick_sheet_nagy_13
+      213: -183569783981642840
+    second: sewer_out_sheet_nagy_13
   - first:
-      213: 4854938271818036028
-    second: attack_single_quick_sheet_nagy_14
+      213: 543980841539127214
+    second: sewer_out_sheet_nagy_14
   - first:
-      213: -569572790528856496
-    second: attack_single_quick_sheet_nagy_15
+      213: 1636554427626747576
+    second: sewer_out_sheet_nagy_15
   - first:
-      213: -7512052834762447431
-    second: attack_single_quick_sheet_nagy_16
+      213: 1333983130678390433
+    second: sewer_out_sheet_nagy_16
   - first:
-      213: -8437664773499611624
-    second: attack_single_quick_sheet_nagy_17
+      213: -130549918524940194
+    second: sewer_out_sheet_nagy_17
   - first:
-      213: -6618749438551136028
-    second: attack_single_quick_sheet_nagy_18
+      213: -1830570173650502065
+    second: sewer_out_sheet_nagy_18
   - first:
-      213: 4064754233533205204
-    second: attack_single_quick_sheet_nagy_19
+      213: -5955449022625253766
+    second: sewer_out_sheet_nagy_19
+  - first:
+      213: -6401384204291035740
+    second: sewer_out_sheet_nagy_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,13 +160,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_0
+      name: sewer_out_sheet_nagy_0
       rect:
         serializedVersion: 2
-        x: 10502
-        y: 209
-        width: 621
-        height: 664
+        x: 529
+        y: 71
+        width: 339
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 437ba3c472f7ff540800000000000000
-      internalID: 5043889914437613364
+      spriteID: ed963af8f32428480800000000000000
+      internalID: -8898477072970454562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_1
+      name: sewer_out_sheet_nagy_1
       rect:
         serializedVersion: 2
-        x: 11762
-        y: 209
-        width: 432
-        height: 664
+        x: 1674
+        y: 71
+        width: 363
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc2020727f1b2c520800000000000000
-      internalID: 2720932799954682573
+      spriteID: 79dbd8d930ed85650800000000000000
+      internalID: 6221966992321920407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_2
+      name: sewer_out_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 13117
-        y: 808
-        width: 12
-        height: 12
+        x: 2890
+        y: 71
+        width: 400
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4caa869039a16bf70800000000000000
-      internalID: 9202572107398556356
+      spriteID: 0c253ab38d15fc4b0800000000000000
+      internalID: -5418021837548072256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_3
+      name: sewer_out_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 13148
-        y: 808
-        width: 13
-        height: 12
+        x: 3408
+        y: 71
+        width: 123
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59f3550e8cee10c10800000000000000
-      internalID: 2018156654563245973
+      spriteID: dee8f9b0774c4b7e0800000000000000
+      internalID: -1750558339565121811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_4
+      name: sewer_out_sheet_nagy_4
       rect:
         serializedVersion: 2
-        x: 524
-        y: 209
-        width: 233
-        height: 485
+        x: 4336
+        y: 71
+        width: 424
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5bea1da5e6294790800000000000000
-      internalID: -7545456932788966566
+      spriteID: 4944e463b74faa500800000000000000
+      internalID: 408407526259704980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_5
+      name: sewer_out_sheet_nagy_5
       rect:
         serializedVersion: 2
-        x: 1774
-        y: 209
-        width: 264
-        height: 475
+        x: 4866
+        y: 71
+        width: 122
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +285,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91b5c9748ba55c710800000000000000
-      internalID: 1712874980806253337
+      spriteID: 45a88b75a9d785fb0800000000000000
+      internalID: -4658835712664630700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_6
+      name: sewer_out_sheet_nagy_6
       rect:
         serializedVersion: 2
-        x: 2982
-        y: 209
-        width: 317
-        height: 475
+        x: 5757
+        y: 71
+        width: 424
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc130ea92236b1500800000000000000
-      internalID: 367996794839249359
+      spriteID: e66130a26d35e5830800000000000000
+      internalID: 4061776093227718254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_7
+      name: sewer_out_sheet_nagy_7
       rect:
         serializedVersion: 2
-        x: 4084
-        y: 209
-        width: 475
-        height: 475
+        x: 6276
+        y: 71
+        width: 182
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0901faafe82da9dd0800000000000000
-      internalID: -2478437133381070704
+      spriteID: 22c352cf688a8fdf0800000000000000
+      internalID: -146181690180158430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_8
+      name: sewer_out_sheet_nagy_8
       rect:
         serializedVersion: 2
-        x: 5303
-        y: 209
-        width: 527
-        height: 475
+        x: 7203
+        y: 71
+        width: 448
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,20 +351,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16d8f0b666a341e10800000000000000
-      internalID: 2167421532229307745
+      spriteID: 4324075bef52f6c60800000000000000
+      internalID: 7813505654407053876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_9
+      name: sewer_out_sheet_nagy_9
       rect:
         serializedVersion: 2
-        x: 6616
-        y: 209
-        width: 474
-        height: 475
+        x: 7721
+        y: 71
+        width: 207
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c1772e1d791cc9e0800000000000000
-      internalID: -1599875742455860792
+      spriteID: 707a633bd89e6ee10800000000000000
+      internalID: 2226723860587652871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_10
+      name: sewer_out_sheet_nagy_10
       rect:
         serializedVersion: 2
-        x: 7865
-        y: 209
-        width: 475
-        height: 464
+        x: 8673
+        y: 71
+        width: 448
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d75520f5e9bd37f50800000000000000
-      internalID: 6878082529170183549
+      spriteID: 7018c7dca6e064b40800000000000000
+      internalID: 5424038653091152135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_11
+      name: sewer_out_sheet_nagy_11
       rect:
         serializedVersion: 2
-        x: 13075
-        y: 209
-        width: 327
-        height: 569
+        x: 9070
+        y: 71
+        width: 340
+        height: 665
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,20 +417,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 454b01961fa467280800000000000000
-      internalID: -9045960400816786348
+      spriteID: 2a4ff4c5a86b43580800000000000000
+      internalID: -8848246662505696094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_12
+      name: sewer_out_sheet_nagy_12
       rect:
         serializedVersion: 2
-        x: 13400
-        y: 661
-        width: 13
-        height: 12
+        x: 10022
+        y: 71
+        width: 448
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c36ffda8f63efdf70800000000000000
-      internalID: 9214333430834132540
+      spriteID: 7dabc8aed5ebfd2d0800000000000000
+      internalID: -3251671095361881385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_13
+      name: sewer_out_sheet_nagy_13
       rect:
         serializedVersion: 2
-        x: 14335
-        y: 209
-        width: 317
-        height: 464
+        x: 10408
+        y: 71
+        width: 375
+        height: 701
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,20 +461,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0be82ddb2262b9a70800000000000000
-      internalID: 8834697024672796336
+      spriteID: 8ab674a0144d37df0800000000000000
+      internalID: -183569783981642840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_14
+      name: sewer_out_sheet_nagy_14
       rect:
         serializedVersion: 2
-        x: 15648
-        y: 209
-        width: 233
-        height: 485
+        x: 11396
+        y: 71
+        width: 447
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,20 +483,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c33b92ab2a4306340800000000000000
-      internalID: 4854938271818036028
+      spriteID: ea7ce8871bb9c8700800000000000000
+      internalID: 543980841539127214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_15
+      name: sewer_out_sheet_nagy_15
       rect:
         serializedVersion: 2
-        x: 8937
-        y: 209
-        width: 800
-        height: 443
+        x: 11757
+        y: 71
+        width: 544
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +505,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05eacc290987818f0800000000000000
-      internalID: -569572790528856496
+      spriteID: 8b6f842c49536b610800000000000000
+      internalID: 1636554427626747576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_16
+      name: sewer_out_sheet_nagy_16
       rect:
         serializedVersion: 2
-        x: 11121
-        y: 577
-        width: 13
-        height: 12
+        x: 12660
+        y: 71
+        width: 448
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,20 +527,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b5a4025fb3dfb790800000000000000
-      internalID: -7512052834762447431
+      spriteID: 1aee270f692438210800000000000000
+      internalID: 1333983130678390433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_17
+      name: sewer_out_sheet_nagy_17
       rect:
         serializedVersion: 2
-        x: 11132
-        y: 545
-        width: 12
-        height: 13
+        x: 13046
+        y: 71
+        width: 628
+        height: 628
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,20 +549,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8169ab9d79467ea80800000000000000
-      internalID: -8437664773499611624
+      spriteID: e506dd07a81303ef0800000000000000
+      internalID: -130549918524940194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_18
+      name: sewer_out_sheet_nagy_18
       rect:
         serializedVersion: 2
-        x: 11111
-        y: 440
-        width: 23
-        height: 55
+        x: 13974
+        y: 71
+        width: 459
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,20 +571,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e8e7d9047a7524a0800000000000000
-      internalID: -6618749438551136028
+      spriteID: f4ef22730228896e0800000000000000
+      internalID: -1830570173650502065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_19
+      name: sewer_out_sheet_nagy_19
       rect:
         serializedVersion: 2
-        x: 11132
-        y: 482
-        width: 23
-        height: 34
+        x: 14347
+        y: 71
+        width: 653
+        height: 628
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,8 +593,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4da030d7078e86830800000000000000
-      internalID: 4064754233533205204
+      spriteID: a767970daaef95da0800000000000000
+      internalID: -5955449022625253766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sewer_out_sheet_nagy_20
+      rect:
+        serializedVersion: 2
+        x: 15239
+        y: 71
+        width: 1026
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adaf607bf6b927a0800000000000000
+      internalID: -6401384204291035740
       vertices: []
       indices: 
       edges: []

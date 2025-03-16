@@ -1,121 +1,118 @@
 fileFormatVersion: 2
-guid: 47f0cd8d1843bb844b6eab52bf609624
+guid: 7878747f4df7d5a4a8b5bab115e40fad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4256819413231109795
-    second: attack_combo_sheet_nagy_0
+      213: 7944951041194718122
+    second: sewer_attack_sheet_nagy_0
   - first:
-      213: -6943372004842710860
-    second: attack_combo_sheet_nagy_1
+      213: 5535924473673894330
+    second: sewer_attack_sheet_nagy_1
   - first:
-      213: 4249201039315261815
-    second: attack_combo_sheet_nagy_2
+      213: 8609086692569765640
+    second: sewer_attack_sheet_nagy_2
   - first:
-      213: 5864422333155387671
-    second: attack_combo_sheet_nagy_3
+      213: 4929775301603843984
+    second: sewer_attack_sheet_nagy_3
   - first:
-      213: -9188511602546200392
-    second: attack_combo_sheet_nagy_4
+      213: 3000411215940963436
+    second: sewer_attack_sheet_nagy_4
   - first:
-      213: -5963204405198778933
-    second: attack_combo_sheet_nagy_5
+      213: -1286957164991184066
+    second: sewer_attack_sheet_nagy_5
   - first:
-      213: 8734397359910127142
-    second: attack_combo_sheet_nagy_6
+      213: -5603062951679290829
+    second: sewer_attack_sheet_nagy_6
   - first:
-      213: 2252195246661642600
-    second: attack_combo_sheet_nagy_7
+      213: 4654182834784768935
+    second: sewer_attack_sheet_nagy_7
   - first:
-      213: 9202855488946301212
-    second: attack_combo_sheet_nagy_8
+      213: -3075255934268838225
+    second: sewer_attack_sheet_nagy_8
   - first:
-      213: -7330965490670731032
-    second: attack_combo_sheet_nagy_9
+      213: -5027375725748444981
+    second: sewer_attack_sheet_nagy_9
   - first:
-      213: -6240266458980059847
-    second: attack_combo_sheet_nagy_10
+      213: 6485438896292775605
+    second: sewer_attack_sheet_nagy_10
   - first:
-      213: 1275945539510670582
-    second: attack_combo_sheet_nagy_11
+      213: -4401097712903804490
+    second: sewer_attack_sheet_nagy_11
   - first:
-      213: 4030989572727401065
-    second: attack_combo_sheet_nagy_12
+      213: 420332300766538095
+    second: sewer_attack_sheet_nagy_12
   - first:
-      213: -7498616320062032279
-    second: attack_combo_sheet_nagy_13
+      213: -5306890816067055698
+    second: sewer_attack_sheet_nagy_13
   - first:
-      213: -968936855000118606
-    second: attack_combo_sheet_nagy_14
+      213: -1201376052349787505
+    second: sewer_attack_sheet_nagy_14
   - first:
-      213: -3790341451184969820
-    second: attack_combo_sheet_nagy_15
+      213: 9006202009731626718
+    second: sewer_attack_sheet_nagy_15
   - first:
-      213: -8918793487855042596
-    second: attack_combo_sheet_nagy_16
+      213: 7310102860716574455
+    second: sewer_attack_sheet_nagy_16
   - first:
-      213: 482580138525871155
-    second: attack_combo_sheet_nagy_17
+      213: -3199613090209357701
+    second: sewer_attack_sheet_nagy_17
   - first:
-      213: 91159844117966196
-    second: attack_combo_sheet_nagy_18
+      213: -8342919758791473831
+    second: sewer_attack_sheet_nagy_18
   - first:
-      213: -6939091602347793418
-    second: attack_combo_sheet_nagy_19
+      213: -5214804319589114142
+    second: sewer_attack_sheet_nagy_19
   - first:
-      213: 2451265319939334044
-    second: attack_combo_sheet_nagy_20
+      213: 788957632361223549
+    second: sewer_attack_sheet_nagy_20
   - first:
-      213: 2139824667364328357
-    second: attack_combo_sheet_nagy_21
+      213: 4604900141138075682
+    second: sewer_attack_sheet_nagy_21
   - first:
-      213: -3488876929497657906
-    second: attack_combo_sheet_nagy_22
+      213: 2848550030981031362
+    second: sewer_attack_sheet_nagy_22
   - first:
-      213: -254865223191024566
-    second: attack_combo_sheet_nagy_23
+      213: 3413216767187981384
+    second: sewer_attack_sheet_nagy_23
   - first:
-      213: 8199013400415584128
-    second: attack_combo_sheet_nagy_24
+      213: 6366368631357266263
+    second: sewer_attack_sheet_nagy_24
   - first:
-      213: -449371072901725637
-    second: attack_combo_sheet_nagy_25
+      213: 2298710009099785080
+    second: sewer_attack_sheet_nagy_25
   - first:
-      213: -4286443231861295380
-    second: attack_combo_sheet_nagy_26
+      213: 527458621744422528
+    second: sewer_attack_sheet_nagy_26
   - first:
-      213: -6087007456510154516
-    second: attack_combo_sheet_nagy_27
+      213: -2994523452310599156
+    second: sewer_attack_sheet_nagy_27
   - first:
-      213: 3607199417700630170
-    second: attack_combo_sheet_nagy_28
+      213: 6381597603953510963
+    second: sewer_attack_sheet_nagy_28
   - first:
-      213: -6151267442530723563
-    second: attack_combo_sheet_nagy_29
+      213: 4634111630089343504
+    second: sewer_attack_sheet_nagy_29
   - first:
-      213: 7630514196365830296
-    second: attack_combo_sheet_nagy_30
+      213: -2368594967629029947
+    second: sewer_attack_sheet_nagy_30
   - first:
-      213: 6409467021864480958
-    second: attack_combo_sheet_nagy_31
+      213: -7845309829502421547
+    second: sewer_attack_sheet_nagy_31
   - first:
-      213: -5424773120309334684
-    second: attack_combo_sheet_nagy_32
+      213: -442536388057113134
+    second: sewer_attack_sheet_nagy_32
   - first:
-      213: 8162633182383475344
-    second: attack_combo_sheet_nagy_33
+      213: -8302672694206234766
+    second: sewer_attack_sheet_nagy_33
   - first:
-      213: 7597700093601813965
-    second: attack_combo_sheet_nagy_34
+      213: -4553940682054653657
+    second: sewer_attack_sheet_nagy_34
   - first:
-      213: 316416300784145679
-    second: attack_combo_sheet_nagy_35
+      213: 2058269463584712035
+    second: sewer_attack_sheet_nagy_35
   - first:
-      213: 7456231093204631744
-    second: attack_combo_sheet_nagy_36
-  - first:
-      213: 3469167298970914338
-    second: attack_combo_sheet_nagy_37
+      213: 8069728889462603729
+    second: sewer_attack_sheet_nagy_36
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -211,13 +208,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_0
+      name: sewer_attack_sheet_nagy_0
       rect:
         serializedVersion: 2
-        x: 6205
-        y: 129
-        width: 368
-        height: 394
+        x: 9252
+        y: 871
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +223,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a680a6e3b2431b30800000000000000
-      internalID: 4256819413231109795
+      spriteID: aa3f748b0e2224e60800000000000000
+      internalID: 7944951041194718122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_1
+      name: sewer_attack_sheet_nagy_1
       rect:
         serializedVersion: 2
-        x: 6950
-        y: 123
-        width: 256
-        height: 393
+        x: 9325
+        y: 871
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b855fbf2ff24af90800000000000000
-      internalID: -6943372004842710860
+      spriteID: ab949bc6afd83dc40800000000000000
+      internalID: 5535924473673894330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_2
+      name: sewer_attack_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 7695
-        y: 123
-        width: 244
-        height: 393
+        x: 9451
+        y: 871
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7795b9ff4d138fa30800000000000000
-      internalID: 4249201039315261815
+      spriteID: 807d927ebbe997770800000000000000
+      internalID: 8609086692569765640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_3
+      name: sewer_attack_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 8439
-        y: 123
-        width: 430
-        height: 387
+        x: 9199
+        y: 850
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 719289c7a0d926150800000000000000
-      internalID: 5864422333155387671
+      spriteID: 09f579a84841a6440800000000000000
+      internalID: 4929775301603843984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_4
+      name: sewer_attack_sheet_nagy_4
       rect:
         serializedVersion: 2
-        x: 8632
-        y: 508
-        width: 14
-        height: 15
+        x: 9409
+        y: 839
+        width: 23
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b0bdab5169db7080800000000000000
-      internalID: -9188511602546200392
+      spriteID: c6c4242aa1a93a920800000000000000
+      internalID: 3000411215940963436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_5
+      name: sewer_attack_sheet_nagy_5
       rect:
         serializedVersion: 2
-        x: 12908
-        y: 123
-        width: 368
-        height: 393
+        x: 10271
+        y: 829
+        width: 12
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +333,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcd051910317e3da0800000000000000
-      internalID: -5963204405198778933
+      spriteID: e338e8be64fc32ee0800000000000000
+      internalID: -1286957164991184066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_6
+      name: sewer_attack_sheet_nagy_6
       rect:
         serializedVersion: 2
-        x: 13652
-        y: 123
-        width: 257
-        height: 393
+        x: 9241
+        y: 818
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6268d8c3f10d63970800000000000000
-      internalID: 8734397359910127142
+      spriteID: 33211078eebed32b0800000000000000
+      internalID: -5603062951679290829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_7
+      name: sewer_attack_sheet_nagy_7
       rect:
         serializedVersion: 2
-        x: 14453
-        y: 477
-        width: 8
-        height: 8
+        x: 9346
+        y: 829
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +377,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 869271ae4a7614f10800000000000000
-      internalID: 2252195246661642600
+      spriteID: 7a3111b11aaf69040800000000000000
+      internalID: 4654182834784768935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_8
+      name: sewer_attack_sheet_nagy_8
       rect:
         serializedVersion: 2
-        x: 14472
-        y: 477
-        width: 8
-        height: 8
+        x: 9462
+        y: 818
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +399,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c19e5e1fe4c17bf70800000000000000
-      internalID: 9202855488946301212
+      spriteID: fae6e7c650f7255d0800000000000000
+      internalID: -3075255934268838225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_9
+      name: sewer_attack_sheet_nagy_9
       rect:
         serializedVersion: 2
-        x: 309
-        y: 123
-        width: 139
-        height: 288
+        x: 10207
+        y: 829
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +421,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e08ce33abd234a90800000000000000
-      internalID: -7330965490670731032
+      spriteID: bc0a752e96c2b3ab0800000000000000
+      internalID: -5027375725748444981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_10
+      name: sewer_attack_sheet_nagy_10
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 123
-        width: 158
-        height: 282
+        x: 10313
+        y: 818
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +443,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93575b8c7be1669a0800000000000000
-      internalID: -6240266458980059847
+      spriteID: 5b6480a9058e00a50800000000000000
+      internalID: 6485438896292775605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_11
+      name: sewer_attack_sheet_nagy_11
       rect:
         serializedVersion: 2
-        x: 1749
-        y: 123
-        width: 188
-        height: 282
+        x: 10386
+        y: 829
+        width: 23
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f4174b35b115b110800000000000000
-      internalID: 1275945539510670582
+      spriteID: 6b9a598b2f82ce2c0800000000000000
+      internalID: -4401097712903804490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_12
+      name: sewer_attack_sheet_nagy_12
       rect:
         serializedVersion: 2
-        x: 2407
-        y: 123
-        width: 281
-        height: 282
+        x: 10449
+        y: 829
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96a68b7c8a3f0f730800000000000000
-      internalID: 4030989572727401065
+      spriteID: f69efc2200255d500800000000000000
+      internalID: 420332300766538095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_13
+      name: sewer_attack_sheet_nagy_13
       rect:
         serializedVersion: 2
-        x: 3121
-        y: 123
-        width: 312
-        height: 282
+        x: 10565
+        y: 818
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,20 +509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96671cfaf209fe790800000000000000
-      internalID: -7498616320062032279
+      spriteID: eaf4a8e7be22a56b0800000000000000
+      internalID: -5306890816067055698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_14
+      name: sewer_attack_sheet_nagy_14
       rect:
         serializedVersion: 2
-        x: 3896
-        y: 123
-        width: 282
-        height: 282
+        x: 8832
+        y: 177
+        width: 779
+        height: 633
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ba0fe36015ad82f0800000000000000
-      internalID: -968936855000118606
+      spriteID: f82a70678dad35fe0800000000000000
+      internalID: -1201376052349787505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_15
+      name: sewer_attack_sheet_nagy_15
       rect:
         serializedVersion: 2
-        x: 4641
-        y: 123
-        width: 281
-        height: 275
+        x: 10397
+        y: 797
+        width: 12
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,20 +553,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a76ea04880066bc0800000000000000
-      internalID: -3790341451184969820
+      spriteID: ed6767dc2057cfc70800000000000000
+      internalID: 9006202009731626718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_16
+      name: sewer_attack_sheet_nagy_16
       rect:
         serializedVersion: 2
-        x: 9172
-        y: 123
-        width: 318
-        height: 275
+        x: 114
+        y: 177
+        width: 895
+        height: 559
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,20 +575,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdf355b93941a3480800000000000000
-      internalID: -8918793487855042596
+      spriteID: 7f6049c32d3b27560800000000000000
+      internalID: 7310102860716574455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_17
+      name: sewer_attack_sheet_nagy_17
       rect:
         serializedVersion: 2
-        x: 9854
-        y: 123
-        width: 281
-        height: 282
+        x: 1165
+        y: 177
+        width: 863
+        height: 580
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,20 +597,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33c4e74441872b600800000000000000
-      internalID: 482580138525871155
+      spriteID: b70a163c8d0b893d0800000000000000
+      internalID: -3199613090209357701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_18
+      name: sewer_attack_sheet_nagy_18
       rect:
         serializedVersion: 2
-        x: 10599
-        y: 116
-        width: 281
-        height: 289
+        x: 2184
+        y: 177
+        width: 831
+        height: 591
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47d6e6e256dd34100800000000000000
-      internalID: 91159844117966196
+      spriteID: 95585ab9eaef73c80800000000000000
+      internalID: -8342919758791473831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_19
+      name: sewer_attack_sheet_nagy_19
       rect:
         serializedVersion: 2
-        x: 11344
-        y: 123
-        width: 281
-        height: 275
+        x: 3171
+        y: 177
+        width: 800
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -644,20 +641,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f3e92ad3f463bf90800000000000000
-      internalID: -6939091602347793418
+      spriteID: 2eed7bdb91b41a7b0800000000000000
+      internalID: -5214804319589114142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_20
+      name: sewer_attack_sheet_nagy_20
       rect:
         serializedVersion: 2
-        x: 14428
-        y: 123
-        width: 194
-        height: 338
+        x: 4127
+        y: 177
+        width: 800
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -666,20 +663,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9fd73532d4a40220800000000000000
-      internalID: 2451265319939334044
+      spriteID: d7559bb59c0f2fa00800000000000000
+      internalID: 788957632361223549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_21
+      name: sewer_attack_sheet_nagy_21
       rect:
         serializedVersion: 2
-        x: 14620
-        y: 390
-        width: 9
-        height: 8
+        x: 5082
+        y: 177
+        width: 790
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,20 +685,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5a38edb923f22bd10800000000000000
-      internalID: 2139824667364328357
+      spriteID: 2206ea2d744e7ef30800000000000000
+      internalID: 4604900141138075682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_22
+      name: sewer_attack_sheet_nagy_22
       rect:
         serializedVersion: 2
-        x: 15173
-        y: 123
-        width: 188
-        height: 275
+        x: 6027
+        y: 177
+        width: 780
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,20 +707,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ecd8c30eae4059fc0800000000000000
-      internalID: -3488876929497657906
+      spriteID: 2c56d813925188720800000000000000
+      internalID: 2848550030981031362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_23
+      name: sewer_attack_sheet_nagy_23
       rect:
         serializedVersion: 2
-        x: 15949
-        y: 123
-        width: 139
-        height: 288
+        x: 6962
+        y: 177
+        width: 779
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -732,20 +729,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a4c291a0e69867cf0800000000000000
-      internalID: -254865223191024566
+      spriteID: 84495a5d09e2e5f20800000000000000
+      internalID: 3413216767187981384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_24
+      name: sewer_attack_sheet_nagy_24
       rect:
         serializedVersion: 2
-        x: 5417
-        y: 123
-        width: 474
-        height: 263
+        x: 7897
+        y: 177
+        width: 779
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,20 +751,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08f30785f3fb8c170800000000000000
-      internalID: 8199013400415584128
+      spriteID: 7595d3d2a82e95850800000000000000
+      internalID: 6366368631357266263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_25
+      name: sewer_attack_sheet_nagy_25
       rect:
         serializedVersion: 2
-        x: 6571
-        y: 347
-        width: 8
-        height: 8
+        x: 9766
+        y: 177
+        width: 790
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -776,20 +773,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b324b5bd36383c9f0800000000000000
-      internalID: -449371072901725637
+      spriteID: 873170ef298a6ef10800000000000000
+      internalID: 2298710009099785080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_26
+      name: sewer_attack_sheet_nagy_26
       rect:
         serializedVersion: 2
-        x: 11970
-        y: 123
-        width: 474
-        height: 263
+        x: 10554
+        y: 713
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -798,20 +795,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce6b707579e7384c0800000000000000
-      internalID: -4286443231861295380
+      spriteID: 08e1bc662d8e15700800000000000000
+      internalID: 527458621744422528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_27
+      name: sewer_attack_sheet_nagy_27
       rect:
         serializedVersion: 2
-        x: 13274
-        y: 341
-        width: 8
-        height: 8
+        x: 10617
+        y: 713
+        width: 23
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,20 +817,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce8ee89f7fa968ba0800000000000000
-      internalID: -6087007456510154516
+      spriteID: c0a437929c05176d0800000000000000
+      internalID: -2994523452310599156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_28
+      name: sewer_attack_sheet_nagy_28
       rect:
         serializedVersion: 2
-        x: 6577
-        y: 328
-        width: 9
-        height: 8
+        x: 10649
+        y: 703
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,20 +839,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9eba0632c85f0230800000000000000
-      internalID: 3607199417700630170
+      spriteID: 33a022ba53dff8850800000000000000
+      internalID: 6381597603953510963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_29
+      name: sewer_attack_sheet_nagy_29
       rect:
         serializedVersion: 2
-        x: 13280
-        y: 322
-        width: 8
-        height: 8
+        x: 10817
+        y: 177
+        width: 1031
+        height: 612
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -864,20 +861,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 519d7811ade42aaa0800000000000000
-      internalID: -6151267442530723563
+      spriteID: 0125bf899fbaf4040800000000000000
+      internalID: 4634111630089343504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_30
+      name: sewer_attack_sheet_nagy_30
       rect:
         serializedVersion: 2
-        x: 6565
-        y: 266
-        width: 14
-        height: 33
+        x: 12003
+        y: 177
+        width: 969
+        height: 601
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,20 +883,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 898e5ffbb3805e960800000000000000
-      internalID: 7630514196365830296
+      spriteID: 5cd91b12d6f012fd0800000000000000
+      internalID: -2368594967629029947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_31
+      name: sewer_attack_sheet_nagy_31
       rect:
         serializedVersion: 2
-        x: 6577
-        y: 291
-        width: 15
-        height: 21
+        x: 13138
+        y: 177
+        width: 968
+        height: 591
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,20 +905,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb030dd2c4003f850800000000000000
-      internalID: 6409467021864480958
+      spriteID: 5d5b0abb64cdf1390800000000000000
+      internalID: -7845309829502421547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_32
+      name: sewer_attack_sheet_nagy_32
       rect:
         serializedVersion: 2
-        x: 13268
-        y: 260
-        width: 14
-        height: 33
+        x: 14272
+        y: 177
+        width: 958
+        height: 549
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,20 +927,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46defd8b69557b4b0800000000000000
-      internalID: -5424773120309334684
+      spriteID: 2dddbadef7bcbd9f0800000000000000
+      internalID: -442536388057113134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_33
+      name: sewer_attack_sheet_nagy_33
       rect:
         serializedVersion: 2
-        x: 13280
-        y: 285
-        width: 14
-        height: 20
+        x: 15396
+        y: 177
+        width: 895
+        height: 559
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -952,20 +949,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a88c3c1af774170800000000000000
-      internalID: 8162633182383475344
+      spriteID: 27f708f8c2bf6cc80800000000000000
+      internalID: -8302672694206234766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_34
+      name: sewer_attack_sheet_nagy_34
       rect:
         serializedVersion: 2
-        x: 9494
-        y: 260
-        width: 8
-        height: 8
+        x: 10617
+        y: 640
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -974,20 +971,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc596151bf3707960800000000000000
-      internalID: 7597700093601813965
+      spriteID: 729aee5d3172dc0c0800000000000000
+      internalID: -4553940682054653657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_35
+      name: sewer_attack_sheet_nagy_35
       rect:
         serializedVersion: 2
-        x: 9494
-        y: 229
-        width: 15
-        height: 14
+        x: 10565
+        y: 619
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,20 +993,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f05d169f2f2246400800000000000000
-      internalID: 316416300784145679
+      spriteID: 36520050c21709c10800000000000000
+      internalID: 2058269463584712035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_36
+      name: sewer_attack_sheet_nagy_36
       rect:
         serializedVersion: 2
-        x: 9488
-        y: 198
-        width: 14
-        height: 14
+        x: 10617
+        y: 587
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1018,30 +1015,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c04fa9acaad97760800000000000000
-      internalID: 7456231093204631744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_37
-      rect:
-        serializedVersion: 2
-        x: 9488
-        y: 179
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22e00992745f42030800000000000000
-      internalID: 3469167298970914338
+      spriteID: 1df30227baf6dff60800000000000000
+      internalID: 8069728889462603729
       vertices: []
       indices: 
       edges: []

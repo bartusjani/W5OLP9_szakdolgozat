@@ -1,3 +1,4 @@
+using UnityEditor.Tilemaps;
 using UnityEngine;
 
 public class MiniBossMovement : MonoBehaviour
@@ -8,6 +9,7 @@ public class MiniBossMovement : MonoBehaviour
     public float stopDis = 3f;
 
     private Vector2 moveDir;
+    private bool facingRight = true;
 
     private Rigidbody2D rb;
 
@@ -29,6 +31,7 @@ public class MiniBossMovement : MonoBehaviour
     }
     private void Update()
     {
+        FlipTowardsPlayer();
         if (player != null)
         {
 
@@ -55,6 +58,24 @@ public class MiniBossMovement : MonoBehaviour
             moveDir = Vector2.zero;
             mba.ChoosePhase();
         }
+    }
+    void FlipTowardsPlayer()
+    {
+        if(player.position.x<transform.position.x && facingRight)
+        {
+            Flip();
+        }
+        else if(player.position.x > transform.position.x && !facingRight)
+        {
+            Flip();
+        }
+    }
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 newS = transform.localScale;
+        newS.x *= -1;
+        transform.localScale = newS;
     }
 
 }

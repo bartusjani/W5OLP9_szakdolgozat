@@ -1,67 +1,55 @@
 fileFormatVersion: 2
-guid: 2a006519e7f76784594f1ee4125e933b
+guid: d2d65df6de548d847a80628b7150994d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5043889914437613364
-    second: attack_single_quick_sheet_nagy_0
+      213: -1358210216408024506
+    second: corridor_attack_strong_sheet_nagy_0
   - first:
-      213: 2720932799954682573
-    second: attack_single_quick_sheet_nagy_1
+      213: 9125128992731660329
+    second: corridor_attack_strong_sheet_nagy_1
   - first:
-      213: 9202572107398556356
-    second: attack_single_quick_sheet_nagy_2
+      213: 8355231862288146420
+    second: corridor_attack_strong_sheet_nagy_2
   - first:
-      213: 2018156654563245973
-    second: attack_single_quick_sheet_nagy_3
+      213: 2150925389503622204
+    second: corridor_attack_strong_sheet_nagy_3
   - first:
-      213: -7545456932788966566
-    second: attack_single_quick_sheet_nagy_4
+      213: 8119986158548989612
+    second: corridor_attack_strong_sheet_nagy_4
   - first:
-      213: 1712874980806253337
-    second: attack_single_quick_sheet_nagy_5
+      213: 8954078941527888973
+    second: corridor_attack_strong_sheet_nagy_5
   - first:
-      213: 367996794839249359
-    second: attack_single_quick_sheet_nagy_6
+      213: -3577536169473076322
+    second: corridor_attack_strong_sheet_nagy_6
   - first:
-      213: -2478437133381070704
-    second: attack_single_quick_sheet_nagy_7
+      213: 7474328687138460644
+    second: corridor_attack_strong_sheet_nagy_7
   - first:
-      213: 2167421532229307745
-    second: attack_single_quick_sheet_nagy_8
+      213: 2937251043748930019
+    second: corridor_attack_strong_sheet_nagy_8
   - first:
-      213: -1599875742455860792
-    second: attack_single_quick_sheet_nagy_9
+      213: 6756631653752423796
+    second: corridor_attack_strong_sheet_nagy_9
   - first:
-      213: 6878082529170183549
-    second: attack_single_quick_sheet_nagy_10
+      213: 7142800184625015491
+    second: corridor_attack_strong_sheet_nagy_10
   - first:
-      213: -9045960400816786348
-    second: attack_single_quick_sheet_nagy_11
+      213: -2612858603993820441
+    second: corridor_attack_strong_sheet_nagy_11
   - first:
-      213: 9214333430834132540
-    second: attack_single_quick_sheet_nagy_12
+      213: -4384603635553110255
+    second: corridor_attack_strong_sheet_nagy_12
   - first:
-      213: 8834697024672796336
-    second: attack_single_quick_sheet_nagy_13
+      213: 5162838283264662718
+    second: corridor_attack_strong_sheet_nagy_13
   - first:
-      213: 4854938271818036028
-    second: attack_single_quick_sheet_nagy_14
+      213: -5337962495119329141
+    second: corridor_attack_strong_sheet_nagy_14
   - first:
-      213: -569572790528856496
-    second: attack_single_quick_sheet_nagy_15
-  - first:
-      213: -7512052834762447431
-    second: attack_single_quick_sheet_nagy_16
-  - first:
-      213: -8437664773499611624
-    second: attack_single_quick_sheet_nagy_17
-  - first:
-      213: -6618749438551136028
-    second: attack_single_quick_sheet_nagy_18
-  - first:
-      213: 4064754233533205204
-    second: attack_single_quick_sheet_nagy_19
+      213: -107455656492002533
+    second: corridor_attack_strong_sheet_nagy_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,13 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_0
+      name: corridor_attack_strong_sheet_nagy_0
       rect:
         serializedVersion: 2
-        x: 10502
-        y: 209
-        width: 621
-        height: 664
+        x: 351
+        y: 16
+        width: 663
+        height: 417
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 437ba3c472f7ff540800000000000000
-      internalID: 5043889914437613364
+      spriteID: 64a71b8110ba62de0800000000000000
+      internalID: -1358210216408024506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_1
+      name: corridor_attack_strong_sheet_nagy_1
       rect:
         serializedVersion: 2
-        x: 11762
-        y: 209
-        width: 432
-        height: 664
+        x: 1717
+        y: 16
+        width: 679
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc2020727f1b2c520800000000000000
-      internalID: 2720932799954682573
+      spriteID: 920836dc878f2ae70800000000000000
+      internalID: 9125128992731660329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_2
+      name: corridor_attack_strong_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 13117
-        y: 808
-        width: 12
-        height: 12
+        x: 3082
+        y: 16
+        width: 679
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4caa869039a16bf70800000000000000
-      internalID: 9202572107398556356
+      spriteID: 4ffd5bf5c1fb3f370800000000000000
+      internalID: 8355231862288146420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_3
+      name: corridor_attack_strong_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 13148
-        y: 808
-        width: 13
-        height: 12
+        x: 4448
+        y: 16
+        width: 684
+        height: 451
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59f3550e8cee10c10800000000000000
-      internalID: 2018156654563245973
+      spriteID: c3c6bb3ee3f99dd10800000000000000
+      internalID: 2150925389503622204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_4
+      name: corridor_attack_strong_sheet_nagy_4
       rect:
         serializedVersion: 2
-        x: 524
-        y: 209
-        width: 233
-        height: 485
+        x: 5813
+        y: 16
+        width: 679
+        height: 457
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5bea1da5e6294790800000000000000
-      internalID: -7545456932788966566
+      spriteID: ca6b661c36cffa070800000000000000
+      internalID: 8119986158548989612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_5
+      name: corridor_attack_strong_sheet_nagy_5
       rect:
         serializedVersion: 2
-        x: 1774
-        y: 209
-        width: 264
-        height: 475
+        x: 7178
+        y: 16
+        width: 685
+        height: 457
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91b5c9748ba55c710800000000000000
-      internalID: 1712874980806253337
+      spriteID: d4453984b57434c70800000000000000
+      internalID: 8954078941527888973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_6
+      name: corridor_attack_strong_sheet_nagy_6
       rect:
         serializedVersion: 2
-        x: 2982
-        y: 209
-        width: 317
-        height: 475
+        x: 8544
+        y: 16
+        width: 679
+        height: 457
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc130ea92236b1500800000000000000
-      internalID: 367996794839249359
+      spriteID: e931277fec90a5ec0800000000000000
+      internalID: -3577536169473076322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_7
+      name: corridor_attack_strong_sheet_nagy_7
       rect:
         serializedVersion: 2
-        x: 4084
-        y: 209
-        width: 475
-        height: 475
+        x: 9989
+        y: 16
+        width: 684
+        height: 457
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +314,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0901faafe82da9dd0800000000000000
-      internalID: -2478437133381070704
+      spriteID: 4e3566b17562ab760800000000000000
+      internalID: 7474328687138460644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_8
+      name: corridor_attack_strong_sheet_nagy_8
       rect:
         serializedVersion: 2
-        x: 5303
-        y: 209
-        width: 527
-        height: 475
+        x: 11274
+        y: 16
+        width: 679
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,20 +336,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16d8f0b666a341e10800000000000000
-      internalID: 2167421532229307745
+      spriteID: 3e1ecc6134633c820800000000000000
+      internalID: 2937251043748930019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_9
+      name: corridor_attack_strong_sheet_nagy_9
       rect:
         serializedVersion: 2
-        x: 6616
-        y: 209
-        width: 474
-        height: 475
+        x: 12640
+        y: 16
+        width: 724
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,20 +358,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c1772e1d791cc9e0800000000000000
-      internalID: -1599875742455860792
+      spriteID: 475c210e0b064cd50800000000000000
+      internalID: 6756631653752423796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_10
+      name: corridor_attack_strong_sheet_nagy_10
       rect:
         serializedVersion: 2
-        x: 7865
-        y: 209
-        width: 475
-        height: 464
+        x: 13374
+        y: 101
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +380,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d75520f5e9bd37f50800000000000000
-      internalID: 6878082529170183549
+      spriteID: 3ca2b2a7ce2502360800000000000000
+      internalID: 7142800184625015491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_11
+      name: corridor_attack_strong_sheet_nagy_11
       rect:
         serializedVersion: 2
-        x: 13075
-        y: 209
-        width: 327
-        height: 569
+        x: 14005
+        y: 16
+        width: 719
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,20 +402,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 454b01961fa467280800000000000000
-      internalID: -9045960400816786348
+      spriteID: 7e210a471f24dbbd0800000000000000
+      internalID: -2612858603993820441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_12
+      name: corridor_attack_strong_sheet_nagy_12
       rect:
         serializedVersion: 2
-        x: 13400
-        y: 661
-        width: 13
-        height: 12
+        x: 15370
+        y: 16
+        width: 663
+        height: 360
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,20 +424,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c36ffda8f63efdf70800000000000000
-      internalID: 9214333430834132540
+      spriteID: 11778fd5932c623c0800000000000000
+      internalID: -4384603635553110255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_13
+      name: corridor_attack_strong_sheet_nagy_13
       rect:
         serializedVersion: 2
-        x: 14335
-        y: 209
-        width: 317
-        height: 464
+        x: 13362
+        y: 56
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,20 +446,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0be82ddb2262b9a70800000000000000
-      internalID: 8834697024672796336
+      spriteID: ebc17c2901616a740800000000000000
+      internalID: 5162838283264662718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_14
+      name: corridor_attack_strong_sheet_nagy_14
       rect:
         serializedVersion: 2
-        x: 15648
-        y: 209
-        width: 233
-        height: 485
+        x: 13362
+        y: 27
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,20 +468,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c33b92ab2a4306340800000000000000
-      internalID: 4854938271818036028
+      spriteID: b88fd06746fbbe5b0800000000000000
+      internalID: -5337962495119329141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_15
+      name: corridor_attack_strong_sheet_nagy_15
       rect:
         serializedVersion: 2
-        x: 8937
-        y: 209
-        width: 800
-        height: 443
+        x: 13374
+        y: 16
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,96 +490,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05eacc290987818f0800000000000000
-      internalID: -569572790528856496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_16
-      rect:
-        serializedVersion: 2
-        x: 11121
-        y: 577
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b5a4025fb3dfb790800000000000000
-      internalID: -7512052834762447431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_17
-      rect:
-        serializedVersion: 2
-        x: 11132
-        y: 545
-        width: 12
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8169ab9d79467ea80800000000000000
-      internalID: -8437664773499611624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_18
-      rect:
-        serializedVersion: 2
-        x: 11111
-        y: 440
-        width: 23
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e8e7d9047a7524a0800000000000000
-      internalID: -6618749438551136028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_single_quick_sheet_nagy_19
-      rect:
-        serializedVersion: 2
-        x: 11132
-        y: 482
-        width: 23
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4da030d7078e86830800000000000000
-      internalID: 4064754233533205204
+      spriteID: b1310b556ad328ef0800000000000000
+      internalID: -107455656492002533
       vertices: []
       indices: 
       edges: []

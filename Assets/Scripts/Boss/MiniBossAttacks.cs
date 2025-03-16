@@ -6,6 +6,7 @@ public class MiniBossAttacks : MonoBehaviour
     EnemyHealth eh;
     public Transform attackPoint;
     public Transform areaAttackPoint;
+    public Transform slashAttackPoint;
     public LayerMask playerLayer;
 
     float blockChance = 0.2f;
@@ -19,8 +20,10 @@ public class MiniBossAttacks : MonoBehaviour
     public float attackRange = 2f;
     public float areaAttackRange = 3f;
 
+    int quickDamage = 10;
     int strongDamage = 40;
     int areaDamage = 20;
+    int slashDamage = 50;
 
     float nexAttackTime = 0f;
 
@@ -79,7 +82,33 @@ public class MiniBossAttacks : MonoBehaviour
     }
     void Phase2()
     {
+        
+        if (Time.time >= nexAttackTime)
+        {
 
+            int attackRoll = Random.Range(0, 100);
+
+
+            if (Random.Range(0f, 1f) <= blockChance)
+            {
+                StartCoroutine(PreformBlock());
+                nexAttackTime += nexAttackTime + blockCooldown;
+            }
+            else
+            {
+                if (attackRoll < 50)
+                {
+                    StartCoroutine(PreformForwardSlash());
+                    nexAttackTime += nexAttackTime + 1f;
+                }
+                else
+                {
+                    StartCoroutine(PreformQuickSlash());
+                    nexAttackTime += nexAttackTime + 0.2f;
+                }
+            }
+        }
+        else return;
     }
 
     IEnumerator PreformStrongSlash()
@@ -88,12 +117,7 @@ public class MiniBossAttacks : MonoBehaviour
 
         //yield return new WaitForSeconds(1f);
 
-        Collider2D player = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer);
-
-        if (player)
-        {
-            player.GetComponent<PlayerHealth>()?.TakeDamage(strongDamage);
-        }
+        DealDamage(attackPoint, strongDamage);
         yield return new WaitForSeconds(strongCooldown);
     }
 
@@ -102,8 +126,6 @@ public class MiniBossAttacks : MonoBehaviour
         isBlocking = true;
         Debug.Log("block");
 
-        //yield return new WaitForSeconds(3f);
-
         yield return new WaitForSeconds(5f);
         isBlocking = false;
     }
@@ -111,16 +133,36 @@ public class MiniBossAttacks : MonoBehaviour
     {
         Debug.Log("AreaAttack");
 
-        //yield return new WaitForSeconds(6f);
 
-        Collider2D player = Physics2D.OverlapCircle(areaAttackPoint.position, attackRange, playerLayer);
+        DealDamage(areaAttackPoint, areaDamage);
+
+        yield return new WaitForSeconds(areaCooldown);
+    }
+
+    IEnumerator PreformForwardSlash()
+    {
+        Debug.Log("forward s");
+
+        DealDamage(slashAttackPoint, slashDamage);
+
+        yield return new WaitForSeconds(1f);
+    }
+
+    IEnumerator PreformQuickSlash()
+    {
+        Debug.Log("quick slash from boss");
+        DealDamage(attackPoint, quickDamage);
+        yield return new WaitForSeconds(0.2f);
+    }
+
+    void DealDamage(Transform attackPoint,int damage)
+    {
+        Collider2D player = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer);
 
         if (player)
         {
-            player.GetComponent<PlayerHealth>()?.TakeDamage(strongDamage);
+            player.GetComponent<PlayerHealth>()?.TakeDamage(damage);
         }
-
-        yield return new WaitForSeconds(areaCooldown);
     }
 
     private void OnDrawGizmosSelected()
@@ -128,6 +170,7 @@ public class MiniBossAttacks : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
         Gizmos.DrawWireSphere(areaAttackPoint.position, areaAttackRange);
+        Gizmos.DrawWireSphere(slashAttackPoint.position, attackRange);
     }
 
 }

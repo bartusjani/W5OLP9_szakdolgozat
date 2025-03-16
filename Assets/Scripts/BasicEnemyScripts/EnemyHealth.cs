@@ -7,6 +7,8 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 20;
     private int health;
     public EnemyHpBar hpBar;
+    public GameObject bossHpBar;
+    public GameObject trapDoor;
     public static event Action OnAnyEnemyDeath;
 
     public bool isBoss = false;
@@ -56,6 +58,11 @@ public class EnemyHealth : MonoBehaviour
     {
         OnAnyEnemyDeath?.Invoke();
         Destroy(gameObject);
+        if (isBoss)
+        {
+            bossHpBar.SetActive(false);
+            trapDoor.SetActive(false);
+        }
     }
     
 }
