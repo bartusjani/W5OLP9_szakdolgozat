@@ -1,46 +1,49 @@
 fileFormatVersion: 2
-guid: 6896a3132cbc791499bd747997fb085f
+guid: 75b88e27eba13ea418e2464636c327cf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7168591758522746949
-    second: corridor_block_sheet_nagy_0
+      213: 3938237207432207588
+    second: corridor_attack_strong_sheet_0
   - first:
-      213: -8765636154267870175
-    second: corridor_block_sheet_nagy_1
+      213: -7995760927429320434
+    second: corridor_attack_strong_sheet_1
   - first:
-      213: -8942303469007484050
-    second: corridor_block_sheet_nagy_2
+      213: -4330204714707748392
+    second: corridor_attack_strong_sheet_2
   - first:
-      213: 1251232711985611216
-    second: corridor_block_sheet_nagy_3
+      213: 222694394189706462
+    second: corridor_attack_strong_sheet_3
   - first:
-      213: 8680342333323828834
-    second: corridor_block_sheet_nagy_4
+      213: -97226909316105145
+    second: corridor_attack_strong_sheet_4
   - first:
-      213: 7430280549179028298
-    second: corridor_block_sheet_nagy_5
+      213: 9008090316593449510
+    second: corridor_attack_strong_sheet_5
   - first:
-      213: 7279069696476437657
-    second: corridor_block_sheet_nagy_6
+      213: 159159392972221919
+    second: corridor_attack_strong_sheet_6
   - first:
-      213: 6163303021405096133
-    second: corridor_block_sheet_nagy_7
+      213: -2236553032490121535
+    second: corridor_attack_strong_sheet_7
   - first:
-      213: 7955861473439051177
-    second: corridor_block_sheet_nagy_8
+      213: -6906972644371252849
+    second: corridor_attack_strong_sheet_8
   - first:
-      213: -2247902495604191973
-    second: corridor_block_sheet_nagy_9
+      213: 1499723956207981670
+    second: corridor_attack_strong_sheet_9
   - first:
-      213: 617689001183811399
-    second: corridor_block_sheet_nagy_10
+      213: 5880470709549259133
+    second: corridor_attack_strong_sheet_10
   - first:
-      213: -9077616518461116288
-    second: corridor_block_sheet_nagy_11
+      213: -5155502999111444587
+    second: corridor_attack_strong_sheet_11
   - first:
-      213: 1382496233709634736
-    second: corridor_block_sheet_nagy_12
+      213: 7103073248230598679
+    second: corridor_attack_strong_sheet_12
+  - first:
+      213: 1238635381152237708
+    second: corridor_attack_strong_sheet_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_0
+      name: corridor_attack_strong_sheet_0
       rect:
         serializedVersion: 2
-        x: 329
-        y: 25
-        width: 612
-        height: 386
+        x: 21
+        y: 5
+        width: 118
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb77575c6cb048c90800000000000000
-      internalID: -7168591758522746949
+      spriteID: 4ec193edfdd67a630800000000000000
+      internalID: 3938237207432207588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_1
+      name: corridor_attack_strong_sheet_1
       rect:
         serializedVersion: 2
-        x: 1590
-        y: 25
-        width: 638
-        height: 402
+        x: 157
+        y: 5
+        width: 121
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12cda8a2c543a5680800000000000000
-      internalID: -8765636154267870175
+      spriteID: e01a0a3ccc9590190800000000000000
+      internalID: -7995760927429320434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_2
+      name: corridor_attack_strong_sheet_2
       rect:
         serializedVersion: 2
-        x: 2850
-        y: 25
-        width: 638
-        height: 396
+        x: 306
+        y: 5
+        width: 121
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6bc0109f5e86e380800000000000000
-      internalID: -8942303469007484050
+      spriteID: 8d97f1f11c508e3c0800000000000000
+      internalID: -4330204714707748392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_3
+      name: corridor_attack_strong_sheet_3
       rect:
         serializedVersion: 2
-        x: 4111
-        y: 25
-        width: 600
-        height: 396
+        x: 455
+        y: 5
+        width: 122
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d14041b5854d5110800000000000000
-      internalID: 1251232711985611216
+      spriteID: ed4f5232f5b271300800000000000000
+      internalID: 222694394189706462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_4
+      name: corridor_attack_strong_sheet_4
       rect:
         serializedVersion: 2
-        x: 5371
-        y: 25
-        width: 601
-        height: 391
+        x: 605
+        y: 5
+        width: 121
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26e5d8a9c55c67870800000000000000
-      internalID: 8680342333323828834
+      spriteID: 74cba9f14a496aef0800000000000000
+      internalID: -97226909316105145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_5
+      name: corridor_attack_strong_sheet_5
       rect:
         serializedVersion: 2
-        x: 6631
-        y: 25
-        width: 570
-        height: 391
+        x: 754
+        y: 5
+        width: 122
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +264,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a437f4bcac8ad1760800000000000000
-      internalID: 7430280549179028298
+      spriteID: 62a40318a6a230d70800000000000000
+      internalID: 9008090316593449510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_6
+      name: corridor_attack_strong_sheet_6
       rect:
         serializedVersion: 2
-        x: 7892
-        y: 25
-        width: 569
-        height: 381
+        x: 900
+        y: 5
+        width: 121
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99cd9c1a253740560800000000000000
-      internalID: 7279069696476437657
+      spriteID: fdda6c8ef92753200800000000000000
+      internalID: 159159392972221919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_7
+      name: corridor_attack_strong_sheet_7
       rect:
         serializedVersion: 2
-        x: 9152
-        y: 25
-        width: 569
-        height: 391
+        x: 1053
+        y: 5
+        width: 122
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c841f18173788550800000000000000
-      internalID: 6163303021405096133
+      spriteID: 1c68a11edda26f0e0800000000000000
+      internalID: -2236553032490121535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_8
+      name: corridor_attack_strong_sheet_8
       rect:
         serializedVersion: 2
-        x: 10412
-        y: 25
-        width: 601
-        height: 391
+        x: 1203
+        y: 5
+        width: 121
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +330,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9adec8eabd5e86e60800000000000000
-      internalID: 7955861473439051177
+      spriteID: f8939e289f08520a0800000000000000
+      internalID: -6906972644371252849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_9
+      name: corridor_attack_strong_sheet_9
       rect:
         serializedVersion: 2
-        x: 11673
-        y: 25
-        width: 569
-        height: 391
+        x: 1352
+        y: 5
+        width: 114
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +352,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1d4cc31798ddc0e0800000000000000
-      internalID: -2247902495604191973
+      spriteID: 6649be60ef610d410800000000000000
+      internalID: 1499723956207981670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_10
+      name: corridor_attack_strong_sheet_10
       rect:
         serializedVersion: 2
-        x: 12933
-        y: 25
-        width: 569
-        height: 381
+        x: 1498
+        y: 5
+        width: 121
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +374,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7471a39bfd8729800800000000000000
-      internalID: 617689001183811399
+      spriteID: d79d5ca44f0ab9150800000000000000
+      internalID: 5880470709549259133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_11
+      name: corridor_attack_strong_sheet_11
       rect:
         serializedVersion: 2
-        x: 14193
-        y: 25
-        width: 569
-        height: 391
+        x: 1643
+        y: 5
+        width: 132
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +396,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08038e92fd3d50280800000000000000
-      internalID: -9077616518461116288
+      spriteID: 597508b5659f378b0800000000000000
+      internalID: -5155502999111444587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_12
+      name: corridor_attack_strong_sheet_12
       rect:
         serializedVersion: 2
-        x: 15454
-        y: 25
-        width: 601
-        height: 396
+        x: 1791
+        y: 5
+        width: 128
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,8 +418,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b40491fffc9f2310800000000000000
-      internalID: 1382496233709634736
+      spriteID: 7186d5e4c7f239260800000000000000
+      internalID: 7103073248230598679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corridor_attack_strong_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 5
+        width: 118
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c884fcb0154803110800000000000000
+      internalID: 1238635381152237708
       vertices: []
       indices: 
       edges: []

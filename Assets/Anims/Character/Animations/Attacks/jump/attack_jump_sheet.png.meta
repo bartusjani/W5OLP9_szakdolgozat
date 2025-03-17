@@ -1,46 +1,43 @@
 fileFormatVersion: 2
-guid: 6896a3132cbc791499bd747997fb085f
+guid: 9422b70b0657d524eabcd4dd7f62887b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7168591758522746949
-    second: corridor_block_sheet_nagy_0
+      213: 9168851474955356889
+    second: attack_jump_sheet_0
   - first:
-      213: -8765636154267870175
-    second: corridor_block_sheet_nagy_1
+      213: 8682897367525636874
+    second: attack_jump_sheet_1
   - first:
-      213: -8942303469007484050
-    second: corridor_block_sheet_nagy_2
+      213: -99728436569004061
+    second: attack_jump_sheet_2
   - first:
-      213: 1251232711985611216
-    second: corridor_block_sheet_nagy_3
+      213: 7824493757515007672
+    second: attack_jump_sheet_3
   - first:
-      213: 8680342333323828834
-    second: corridor_block_sheet_nagy_4
+      213: 2927207891288093220
+    second: attack_jump_sheet_4
   - first:
-      213: 7430280549179028298
-    second: corridor_block_sheet_nagy_5
+      213: 1117441896140973630
+    second: attack_jump_sheet_5
   - first:
-      213: 7279069696476437657
-    second: corridor_block_sheet_nagy_6
+      213: -2675760639348108516
+    second: attack_jump_sheet_6
   - first:
-      213: 6163303021405096133
-    second: corridor_block_sheet_nagy_7
+      213: -3623502563752634589
+    second: attack_jump_sheet_7
   - first:
-      213: 7955861473439051177
-    second: corridor_block_sheet_nagy_8
+      213: 273698531275311102
+    second: attack_jump_sheet_8
   - first:
-      213: -2247902495604191973
-    second: corridor_block_sheet_nagy_9
+      213: -8868488151311308143
+    second: attack_jump_sheet_9
   - first:
-      213: 617689001183811399
-    second: corridor_block_sheet_nagy_10
+      213: -8525835541746411320
+    second: attack_jump_sheet_10
   - first:
-      213: -9077616518461116288
-    second: corridor_block_sheet_nagy_11
-  - first:
-      213: 1382496233709634736
-    second: corridor_block_sheet_nagy_12
+      213: 5599876432021275068
+    second: attack_jump_sheet_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -136,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_0
+      name: attack_jump_sheet_0
       rect:
         serializedVersion: 2
-        x: 329
-        y: 25
-        width: 612
-        height: 386
+        x: 12
+        y: 14
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb77575c6cb048c90800000000000000
-      internalID: -7168591758522746949
+      spriteID: 9dac70b76dd4e3f70800000000000000
+      internalID: 9168851474955356889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_1
+      name: attack_jump_sheet_1
       rect:
         serializedVersion: 2
-        x: 1590
-        y: 25
-        width: 638
-        height: 402
+        x: 58
+        y: 14
+        width: 30
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12cda8a2c543a5680800000000000000
-      internalID: -8765636154267870175
+      spriteID: a0b3a8cd629df7870800000000000000
+      internalID: 8682897367525636874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_2
+      name: attack_jump_sheet_2
       rect:
         serializedVersion: 2
-        x: 2850
-        y: 25
-        width: 638
-        height: 396
+        x: 106
+        y: 18
+        width: 25
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6bc0109f5e86e380800000000000000
-      internalID: -8942303469007484050
+      spriteID: 3e7ac4ce381bd9ef0800000000000000
+      internalID: -99728436569004061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_3
+      name: attack_jump_sheet_3
       rect:
         serializedVersion: 2
-        x: 4111
-        y: 25
-        width: 600
-        height: 396
+        x: 152
+        y: 36
+        width: 33
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d14041b5854d5110800000000000000
-      internalID: 1251232711985611216
+      spriteID: 8b681f3dd9f269c60800000000000000
+      internalID: 7824493757515007672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_4
+      name: attack_jump_sheet_4
       rect:
         serializedVersion: 2
-        x: 5371
-        y: 25
-        width: 601
-        height: 391
+        x: 205
+        y: 43
+        width: 40
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26e5d8a9c55c67870800000000000000
-      internalID: 8680342333323828834
+      spriteID: 42272ff61188f9820800000000000000
+      internalID: 2927207891288093220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_5
+      name: attack_jump_sheet_5
       rect:
         serializedVersion: 2
-        x: 6631
+        x: 258
         y: 25
-        width: 570
-        height: 391
+        width: 31
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a437f4bcac8ad1760800000000000000
-      internalID: 7430280549179028298
+      spriteID: e362f9ceb73f18f00800000000000000
+      internalID: 1117441896140973630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_6
+      name: attack_jump_sheet_6
       rect:
         serializedVersion: 2
-        x: 7892
-        y: 25
-        width: 569
-        height: 381
+        x: 307
+        y: 13
+        width: 63
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99cd9c1a253740560800000000000000
-      internalID: 7279069696476437657
+      spriteID: c131fa310e9cddad0800000000000000
+      internalID: -2675760639348108516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_7
+      name: attack_jump_sheet_7
       rect:
         serializedVersion: 2
-        x: 9152
-        y: 25
-        width: 569
-        height: 391
+        x: 385
+        y: 14
+        width: 60
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c841f18173788550800000000000000
-      internalID: 6163303021405096133
+      spriteID: 3279ecccd9bb6bdc0800000000000000
+      internalID: -3623502563752634589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_8
+      name: attack_jump_sheet_8
       rect:
         serializedVersion: 2
-        x: 10412
-        y: 25
-        width: 601
-        height: 391
+        x: 460
+        y: 14
+        width: 35
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9adec8eabd5e86e60800000000000000
-      internalID: 7955861473439051177
+      spriteID: ef706343d5f5cc300800000000000000
+      internalID: 273698531275311102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_9
+      name: attack_jump_sheet_9
       rect:
         serializedVersion: 2
-        x: 11673
-        y: 25
-        width: 569
-        height: 391
+        x: 527
+        y: 14
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1d4cc31798ddc0e0800000000000000
-      internalID: -2247902495604191973
+      spriteID: 19a245e730dcce480800000000000000
+      internalID: -8868488151311308143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_10
+      name: attack_jump_sheet_10
       rect:
         serializedVersion: 2
-        x: 12933
-        y: 25
-        width: 569
-        height: 381
+        x: 491
+        y: 28
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7471a39bfd8729800800000000000000
-      internalID: 617689001183811399
+      spriteID: 8c81ec02fb52ea980800000000000000
+      internalID: -8525835541746411320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: corridor_block_sheet_nagy_11
+      name: attack_jump_sheet_11
       rect:
         serializedVersion: 2
-        x: 14193
-        y: 25
-        width: 569
-        height: 391
+        x: 492
+        y: 22
+        width: 16
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,30 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 08038e92fd3d50280800000000000000
-      internalID: -9077616518461116288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: corridor_block_sheet_nagy_12
-      rect:
-        serializedVersion: 2
-        x: 15454
-        y: 25
-        width: 601
-        height: 396
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b40491fffc9f2310800000000000000
-      internalID: 1382496233709634736
+      spriteID: cb1c5bc02f1c6bd40800000000000000
+      internalID: 5599876432021275068
       vertices: []
       indices: 
       edges: []

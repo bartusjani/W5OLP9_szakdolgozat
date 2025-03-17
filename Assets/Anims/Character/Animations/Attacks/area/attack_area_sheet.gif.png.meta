@@ -1,73 +1,67 @@
 fileFormatVersion: 2
-guid: d3e51e98cf77343499c41d8de99933b1
+guid: 37bf1881748db5c4898ba6514d9737a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2626949236467154224
-    second: attack_jump_sheet_nagy_0
+      213: 79626666575592391
+    second: attack_area_sheet.gif_0
   - first:
-      213: -8830002411145092448
-    second: attack_jump_sheet_nagy_1
+      213: 7757504543112968216
+    second: attack_area_sheet.gif_1
   - first:
-      213: -8786229453640603379
-    second: attack_jump_sheet_nagy_2
+      213: 6888277645497221442
+    second: attack_area_sheet.gif_2
   - first:
-      213: 5293610123718677597
-    second: attack_jump_sheet_nagy_3
+      213: 10940812231404982
+    second: attack_area_sheet.gif_3
   - first:
-      213: -975804700906082314
-    second: attack_jump_sheet_nagy_4
+      213: -6264959670194287144
+    second: attack_area_sheet.gif_4
   - first:
-      213: -6932218591671314263
-    second: attack_jump_sheet_nagy_5
+      213: 5878530106501737406
+    second: attack_area_sheet.gif_5
   - first:
-      213: -7694351024086860128
-    second: attack_jump_sheet_nagy_6
+      213: 2131476205582396515
+    second: attack_area_sheet.gif_6
   - first:
-      213: 1677000988664262319
-    second: attack_jump_sheet_nagy_7
+      213: -8661619776362926384
+    second: attack_area_sheet.gif_7
   - first:
-      213: 7385375354632900411
-    second: attack_jump_sheet_nagy_8
+      213: 2109660680334264348
+    second: attack_area_sheet.gif_8
   - first:
-      213: 3543754362957802165
-    second: attack_jump_sheet_nagy_9
+      213: 5397813224861032925
+    second: attack_area_sheet.gif_9
   - first:
-      213: 147174652597765905
-    second: attack_jump_sheet_nagy_10
+      213: -110230609058951500
+    second: attack_area_sheet.gif_10
   - first:
-      213: 6632211755422357472
-    second: attack_jump_sheet_nagy_11
+      213: 2489219736763149687
+    second: attack_area_sheet.gif_11
   - first:
-      213: 5154930743447314014
-    second: attack_jump_sheet_nagy_12
+      213: 312085972743982262
+    second: attack_area_sheet.gif_12
   - first:
-      213: -144245260142984855
-    second: attack_jump_sheet_nagy_13
+      213: -3804276794441510717
+    second: attack_area_sheet.gif_13
   - first:
-      213: -3925349937008715356
-    second: attack_jump_sheet_nagy_14
+      213: -604048227687528340
+    second: attack_area_sheet.gif_14
   - first:
-      213: 3784024650422196154
-    second: attack_jump_sheet_nagy_15
+      213: 8256411138658472098
+    second: attack_area_sheet.gif_15
   - first:
-      213: -2227765433985522423
-    second: attack_jump_sheet_nagy_16
+      213: 1876899112901586523
+    second: attack_area_sheet.gif_16
   - first:
-      213: 5136848986572862068
-    second: attack_jump_sheet_nagy_17
+      213: 6465175651341210603
+    second: attack_area_sheet.gif_17
   - first:
-      213: 2684668185943756894
-    second: attack_jump_sheet_nagy_18
+      213: 9044942755298209388
+    second: attack_area_sheet.gif_18
   - first:
-      213: -698546001519674685
-    second: attack_jump_sheet_nagy_19
-  - first:
-      213: -974429157034304951
-    second: attack_jump_sheet_nagy_20
-  - first:
-      213: 7329238266432880931
-    second: attack_jump_sheet_nagy_21
+      213: -3662158077834665759
+    second: attack_area_sheet.gif_19
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -163,13 +157,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_0
+      name: attack_area_sheet.gif_0
       rect:
         serializedVersion: 2
-        x: 8298
-        y: 986
-        width: 13
-        height: 13
+        x: 15
+        y: 18
+        width: 24
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d2446d66933b8bd0800000000000000
-      internalID: -2626949236467154224
+      spriteID: 7cbf2e70804ea1100800000000000000
+      internalID: 79626666575592391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_1
+      name: attack_area_sheet.gif_1
       rect:
         serializedVersion: 2
-        x: 8255
-        y: 965
-        width: 13
-        height: 13
+        x: 54
+        y: 18
+        width: 32
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a2aad52797857580800000000000000
-      internalID: -8830002411145092448
+      spriteID: 8183abbe74138ab60800000000000000
+      internalID: 7757504543112968216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_2
+      name: attack_area_sheet.gif_2
       rect:
         serializedVersion: 2
-        x: 8287
-        y: 954
-        width: 13
-        height: 13
+        x: 101
+        y: 18
+        width: 39
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d096da40dda011680800000000000000
-      internalID: -8786229453640603379
+      spriteID: 241402ed504189f50800000000000000
+      internalID: 6888277645497221442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_3
+      name: attack_area_sheet.gif_3
       rect:
         serializedVersion: 2
-        x: 8073
-        y: 504
-        width: 409
-        height: 441
+        x: 155
+        y: 18
+        width: 44
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d54d9ab5c5ea67940800000000000000
-      internalID: 5293610123718677597
+      spriteID: 6bd6b9a5c9ed62000800000000000000
+      internalID: 10940812231404982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_4
+      name: attack_area_sheet.gif_4
       rect:
         serializedVersion: 2
-        x: 8309
-        y: 943
-        width: 13
-        height: 13
+        x: 214
+        y: 18
+        width: 49
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +260,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ff26586bce3572f0800000000000000
-      internalID: -975804700906082314
+      spriteID: 8ddcbe58f546e09a0800000000000000
+      internalID: -6264959670194287144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_5
+      name: attack_area_sheet.gif_5
       rect:
         serializedVersion: 2
-        x: 855
-        y: 118
-        width: 238
-        height: 495
+        x: 278
+        y: 18
+        width: 50
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,239 +282,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a8921a5befcbcf90800000000000000
-      internalID: -6932218591671314263
+      spriteID: ebba97f6cfbb49150800000000000000
+      internalID: 5878530106501737406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_6
+      name: attack_area_sheet.gif_6
       rect:
         serializedVersion: 2
-        x: 2644
-        y: 118
-        width: 302
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0aeb320928c283590800000000000000
-      internalID: -7694351024086860128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_7
-      rect:
-        serializedVersion: 2
-        x: 4497
-        y: 215
-        width: 248
-        height: 506
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: faeef499387e54710800000000000000
-      internalID: 1677000988664262319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_8
-      rect:
-        serializedVersion: 2
-        x: 6296
-        y: 451
-        width: 334
-        height: 419
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3f81d171cf1e7660800000000000000
-      internalID: 7385375354632900411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_9
-      rect:
-        serializedVersion: 2
-        x: 9947
-        y: 237
-        width: 313
-        height: 633
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ba275741d1fd2130800000000000000
-      internalID: 3543754362957802165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_10
-      rect:
-        serializedVersion: 2
-        x: 11746
-        y: 118
-        width: 655
-        height: 688
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1170808119eda0200800000000000000
-      internalID: 147174652597765905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_11
-      rect:
-        serializedVersion: 2
-        x: 13567
-        y: 118
-        width: 633
-        height: 410
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e79e1dd3795a0c50800000000000000
-      internalID: 6632211755422357472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_12
-      rect:
-        serializedVersion: 2
-        x: 15366
-        y: 118
-        width: 334
-        height: 453
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5edaecf23ef98740800000000000000
-      internalID: 5154930743447314014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_13
-      rect:
-        serializedVersion: 2
-        x: 15687
-        y: 333
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 961c4ac33b98ffdf0800000000000000
-      internalID: -144245260142984855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_14
-      rect:
-        serializedVersion: 2
-        x: 15708
-        y: 322
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a95e79970b5689c0800000000000000
-      internalID: -3925349937008715356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_15
-      rect:
-        serializedVersion: 2
-        x: 15740
-        y: 333
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab79cb5fe5e838430800000000000000
-      internalID: 3784024650422196154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_16
-      rect:
-        serializedVersion: 2
-        x: 15698
-        y: 269
-        width: 87
+        x: 348
+        y: 18
+        width: 60
         height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -530,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 905266814236511e0800000000000000
-      internalID: -2227765433985522423
+      spriteID: 36cafe0e056849d10800000000000000
+      internalID: 2131476205582396515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_17
+      name: attack_area_sheet.gif_7
       rect:
         serializedVersion: 2
-        x: 15708
-        y: 226
-        width: 88
-        height: 55
+        x: 436
+        y: 18
+        width: 101
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4723085efe0c94740800000000000000
-      internalID: 5136848986572862068
+      spriteID: 0dea36264bebbc780800000000000000
+      internalID: -8661619776362926384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_18
+      name: attack_area_sheet.gif_8
       rect:
         serializedVersion: 2
-        x: 15848
-        y: 258
-        width: 13
-        height: 13
+        x: 562
+        y: 18
+        width: 114
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,20 +348,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5058fabd7bd14520800000000000000
-      internalID: 2684668185943756894
+      spriteID: c18cee71635074d10800000000000000
+      internalID: 2109660680334264348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_19
+      name: attack_area_sheet.gif_9
       rect:
         serializedVersion: 2
-        x: 15794
-        y: 247
-        width: 13
-        height: 13
+        x: 704
+        y: 18
+        width: 113
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,19 +370,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ca7628dc144e46f0800000000000000
-      internalID: -698546001519674685
+      spriteID: dd16fb77782e8ea40800000000000000
+      internalID: 5397813224861032925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_20
+      name: attack_area_sheet.gif_10
       rect:
         serializedVersion: 2
-        x: 15815
-        y: 237
-        width: 13
+        x: 850
+        y: 18
+        width: 113
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be8aa758d1687ef0800000000000000
+      internalID: -110230609058951500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_11
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 18
+        width: 17
         height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -618,19 +414,85 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94adf2c28d12a72f0800000000000000
-      internalID: -974429157034304951
+      spriteID: 77da8a1892c7b8220800000000000000
+      internalID: 2489219736763149687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_21
+      name: attack_area_sheet.gif_12
       rect:
         serializedVersion: 2
-        x: 15826
-        y: 204
-        width: 24
+        x: 1007
+        y: 30
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc89c8e980c45400800000000000000
+      internalID: 312085972743982262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_13
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 18
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c05d00596e743bc0800000000000000
+      internalID: -3804276794441510717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_14
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 18
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c680b79565dfd97f0800000000000000
+      internalID: -604048227687528340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_15
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 29
+        width: 23
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -640,8 +502,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3218ee01f5fa6b560800000000000000
-      internalID: 7329238266432880931
+      spriteID: 2a0115faf2aa49270800000000000000
+      internalID: 8256411138658472098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_16
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 18
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eaeb78cc51c0a10800000000000000
+      internalID: 1876899112901586523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_17
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 18
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be392bc300be8b950800000000000000
+      internalID: 6465175651341210603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_18
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 18
+        width: 100
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eea478387168d70800000000000000
+      internalID: 9044942755298209388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_area_sheet.gif_19
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 18
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0665391a66d2dc0800000000000000
+      internalID: -3662158077834665759
       vertices: []
       indices: 
       edges: []
