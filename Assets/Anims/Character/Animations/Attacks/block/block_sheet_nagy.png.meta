@@ -195,7 +195,7 @@ TextureImporter:
         width: 128
         height: 264
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,7 +217,7 @@ TextureImporter:
         width: 173
         height: 253
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,10 +236,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1586
         y: 158
-        width: 230
+        width: 247
         height: 236
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -259,9 +259,9 @@ TextureImporter:
         x: 2240
         y: 158
         width: 298
-        height: 236
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,28 +275,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: block_sheet_nagy_4
-      rect:
-        serializedVersion: 2
-        x: 2479
-        y: 392
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8f55da6b92e35dc0800000000000000
-      internalID: -3651325715727163508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: block_sheet_nagy_5
       rect:
         serializedVersion: 2
@@ -305,7 +283,7 @@ TextureImporter:
         width: 315
         height: 281
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,7 +305,7 @@ TextureImporter:
         width: 304
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,7 +327,7 @@ TextureImporter:
         width: 298
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -371,7 +349,7 @@ TextureImporter:
         width: 275
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,7 +371,7 @@ TextureImporter:
         width: 264
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -415,7 +393,7 @@ TextureImporter:
         width: 258
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,7 +415,7 @@ TextureImporter:
         width: 258
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,7 +437,7 @@ TextureImporter:
         width: 247
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,7 +459,7 @@ TextureImporter:
         width: 241
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -503,7 +481,7 @@ TextureImporter:
         width: 252
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,7 +503,7 @@ TextureImporter:
         width: 253
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -547,7 +525,7 @@ TextureImporter:
         width: 252
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -569,7 +547,7 @@ TextureImporter:
         width: 247
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -591,7 +569,7 @@ TextureImporter:
         width: 253
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -613,7 +591,7 @@ TextureImporter:
         width: 252
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -635,7 +613,7 @@ TextureImporter:
         width: 247
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -657,7 +635,7 @@ TextureImporter:
         width: 252
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -679,7 +657,7 @@ TextureImporter:
         width: 252
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -701,7 +679,7 @@ TextureImporter:
         width: 252
         height: 287
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -721,9 +699,9 @@ TextureImporter:
         x: 15956
         y: 158
         width: 236
-        height: 236
+        height: 242
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -736,121 +714,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: block_sheet_nagy_25
-      rect:
-        serializedVersion: 2
-        x: 16133
-        y: 392
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45f87515687c6cb90800000000000000
-      internalID: -7221865572737773740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: block_sheet_nagy_26
-      rect:
-        serializedVersion: 2
-        x: 1814
-        y: 312
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfdb1f849d659e010800000000000000
-      internalID: 1218600665412124155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: block_sheet_nagy_27
-      rect:
-        serializedVersion: 2
-        x: 1814
-        y: 278
-        width: 13
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d67a33a03d7e6ce0800000000000000
-      internalID: -1410051985469966640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: block_sheet_nagy_28
-      rect:
-        serializedVersion: 2
-        x: 1814
-        y: 249
-        width: 13
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c378b7e27f3898dc0800000000000000
-      internalID: -3636230126464956612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: block_sheet_nagy_29
-      rect:
-        serializedVersion: 2
-        x: 1814
-        y: 232
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df9bc2ca25d478ea0800000000000000
-      internalID: -5870638571782882819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a159ef0acf459b4f9e795fcbe465211
     internalID: 0
     vertices: []
     indices: 
@@ -859,7 +727,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      block_sheet_nagy_0: -2081115536850351424
+      block_sheet_nagy_1: 7806288814739643537
+      block_sheet_nagy_10: -7527790821206340659
+      block_sheet_nagy_11: 336822105424030029
+      block_sheet_nagy_12: 6355230769918560615
+      block_sheet_nagy_13: 419951202962507800
+      block_sheet_nagy_14: 8339202738517948308
+      block_sheet_nagy_15: -4261577287672314573
+      block_sheet_nagy_16: 672421451221684147
+      block_sheet_nagy_17: 9159178704261123677
+      block_sheet_nagy_18: 2883853077966917137
+      block_sheet_nagy_19: 7109327421389591314
+      block_sheet_nagy_2: -3254609970694743807
+      block_sheet_nagy_20: -7566105948490485630
+      block_sheet_nagy_21: 6492412980949081568
+      block_sheet_nagy_22: -4957183618436624213
+      block_sheet_nagy_23: 6770281368043200814
+      block_sheet_nagy_24: -772168585365847358
+      block_sheet_nagy_3: 3933994575874935063
+      block_sheet_nagy_5: -5216015053294689608
+      block_sheet_nagy_6: 5031884655533498942
+      block_sheet_nagy_7: 8361597925109088408
+      block_sheet_nagy_8: 1597717379962233844
+      block_sheet_nagy_9: 2102607882602734777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

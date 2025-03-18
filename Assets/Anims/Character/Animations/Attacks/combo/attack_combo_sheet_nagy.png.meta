@@ -216,10 +216,10 @@ TextureImporter:
         serializedVersion: 2
         x: 6205
         y: 129
-        width: 368
+        width: 389
         height: 394
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,7 +241,7 @@ TextureImporter:
         width: 256
         height: 393
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,7 +263,7 @@ TextureImporter:
         width: 244
         height: 393
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,9 +283,9 @@ TextureImporter:
         x: 8439
         y: 123
         width: 430
-        height: 387
+        height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -299,37 +299,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_4
-      rect:
-        serializedVersion: 2
-        x: 8632
-        y: 508
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b0bdab5169db7080800000000000000
-      internalID: -9188511602546200392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: attack_combo_sheet_nagy_5
       rect:
         serializedVersion: 2
         x: 12908
         y: 123
-        width: 368
+        width: 390
         height: 393
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,7 +329,7 @@ TextureImporter:
         width: 257
         height: 393
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -365,50 +343,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_7
-      rect:
-        serializedVersion: 2
-        x: 14453
-        y: 477
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 869271ae4a7614f10800000000000000
-      internalID: 2252195246661642600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_8
-      rect:
-        serializedVersion: 2
-        x: 14472
-        y: 477
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c19e5e1fe4c17bf70800000000000000
-      internalID: 9202855488946301212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: attack_combo_sheet_nagy_9
       rect:
         serializedVersion: 2
@@ -417,7 +351,7 @@ TextureImporter:
         width: 139
         height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,7 +373,7 @@ TextureImporter:
         width: 158
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -461,7 +395,7 @@ TextureImporter:
         width: 188
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -483,7 +417,7 @@ TextureImporter:
         width: 281
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,7 +439,7 @@ TextureImporter:
         width: 312
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -527,7 +461,7 @@ TextureImporter:
         width: 282
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -549,7 +483,7 @@ TextureImporter:
         width: 281
         height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,10 +502,10 @@ TextureImporter:
         serializedVersion: 2
         x: 9172
         y: 123
-        width: 318
+        width: 340
         height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -593,7 +527,7 @@ TextureImporter:
         width: 281
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -615,7 +549,7 @@ TextureImporter:
         width: 281
         height: 289
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -637,7 +571,7 @@ TextureImporter:
         width: 281
         height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -654,12 +588,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_20
       rect:
         serializedVersion: 2
-        x: 14428
+        x: 14429
         y: 123
-        width: 194
-        height: 338
+        width: 207
+        height: 367
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -673,28 +607,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_21
-      rect:
-        serializedVersion: 2
-        x: 14620
-        y: 390
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a38edb923f22bd10800000000000000
-      internalID: 2139824667364328357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: attack_combo_sheet_nagy_22
       rect:
         serializedVersion: 2
@@ -703,7 +615,7 @@ TextureImporter:
         width: 188
         height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -725,7 +637,7 @@ TextureImporter:
         width: 139
         height: 288
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -747,7 +659,7 @@ TextureImporter:
         width: 474
         height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -761,28 +673,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_combo_sheet_nagy_25
-      rect:
-        serializedVersion: 2
-        x: 6571
-        y: 347
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b324b5bd36383c9f0800000000000000
-      internalID: -449371072901725637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: attack_combo_sheet_nagy_26
       rect:
         serializedVersion: 2
@@ -791,7 +681,7 @@ TextureImporter:
         width: 474
         height: 263
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -804,253 +694,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_27
-      rect:
-        serializedVersion: 2
-        x: 13274
-        y: 341
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce8ee89f7fa968ba0800000000000000
-      internalID: -6087007456510154516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_28
-      rect:
-        serializedVersion: 2
-        x: 6577
-        y: 328
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9eba0632c85f0230800000000000000
-      internalID: 3607199417700630170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_29
-      rect:
-        serializedVersion: 2
-        x: 13280
-        y: 322
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 519d7811ade42aaa0800000000000000
-      internalID: -6151267442530723563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_30
-      rect:
-        serializedVersion: 2
-        x: 6565
-        y: 266
-        width: 14
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 898e5ffbb3805e960800000000000000
-      internalID: 7630514196365830296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_31
-      rect:
-        serializedVersion: 2
-        x: 6577
-        y: 291
-        width: 15
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eb030dd2c4003f850800000000000000
-      internalID: 6409467021864480958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_32
-      rect:
-        serializedVersion: 2
-        x: 13268
-        y: 260
-        width: 14
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46defd8b69557b4b0800000000000000
-      internalID: -5424773120309334684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_33
-      rect:
-        serializedVersion: 2
-        x: 13280
-        y: 285
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 09a88c3c1af774170800000000000000
-      internalID: 8162633182383475344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_34
-      rect:
-        serializedVersion: 2
-        x: 9494
-        y: 260
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc596151bf3707960800000000000000
-      internalID: 7597700093601813965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_35
-      rect:
-        serializedVersion: 2
-        x: 9494
-        y: 229
-        width: 15
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f05d169f2f2246400800000000000000
-      internalID: 316416300784145679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_36
-      rect:
-        serializedVersion: 2
-        x: 9488
-        y: 198
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c04fa9acaad97760800000000000000
-      internalID: 7456231093204631744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_combo_sheet_nagy_37
-      rect:
-        serializedVersion: 2
-        x: 9488
-        y: 179
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22e00992745f42030800000000000000
-      internalID: 3469167298970914338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c27586a1eaf486b4eafc39310d3d02c0
     internalID: 0
     vertices: []
     indices: 
@@ -1059,7 +707,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attack_combo_sheet_nagy_0: 4256819413231109795
+      attack_combo_sheet_nagy_1: -6943372004842710860
+      attack_combo_sheet_nagy_10: -6240266458980059847
+      attack_combo_sheet_nagy_11: 1275945539510670582
+      attack_combo_sheet_nagy_12: 4030989572727401065
+      attack_combo_sheet_nagy_13: -7498616320062032279
+      attack_combo_sheet_nagy_14: -968936855000118606
+      attack_combo_sheet_nagy_15: -3790341451184969820
+      attack_combo_sheet_nagy_16: -8918793487855042596
+      attack_combo_sheet_nagy_17: 482580138525871155
+      attack_combo_sheet_nagy_18: 91159844117966196
+      attack_combo_sheet_nagy_19: -6939091602347793418
+      attack_combo_sheet_nagy_2: 4249201039315261815
+      attack_combo_sheet_nagy_20: 2451265319939334044
+      attack_combo_sheet_nagy_22: -3488876929497657906
+      attack_combo_sheet_nagy_23: -254865223191024566
+      attack_combo_sheet_nagy_24: 8199013400415584128
+      attack_combo_sheet_nagy_26: -4286443231861295380
+      attack_combo_sheet_nagy_27: -6087007456510154516
+      attack_combo_sheet_nagy_29: -6151267442530723563
+      attack_combo_sheet_nagy_3: 5864422333155387671
+      attack_combo_sheet_nagy_32: -5424773120309334684
+      attack_combo_sheet_nagy_33: 8162633182383475344
+      attack_combo_sheet_nagy_5: -5963204405198778933
+      attack_combo_sheet_nagy_6: 8734397359910127142
+      attack_combo_sheet_nagy_9: -7330965490670731032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

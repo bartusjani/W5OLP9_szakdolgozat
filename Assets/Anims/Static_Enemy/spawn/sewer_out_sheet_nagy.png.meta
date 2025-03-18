@@ -168,7 +168,7 @@ TextureImporter:
         width: 339
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,7 +190,7 @@ TextureImporter:
         width: 363
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,10 +209,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2890
         y: 71
-        width: 400
+        width: 653
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,37 +226,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_3
-      rect:
-        serializedVersion: 2
-        x: 3408
-        y: 71
-        width: 123
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dee8f9b0774c4b7e0800000000000000
-      internalID: -1750558339565121811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_4
       rect:
         serializedVersion: 2
         x: 4336
         y: 71
-        width: 424
-        height: 111
+        width: 685
+        height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,37 +248,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_5
-      rect:
-        serializedVersion: 2
-        x: 4866
-        y: 71
-        width: 122
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45a88b75a9d785fb0800000000000000
-      internalID: -4658835712664630700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_6
       rect:
         serializedVersion: 2
         x: 5757
         y: 71
-        width: 424
-        height: 123
+        width: 706
+        height: 245
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,37 +270,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_7
-      rect:
-        serializedVersion: 2
-        x: 6276
-        y: 71
-        width: 182
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22c352cf688a8fdf0800000000000000
-      internalID: -146181690180158430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_8
       rect:
         serializedVersion: 2
         x: 7203
         y: 71
-        width: 448
-        height: 135
+        width: 734
+        height: 415
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,37 +292,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_9
-      rect:
-        serializedVersion: 2
-        x: 7721
-        y: 71
-        width: 207
-        height: 412
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 707a633bd89e6ee10800000000000000
-      internalID: 2226723860587652871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_10
       rect:
         serializedVersion: 2
         x: 8673
         y: 71
-        width: 448
-        height: 135
+        width: 741
+        height: 677
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,59 +314,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_11
-      rect:
-        serializedVersion: 2
-        x: 9070
-        y: 71
-        width: 340
-        height: 665
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2a4ff4c5a86b43580800000000000000
-      internalID: -8848246662505696094
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sewer_out_sheet_nagy_12
+      name: sewer_out_sheet_nagy_13
       rect:
         serializedVersion: 2
         x: 10022
         y: 71
-        width: 448
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dabc8aed5ebfd2d0800000000000000
-      internalID: -3251671095361881385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sewer_out_sheet_nagy_13
-      rect:
-        serializedVersion: 2
-        x: 10408
-        y: 71
-        width: 375
+        width: 761
         height: 701
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -468,37 +336,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_14
-      rect:
-        serializedVersion: 2
-        x: 11396
-        y: 71
-        width: 447
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea7ce8871bb9c8700800000000000000
-      internalID: 543980841539127214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_15
       rect:
         serializedVersion: 2
-        x: 11757
-        y: 71
-        width: 544
+        x: 11390
+        y: 73
+        width: 911
         height: 677
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -512,37 +358,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_16
-      rect:
-        serializedVersion: 2
-        x: 12660
-        y: 71
-        width: 448
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1aee270f692438210800000000000000
-      internalID: 1333983130678390433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_17
       rect:
         serializedVersion: 2
-        x: 13046
+        x: 12656
         y: 71
-        width: 628
+        width: 1016
         height: 628
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -556,37 +380,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sewer_out_sheet_nagy_18
-      rect:
-        serializedVersion: 2
-        x: 13974
-        y: 71
-        width: 459
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4ef22730228896e0800000000000000
-      internalID: -1830570173650502065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sewer_out_sheet_nagy_19
       rect:
         serializedVersion: 2
-        x: 14347
+        x: 13975
         y: 71
-        width: 653
+        width: 1029
         height: 628
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -608,7 +410,7 @@ TextureImporter:
         width: 1026
         height: 641
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -625,7 +427,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 28ff03ae3f22e6a438ecb21f2c758474
     internalID: 0
     vertices: []
     indices: 
@@ -634,7 +436,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sewer_out_sheet_nagy_0: -8898477072970454562
+      sewer_out_sheet_nagy_1: 6221966992321920407
+      sewer_out_sheet_nagy_10: 5424038653091152135
+      sewer_out_sheet_nagy_13: -183569783981642840
+      sewer_out_sheet_nagy_15: 1636554427626747576
+      sewer_out_sheet_nagy_17: -130549918524940194
+      sewer_out_sheet_nagy_19: -5955449022625253766
+      sewer_out_sheet_nagy_2: -5418021837548072256
+      sewer_out_sheet_nagy_20: -6401384204291035740
+      sewer_out_sheet_nagy_4: 408407526259704980
+      sewer_out_sheet_nagy_6: 4061776093227718254
+      sewer_out_sheet_nagy_8: 7813505654407053876
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

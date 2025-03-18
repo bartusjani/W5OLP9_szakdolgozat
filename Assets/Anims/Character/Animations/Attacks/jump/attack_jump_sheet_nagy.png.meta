@@ -163,81 +163,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_0
-      rect:
-        serializedVersion: 2
-        x: 8298
-        y: 986
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d2446d66933b8bd0800000000000000
-      internalID: -2626949236467154224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_1
-      rect:
-        serializedVersion: 2
-        x: 8255
-        y: 965
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a2aad52797857580800000000000000
-      internalID: -8830002411145092448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_2
-      rect:
-        serializedVersion: 2
-        x: 8287
-        y: 954
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d096da40dda011680800000000000000
-      internalID: -8786229453640603379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: attack_jump_sheet_nagy_3
       rect:
         serializedVersion: 2
         x: 8073
-        y: 504
+        y: 503
         width: 409
-        height: 441
+        height: 499
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,28 +185,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack_jump_sheet_nagy_4
-      rect:
-        serializedVersion: 2
-        x: 8309
-        y: 943
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ff26586bce3572f0800000000000000
-      internalID: -975804700906082314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: attack_jump_sheet_nagy_5
       rect:
         serializedVersion: 2
@@ -281,7 +193,7 @@ TextureImporter:
         width: 238
         height: 495
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -303,7 +215,7 @@ TextureImporter:
         width: 302
         height: 453
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -325,7 +237,7 @@ TextureImporter:
         width: 248
         height: 506
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -347,7 +259,7 @@ TextureImporter:
         width: 334
         height: 419
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -369,7 +281,7 @@ TextureImporter:
         width: 313
         height: 633
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -391,7 +303,7 @@ TextureImporter:
         width: 655
         height: 688
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,7 +325,7 @@ TextureImporter:
         width: 633
         height: 410
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,10 +344,10 @@ TextureImporter:
         serializedVersion: 2
         x: 15366
         y: 118
-        width: 334
+        width: 497
         height: 453
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -448,209 +360,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_13
-      rect:
-        serializedVersion: 2
-        x: 15687
-        y: 333
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 961c4ac33b98ffdf0800000000000000
-      internalID: -144245260142984855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_14
-      rect:
-        serializedVersion: 2
-        x: 15708
-        y: 322
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a95e79970b5689c0800000000000000
-      internalID: -3925349937008715356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_15
-      rect:
-        serializedVersion: 2
-        x: 15740
-        y: 333
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab79cb5fe5e838430800000000000000
-      internalID: 3784024650422196154
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_16
-      rect:
-        serializedVersion: 2
-        x: 15698
-        y: 269
-        width: 87
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 905266814236511e0800000000000000
-      internalID: -2227765433985522423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_17
-      rect:
-        serializedVersion: 2
-        x: 15708
-        y: 226
-        width: 88
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4723085efe0c94740800000000000000
-      internalID: 5136848986572862068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_18
-      rect:
-        serializedVersion: 2
-        x: 15848
-        y: 258
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5058fabd7bd14520800000000000000
-      internalID: 2684668185943756894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_19
-      rect:
-        serializedVersion: 2
-        x: 15794
-        y: 247
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ca7628dc144e46f0800000000000000
-      internalID: -698546001519674685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_20
-      rect:
-        serializedVersion: 2
-        x: 15815
-        y: 237
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94adf2c28d12a72f0800000000000000
-      internalID: -974429157034304951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack_jump_sheet_nagy_21
-      rect:
-        serializedVersion: 2
-        x: 15826
-        y: 204
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3218ee01f5fa6b560800000000000000
-      internalID: 7329238266432880931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 757fa3312f5da1d4c9d99f2fd02fb0e9
     internalID: 0
     vertices: []
     indices: 
@@ -659,7 +373,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attack_jump_sheet_nagy_10: 147174652597765905
+      attack_jump_sheet_nagy_11: 6632211755422357472
+      attack_jump_sheet_nagy_12: 5154930743447314014
+      attack_jump_sheet_nagy_3: 5293610123718677597
+      attack_jump_sheet_nagy_5: -6932218591671314263
+      attack_jump_sheet_nagy_6: -7694351024086860128
+      attack_jump_sheet_nagy_7: 1677000988664262319
+      attack_jump_sheet_nagy_8: 7385375354632900411
+      attack_jump_sheet_nagy_9: 3543754362957802165
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
