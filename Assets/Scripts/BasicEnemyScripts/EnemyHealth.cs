@@ -13,6 +13,7 @@ public class EnemyHealth : MonoBehaviour
 
     public bool isBoss = false;
     public bool isScorpion = false;
+    public bool isHuman = false;
 
     public int Health
     {
@@ -40,6 +41,15 @@ public class EnemyHealth : MonoBehaviour
         {
             ScorpionAttacks sa = GetComponent<ScorpionAttacks>();
             if (sa.isBlocking)
+            {
+                Debug.Log("Blocked attack");
+                return;
+            }
+        }
+        else if (isHuman)
+        {
+            HumanAttacks ha = GetComponent<HumanAttacks>();
+            if (ha.isBlocking)
             {
                 Debug.Log("Blocked attack");
                 return;

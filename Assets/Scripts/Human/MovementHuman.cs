@@ -1,11 +1,10 @@
-using UnityEditor.Tilemaps;
 using UnityEngine;
 
-public class MiniBossMovement : MonoBehaviour
+public class MovementHuman : MonoBehaviour
 {
     Transform player;
 
-    public float speed = 3f;
+    public float speed = 2f;
     public float stopDis = 3f;
 
     private Vector2 moveDir;
@@ -14,31 +13,29 @@ public class MiniBossMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     EnemyHealth health;
-    MiniBossAttacks mba;
-
-    
-
+    HumanAttacks ha;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        mba = GetComponent<MiniBossAttacks>();
+        ha = GetComponent<HumanAttacks>();
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
         if (playerObject != null)
         {
             player = playerObject.transform;
         }
     }
+
     private void Update()
     {
         FlipTowardsPlayer();
         if (player != null)
         {
-
             TargetingPlayer();
 
         }
     }
+
     private void FixedUpdate()
     {
         if (rb.linearVelocity.y == 0) rb.linearVelocity = moveDir * speed;
@@ -49,23 +46,24 @@ public class MiniBossMovement : MonoBehaviour
         if (player == null) return;
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
-        if(distToPlayer > stopDis)
+        if (distToPlayer > 3f)
         {
-            moveDir= (player.position -transform.position).normalized;
+            moveDir = (player.position - transform.position).normalized;
         }
         else
         {
             moveDir = Vector2.zero;
-            mba.ChoosePhase();
+            ha.ChooseAttack();
         }
     }
+
     void FlipTowardsPlayer()
     {
-        if(player.position.x<transform.position.x && facingRight)
+        if (player.position.x < transform.position.x && facingRight)
         {
             Flip();
         }
-        else if(player.position.x > transform.position.x && !facingRight)
+        else if (player.position.x > transform.position.x && !facingRight)
         {
             Flip();
         }
@@ -78,4 +76,10 @@ public class MiniBossMovement : MonoBehaviour
         transform.localScale = newS;
     }
 
+    void Idle()
+    {
+
+    }
+
 }
+
