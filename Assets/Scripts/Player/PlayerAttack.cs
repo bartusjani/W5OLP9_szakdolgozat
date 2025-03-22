@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -7,6 +8,7 @@ public class PlayerAttack : MonoBehaviour
     public Transform jumpAttackPoint;
     public Transform areaAttackPoint;
     public Movement movement;
+    Animator animator;
 
     public int damage=5;
     public int strongDamage = 15;
@@ -21,7 +23,10 @@ public class PlayerAttack : MonoBehaviour
     float attackTime = 0f;
     public int attackRate = 2;
 
-
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
     void Update()
     {
 
@@ -50,8 +55,9 @@ public class PlayerAttack : MonoBehaviour
             }
             else if (Input.GetKeyDown(KeyCode.X) && movement.IsGrounded())
             {
-                AreaAttack();
+                StartCoroutine(AreaAttack());
                 attackTime = Time.time + 1f / attackRate;
+                
             }
 
         }
@@ -108,15 +114,26 @@ public class PlayerAttack : MonoBehaviour
             enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
         }
     }
-    void AreaAttack()
+    IEnumerator AreaAttack()
     {
+        animator.SetBool("isAreaAttack", true);
         Debug.Log("area attack");
+
+        float attackDur =0.8f;
+        yield return new WaitForSeconds(attackDur);
         Collider2D[] hit = Physics2D.OverlapCircleAll(areaAttackPoint.position, areaAttackRange , enemyLayers);
 
         foreach (Collider2D enemy in hit)
         {
             enemy.GetComponent<EnemyHealth>().TakeDamage(areaDamage);
         }
+
+
+        animator.SetBool("isAreaAttack", false);
+
+        yield return new WaitForSeconds(attackTime);
+
+        
     }
 
 }
