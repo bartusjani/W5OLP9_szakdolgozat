@@ -3,78 +3,132 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Transform[] patrolPoints;
-    public float moveSpeed;
-    public int patrolDestination;
-    public Transform groundCheck;
     Animator animator;
     Rigidbody2D rb;
 
+    public Transform[] patrolPoints;
+    public int patrolDestination=0;
+
+    public float speed=2f;
+    public Transform groundCheck;
+
     public Transform player;
+
     public bool isChasing=false;
-    public float chaseDistance;
+    public float chaseDistance=2f;
+
+    float stopDis = 2f;
+    Vector2 moveDir;
+    RaycastHit2D groundInfo;
+    bool facingRight = true;
 
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            player = playerObject.transform;
+        }
     }
 
     void Update()
     {
-        RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
+        FlipTowardsPlayer();
+        //RaycastHit2D groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
 
         animator.SetBool("isWalking", true);
+
+        float distToPlayer = Vector2.Distance(transform.position, player.position);
+
+        if (distToPlayer < chaseDistance)
+        {
+            isChasing = true;
+        }
         if (isChasing)
         {
-            if (groundInfo.collider == false)
+            if (groundInfo.collider == false) 
             {
                 isChasing = false;
+                Patroling();
+
             }
-            else
-            {
-                if (transform.position.x > player.position.x)
-                {
-                    transform.localScale = new Vector3((float)-0.06303474, (float)0.05184435, (float)1.0141);
-                    transform.position += Vector3.left * moveSpeed * Time.deltaTime;
-                }
-                else if (transform.position.x < player.position.x)
-                {
-                    transform.localScale = new Vector3((float)0.06303474, (float)0.05184435, (float)1.0141);
-                    transform.position += Vector3.right * moveSpeed * Time.deltaTime;
-                }
-            }
+
+            TargetingPlayer();   
         }
         else
         {
+            Patroling();
+            
+        }
+    }
 
-            if (Vector2.Distance(transform.position, player.position) < chaseDistance) isChasing = true;
+    private void FixedUpdate()
+    {
+        groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
+        if (rb.linearVelocity.y == 0) rb.linearVelocity = moveDir * speed;
+    }
+    void Patroling()
+    {
+        Transform targetPoint = patrolPoints[patrolDestination];
+        moveDir = (targetPoint.position - transform.position).normalized;
 
-            switch (patrolDestination)
-            {
-                case 0:
-                    transform.position = Vector2.MoveTowards(transform.position,patrolPoints[0].position,moveSpeed*Time.deltaTime);
-                    if (Vector2.Distance(transform.position, patrolPoints[0].position) < .2f)
-                    {
-                        transform.localScale = new Vector3((float)-0.06303474, (float)0.05184435, (float)1.0141);
-                        patrolDestination = 1;
-                    }
-                    break;
-                case 1:
-                    transform.position = Vector2.MoveTowards(transform.position, patrolPoints[1].position, moveSpeed * Time.deltaTime);
-                    if (Vector2.Distance(transform.position, patrolPoints[1].position) < .2f)
-                    {
-                        transform.localScale = new Vector3((float)0.06303474, (float)0.05184435, (float)1.0141);
-                        patrolDestination = 0;
-                    }
-                    break;
-
-                default:
-                    break;
-            }
+        if ((moveDir.x < 0 && facingRight) || (moveDir.x > 0 && !facingRight))
+        {
+            Flip();
         }
 
-       
+        switch (patrolDestination)
+        {
+            case 0:
+                if (Vector2.Distance(transform.position, targetPoint.position) < 0.2f)
+                {
+                    patrolDestination = 1;
+                }
+                break;
+            case 1:
+                if (Vector2.Distance(transform.position, targetPoint.position) < 0.2f)
+                {
+                    patrolDestination = 0;
+                }
+                break;
+        }
+    }
+
+    void TargetingPlayer()
+    {
+        if (player == null) return;
+        Debug.Log("Targetel");
+        float distToPlayer = Vector2.Distance(transform.position, player.position);
+
+        if (distToPlayer > stopDis)
+        {
+            moveDir = (player.position - transform.position).normalized;
+        }
+        else
+        {
+            moveDir = Vector2.zero;
+            
+        }
+    }
+    void FlipTowardsPlayer()
+    {
+        if (player.position.x < transform.position.x && facingRight)
+        {
+            Flip();
+        }
+        else if (player.position.x > transform.position.x && !facingRight)
+        {
+            Flip();
+        }
+    }
+    void Flip()
+    {
+        facingRight = !facingRight;
+        Vector3 newS = transform.localScale;
+        newS.x *= -1;
+        transform.localScale = newS;
     }
 }
