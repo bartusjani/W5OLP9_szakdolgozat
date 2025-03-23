@@ -119,7 +119,9 @@ public class PlayerAttack : MonoBehaviour
         animator.SetBool("isAreaAttack", true);
         Debug.Log("area attack");
 
-        float attackDur =0.8f;
+        float attackDur =1.01f;
+
+
         yield return new WaitForSeconds(attackDur);
         Collider2D[] hit = Physics2D.OverlapCircleAll(areaAttackPoint.position, areaAttackRange , enemyLayers);
 
