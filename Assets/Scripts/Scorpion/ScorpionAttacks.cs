@@ -55,53 +55,68 @@ public class ScorpionAttacks : MonoBehaviour
         float distanceFromPlayer = Vector2.Distance(transform.position, PlayerPos());
 
 
-        if (distanceFromPlayer < 1f) 
+        if (distanceFromPlayer < 1f)
         {
-            Block();
+            StartCoroutine(Block());
         }
         if (distanceFromPlayer < 1.5f)
         {
-            QuickSlash();
+            StartCoroutine(QuickSlash());
         }
         else if (distanceFromPlayer > 3f)
         {
-            ForwardSlash();
+            StartCoroutine(ForwardSlash());
         }
         else
         {
-            StrongSlash();
+            StartCoroutine(StrongSlash());
         }
     }
 
-    void QuickSlash()
+    IEnumerator QuickSlash()
     {
-        animator.SetTrigger("playerNear");
+        
         Debug.Log("quick");
+        animator.SetBool("isQuickAttack", true);
+
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("isQuickAttack", false);
         nextAttack = Time.time + quickAttackCooldown;
         DealDamage(quickSlashDamage);
+
+        yield return new WaitForSeconds(nextAttack);
     }
-    void ForwardSlash()
+    IEnumerator ForwardSlash()
     {
         //Debug.Log("forward");
+
+        yield return new WaitForSeconds(1f);
         nextAttack = Time.time + forwardSlashCooldown;
         DealDamage(forwardSlashDamage);
+
+        yield return new WaitForSeconds(nextAttack);
     }
 
-    void StrongSlash()
+    IEnumerator StrongSlash()
     {
-        //animator.SetTrigger("strongAttack");
-       // Debug.Log("strong");
+        animator.SetBool("isStrongAttack",true);
+        Debug.Log("strong");
+        yield return new WaitForSeconds(1f);
         nextAttack = Time.time + strongSlashCooldown;
         DealDamage(StrongSlashDamage);
+        yield return new WaitForSeconds(nextAttack);
     }
 
     IEnumerator Block()
     {
         isBlocking = true;
 
-        yield return new WaitForSeconds(blockCooldown);
+        animator.SetBool("isBlocking", isBlocking);
 
+        yield return new WaitForSeconds(1f);
         isBlocking = false;
+        animator.SetBool("isBlocking", isBlocking);
+        yield return new WaitForSeconds(blockCooldown);
     }
 
     void DealDamage(int damage)
