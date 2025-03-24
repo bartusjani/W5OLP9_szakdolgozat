@@ -100,7 +100,7 @@ public class EnemyMovement : MonoBehaviour
     void TargetingPlayer()
     {
         if (player == null) return;
-        Debug.Log("Targetel");
+        //Debug.Log("Targetel");
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
         if (distToPlayer > stopDis)

@@ -44,32 +44,25 @@ public class ScorpionAttacks : MonoBehaviour
         return Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer) != null;
     }
 
-    Vector2 PlayerPos()
-    {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        return player ? player.transform.position : Vector2.zero;
-    }
-
     void ChooseAttack()
     {
-        float distanceFromPlayer = Vector2.Distance(transform.position, PlayerPos());
 
+        int random = Random.Range(0, 100);
 
-        if (distanceFromPlayer < 1f)
+        if (random < 30)
         {
             StartCoroutine(Block());
+            nextAttack = Time.time + blockCooldown;
         }
-        if (distanceFromPlayer < 1.5f)
+        if (random <80)
         {
             StartCoroutine(QuickSlash());
-        }
-        else if (distanceFromPlayer > 3f)
-        {
-            StartCoroutine(ForwardSlash());
+            nextAttack = Time.time + quickAttackCooldown;
         }
         else
         {
             StartCoroutine(StrongSlash());
+            nextAttack = Time.time + strongSlashCooldown;
         }
     }
 
@@ -86,25 +79,15 @@ public class ScorpionAttacks : MonoBehaviour
 
         yield return new WaitForSeconds(nextAttack);
     }
-    IEnumerator ForwardSlash()
-    {
-        //Debug.Log("forward");
-
-        yield return new WaitForSeconds(1f);
-        nextAttack = Time.time + forwardSlashCooldown;
-        DealDamage(forwardSlashDamage);
-
-        yield return new WaitForSeconds(nextAttack);
-    }
-
+   
     IEnumerator StrongSlash()
     {
         animator.SetBool("isStrongAttack",true);
         Debug.Log("strong");
         yield return new WaitForSeconds(1f);
+        animator.SetBool("isStrongAttack", false);
         nextAttack = Time.time + strongSlashCooldown;
         DealDamage(StrongSlashDamage);
-        yield return new WaitForSeconds(nextAttack);
     }
 
     IEnumerator Block()
@@ -123,7 +106,7 @@ public class ScorpionAttacks : MonoBehaviour
     {
         Collider2D player = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayer);
 
-        if (player)
+        if (player!= null )
         {
             player.GetComponent<PlayerHealth>()?.TakeDamage(damage);
         }

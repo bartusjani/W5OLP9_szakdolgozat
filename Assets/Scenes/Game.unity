@@ -3000,7 +3000,7 @@ MonoBehaviour:
   attackRange: 1
   quickSlashDamage: 10
   quickAttackCooldown: 0.5
-  StrongSlashDamage: 1
+  StrongSlashDamage: 20
   strongSlashCooldown: 1
   forwardSlashDamage: 10
   forwardSlashCooldown: 1.5
