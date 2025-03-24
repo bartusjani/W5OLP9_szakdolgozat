@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 4a9e90c930612994583b96d1c3868c68
+guid: a64a1bd547160cb4192a4b61a2352114
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3275414902617598881
-    second: boss_idle_sheet_0
+      213: 603086364090613288
+    second: human_walk_sheet_nagy_0
   - first:
-      213: 9127934119935739035
-    second: boss_idle_sheet_1
+      213: -6541663325983120801
+    second: human_walk_sheet_nagy_1
   - first:
-      213: -1963501125595796709
-    second: boss_idle_sheet_2
+      213: 100995829285554413
+    second: human_walk_sheet_nagy_2
   - first:
-      213: 5960586897329335479
-    second: boss_idle_sheet_3
+      213: -4924946412542050117
+    second: human_walk_sheet_nagy_3
+  - first:
+      213: 905132683366697917
+    second: human_walk_sheet_nagy_4
+  - first:
+      213: 3840310539303568741
+    second: human_walk_sheet_nagy_5
+  - first:
+      213: -3075803053055153909
+    second: human_walk_sheet_nagy_6
+  - first:
+      213: 6327838887053611588
+    second: human_walk_sheet_nagy_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_idle_sheet_0
+      name: human_walk_sheet_nagy_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 9
-        width: 161
-        height: 71
+        x: 442
+        y: 243
+        width: 414
+        height: 535
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1abea82008c947d20800000000000000
-      internalID: 3275414902617598881
+      spriteID: 82eb0845ad79e5800800000000000000
+      internalID: 603086364090613288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_idle_sheet_1
+      name: human_walk_sheet_nagy_1
       rect:
         serializedVersion: 2
-        x: 178
-        y: 9
-        width: 161
-        height: 73
+        x: 1264
+        y: 243
+        width: 458
+        height: 513
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9400ff58bfecae70800000000000000
-      internalID: 9127934119935739035
+      spriteID: f52639e3dd75735a0800000000000000
+      internalID: -6541663325983120801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_idle_sheet_2
+      name: human_walk_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 360
-        y: 9
-        width: 159
-        height: 74
+        x: 2130
+        y: 243
+        width: 458
+        height: 491
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b1b68cc112e30c4e0800000000000000
-      internalID: -1963501125595796709
+      spriteID: de88c50fb2fc66100800000000000000
+      internalID: 100995829285554413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_idle_sheet_3
+      name: human_walk_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 542
-        y: 9
-        width: 161
-        height: 73
+        x: 2995
+        y: 243
+        width: 425
+        height: 513
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +202,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7bca92cd33248b250800000000000000
-      internalID: 5960586897329335479
+      spriteID: bb0c89ec45317abb0800000000000000
+      internalID: -4924946412542050117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_4
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 243
+        width: 413
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb0ba2416daf8c00800000000000000
+      internalID: 905132683366697917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 243
+        width: 458
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565c062b6168b4530800000000000000
+      internalID: 3840310539303568741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 5515
+        y: 243
+        width: 458
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09e5976b6d8055d0800000000000000
+      internalID: -3075803053055153909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: human_walk_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 6381
+        y: 243
+        width: 424
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442dbb201fff0d750800000000000000
+      internalID: 6327838887053611588
       vertices: []
       indices: 
       edges: []

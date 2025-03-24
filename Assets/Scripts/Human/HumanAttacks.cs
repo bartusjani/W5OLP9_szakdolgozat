@@ -53,16 +53,20 @@ public class HumanAttacks : MonoBehaviour
             StartCoroutine(PreformBlock());
             nextAttackTime += Time.time + blockCooldown;
         }
-        else if(attackRoll <30)
+        else if(attackRoll < 30)
         {
             StartCoroutine(ForwardSlash());
             nextAttackTime += Time.time + forwardCooldown;
         }
-        else if (attackRoll > 30)
+        else if (attackRoll < 50)
         {
             StartCoroutine(QuickSlash());
-            StartCoroutine(StrongSlash());
             nextAttackTime += Time.time + quickCooldown;
+        }
+        else
+        {
+            StartCoroutine(StrongSlash());
+            nextAttackTime = Time.time + strongCooldown;
         }
     }
 

@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 0f1526121da5eb743a766fb4adc0b9c5
+guid: 2ac34f8b349f8b449864021034392792
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3193601581262834194
-    second: boss_walk_sheet_0
+      213: 5613210100839122161
+    second: boss_attack_strong_sheet_nagy_0
   - first:
-      213: -3376090867012779587
-    second: boss_walk_sheet_1
+      213: 5728044208098656020
+    second: boss_attack_strong_sheet_nagy_1
   - first:
-      213: 4521202206417120434
-    second: boss_walk_sheet_2
+      213: -370645405766393325
+    second: boss_attack_strong_sheet_nagy_2
   - first:
-      213: -5147952526290039260
-    second: boss_walk_sheet_3
+      213: 2281226800995275381
+    second: boss_attack_strong_sheet_nagy_3
   - first:
-      213: 6219980111104511807
-    second: boss_walk_sheet_4
+      213: -3197077310726425301
+    second: boss_attack_strong_sheet_nagy_4
   - first:
-      213: 449978142406794443
-    second: boss_walk_sheet_5
+      213: 2592465501522963446
+    second: boss_attack_strong_sheet_nagy_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_walk_sheet_0
+      name: boss_attack_strong_sheet_nagy_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 6
-        width: 167
-        height: 77
+        x: 292
+        y: 199
+        width: 2124
+        height: 923
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21a0c4db7b3f15c20800000000000000
-      internalID: 3193601581262834194
+      spriteID: 1f4862eb8d026ed40800000000000000
+      internalID: 5613210100839122161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_walk_sheet_1
+      name: boss_attack_strong_sheet_nagy_1
       rect:
         serializedVersion: 2
-        x: 205
-        y: 6
-        width: 172
-        height: 80
+        x: 2947
+        y: 199
+        width: 1951
+        height: 1043
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db143466e37b521d0800000000000000
-      internalID: -3376090867012779587
+      spriteID: 41f3479dbd91e7f40800000000000000
+      internalID: 5728044208098656020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_walk_sheet_2
+      name: boss_attack_strong_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 400
-        y: 6
-        width: 173
-        height: 81
+        x: 5482
+        y: 199
+        width: 1924
+        height: 1110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bc643fc3798ebe30800000000000000
-      internalID: 4521202206417120434
+      spriteID: 312e9ab97f33bdaf0800000000000000
+      internalID: -370645405766393325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_walk_sheet_3
+      name: boss_attack_strong_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 596
-        y: 6
-        width: 167
-        height: 77
+        x: 7977
+        y: 199
+        width: 2151
+        height: 1070
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42e48edc37cce88b0800000000000000
-      internalID: -5147952526290039260
+      spriteID: 5729c6560bb88af10800000000000000
+      internalID: 2281226800995275381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_walk_sheet_4
+      name: boss_attack_strong_sheet_nagy_4
       rect:
         serializedVersion: 2
-        x: 786
-        y: 6
-        width: 172
-        height: 80
+        x: 10699
+        y: 185
+        width: 2671
+        height: 964
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3f0168c4fec15650800000000000000
-      internalID: 6219980111104511807
+      spriteID: b25b0beef13b1a3d0800000000000000
+      internalID: -3197077310726425301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_walk_sheet_5
+      name: boss_attack_strong_sheet_nagy_5
       rect:
         serializedVersion: 2
-        x: 974
-        y: 6
-        width: 173
-        height: 81
+        x: 13901
+        y: 199
+        width: 2191
+        height: 963
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bccd8d68cb4ae3600800000000000000
-      internalID: 449978142406794443
+      spriteID: 6fb2bbe53a94af320800000000000000
+      internalID: 2592465501522963446
       vertices: []
       indices: 
       edges: []

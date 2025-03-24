@@ -1,22 +1,34 @@
 fileFormatVersion: 2
-guid: 71b9bdd10087f64489c4b8db8ed68143
+guid: 002bc7b6d0d2ebd418450a173eba6ef3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -85144574468135215
-    second: boss_block_ging in_sheet_0
+      213: 504346870861642216
+    second: boss_attack_dash_sheet_nagy_0
   - first:
-      213: -8415553246496917550
-    second: boss_block_ging in_sheet_1
+      213: 2402353824541032319
+    second: boss_attack_dash_sheet_nagy_1
   - first:
-      213: -8539183635006671850
-    second: boss_block_ging in_sheet_2
+      213: 8465734495688147859
+    second: boss_attack_dash_sheet_nagy_2
   - first:
-      213: -3757863265236735982
-    second: boss_block_ging in_sheet_3
+      213: 8509349487711091452
+    second: boss_attack_dash_sheet_nagy_3
   - first:
-      213: 4565387642847273053
-    second: boss_block_ging in_sheet_4
+      213: -441984682607493093
+    second: boss_attack_dash_sheet_nagy_4
+  - first:
+      213: -673105541981906347
+    second: boss_attack_dash_sheet_nagy_5
+  - first:
+      213: 6616399556125533608
+    second: boss_attack_dash_sheet_nagy_6
+  - first:
+      213: -434632513646928650
+    second: boss_attack_dash_sheet_nagy_7
+  - first:
+      213: -8232876437780560718
+    second: boss_attack_dash_sheet_nagy_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_block_ging in_sheet_0
+      name: boss_attack_dash_sheet_nagy_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 10
-        width: 161
-        height: 71
+        x: 243
+        y: 7
+        width: 1300
+        height: 565
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d6664ce57181def0800000000000000
-      internalID: -85144574468135215
+      spriteID: 8e9b9419ecccff600800000000000000
+      internalID: 504346870861642216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_block_ging in_sheet_1
+      name: boss_attack_dash_sheet_nagy_1
       rect:
         serializedVersion: 2
-        x: 206
-        y: 10
-        width: 149
-        height: 72
+        x: 1980
+        y: 7
+        width: 1284
+        height: 596
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d77a2ae8e2f53b80800000000000000
-      internalID: -8415553246496917550
+      spriteID: f7fb1904310e65120800000000000000
+      internalID: 2402353824541032319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_block_ging in_sheet_2
+      name: boss_attack_dash_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 393
-        y: 10
-        width: 137
-        height: 73
+        x: 3701
+        y: 7
+        width: 1251
+        height: 581
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 614399bf9b9be7980800000000000000
-      internalID: -8539183635006671850
+      spriteID: 3934342aba45c7570800000000000000
+      internalID: 8465734495688147859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_block_ging in_sheet_3
+      name: boss_attack_dash_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 576
-        y: 10
-        width: 115
-        height: 71
+        x: 5389
+        y: 7
+        width: 1243
+        height: 565
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2182311354369dbc0800000000000000
-      internalID: -3757863265236735982
+      spriteID: cfafbac4648471670800000000000000
+      internalID: 8509349487711091452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_block_ging in_sheet_4
+      name: boss_attack_dash_sheet_nagy_4
       rect:
         serializedVersion: 2
-        x: 737
-        y: 10
-        width: 100
-        height: 71
+        x: 7069
+        y: 7
+        width: 1226
+        height: 549
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +227,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d50aed96fd38b5f30800000000000000
-      internalID: 4565387642847273053
+      spriteID: b10440dd541cdd9f0800000000000000
+      internalID: -441984682607493093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_dash_sheet_nagy_5
+      rect:
+        serializedVersion: 2
+        x: 8651
+        y: 23
+        width: 1708
+        height: 524
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a52d96316a8a6f0800000000000000
+      internalID: -673105541981906347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_dash_sheet_nagy_6
+      rect:
+        serializedVersion: 2
+        x: 10796
+        y: 0
+        width: 1634
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a52ae2575c22db50800000000000000
+      internalID: 6616399556125533608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_dash_sheet_nagy_7
+      rect:
+        serializedVersion: 2
+        x: 12868
+        y: 7
+        width: 1438
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc5d381800e7f9f0800000000000000
+      internalID: -434632513646928650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_attack_dash_sheet_nagy_8
+      rect:
+        serializedVersion: 2
+        x: 14833
+        y: 7
+        width: 1300
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4086edf72febd80800000000000000
+      internalID: -8232876437780560718
       vertices: []
       indices: 
       edges: []
