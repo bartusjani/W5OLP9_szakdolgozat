@@ -218,8 +218,8 @@ TextureImporter:
         y: 129
         width: 389
         height: 394
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.36412475, y: 0.3695636}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,8 +240,8 @@ TextureImporter:
         y: 123
         width: 256
         height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49044418, y: 0.36356127}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,8 +262,8 @@ TextureImporter:
         y: 123
         width: 244
         height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.55740106, y: 0.38888362}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,8 +284,8 @@ TextureImporter:
         y: 123
         width: 430
         height: 405
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.31232738, y: 0.47491327}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_5
       rect:
         serializedVersion: 2
-        x: 12908
-        y: 123
+        x: 12902
+        y: 124
         width: 390
         height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.38328075, y: 0.45788231}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,8 +328,8 @@ TextureImporter:
         y: 123
         width: 257
         height: 393
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5157732, y: 0.47938472}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,8 +350,8 @@ TextureImporter:
         y: 123
         width: 139
         height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.52438927, y: 0.47638956}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_10
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 123
+        x: 1034
+        y: 124
         width: 158
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50597525, y: 0.4879067}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_11
       rect:
         serializedVersion: 2
-        x: 1749
-        y: 123
+        x: 1748
+        y: 124
         width: 188
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50205964, y: 0.47391126}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_12
       rect:
         serializedVersion: 2
-        x: 2407
-        y: 123
+        x: 2408
+        y: 121
         width: 281
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7460373, y: 0.50601965}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,8 +438,8 @@ TextureImporter:
         y: 123
         width: 312
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.74689114, y: 0.48198003}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_14
       rect:
         serializedVersion: 2
-        x: 3896
-        y: 123
+        x: 3898
+        y: 122
         width: 282
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.71953434, y: 0.49795076}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -482,8 +482,8 @@ TextureImporter:
         y: 123
         width: 281
         height: 275
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7335896, y: 0.480903}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -504,8 +504,8 @@ TextureImporter:
         y: 123
         width: 340
         height: 275
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.42807618, y: 0.5516477}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -526,8 +526,8 @@ TextureImporter:
         y: 123
         width: 281
         height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5630665, y: 0.48434025}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -545,11 +545,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10599
-        y: 116
+        y: 117
         width: 281
         height: 289
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.7199246, y: 0.52108234}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -570,8 +570,8 @@ TextureImporter:
         y: 123
         width: 281
         height: 275
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.77412564, y: 0.5134338}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -592,8 +592,8 @@ TextureImporter:
         y: 123
         width: 207
         height: 367
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5732658, y: 0.49955988}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -614,8 +614,8 @@ TextureImporter:
         y: 123
         width: 188
         height: 275
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5546563, y: 0.4851254}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -636,8 +636,8 @@ TextureImporter:
         y: 123
         width: 139
         height: 288
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5371726, y: 0.49025598}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -654,12 +654,12 @@ TextureImporter:
       name: attack_combo_sheet_nagy_24
       rect:
         serializedVersion: 2
-        x: 5417
-        y: 123
+        x: 5411
+        y: 121
         width: 474
         height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.39446634, y: 0.5098103}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -680,8 +680,8 @@ TextureImporter:
         y: 123
         width: 474
         height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.36328125, y: 0.5041022}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -731,6 +731,7 @@ TextureImporter:
       attack_combo_sheet_nagy_3: 5864422333155387671
       attack_combo_sheet_nagy_32: -5424773120309334684
       attack_combo_sheet_nagy_33: 8162633182383475344
+      attack_combo_sheet_nagy_4: 951998536
       attack_combo_sheet_nagy_5: -5963204405198778933
       attack_combo_sheet_nagy_6: 8734397359910127142
       attack_combo_sheet_nagy_9: -7330965490670731032

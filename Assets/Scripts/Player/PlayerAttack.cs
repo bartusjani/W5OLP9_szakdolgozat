@@ -18,11 +18,14 @@ public class PlayerAttack : MonoBehaviour
     public int areaDamage = 10;
 
 
-    bool isCombo = false;
     public bool isBlocking = false;
     public float blockDur = 1f;
     public float blockCooldown = 3f;
     private bool canBlock = true;
+
+    public int comboStep = 0;
+    float comboTime = 1f;
+    float LastAttackTime = 0f;
 
     public LayerMask enemyLayers;
 
@@ -40,6 +43,7 @@ public class PlayerAttack : MonoBehaviour
 
         if (Time.time >= attackTime)
         {
+            
             if(Input.GetKeyDown(KeyCode.Tab) && canBlock &&movement.IsGrounded())
             {
                 StartCoroutine(Block());
@@ -49,16 +53,9 @@ public class PlayerAttack : MonoBehaviour
                 StartCoroutine(JumpAttack());
                 attackTime = Time.time + 1f / attackRate;
             }
-            else if (isCombo && Input.GetKeyDown(KeyCode.Q) && movement.IsGrounded())
-            {
-                StartCoroutine(QuickAttackCombo());
-                attackTime = Time.time + 1f / attackRate;
-            }
             else if (Input.GetKeyDown(KeyCode.Q) && movement.IsGrounded())
             {
-                isCombo = true;
-                StartCoroutine(QuickAttack());
-                attackTime = Time.time + 1f / attackRate;
+                HandleCombo();
             }
             else if (Input.GetKeyDown(KeyCode.Y) && movement.IsGrounded()) 
             {
@@ -73,6 +70,37 @@ public class PlayerAttack : MonoBehaviour
             }
 
         }
+    }
+
+
+    void HandleCombo()
+    {
+        float timeFromLastAttack = Time.time - LastAttackTime;
+
+        if(timeFromLastAttack > comboTime)
+        {
+            comboStep = 0;
+        }
+
+        comboStep++;
+
+        switch (comboStep)
+        {
+            case 1:
+                StartCoroutine(QuickAttack());
+                break;
+
+            case 2:
+                StartCoroutine(QuickAttackCombo());
+                break;
+
+            case 3:
+                comboStep = 1;
+                break;
+        }
+
+        LastAttackTime = Time.time;
+        attackTime = Time.time + 1f / attackRate;
     }
 
     private void OnDrawGizmosSelected()
