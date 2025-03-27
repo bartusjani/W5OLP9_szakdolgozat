@@ -8087,7 +8087,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a52bf2838bd8c4dbaba662309a06bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 1000
   healthbar: {fileID: 1097686210}
   isBlocking: 0
 --- !u!95 &793944888

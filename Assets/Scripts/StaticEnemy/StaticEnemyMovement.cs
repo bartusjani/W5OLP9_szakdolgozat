@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class StaticEnemyPlaceChange : MonoBehaviour
@@ -19,24 +20,32 @@ public class StaticEnemyPlaceChange : MonoBehaviour
         if (enemyHealth.Health <= 20 && currWayPointIndex != waypoints.Length-1)
         {
             
-            MovePlace();
+            StartCoroutine(MovePlace());
             Debug.Log("currWayp:" + currWayPointIndex + "waypoint length: " + waypoints.Length);
         }
         else if (enemyHealth.Health <= 0)
         {
-            animator.SetBool("isDead", true);
-            enemyHealth.Die();
+            StartCoroutine(Died());
         }
     }
 
-    public void MovePlace()
+    IEnumerator Died()
+    {
+        animator.SetBool("isDead", true);
+        yield return new WaitForSeconds(2f);
+        enemyHealth.Die();
+    }
+
+    IEnumerator MovePlace()
     {
         animator.SetBool("Move", true);
+
+        yield return new WaitForSeconds(1f);
         enemyHealth.Health = 50;
         enemyHpBar.setHealth(enemyHealth.Health); 
         currWayPointIndex++;
         animator.SetBool("Move", false);
         transform.position = waypoints[currWayPointIndex].position;
-        
+        animator.Play("static_enemy_spawn");
     }
 }
