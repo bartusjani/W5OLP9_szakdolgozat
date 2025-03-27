@@ -66,8 +66,10 @@ public class EnemyHealth : MonoBehaviour
 
     public void Die()
     {
+        
         OnAnyEnemyDeath?.Invoke();
         Destroy(gameObject);
+        
         if (isBoss)
         {
             bossHpBar.SetActive(false);

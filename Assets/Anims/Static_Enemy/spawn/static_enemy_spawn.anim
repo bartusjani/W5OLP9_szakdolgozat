@@ -20,25 +20,25 @@ AnimationClip:
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
-    - time: 0.016666668
+    - time: 0
       value: {fileID: -8898477072970454562, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.1
+    - time: 0.083333336
       value: {fileID: 6221966992321920407, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.21666667
+    - time: 0.18333334
       value: {fileID: -5418021837548072256, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.3
+    - time: 0.26666668
       value: {fileID: 408407526259704980, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.38333333
+    - time: 0.36666667
       value: {fileID: 4061776093227718254, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.46666667
+    - time: 0.45
       value: {fileID: 7813505654407053876, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
     - time: 0.55
       value: {fileID: 5424038653091152135, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
     - time: 0.6333333
       value: {fileID: -183569783981642840, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.71666664
+    - time: 0.73333335
       value: {fileID: 1636554427626747576, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
-    - time: 0.8
+    - time: 0.81666666
       value: {fileID: -130549918524940194, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}
     - time: 0.9166667
       value: {fileID: -5955449022625253766, guid: 775b6bea44cb479458d89185a5dbbbdb, type: 3}

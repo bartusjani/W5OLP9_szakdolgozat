@@ -6,6 +6,9 @@ public class EnemyShoot : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform firepoint;
+
+    Animator animator;
+
     public float fireRate = 1f;
     private float fireTimer;
 
@@ -15,6 +18,8 @@ public class EnemyShoot : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+        animator = GetComponent<Animator>();
+
     }
 
     private void Update()
@@ -38,6 +43,7 @@ public class EnemyShoot : MonoBehaviour
 
     private void Shoot()
     {
+        
         GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
         Vector2 dir = (player.position - firepoint.position).normalized;
         bullet.GetComponent<Bullet>().SetDir(dir);
