@@ -135,7 +135,7 @@ public class PlayerAttack : MonoBehaviour
         Debug.Log("quick attack");
 
         animator.SetBool("isAttacking",true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.8f);
 
         animator.SetBool("isAttacking", false);
 

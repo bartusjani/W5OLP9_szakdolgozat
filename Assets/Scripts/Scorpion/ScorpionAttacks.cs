@@ -48,13 +48,13 @@ public class ScorpionAttacks : MonoBehaviour
     {
 
         int random = Random.Range(0, 100);
-
+        nextAttack = Time.time + quickAttackCooldown;
         if (random < 30)
         {
             StartCoroutine(Block());
             nextAttack = Time.time + blockCooldown;
         }
-        if (random <80)
+        if (random < 80)
         {
             StartCoroutine(QuickSlash());
             nextAttack = Time.time + quickAttackCooldown;
@@ -72,12 +72,10 @@ public class ScorpionAttacks : MonoBehaviour
         Debug.Log("quick");
         animator.SetBool("isQuickAttack", true);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.8f);
         animator.SetBool("isQuickAttack", false);
         nextAttack = Time.time + quickAttackCooldown;
         DealDamage(quickSlashDamage);
-
-        yield return new WaitForSeconds(nextAttack);
     }
    
     IEnumerator StrongSlash()
