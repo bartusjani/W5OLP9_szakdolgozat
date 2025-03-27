@@ -19,12 +19,11 @@ public class PlayerAttack : MonoBehaviour
 
 
     public bool isBlocking = false;
-    public float blockDur = 1f;
     public float blockCooldown = 3f;
     private bool canBlock = true;
 
     public int comboStep = 0;
-    float comboTime = 1f;
+    float comboTime = 1.5f;
     float LastAttackTime = 0f;
 
     public LayerMask enemyLayers;
@@ -120,13 +119,15 @@ public class PlayerAttack : MonoBehaviour
 
         animator.SetBool("isBlocking", isBlocking);
 
-        yield return new WaitForSeconds(blockDur);
+        yield return new WaitForSeconds(1.1f);
 
         shield.SetActive(false);
         isBlocking = false;
+        Debug.Log("elv nem kellene mar blockolnia");
         animator.SetBool("isBlocking", isBlocking);
 
         yield return new WaitForSeconds(blockCooldown);
+
         canBlock = true;
     }
 
@@ -139,12 +140,8 @@ public class PlayerAttack : MonoBehaviour
 
         animator.SetBool("isAttacking", false);
 
-        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        DealDamage(attackPoint, attackRange, damage);
 
-        foreach (Collider2D enemy in hit)
-        {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
-        }
         yield return new WaitForSeconds(1f);
     }
 
@@ -154,16 +151,11 @@ public class PlayerAttack : MonoBehaviour
 
         animator.SetBool("isStrongAt", true);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.8f);
 
         animator.SetBool("isStrongAt", false);
 
-        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-        foreach (Collider2D enemy in hit)
-        {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(strongDamage);
-        }
+        DealDamage(attackPoint, attackRange, strongDamage);
 
         yield return new WaitForSeconds(1f);
     }
@@ -177,12 +169,7 @@ public class PlayerAttack : MonoBehaviour
 
         animator.SetBool("isComboAt", false);
 
-        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-
-        foreach (Collider2D enemy in hit)
-        {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(damage+damage);
-        }
+        DealDamage(attackPoint, attackRange, damage + damage);
 
         yield return new WaitForSeconds(1f);
     }
@@ -196,11 +183,7 @@ public class PlayerAttack : MonoBehaviour
 
         animator.SetBool("isAttacking", false);
 
-        Collider2D[] hit = Physics2D.OverlapCircleAll(jumpAttackPoint.position, attackRange, enemyLayers);
-        foreach (Collider2D enemy in hit)
-        {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
-        }
+        DealDamage(jumpAttackPoint, attackRange, damage);
 
         yield return new WaitForSeconds(1f);
     }
@@ -213,19 +196,24 @@ public class PlayerAttack : MonoBehaviour
 
 
         yield return new WaitForSeconds(attackDur);
-        Collider2D[] hit = Physics2D.OverlapCircleAll(areaAttackPoint.position, areaAttackRange , enemyLayers);
-
-        foreach (Collider2D enemy in hit)
-        {
-            enemy.GetComponent<EnemyHealth>().TakeDamage(areaDamage);
-        }
-
 
         animator.SetBool("isAreaAttack", false);
+
+        DealDamage(areaAttackPoint, areaAttackRange, areaDamage);
 
         yield return new WaitForSeconds(attackTime);
 
         
+    }
+
+    void DealDamage(Transform attackPoint, float range, int damage)
+    {
+        Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, range, enemyLayers);
+
+        foreach (Collider2D enemy in hit)
+        {
+            enemy.GetComponent<EnemyHealth>().TakeDamage(damage);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
