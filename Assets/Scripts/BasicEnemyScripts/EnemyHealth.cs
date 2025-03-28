@@ -14,6 +14,7 @@ public class EnemyHealth : MonoBehaviour
     public bool isBoss = false;
     public bool isScorpion = false;
     public bool isHuman = false;
+    public bool isStaticEnemy = false;
 
     public int Health
     {
@@ -55,26 +56,46 @@ public class EnemyHealth : MonoBehaviour
                 return;
             }
         }
-
-        health -= damage;
-        hpBar.setHealth(health);
-        if (health <= 0)
+        if (isStaticEnemy)
         {
-            Die();
+            health -= damage;
+            hpBar.setHealth(health);
+            if (health <= 0)
+            {
+                Die(1.2f);
+            }
         }
+        else
+        {
+            health -= damage;
+            hpBar.setHealth(health);
+            if (health <= 0)
+            {
+                Die(0f);
+            }
+        }
+
     }
 
-    public void Die()
+    public void Die(float time)
     {
         
         OnAnyEnemyDeath?.Invoke();
-        Destroy(gameObject);
-        
+
+        if (time> 0)
+        {
+            Destroy(gameObject, time);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
         if (isBoss)
         {
             bossHpBar.SetActive(false);
             trapDoor.SetActive(false);
         }
     }
+
     
 }

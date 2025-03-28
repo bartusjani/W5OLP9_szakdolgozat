@@ -6,7 +6,9 @@ public class StaticEnemyPlaceChange : MonoBehaviour
     
     public Transform[] waypoints;
     Animator animator;
-    private int currWayPointIndex = -1;
+    private int currWayPointIndex = 0;
+    bool isMoving = false;
+    bool isDying = false;
 
     public EnemyHealth enemyHealth;
     public EnemyHpBar enemyHpBar;
@@ -17,35 +19,53 @@ public class StaticEnemyPlaceChange : MonoBehaviour
 
     private void Update()
     {
-        if (enemyHealth.Health <= 20 && currWayPointIndex != waypoints.Length-1)
+        if (isDying && enemyHealth.Health <= 0)
+        {
+            StopAllCoroutines();
+            StartCoroutine(Died());
+            return;
+        }
+
+        if (enemyHealth.Health <= 20 && currWayPointIndex < waypoints.Length && !isMoving)
         {
             
             StartCoroutine(MovePlace());
             Debug.Log("currWayp:" + currWayPointIndex + "waypoint length: " + waypoints.Length);
         }
-        else if (enemyHealth.Health <= 0)
+        else if(currWayPointIndex == waypoints.Length)
         {
-            StartCoroutine(Died());
+            isDying = true;
         }
     }
 
     IEnumerator Died()
     {
         animator.SetBool("isDead", true);
-        yield return new WaitForSeconds(2f);
-        enemyHealth.Die();
+
+        yield return new WaitForSeconds(1.3f);
+        
     }
 
     IEnumerator MovePlace()
     {
+        if (isDying) yield break;
+
+        isMoving = true;
         animator.SetBool("Move", true);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.3f);
+        transform.position = waypoints[currWayPointIndex].position;
+        
+        if(currWayPointIndex < waypoints.Length)
+        {
+            currWayPointIndex ++;
+        }
+
+        animator.SetBool("Move", false);
+        isMoving = false;
         enemyHealth.Health = 50;
         enemyHpBar.setHealth(enemyHealth.Health); 
-        currWayPointIndex++;
-        animator.SetBool("Move", false);
-        transform.position = waypoints[currWayPointIndex].position;
+
         animator.Play("static_enemy_spawn");
     }
 }

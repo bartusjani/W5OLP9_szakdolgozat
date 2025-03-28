@@ -2002,6 +2002,7 @@ MonoBehaviour:
   isBoss: 1
   isScorpion: 0
   isHuman: 0
+  isStaticEnemy: 0
 --- !u!1 &216541282
 GameObject:
   m_ObjectHideFlags: 0
@@ -2981,6 +2982,7 @@ MonoBehaviour:
   isBoss: 0
   isScorpion: 1
   isHuman: 0
+  isStaticEnemy: 0
 --- !u!114 &296750855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5999,7 +6001,7 @@ Transform:
   m_GameObject: {fileID: 562070588}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.58, y: -35.11, z: 0}
+  m_LocalPosition: {x: -8.72, y: -35.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9191,7 +9193,7 @@ Transform:
   m_GameObject: {fileID: 1049624161}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.28, y: -35, z: 0}
+  m_LocalPosition: {x: 4.21, y: -35.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9279,6 +9281,7 @@ MonoBehaviour:
   isBoss: 0
   isScorpion: 1
   isHuman: 0
+  isStaticEnemy: 0
 --- !u!114 &1073589474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24248,6 +24251,7 @@ MonoBehaviour:
   isBoss: 0
   isScorpion: 0
   isHuman: 1
+  isStaticEnemy: 0
 --- !u!114 &1390546566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24988,7 +24992,7 @@ Transform:
   m_GameObject: {fileID: 1472826973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.62, y: -35.61, z: 0.05646397}
+  m_LocalPosition: {x: 21.65, y: -35.58, z: 0.05646397}
   m_LocalScale: {x: 0.06, y: 0.06, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25131,6 +25135,7 @@ MonoBehaviour:
   isBoss: 0
   isScorpion: 0
   isHuman: 0
+  isStaticEnemy: 1
 --- !u!114 &1472826980
 MonoBehaviour:
   m_ObjectHideFlags: 0
