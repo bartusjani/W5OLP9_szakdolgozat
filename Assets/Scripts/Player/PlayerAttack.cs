@@ -123,7 +123,6 @@ public class PlayerAttack : MonoBehaviour
 
         shield.SetActive(false);
         isBlocking = false;
-        Debug.Log("elv nem kellene mar blockolnia");
         animator.SetBool("isBlocking", isBlocking);
 
         yield return new WaitForSeconds(blockCooldown);
@@ -220,8 +219,15 @@ public class PlayerAttack : MonoBehaviour
     {
         if (isBlocking && collision.CompareTag("Bullet"))
         {
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
+            StartCoroutine(DelayedDestroy(collision));
         }
+    }
+
+    IEnumerator DelayedDestroy(Collider2D collision)
+    {
+        yield return new WaitForSeconds(0.2f);
+        Destroy(collision.gameObject);
     }
 
 }

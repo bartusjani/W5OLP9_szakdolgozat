@@ -7,7 +7,7 @@ public class EnemyShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public Transform firepoint;
 
-    Animator animator;
+    Animator fireballAnimator;
 
     public float fireRate = 1f;
     private float fireTimer;
@@ -18,7 +18,6 @@ public class EnemyShoot : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
-        animator = GetComponent<Animator>();
 
     }
 
@@ -43,10 +42,18 @@ public class EnemyShoot : MonoBehaviour
 
     private void Shoot()
     {
-        
-        GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
-        Vector2 dir = (player.position - firepoint.position).normalized;
-        bullet.GetComponent<Bullet>().SetDir(dir);
+        if (canShoot)
+        {
+
+            GameObject bullet = Instantiate(bulletPrefab, firepoint.position, Quaternion.identity);
+
+            fireballAnimator = bullet.GetComponent<Animator>();
+
+            fireballAnimator.Play("shooting_fireball");
+
+            Vector2 dir = (player.position - firepoint.position).normalized;
+            bullet.GetComponent<Bullet>().SetDir(dir);
+        }
     }
 
     private IEnumerator ShootingPaused()

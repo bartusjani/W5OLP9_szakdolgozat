@@ -1,3 +1,4 @@
+using System.Collections;
 using System.ComponentModel;
 using System.Net;
 using UnityEngine;
@@ -9,8 +10,18 @@ public class Bullet : MonoBehaviour
 
     private Vector2 dir;
     public PlayerHealth ph;
+    Animator animator;
     public static int blockedBullets = 0;
 
+    private void Start()
+    {
+
+        animator = GetComponent<Animator>();
+        if (animator == null)
+        {
+            Debug.LogError("Animator not found on bullet prefab!");
+        }
+    }
     public void SetDir(Vector2 direction)
     {
         dir = direction.normalized;
@@ -23,34 +34,37 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-        //if (collision.gameObject.tag == "Player")
-        //{
-        //    ph= collision.gameObject.GetComponent<PlayerHealth>();
-        //    ph.TakeDamage(damage);
-        //    Destroy(gameObject);
-        //}
-        //else if (collision.gameObject.tag=="Shield")
-        //{
-        //    blockedBullets++;
-        //    Debug.Log("Blocked  bullets:"+ blockedBullets);
-        //    Destroy(gameObject);
-        //}
         switch (collision.gameObject.tag)
         {
             case "Player":
+                animator.SetTrigger("isCollided");
+
                 ph = collision.gameObject.GetComponent<PlayerHealth>();
                 ph.TakeDamage(damage);
-                Destroy(gameObject);
+                StartCoroutine(DestroyWithDelay());
+                
                 break;
             case "Shield":
+                animator.SetTrigger("isCollided");
                 blockedBullets++;
                 Debug.Log("Blocked  bullets:" + blockedBullets);
-                Destroy(gameObject);
+                StartCoroutine(DestroyWithDelay());
+                
                 break;
             case "Wall":
-                Destroy(gameObject);
+                animator.SetTrigger("isCollided");
+
+                StartCoroutine(DestroyWithDelay());
+                
                 break;
         }
+    }
+
+
+    IEnumerator DestroyWithDelay()
+    {
+        yield return new WaitForSeconds(0.2f);
+        Destroy(gameObject);
     }
 
     private void OnBecameInvisible()
