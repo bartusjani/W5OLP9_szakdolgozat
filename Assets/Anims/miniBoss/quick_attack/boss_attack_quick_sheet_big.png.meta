@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,10 +90,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boss_attack_quick_sheet_big_0: -8404872505033595781
+      boss_attack_quick_sheet_big_1: 2606927161199353288
+      boss_attack_quick_sheet_big_2: 2716148991480020075
+      boss_attack_quick_sheet_big_3: -5563940299890488384
+      boss_attack_quick_sheet_big_4: -5673326897095173507
+      boss_attack_quick_sheet_big_5: -4114388558727817178
+      boss_attack_quick_sheet_big_6: 966558460369036861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

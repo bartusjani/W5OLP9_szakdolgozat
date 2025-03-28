@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 
@@ -6,13 +8,13 @@ public class MiniBossMovement : MonoBehaviour
     Transform player;
 
     public float speed = 3f;
-    public float stopDis = 3f;
+    public float stopDis = 1f;
 
     private Vector2 moveDir;
     private bool facingRight = true;
 
     private Rigidbody2D rb;
-
+    Animator animator;
     EnemyHealth health;
     MiniBossAttacks mba;
 
@@ -21,6 +23,7 @@ public class MiniBossMovement : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         mba = GetComponent<MiniBossAttacks>();
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
@@ -31,11 +34,12 @@ public class MiniBossMovement : MonoBehaviour
     }
     private void Update()
     {
+        
         FlipTowardsPlayer();
         if (player != null)
         {
 
-            TargetingPlayer();
+            StartCoroutine(TargetingPlayer());
 
         }
     }
@@ -44,17 +48,21 @@ public class MiniBossMovement : MonoBehaviour
         if (rb.linearVelocity.y == 0) rb.linearVelocity = moveDir * speed;
     }
 
-    void TargetingPlayer()
+    IEnumerator TargetingPlayer()
     {
-        if (player == null) return;
+        animator.SetTrigger("GettingUp");
+        yield return new WaitForSeconds(1f);
+        if (player == null) yield break ;
         float distToPlayer = Vector2.Distance(transform.position, player.position);
 
         if(distToPlayer > stopDis)
         {
+            animator.SetBool("Walk",true);
             moveDir= (player.position -transform.position).normalized;
         }
         else
         {
+            animator.SetBool("Walk", false);
             moveDir = Vector2.zero;
             mba.ChoosePhase();
         }
