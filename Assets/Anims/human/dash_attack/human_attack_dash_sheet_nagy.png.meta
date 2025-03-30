@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,10 +105,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -141,7 +141,7 @@ TextureImporter:
         width: 541
         height: 673
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,8 +162,8 @@ TextureImporter:
         y: 391
         width: 628
         height: 673
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.40894663, y: 0.5141609}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: human_attack_dash_sheet_nagy_2
       rect:
         serializedVersion: 2
-        x: 2167
-        y: 391
+        x: 2151
+        y: 395
         width: 701
         height: 658
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.41842812, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,8 +206,8 @@ TextureImporter:
         y: 391
         width: 701
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.37311095, y: 0.51973134}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -228,8 +228,8 @@ TextureImporter:
         y: 391
         width: 672
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.37709045, y: 0.50493264}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,8 +250,8 @@ TextureImporter:
         y: 391
         width: 658
         height: 644
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.34067932, y: 0.52466416}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,8 +272,8 @@ TextureImporter:
         y: 391
         width: 861
         height: 600
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3265887, y: 0.510589}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,7 +295,7 @@ TextureImporter:
         width: 1531
         height: 527
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -316,8 +316,8 @@ TextureImporter:
         y: 391
         width: 1356
         height: 527
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.48360154, y: 0.50602776}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: human_attack_dash_sheet_nagy_9
       rect:
         serializedVersion: 2
-        x: 12556
-        y: 391
+        x: 12553
+        y: 388
         width: 1050
         height: 600
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4122619, y: 0.44705394}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,7 +361,7 @@ TextureImporter:
         width: 731
         height: 673
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,7 +383,7 @@ TextureImporter:
         width: 541
         height: 673
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 043467732f36de24fb99a05cc7e5d5cd
     internalID: 0
     vertices: []
     indices: 
@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_attack_dash_sheet_nagy_0: 5397681813534107043
+      human_attack_dash_sheet_nagy_1: 6272714675039300996
+      human_attack_dash_sheet_nagy_10: 2131309000835233604
+      human_attack_dash_sheet_nagy_11: -126904862512770179
+      human_attack_dash_sheet_nagy_2: 6125587142858614970
+      human_attack_dash_sheet_nagy_3: -8225399520314918778
+      human_attack_dash_sheet_nagy_4: 5839448345999931241
+      human_attack_dash_sheet_nagy_5: -5407115186696827258
+      human_attack_dash_sheet_nagy_6: -3952218556609091577
+      human_attack_dash_sheet_nagy_7: -3993650697532635093
+      human_attack_dash_sheet_nagy_8: -2679010675561333213
+      human_attack_dash_sheet_nagy_9: 3418241463677893388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

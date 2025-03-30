@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,10 +120,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -177,8 +177,8 @@ TextureImporter:
         y: 290
         width: 512
         height: 1036
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5431366, y: 0.28986278}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,8 +199,8 @@ TextureImporter:
         y: 290
         width: 512
         height: 1065
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.54929733, y: 0.29262242}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,8 +221,8 @@ TextureImporter:
         y: 290
         width: 614
         height: 657
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.36125773, y: 0.4711862}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,8 +243,8 @@ TextureImporter:
         y: 290
         width: 658
         height: 643
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.3417657, y: 0.4803724}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,12 +261,12 @@ TextureImporter:
       name: human_attack_quick_sheet_nagy_8
       rect:
         serializedVersion: 2
-        x: 3505
+        x: 3489
         y: 290
         width: 978
         height: 643
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.30643517, y: 0.4411172}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,8 +287,8 @@ TextureImporter:
         y: 290
         width: 702
         height: 628
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.40561566, y: 0.48995164}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: human_attack_quick_sheet_nagy_11
       rect:
         serializedVersion: 2
-        x: 4931
+        x: 4972
         y: 290
         width: 1225
         height: 526
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.27592316, y: 0.47600657}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,8 +331,8 @@ TextureImporter:
         y: 290
         width: 1022
         height: 526
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.29933265, y: 0.49400163}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,8 +353,8 @@ TextureImporter:
         y: 290
         width: 847
         height: 541
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.269047, y: 0.453344}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,8 +375,8 @@ TextureImporter:
         y: 290
         width: 1051
         height: 771
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.30186746, y: 0.4386166}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,8 +397,8 @@ TextureImporter:
         y: 290
         width: 890
         height: 570
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4042837, y: 0.4889291}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,8 +419,8 @@ TextureImporter:
         y: 290
         width: 862
         height: 555
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.41581398, y: 0.5170543}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -457,6 +457,7 @@ TextureImporter:
       human_attack_quick_sheet_nagy_15: -5298654106145758373
       human_attack_quick_sheet_nagy_16: 69974551237204473
       human_attack_quick_sheet_nagy_2: -4913380504590295029
+      human_attack_quick_sheet_nagy_3: -773487235
       human_attack_quick_sheet_nagy_6: 5347494135399812892
       human_attack_quick_sheet_nagy_7: 6639557421749405807
       human_attack_quick_sheet_nagy_8: -3139278858980154774

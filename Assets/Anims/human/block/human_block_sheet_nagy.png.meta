@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,10 +120,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -156,7 +156,7 @@ TextureImporter:
         width: 471
         height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,8 +177,8 @@ TextureImporter:
         y: 277
         width: 471
         height: 571
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.43209702, y: 0.50000024}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,8 +199,8 @@ TextureImporter:
         y: 277
         width: 635
         height: 559
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.34297913, y: 0.4932694}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: human_block_sheet_nagy_3
       rect:
         serializedVersion: 2
-        x: 3235
-        y: 277
+        x: 3233
+        y: 279
         width: 457
         height: 698
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5164664, y: 0.40027598}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,8 +243,8 @@ TextureImporter:
         y: 277
         width: 471
         height: 685
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5159775, y: 0.4011298}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,8 +265,8 @@ TextureImporter:
         y: 277
         width: 496
         height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5644797, y: 0.4104152}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,8 +287,8 @@ TextureImporter:
         y: 277
         width: 458
         height: 698
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.52875423, y: 0.3760186}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,8 +309,8 @@ TextureImporter:
         y: 277
         width: 483
         height: 685
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54674053, y: 0.39838332}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,8 +331,8 @@ TextureImporter:
         y: 277
         width: 508
         height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.55555063, y: 0.39361808}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: human_block_sheet_nagy_9
       rect:
         serializedVersion: 2
-        x: 8747
-        y: 277
+        x: 8755
+        y: 279
         width: 521
         height: 698
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6119392, y: 0.39758083}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,8 +375,8 @@ TextureImporter:
         y: 277
         width: 521
         height: 685
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.52527815, y: 0.3928906}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,8 +397,8 @@ TextureImporter:
         y: 277
         width: 509
         height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5702262, y: 0.39081845}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,8 +419,8 @@ TextureImporter:
         y: 277
         width: 509
         height: 698
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.55913866, y: 0.41375217}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -441,8 +441,8 @@ TextureImporter:
         y: 277
         width: 457
         height: 685
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5288182, y: 0.3873977}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,8 +463,8 @@ TextureImporter:
         y: 277
         width: 446
         height: 672
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.52952677, y: 0.39641753}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,8 +485,8 @@ TextureImporter:
         y: 277
         width: 635
         height: 559
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.34890655, y: 0.5201929}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -507,8 +507,8 @@ TextureImporter:
         y: 277
         width: 471
         height: 584
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4041393, y: 0.49033606}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,7 +525,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f52cd260ae77430438ef0444d9e21e15
     internalID: 0
     vertices: []
     indices: 
@@ -534,7 +534,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_block_sheet_nagy_0: 9114475664267658890
+      human_block_sheet_nagy_1: -2556961361810813714
+      human_block_sheet_nagy_10: 1559450462397401532
+      human_block_sheet_nagy_11: 8715025944746081840
+      human_block_sheet_nagy_12: 2023246767516547867
+      human_block_sheet_nagy_13: 547653871077369331
+      human_block_sheet_nagy_14: 1686148186208335825
+      human_block_sheet_nagy_15: 6786628208850855497
+      human_block_sheet_nagy_16: -8238846454692425383
+      human_block_sheet_nagy_2: -3313051128111895670
+      human_block_sheet_nagy_3: -6585612121503199112
+      human_block_sheet_nagy_4: -6001108253209182500
+      human_block_sheet_nagy_5: 3230581499225634819
+      human_block_sheet_nagy_6: -8730036746757479283
+      human_block_sheet_nagy_7: -5930649089813210459
+      human_block_sheet_nagy_8: -8848203151459519318
+      human_block_sheet_nagy_9: 1741319800288265826
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

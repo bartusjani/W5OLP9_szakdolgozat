@@ -63,7 +63,7 @@ public class MiniBossMovement : MonoBehaviour
         }
         else if(distToPlayer > stopDis)
         {
-            Debug.Log(distToPlayer);
+            
             animator.SetBool("Walk",true);
             moveDir= (player.position -transform.position).normalized;
         }

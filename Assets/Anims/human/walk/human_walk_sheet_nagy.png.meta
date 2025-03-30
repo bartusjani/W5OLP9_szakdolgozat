@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 180
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,10 +93,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      human_walk_sheet_nagy_0: 603086364090613288
+      human_walk_sheet_nagy_1: -6541663325983120801
+      human_walk_sheet_nagy_2: 100995829285554413
+      human_walk_sheet_nagy_3: -4924946412542050117
+      human_walk_sheet_nagy_4: 905132683366697917
+      human_walk_sheet_nagy_5: 3840310539303568741
+      human_walk_sheet_nagy_6: -3075803053055153909
+      human_walk_sheet_nagy_7: 6327838887053611588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
