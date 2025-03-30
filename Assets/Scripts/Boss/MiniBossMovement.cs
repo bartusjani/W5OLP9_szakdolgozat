@@ -53,10 +53,17 @@ public class MiniBossMovement : MonoBehaviour
         animator.SetTrigger("GettingUp");
         yield return new WaitForSeconds(1f);
         if (player == null) yield break ;
-        float distToPlayer = Vector2.Distance(transform.position, player.position);
+        float distToPlayer = Vector2.Distance(transform.position, player.position)-4f;
 
-        if(distToPlayer > stopDis)
+        if (mba.PlayerInDashArea())
         {
+            animator.SetBool("Walk", false);
+            moveDir = Vector2.zero;
+            mba.ChoosePhase();
+        }
+        else if(distToPlayer > stopDis)
+        {
+            Debug.Log(distToPlayer);
             animator.SetBool("Walk",true);
             moveDir= (player.position -transform.position).normalized;
         }
