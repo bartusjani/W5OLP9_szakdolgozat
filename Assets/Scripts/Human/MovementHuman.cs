@@ -14,9 +14,11 @@ public class MovementHuman : MonoBehaviour
 
     EnemyHealth health;
     HumanAttacks ha;
+    Animator animator;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         ha = GetComponent<HumanAttacks>();
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
@@ -34,6 +36,10 @@ public class MovementHuman : MonoBehaviour
             TargetingPlayer();
 
         }
+        else
+        {
+            animator.SetBool("Walk", false);
+        }
     }
 
     private void FixedUpdate()
@@ -44,14 +50,21 @@ public class MovementHuman : MonoBehaviour
     void TargetingPlayer()
     {
         if (player == null) return;
+        animator.SetBool("Walk", true);
         float distToPlayer = Vector2.Distance(transform.position, player.position);
-
-        if (distToPlayer > 3f)
+        if (ha.PlayerInDashArea()&& ha.canForwardAttack)
+        {
+            animator.SetBool("Walk", false);
+            moveDir = Vector2.zero;
+            ha.PreformForwardAttack();
+        }
+        if (distToPlayer > 2f)
         {
             moveDir = (player.position - transform.position).normalized;
         }
         else
         {
+            animator.SetBool("Walk", false);
             moveDir = Vector2.zero;
             ha.ChooseAttack();
         }

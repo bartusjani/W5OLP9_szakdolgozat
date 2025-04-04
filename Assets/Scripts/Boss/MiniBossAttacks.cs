@@ -127,8 +127,6 @@ public class MiniBossAttacks : MonoBehaviour
     IEnumerator PreformStrongSlash()
     {
 
-        //if (attack) yield break;
-        //attack = true;
         Debug.Log("strongSlash");
 
         animator.SetBool("StrongAttack", true);
@@ -136,7 +134,7 @@ public class MiniBossAttacks : MonoBehaviour
         DealDamage(attackPoint, strongDamage);
 
         animator.SetBool("StrongAttack", false);
-        //attack = false;
+
 
     }
 
@@ -152,8 +150,6 @@ public class MiniBossAttacks : MonoBehaviour
     }
     IEnumerator PreformAreaAttack()
     {
-        //if (attack) yield break;
-        //attack = true;
         Debug.Log("AreaAttack");
 
         animator.SetBool("AreaAttack", true);
@@ -161,16 +157,12 @@ public class MiniBossAttacks : MonoBehaviour
         DealDamage(areaAttackPoint, areaDamage,areaAttackRange);
         animator.SetBool("AreaAttack", false);
         yield return new WaitForSeconds(1f);
-        //attack = false;
     }
 
     IEnumerator PreformForwardSlash()
     {
-        //if (attack) yield break;
-        //attack = true;
-        
-        Debug.Log("forward s");
 
+        Debug.Log("forward s");
 
         Collider2D playerCollider = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Collider2D>();
 
@@ -205,7 +197,6 @@ public class MiniBossAttacks : MonoBehaviour
         
         yield return new WaitForSeconds(2f);
         Physics2D.IgnoreCollision(bossCollider, playerCollider, false);
-        //attack = false;
     }
 
     IEnumerator PreformQuickSlash()
