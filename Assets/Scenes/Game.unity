@@ -1925,6 +1925,7 @@ MonoBehaviour:
   isBlocking: 0
   attackRange: 2
   areaAttackRange: 5
+  phase2: 0
 --- !u!114 &199937873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8097,7 +8098,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -87.04, y: -0.61, z: 0}
+  m_LocalPosition: {x: -78, y: -1.07, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MiniBossAttacks : MonoBehaviour
@@ -16,8 +17,8 @@ public class MiniBossAttacks : MonoBehaviour
     public bool isBlocking = false;
 
 
-    float strongCooldown = 0.5f;
-    float areaCooldown = 1.5f;
+    float strongCooldown = 2f;
+    float areaCooldown = 2.5f;
     float blockCooldown = 1f;
 
     public float attackRange = 2f;
@@ -29,9 +30,11 @@ public class MiniBossAttacks : MonoBehaviour
     int slashDamage = 50;
 
     float nextAttackTime = 0f;
-    
 
-    bool isSlashAttack = false;
+
+    public bool phase2 = false;
+
+    //bool attack = false;
 
     private void Start()
     {
@@ -47,11 +50,11 @@ public class MiniBossAttacks : MonoBehaviour
 
         if(eh.Health < 250)
         {
+            phase2 = true;
             Phase2();
         }
         else
         {
-
             Phase1();
         }
     }
@@ -59,6 +62,7 @@ public class MiniBossAttacks : MonoBehaviour
 
     void Phase1()
     {
+        Debug.Log("nextattackTime" + nextAttackTime + "Time.time" + Time.time);
         if (Time.time >= nextAttackTime)
         {
 
@@ -68,19 +72,19 @@ public class MiniBossAttacks : MonoBehaviour
             if (Random.Range(0f, 1f) <= blockChance)
             {
                 StartCoroutine(PreformBlock());
-                nextAttackTime += nextAttackTime + blockCooldown;
+                nextAttackTime =Time.time + blockCooldown;
             }
             else
             {
                 if (attackRoll < 70)
                 {
                     StartCoroutine(PreformStrongSlash());
-                    nextAttackTime += nextAttackTime + strongCooldown;
+                    nextAttackTime =Time.time + strongCooldown;
                 }
-                else if (attackRoll > 70)
+                else
                 {
                     StartCoroutine(PreformAreaAttack());
-                    nextAttackTime += nextAttackTime + areaCooldown;
+                    nextAttackTime =Time.time + areaCooldown;
                 }
             }
         }
@@ -101,19 +105,19 @@ public class MiniBossAttacks : MonoBehaviour
             if (Random.Range(0f, 1f) <= blockChance)
             {
                 StartCoroutine(PreformBlock());
-                nextAttackTime += nextAttackTime + blockCooldown;
+                nextAttackTime =blockCooldown;
             }
             else
             {
                 if (attackRoll < 50)
                 {
                     StartCoroutine(PreformForwardSlash());
-                    nextAttackTime += nextAttackTime + 0.7f;
+                    nextAttackTime =Time.time + 2f;
                 }
                 else
                 {
                     StartCoroutine(PreformQuickSlash());
-                    nextAttackTime += nextAttackTime + 0.2f;
+                    nextAttackTime =Time.time + 1f;
                 }
             }
         }
@@ -122,13 +126,17 @@ public class MiniBossAttacks : MonoBehaviour
 
     IEnumerator PreformStrongSlash()
     {
+
+        //if (attack) yield break;
+        //attack = true;
         Debug.Log("strongSlash");
 
         animator.SetBool("StrongAttack", true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.2f);
         DealDamage(attackPoint, strongDamage);
 
         animator.SetBool("StrongAttack", false);
+        //attack = false;
 
     }
 
@@ -144,19 +152,23 @@ public class MiniBossAttacks : MonoBehaviour
     }
     IEnumerator PreformAreaAttack()
     {
+        //if (attack) yield break;
+        //attack = true;
         Debug.Log("AreaAttack");
 
         animator.SetBool("AreaAttack", true);
-        yield return new WaitForSeconds(1f);
-        DealDamage(areaAttackPoint, areaDamage);
+        yield return new WaitForSeconds(0.8f);
+        DealDamage(areaAttackPoint, areaDamage,areaAttackRange);
         animator.SetBool("AreaAttack", false);
-
-
+        yield return new WaitForSeconds(1f);
+        //attack = false;
     }
 
     IEnumerator PreformForwardSlash()
     {
-        isSlashAttack = true;
+        //if (attack) yield break;
+        //attack = true;
+        
         Debug.Log("forward s");
 
 
@@ -190,14 +202,16 @@ public class MiniBossAttacks : MonoBehaviour
 
         DealDamage(attackPoint, slashDamage);
         animator.SetBool("DashAttack", false);
-        isSlashAttack = false;
-
+        
+        yield return new WaitForSeconds(2f);
         Physics2D.IgnoreCollision(bossCollider, playerCollider, false);
-
+        //attack = false;
     }
 
     IEnumerator PreformQuickSlash()
     {
+        //if (attack) yield break;
+        //attack = true;
         Debug.Log("quick slash from boss");
         animator.SetBool("QuickAttack", true);
 
@@ -206,6 +220,8 @@ public class MiniBossAttacks : MonoBehaviour
         animator.SetBool("QuickAttack", false);
 
         DealDamage(attackPoint, quickDamage);
+        yield return new WaitForSeconds(0.5f);
+        //attack = false;
     }
 
     void DealDamage(Transform attackPoint,int damage)
@@ -217,13 +233,20 @@ public class MiniBossAttacks : MonoBehaviour
             player.GetComponent<PlayerHealth>()?.TakeDamage(damage);
         }
     }
+    void DealDamage(Transform attackPoint, int damage,float range)
+    {
+        Collider2D player = Physics2D.OverlapCircle(attackPoint.position, range, playerLayer);
+
+        if (player)
+        {
+            player.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+        }
+    }
 
     public bool PlayerInDashArea()
     {
-        if (!isSlashAttack) return false;
-
+        
         Collider2D player = Physics2D.OverlapCircle(slashAttackPoint.position,attackRange, playerLayer);
-
         return player != null;
     }
 

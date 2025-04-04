@@ -55,7 +55,7 @@ public class MiniBossMovement : MonoBehaviour
         if (player == null) yield break ;
         float distToPlayer = Vector2.Distance(transform.position, player.position)-4f;
 
-        if (mba.PlayerInDashArea())
+        if (mba.PlayerInDashArea() && mba.phase2)
         {
             animator.SetBool("Walk", false);
             moveDir = Vector2.zero;
