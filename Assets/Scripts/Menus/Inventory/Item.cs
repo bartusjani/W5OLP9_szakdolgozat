@@ -1,8 +1,5 @@
 using System;
 using TMPro;
-using Unity.VisualScripting;
-using UnityEditor.PackageManager.Requests;
-using UnityEditor.Presets;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -18,14 +15,22 @@ public class Item : MonoBehaviour
     [SerializeField]
     Image border;
 
+    [SerializeField]
+    public TMP_Text title;
+
+    public TextMeshProUGUI a;
+    [SerializeField]
+    public TMP_Text desc;
+
 
     public event Action<Item> OnItemClicked;
 
-    bool empty = false;
+    
 
     public void Awake()
     {
         Reset();
+        ResetDesc();
         Deselect();
     }
 
@@ -41,7 +46,7 @@ public class Item : MonoBehaviour
     public void Reset()
     {
         this.itemIcon.gameObject.SetActive(false);
-        empty = true;
+        
     }
 
     public void SetItem(Sprite icon)
@@ -49,7 +54,21 @@ public class Item : MonoBehaviour
 
         this.itemIcon.gameObject.SetActive(true);
         this.itemIcon.sprite=icon;
-        empty = false;
+        
+
+    }
+
+    public void ResetDesc()
+    {
+        this.title.text = "";
+        this.desc.text = "";
+
+    }
+
+    public void SetDesc(string title, string desc)
+    {
+        this.title.text = title;
+        this.desc.text = desc;
 
     }
 

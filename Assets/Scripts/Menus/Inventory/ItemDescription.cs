@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class ItemDescription : MonoBehaviour
 {
-    [SerializeField]
-    public TMP_Text title;
 
     [SerializeField]
-    public TMP_Text desc;
+    TMP_Text title;
 
+    [SerializeField]
+    TMP_Text desc;
     private void Awake()
     {
         ResetDesc();

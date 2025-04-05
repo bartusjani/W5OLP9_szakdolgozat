@@ -36,7 +36,10 @@ public class ItemTrigger : MonoBehaviour
             if (!item.itemIcon.gameObject.activeSelf)
             {
                 item.SetItem(icon);
+                item.SetDesc(itemTitle, itemDesc);
+                break;
             }
+
         }
     }
 }

@@ -9,13 +9,10 @@ public class InventoryPage : MonoBehaviour
     Item itemPrefab;
     [SerializeField]
     RectTransform contentPanel;
-
     [SerializeField]
     ItemDescription itemDesc;
 
     public List<Item> items = new List<Item>();
-
-    public Sprite icon;
 
     public void IntializeInv(int size)
     {
@@ -31,7 +28,6 @@ public class InventoryPage : MonoBehaviour
     private void Awake()
     {
         Hide();
-        itemDesc.ResetDesc();
     }
 
     private void HandleItemSelected(Item item)
@@ -42,15 +38,15 @@ public class InventoryPage : MonoBehaviour
         }
         item.Select();
 
-        itemDesc.SetDesc(itemDesc.title.text,itemDesc.desc.text);
+        item.SetDesc(item.title.text,item.desc.text);
+        itemDesc.SetDesc(item.title.text, item.desc.text);
     }
 
     public void Show()
     {
         gameObject.SetActive(true);
+        itemPrefab.ResetDesc();
         itemDesc.ResetDesc();
-
-        items[0].SetItem(icon);
     }
 
     public void Hide()
