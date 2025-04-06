@@ -7,11 +7,11 @@ public class Trigger : MonoBehaviour
 
     public GameObject door;
     public GameObject text;
+    public WayPointUI waypoint;
 
 
     void Start()
     {
-
         text.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +20,7 @@ public class Trigger : MonoBehaviour
         {
             text.SetActive(true);
             door.SetActive(false);
+            waypoint.SetTarget(door.transform);
         }
     }
 

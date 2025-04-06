@@ -11,6 +11,8 @@ TagManager:
   - Shield
   - Bullet
   - Wall
+  - Trigger
+  - WayPoint
   layers:
   - Default
   - TransparentFX

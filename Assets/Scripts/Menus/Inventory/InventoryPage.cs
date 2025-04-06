@@ -9,6 +9,7 @@ public class InventoryPage : MonoBehaviour
     Item itemPrefab;
     [SerializeField]
     RectTransform contentPanel;
+
     [SerializeField]
     ItemDescription itemDesc;
 
