@@ -219,7 +219,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if (isBlocking && collision.CompareTag("Bullet"))
         {
-            //Destroy(collision.gameObject);
+            
             StartCoroutine(DelayedDestroy(collision));
         }
     }
@@ -227,7 +227,11 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator DelayedDestroy(Collider2D collision)
     {
         yield return new WaitForSeconds(0.2f);
-        Destroy(collision.gameObject);
+
+        if (collision != null && collision.gameObject != null)
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
 }

@@ -16,6 +16,9 @@ public class EnemyHealth : MonoBehaviour
     public bool isHuman = false;
     public bool isStaticEnemy = false;
 
+    public WayPointUI wp;
+    public Transform bossRoomTarget;
+
     public int Health
     {
         get { return health; }
@@ -63,6 +66,7 @@ public class EnemyHealth : MonoBehaviour
             if (health <= 0)
             {
                 Die(1.2f);
+                wp.SetTarget(bossRoomTarget);
             }
         }
         else
