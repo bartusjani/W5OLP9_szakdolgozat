@@ -15,9 +15,13 @@ public class Options : MonoBehaviour
 
     public Dropdown resDropdown;
 
+    PauseMenu pm;
+    
+
     Resolution[] res;
     void Start()
     {
+        pm = GetComponent<PauseMenu>();
         res = Screen.resolutions;
 
         resDropdown.ClearOptions();
@@ -58,6 +62,7 @@ public class Options : MonoBehaviour
 
     public void Back()
     {
+        pm.isOptionsOpened = false;
         mainMenuUI.SetActive(true);
         optionsUI.SetActive(false);
     }

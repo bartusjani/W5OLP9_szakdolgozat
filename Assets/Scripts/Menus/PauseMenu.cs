@@ -7,13 +7,15 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour
 {
     public static bool isGamePaused = false;
+    public bool isOptionsOpened = false;
     public GameObject pauseMenuUI;
     public GameObject hpUI;
     public GameObject optionsMenuUI;
+    public GameObject inGameMenu;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !isOptionsOpened)
         {
             if (isGamePaused)
             {
@@ -29,7 +31,8 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        
+        isOptionsOpened = false;
+        inGameMenu.SetActive(true);
         pauseMenuUI.SetActive(false);
         hpUI.SetActive(true);
         Time.timeScale = 1f;
@@ -39,6 +42,7 @@ public class PauseMenu : MonoBehaviour
 
     void Pause()
     {
+        inGameMenu.SetActive(false);
         hpUI.SetActive(false);
         pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
@@ -47,6 +51,7 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadOptions()
     {
+        isOptionsOpened = true;
         pauseMenuUI.SetActive(false);
         optionsMenuUI.SetActive(true);
     }
