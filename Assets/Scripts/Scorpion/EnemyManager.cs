@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class GroundDoorTrigger : MonoBehaviour
 {
-    public GameObject groundDoor;
+    public bool groundDoorTrigger=false;
     public Transform groundDoorTarget;
     public WayPointUI wp;
     private int allScorpions;
@@ -27,7 +27,7 @@ public class GroundDoorTrigger : MonoBehaviour
         if(deadScorpions>= allScorpions)
         {
             //Debug.Log("All died");
-            groundDoor.SetActive(false);
+            groundDoorTrigger = true;
             wp.SetTarget(groundDoorTarget);
         }
     }

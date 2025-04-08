@@ -42,7 +42,7 @@ public class Movement : MonoBehaviour
 
         horizontal = Input.GetAxis("Horizontal");
 
-        if(Input.GetButton("Jump") && IsGrounded())
+        if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) && IsGrounded())
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpingPower);
             isGrounded = false;
@@ -56,18 +56,18 @@ public class Movement : MonoBehaviour
             
         }
 
-        if(Input.GetKeyDown(KeyCode.E) && canDash)
+        if(Input.GetKeyDown(KeyCode.Space) && canDash)
         {  
             StartCoroutine(Dash());
         }
-        else if(Input.GetKeyDown(KeyCode.E) && canDash && !isGrounded==false)
+        else if(Input.GetKeyDown(KeyCode.Space) && canDash && !isGrounded==false)
         {
             StartCoroutine(JumpDash());
         }
 
        
 
-        if (Input.GetKey(KeyCode.LeftShift) && IsGrounded())
+        if (Input.GetKey(KeyCode.S) && IsGrounded())
         {
             Run();
         }

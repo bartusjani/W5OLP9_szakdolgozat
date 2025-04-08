@@ -5,25 +5,53 @@ using UnityEngine.UI;
 public class Trigger : MonoBehaviour
 {
 
-    public GameObject door;
+    public bool isDoorOpen = false;
+    public GameObject interactText;
+    bool isPlayerInTrigger = false;
+
+    public PopUpBubble prefab;
+    PopUpBubble activeBubble;
+    public string message;
+    public Sprite image;
+
     public Transform doorWaypointTarget;
-    public GameObject popUp;
-    public GameObject text;
     public WayPointUI waypoint;
 
-
-    void Start()
+    private void Update()
     {
-        text.SetActive(false);
+        if (Input.GetKeyDown(KeyCode.E) && isPlayerInTrigger)
+        {
+            
+            interactText.SetActive(false);
+
+            if (activeBubble == null)
+            {
+                Transform parent = GameObject.Find("PopUps").transform;
+
+                activeBubble = Instantiate(prefab, parent);
+                activeBubble.SetText(message);
+                activeBubble.SetSprite(image);
+            }
+
+            waypoint.SetTarget(doorWaypointTarget.transform);
+            isDoorOpen = true;
+            //GetComponent<Collider2D>().enabled = false;
+        }
+        if (!isPlayerInTrigger)
+        {
+            if (activeBubble != null)
+            {
+                Destroy(activeBubble.gameObject);
+                activeBubble = null;
+            }
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            waypoint.SetTarget(doorWaypointTarget.transform);
-            text.SetActive(true);
-            door.SetActive(false);
-            popUp.SetActive(false);
+            interactText.SetActive(true);
+            isPlayerInTrigger = true;
 
         }
     }
@@ -33,7 +61,8 @@ public class Trigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            text.SetActive(false);
+            interactText.SetActive(false);
+            isPlayerInTrigger = false;
 
         }
     }

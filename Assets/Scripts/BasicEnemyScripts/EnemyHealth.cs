@@ -8,10 +8,11 @@ public class EnemyHealth : MonoBehaviour
     private int health;
     public EnemyHpBar hpBar;
     public GameObject bossHpBar;
-    public GameObject trapDoor;
+    public GameObject bossTrigger;
     public static event Action OnAnyEnemyDeath;
 
     public bool isBoss = false;
+    public static bool isBossDead = false;
     public bool isScorpion = false;
     public bool isHuman = false;
     public bool isStaticEnemy = false;
@@ -86,6 +87,12 @@ public class EnemyHealth : MonoBehaviour
         
         OnAnyEnemyDeath?.Invoke();
 
+        if (isBoss)
+        {
+            bossTrigger.SetActive(true);
+            bossHpBar.SetActive(false);
+            isBossDead = true;
+        }
         if (time> 0)
         {
             Destroy(gameObject, time);
@@ -93,11 +100,6 @@ public class EnemyHealth : MonoBehaviour
         else
         {
             Destroy(gameObject);
-        }
-        if (isBoss)
-        {
-            bossHpBar.SetActive(false);
-            trapDoor.SetActive(false);
         }
     }
 
