@@ -13,7 +13,7 @@ public class PlayerAttack : MonoBehaviour
     public GameObject shield;
     Animator animator;
 
-    public int damage=5;
+    public int damage=10;
     public int strongDamage = 15;
     public int areaDamage = 10;
 

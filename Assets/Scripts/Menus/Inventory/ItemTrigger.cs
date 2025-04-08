@@ -9,15 +9,19 @@ public class ItemTrigger : MonoBehaviour
     [SerializeField] string desc;
     [SerializeField] InventoryController invController;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    InventoryPage playerInvPage;
+    public GameObject interactText;
+    bool isPlayerInTrigger = false;
+    bool isItemAdded = false;
+
+
+    private void Update()
     {
-        
-        if (collision.CompareTag("Player"))
+        if (Input.GetKeyDown(KeyCode.E) && isPlayerInTrigger)
         {
-            InventoryPage invPage = collision.GetComponent<InventoryController>().invUI;
-            if (invPage != null)
+            if (playerInvPage != null)
             {
-                AddItemToInv(invPage, itemIcon, title, desc);
+                AddItemToInv(playerInvPage, itemIcon, title, desc);
             }
             else
             {
@@ -25,7 +29,35 @@ public class ItemTrigger : MonoBehaviour
 
             }
         }
-        Destroy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.CompareTag("Player"))
+        {
+            isPlayerInTrigger = true;
+            interactText.SetActive(true);
+            InventoryPage invPage = collision.GetComponent<InventoryController>().invUI;
+            playerInvPage = invPage;
+        }
+        if (isItemAdded)
+        {
+            interactText.SetActive(false);
+            isPlayerInTrigger = false;
+            Destroy(gameObject);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            interactText.SetActive(false);
+            isPlayerInTrigger = false;
+        }
+        if (isItemAdded)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void AddItemToInv(InventoryPage inventoryPage, Sprite icon, string itemTitle, string itemDesc)
@@ -37,6 +69,7 @@ public class ItemTrigger : MonoBehaviour
             {
                 item.SetItem(icon);
                 item.SetDesc(itemTitle, itemDesc);
+                isItemAdded = true;
                 break;
             }
 

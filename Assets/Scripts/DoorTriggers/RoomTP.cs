@@ -4,15 +4,23 @@ public class RoomTP : MonoBehaviour
 {
     public GameObject interactText;
     bool isPlayerInTrigger = false;
+    public bool isResearchRoom = false;
 
     public Transform player;
     public Transform room;
+
+    public GameObject WarRoomScorpion1;
+    public GameObject WarRoomScorpion2;
 
     private void Update()
     {
         if (isPlayerInTrigger)
         {
-
+            if (isResearchRoom)
+            {
+                WarRoomScorpion1.SetActive(true);
+                WarRoomScorpion2.SetActive(true);
+            }
             if (Input.GetKeyDown(KeyCode.E))
             {
                 player.position = room.position;
