@@ -5,6 +5,7 @@ public class BossDoorTriggers : MonoBehaviour
     public GameObject bossHpBar;
     public GameObject boss;
     public GameObject trigger;
+    public GameObject libraryTP;
 
     public Transform player;
     public Transform room;
@@ -26,6 +27,7 @@ public class BossDoorTriggers : MonoBehaviour
         if(collision.CompareTag("Player") && EnemyHealth.isBossDead)
         {
             isPlayerInTrigger = true;
+            libraryTP.SetActive(true);
         }
         else if (collision.gameObject.tag == "Player")
         {
