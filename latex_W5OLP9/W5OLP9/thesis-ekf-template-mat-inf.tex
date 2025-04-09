@@ -10,6 +10,7 @@
 ]{thesis-ekf}
 \usepackage[T1]{fontenc}
 \usepackage{hyperref}
+\usepackage{graphicx}
 \PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
 \usepackage[magyar]{babel}
 \usepackage{mathtools,amssymb,amsthm,pdfpages}
@@ -109,8 +110,6 @@ A Godot az MIT licenc alatt készült és kerül kiterjesztésre. Az MIT licenc 
 	\item Egyszerű, mégis nagy teljesítményű 3D motor \\ Támogatja a magas és az alacsony teljesítményű eszközöket, a Vulkan renderelő kiaknázza a játék GPU-k erejét.
 	\item Speciális 2D munkafolyamat játékokhoz és alkalmazásokhoz \\ A dedikált 2D tile map editor lehetővé teszi a gyors világépítést, egyszerűsíti a logikát és a GUI rendszert a játékokhoz.
 \end{itemize}
-
-\section{Unity}
 \section{Unreal Engine}
 
 Az Unreal Engine az Epic Games által fejlesztett, nagy teljesítményű játékmotor.Az első verzióját 1998-ban adták ki. A legfrissebb verziója az Unreal Engine 5. A motor támogatja a C++ programozási nyelven való fejlesztést, de a Blueprint rendszere lehetővé teszi a vizuális programozást is. A motor teljesen ingyen használható egy bevételi határ alatt, így lehetőséget ad a kisebb fejlesztők számára is.
@@ -157,6 +156,132 @@ Az Unreal Engine számos erősséggel rendelkezik, amelyek hozzájárulnak ahhoz
 	\item[$\bullet$] Blueprint rendszer \\ A vizuális szkriptnyelv lehetővé teszi, hogy kódolás nélkül fejlesszünk játékokat, így gyors prototípusokat készíthetünk.
 	\item[$\bullet$] Platform támogatás \\Az Unreal Engine támogatja a legtöbb nagy platformot, beleértve a PC-t, konzolokat, mobil eszközöket és VR/AR eszközöket. Ez lehetővé teszi a fejlesztők számára, hogy széles körű közönséghez juttassák el alkotásaikat.
 \end{itemize}
+
+
+\section{Unity}
+A Unity egy rendkívül népszerű és széles körben használt játékmotor. A Unityben lehetőség nyílik játékok, interaktív élmények és egyéb 3D- és 2D-alapú alkalmazások fejlesztésére.A fejlesztők különböző platformokon (például PC, konzolok, mobiltelefonok, VR/AR eszközök) készíthetnek a Unityvel alkalmazásokat.
+\subsection{Programozási nyelv}
+A Unityben a programozás alapértelmezetten  C\#--ban történik.A C\# egy objektum--orientált programozási nyelv,amelyet a Microsoft fejleszt, és népszerű nyelv mivel könnyen tanulható és erőteljes eszközt biztosít a komplex játékmechanikák létrehozásához.
+\subsubsection{C\# Főbb jellemzői}
+\begin{itemize}
+	\item[$\bullet$]Objektum--orientált \\Lehetővé teszi a kódok szervezését osztályok és objektumok formájában, megkönnyítve ezzel a karbantartást és a bővítést.
+	\item[$\bullet$]Garbage collection\\A C\# automatikusan kezeli a memóriát egy beépített szemétgyűjtő rendszer segítségével, ami csökkenti a memóriaszivárgás és a memória kezelése körüli hibák kockázatát.
+	\item[$\bullet$]Kivételkezelés\\A C\# támogatja a kivételkezelést.Try--catch blokkokat alkalmaz, amely lehetővé teszi a hibák hatékony kezelését és a program hibamentes futását.
+	\item[$\bullet$]Kompatibilitás a .NET és Mono környezetekkel\\A C\# kódot futtathatjuk a .NET keretrendszeren és az open-source Mono környezeten is, így lehetővé téve az alkalmazások futtatását különböző platformokon mint például Windows,Linux és macOS.
+\end{itemize}
+\subsection{fontosabb verziók}
+A Unity folyamatosan fejlődő és frissülő játékmotor, amelyet az Unity Technologies fejlesztett ki.Az alábbiakban pár verziójáról fogok írni.
+\begin{itemize}
+	\item[$\bullet$]Unity 4.0\\2012 novemberében jelent meg. A Unity 4.0--nak a célja a meglévő technológia javítása és új funkciók bevezetése volt. Főbb újítások:
+	\begin{itemize}
+		\item Fejlett vizuális képességek minden platformra\\Mobil platformokon is real-time árnyékok, skinned mesh instancing, normál térképek használata a fényképekhez.
+		\item Mecanim animációs rendszer \\ Fejlett karakteranimációk létrehozására, beleértve az állapotgépeket, blend tree-ket, és auto retargetinget különböző karakterekhez.
+		\item DirectX 11 támogatás \\ Teljes támogatás a shader model 5, tesszeláció és compute shaderek használatára a jobb grafikai teljesítmény érdekében.
+	\end{itemize}
+	\item[$\bullet$]Unity 5.0\\2015 márciusában jelent meg. Jelentős grafikai fejlesztésekkel és bővített szerkesztői funkciókkal jelent meg. Az új verzió lehetővé teszi a fejlesztők számára, hogy gyönyörű és innovatív játékokat készítsenek 21 platformra.
+	\item[$\bullet$]Unity 6\\2024 októberében jelent meg. Jelenleg ez a legfrissebb verziója a Unitynek. A verzió számos fejlesztést és újítást tartalmaz, ezek közül párat részletesebben is leírok:
+	\begin{itemize}
+		\item Grafikai teljesítmény javítás \\A GPU Resident Drawer lehetővé teszi, hogy nagyobb és részletesebb világokat rendereljünk hatékonyan, miközben csökkenti a CPU költségeket. A GPU Occlusion Culling segítségével csak azokat az objektumokat rendereljük, amelyek láthatóak a képernyőn, így optimalizálva a teljesítményt. Ezen kívül a Render Graph technológia, amely különösen mobilplatformokon hasznos, javítja a memória- és energiahatékonyságot, míg a PC-k és konzolok esetében magasabb szintű testre szabhatóságot biztosít.
+		\item Több játékos fejlesztések \\A  Unity 6 erősíti a multiplayer fejlesztést a Multiplayer Center-el, amely egy központi hubként szolgál, segítve a multiplayer eszközök és szolgáltatások kiválasztását, anélkül, hogy bonyolult technológiai döntéseket kellene hozni.
+		\item Több platformos fejlesztés \\A Unity 6 egy új munkafolyamatot vezet be a Build Profile és Platform Browser funkciókkal, amelyek segítenek jobban kezelni és testreszabni a különböző platformokra készült build-eket.
+		\item Ai és vizuális fejlesztések \\Az Adaptive Probe Volumes (APV) automatikusan elhelyezi a fénypróbákat, így gyorsabbá téve a fényalapú közvetett világításokkal való munkát.Az új Sentis AI lehetővé teszi a testreszabott AI modellek gyors integrálását.
+	\end{itemize}
+\end{itemize}
+\subsection{licenszelési kérdések}
+A Unity licencelési rendszer különböző típusú felhasználók és fejlesztők számára biztosít hozzáférést a motor különböző funkcióihoz. Az alábbi felsorolásban írok egyes licencekről.
+\begin{itemize}
+	\item[$\bullet$] Unity Student \\ Ingyenes. kizárólág diákok vehetik igénybe.
+	\item[$\bullet$] Unity Personal\\ Ingyenes. Bárki használhatja.
+	\item[$\bullet$] Unity Pro\\200\$ /hónap. Ezzel lehet konzolokra is kiadni.
+	\item[$\bullet$] Unity Enterprise\\A legnagyobb vállalatok számára kínált lehetőség. Ez a verzió a legfejlettebb eszközöket és prémium támogatást biztosít, és általában személyre szabott megoldásokat kínál.
+\end{itemize}
+\subsection{főbb erősségei}
+A Unity számos erősséggel rendelkezik, ebből párat részletesebben leírok.
+\begin{itemize}
+	\item[$\bullet$]Egyszerűsített multiplayer játékfejlesztés \\  A Unity 6 integrált multiplayer platformot kínál, amely gyorsítja a játékok online funkcióinak fejlesztését és tesztelését, megkönnyítve a többjátékos élmények létrehozását. 
+	\item[$\bullet$]Fejlettebb mesterséges intelligencia képességek \\Az új Sentis eszközkészlet lehetővé teszi a fejlesztők számára, hogy AI modelleket integráljanak a játékokba, dinamikus és interaktív élményeket teremtve ezzel a játékosok számára. 
+	\item[$\bullet$]Ray Tracing támogatás \\  Unity 6 natív támogatást ad a Ray Tracing API-hoz, lehetővé téve a fejlettebb és realisztikusabb fény-- és árnyékolási effektusok alkalmazását,amik a grafikai minőséget jelentősen megemelik.
+\end{itemize}
+Ezek a fejlesztések a Unity 6-ban jelentősen növelik a játékfejlesztés hatékonyságát és minőségét, kielégítve a modern fejlesztők igényeit.
+
+
+\subsection{Jelenetek}
+A Unity-ben a fejlesztés jelenetekben (scenes) történik, amelyek a játék vagy alkalmazás különböző részeit reprezentálják. Minden jelenet önálló egységként működik, és különféle GameObjecteket, komponenseket, valamint beállításokat tartalmazhat, amelyek együtt alkotják az adott rész működését és megjelenését.
+\subsection{GameObject}
+Unityben a GameObject reprezentál mindent ami egy jeleneten belül lehet. A GameObject osztály sok metódussal rendelkezik amivel segíti a programozást, például GameObjectek közötti keresés,üzenetküldés, a GameObjectekhez kapcsolt komponensek hozzáadása vagy eltávolítása.
+
+\subsubsection{Komponensek}
+A komponensek minden GameObjectnek funkcionális darabjai.A komponensek szerkesztésével lehet a GameObjectek viselkedését módosítani.Komponenst lehet hozzáadni,szerkeszteni vagy törölni a GameObjectről .Egy GameObjectnek lehet több komponense is, viszont egy Transform komponenssel muszáj rendelkeznie, mivel ezzel lehet a GameObjectnek meghatározni a helyét, forgatását és a méretarányát.
+
+Ebben a szekcióban bemutatom részletesebben azokat a komponenseket amiket használtam a szakdolgozatom megírása során.
+
+\subsubsection{Transform}
+A Transform  mint fentebb említettem a GameObject helyét, forgatását és méretarányát tárolja a jelenetben.A 2D térben a Transzformokat csak az x- vagy az y-tengelyen lehet módosítani.A 3D térben x-,y- és z-tengelyen lehet módosítani.  A Unityben ezeket a tengelyeket a piros, a zöld és a kék színek jelölik.Ezeket lehet módosítani a jelenetben, a kódban vagy az inspector ablakban.
+\subsubsection{Collider}
+A Collider a Unity egyik legfontosabb alap komponense, amely lehetővé teszi hogy a GameObjectek fizikai kölcsönhatásba lépjenek egymással.A Collider egy fizikai határvonalat (ütköződobozt) határoz meg egy GameObject körül. Ez a határvonal láthatatlan a játékban, de a fizikai motor (Rigidbody) használja az ütközések, érintkezések, áthaladások stb. kezelésére.Collidert lehet 2D vagy 3D játékfejlesztésben is használni. A Collidereknek van isTrigger opciójuk ami ha be van állítva akkor nem ütköznek össze másik colliderekkel, de eseményeket tud kiváltani.Sok különböző alakú Collider létezik például néhány fajtája:
+\begin{itemize}
+	\item Circle Collider 2D/3D
+	\item Box Collider 2D/3D
+	\item Capsule Collider 2D/3D
+\end{itemize}
+
+\subsubsection{RigidBody}
+A RigidBody2D lehetővé teszi a fizikán alapuló viselkedést, például a gravitációt, tömeget lehet vele módosítani.Ez mozgatja a GameObjectet felülírva a Transform komponenst.RigidBody komponenst lehet használni 2D vagy 3D játékfejlesztésben is. Ha Collider komponens is van a GameObjecten akkor együtt mozog a RigidBody--val.
+
+\subsubsection{Sprite renderer}
+A Sprite renderer komponensnek adnunk kell egy képet ami betölti és ez kontrollálja hogyan néz ki a jelenetben a GameObject Sprite-ja.
+
+\subsubsection{Light}
+A Light komponens segítségével fényforrásokat hozhatunk létre,amelyek megvilágítják a jelenet, árnyékokat vetnek. Light komponens lehet 2D vagy 3D játékfejlesztésben is. Néhány fajtája:
+\begin{itemize}
+	\item Pontfény \\ Minden irányba egyenletesen sugároz fényt.
+	\item Irányított fény \\ Egyetlen irányba világít.
+	\item Spot fény \\ Kúp alakú területben világít.
+\end{itemize}
+\subsubsection{Script}
+A Unityben majdnem minden szkripttel vezérelhető.A GameObjectekhez kapcsolható Script komponensek a MonoBehavior osztálytól öröklődnek. C\# nyelvet használja. A szkriptekkel lehet befolyásolni a játék viselkedését. A szkriptek .cs fájlokként tárolódnak. 
+
+\subsubsection{Animator}
+Az Animator komponenst akkor használjuk amikor a GameObjecthez valamilyen animácíót szeretnénk társítani. Az Animatornak viszont kell egy Animator Controller ami megmondja melyik animációkat használja.
+
+\subsubsection{Prefab}
+A Prefab az egy sablon. A Unityben prefabokban lehet tárolni kész GameObject-eket az összes komponensükkel, így könnyebben újrahasználhatók ezek. Különösen hasznos akkor amikor több példányra lenne szükség például egy ellenségből. Egy prefab használatával nem kell minden egyes alkalommal újra beállítani az objektum tulajdonságait vagy összerakni a komponenseit. Ehelyett egyszer elkészítjük és elmentjük a kívánt objektumot, majd ezt a sablont bármikor könnyedén drag \& drop módszerrel hozzáadhatjuk bármelyik jelenethez, vagy akár szkripttel is instantiálhatjuk futás közben.
+
+\subsection{Editor}
+Az Editor egy grafikus felület ahol a fejlesztők összeállítják a jeleneteket, elhelyezik a GameObjecteket, beállítják a komponenseket és tesztelik a játékmenetet.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{UnityEditorKep.png}
+	\caption{Unity Editor}
+	\label{fig:kep}
+\end{figure}
+
+\subsubsection{Scene View}
+A Scene View az Editor egyik legfontosabb része. Itt láthatod vizuálisan,szerkesztheted a játékot. A GameObjecteket itt választhatod ki, itt módosíthatod őket. A Scene View egy interaktív ablak amely megkönnyíti a jelenetek felépítését.
+\subsubsection{Game View}
+A Game View a játék végső, futtatott állapotát mutatja. Ez a nézet a projektben elhelyezett kamerák által renderelt képet jeleníti meg.
+
+\subsubsection{Inspector}
+Az Inspector ablakban található a kijelölt GameObject összes tulajdonsága,komponense. Itt lehet módosítani a kijelölt GameObject tulajdonságait, hozzáadni/eltávolítani komponenseket.
+
+\subsubsection{Hierarchy window}
+Ebben az ablakban minden GameObject megjelenik a jelenetben,Ezt az ablakot lehet használni a GameObjectek rendszerezésére.
+\subsubsection{Project window}
+Ebben az ablakban megjelenik minden fájl/mappa ami a projektben van, itt tudsz navigálni a fájlok között.
+\subsubsection{Animator window}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{UnityAnimatorKep.png}
+	\caption{Unity Animator}
+	\label{fig:kep}
+\end{figure}
+Az Animator lehetővé teszi az animációk és azok közötti átmenetek kezelését és irányítását. Általában több animációra van szükség és ezek között átmeneteket kell létrehozni amikor bizonyos játékbeli események történnek. Például ha a játékos megnyomja az SHIFT gombot akkor séta animációból átmegy futás animációba.Az átmeneteket állapot géppel kezeli az Animator.
+
+\subsubsection{Animation window}
+Az Animation ablakban lehet megnézni, módosítani, hozzáadni az animációkat a GameObjecteken. A GameObjecten kell lennie egy Animator komponensnek hogy a GameObject animáció látszódjanak a játékban.
+
 \chapter{Rendszerterv}
 
 

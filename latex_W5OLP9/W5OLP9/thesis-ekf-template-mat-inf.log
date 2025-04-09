@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  9 APR 2025 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  9 APR 2025 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -469,30 +469,33 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count309
 \l__pdf_internal_box=\box57
 )
-(./thesis-ekf-template-mat-inf.aux)
+(./thesis-ekf-template-mat-inf.aux
+
+LaTeX Warning: Label `fig:kep' multiply defined.
+
+)
 \openout1 = `thesis-ekf-template-mat-inf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-Package hyperref Info: Link coloring OFF on input line 24.
- (./thesis-ekf-template-mat-inf.out)
-(./thesis-ekf-template-mat-inf.out)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+Package hyperref Info: Link coloring OFF on input line 25.
+ (./thesis-ekf-template-mat-inf.out) (./thesis-ekf-template-mat-inf.out)
 \@outlinefile=\write3
 \openout3 = `thesis-ekf-template-mat-inf.out'.
 
@@ -532,50 +535,50 @@ Package hyperref Info: Link coloring OFF on input line 24.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-4.
+5.
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-4.
+5.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-24.
+25.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-24.
+25.
 
 (c:/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 24.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 24.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 24.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+(Font)              <6> on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> OMX/cmex/m/n on input line 24.
+(Font)                  OMX/lmex/m/n --> OMX/cmex/m/n on input line 25.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> OMX/cmex/m/n on input line 24.
+(Font)                  OMX/lmex/m/n --> OMX/cmex/m/n on input line 25.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -615,10 +618,10 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 LaTeX Info: Redefining \cal on input line 577.
 LaTeX Info: Redefining \mit on input line 578.
 )
-<eszterhazy-logo-hu.pdf, id=80, 256.07971pt x 88.04292pt>
+<eszterhazy-logo-hu.pdf, id=108, 256.07971pt x 88.04292pt>
 File: eszterhazy-logo-hu.pdf Graphic file (type pdf)
 <use eszterhazy-logo-hu.pdf>
-Package pdftex.def Info: eszterhazy-logo-hu.pdf  used on input line 32.
+Package pdftex.def Info: eszterhazy-logo-hu.pdf  used on input line 33.
 (pdftex.def)             Requested size: 256.07907pt x 88.0427pt.
 
 
@@ -648,12 +651,12 @@ thesis-ekf/eszterhazy-logo-hu.pdf>] (./thesis-ekf-template-mat-inf.toc)
 [5
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
-9.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+0.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (42.72897pt too wide) in paragraph at lines 98--99
+Overfull \hbox (42.72897pt too wide) in paragraph at lines 99--100
 \T1/lmr/m/n/12 2016 feb-ru-ár-já-ban je-lent meg.A Go-dot 2.0-ban ja-ví-tot-ták
  je-le-net-pél-dá-nyo-sí-tást.Bevezették
  []
@@ -664,7 +667,7 @@ Overfull \hbox (42.72897pt too wide) in paragraph at lines 98--99
 xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [7]
-Overfull \hbox (14.05852pt too wide) in paragraph at lines 119--120
+Overfull \hbox (14.05852pt too wide) in paragraph at lines 118--119
 \T1/lmr/m/n/12 A Blu-e-print a já-ték-mo-tor egyik fon-tos esz-kö-ze, amely le-
 he-t®-vé te-szi a já-té-kok,alkalmazások
  []
@@ -672,7 +675,7 @@ he-t®-vé te-szi a já-té-kok,alkalmazások
 
 
 [8]
-Overfull \hbox (23.00725pt too wide) in paragraph at lines 137--138
+Overfull \hbox (23.00725pt too wide) in paragraph at lines 136--137
 \T1/lmr/m/n/12 ket.Fejlesztették a rend-ere-lést, vi-lág-épí-tést, pro-ce-du-rá
 -lis tar-ta-lom-ge-ne-rá-lást,animációs
  []
@@ -682,107 +685,159 @@ Overfull \hbox (23.00725pt too wide) in paragraph at lines 137--138
 [9]
 
 [10]
+Overfull \hbox (9.72212pt too wide) in paragraph at lines 164--165
+\T1/lmr/m/n/12 orientált prog-ra-mo-zá-si nyelv,amelyet a Mic-ro-soft fej-leszt
+, és nép-sze-r¶ nyelv mi-vel könnyen
+ []
+
+
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+<UnityEditorKep.png, id=226, 1156.32pt x 582.978pt>
+File: UnityEditorKep.png Graphic file (type png)
+<use UnityEditorKep.png>
+Package pdftex.def Info: UnityEditorKep.png  used on input line 255.
+(pdftex.def)             Requested size: 396.91325pt x 200.10464pt.
+
+Overfull \hbox (4.31387pt too wide) in paragraph at lines 266--267
+\T1/lmr/m/n/12 Az Inspec-tor ab-lak-ban ta-lál-ha-tó a ki-je-lölt Ga-me-Ob-ject
+ összes tu-laj-don-sá-ga,komponense.
+ []
+
+
+
+[16 <./UnityEditorKep.png>]
+<UnityAnimatorKep.png, id=237, 752.21025pt x 327.624pt>
+File: UnityAnimatorKep.png Graphic file (type png)
+<use UnityAnimatorKep.png>
+Package pdftex.def Info: UnityAnimatorKep.png  used on input line 276.
+(pdftex.def)             Requested size: 396.91325pt x 172.87502pt.
+
+
+[17 <./UnityAnimatorKep.png>]
 2. fejezet.
 
 
-[11
+[18
 
 ]
 3. fejezet.
 
 
-[12
+[19
 
 ]
 4. fejezet.
 
 
-[13
+[20
 
 ]
 
-[14
+[21
 
 ]
 
-[15
+[22
 
 ]
 
-[16
+[23
 
 ]
-<nyilatkozat/nyilatkozat.pdf, id=187, 597.50829pt x 845.0471pt>
+<nyilatkozat/nyilatkozat.pdf, id=276, 597.50829pt x 845.0471pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
-Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 188.
+Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 313.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
-Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 188.
+Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 313.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<nyilatkozat/nyilatkozat.pdf, id=190, page=1, 597.50829pt x 845.0471pt>
+<nyilatkozat/nyilatkozat.pdf, id=279, page=1, 597.50829pt x 845.0471pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 188.
+ 313.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 188.
+ 313.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
-[17
+[24
 
 ]
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 188.
+ 313.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 188.
+ 313.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 188.
+ 313.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[18
+[25
 
  <./nyilatkozat/nyilatkozat.pdf>] (./thesis-ekf-template-mat-inf.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
  ***********
-Package rerunfilecheck Info: File `thesis-ekf-template-mat-inf.out' has not cha
-nged.
-(rerunfilecheck)             Checksum: 15E8F73E3F09CBAF49FB7F610390E2CC;3158.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package rerunfilecheck Warning: File `thesis-ekf-template-mat-inf.out' has chan
+ged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis-ekf-template-mat-inf.out':
+(rerunfilecheck)             Before: 02386777D042CDA8DFE49E13E522F4A6;4372
+(rerunfilecheck)             After:  D005AC445616D710B3587BC97C7680D4;4372.
  ) 
 Here is how much of TeX's memory you used:
- 14984 strings out of 473579
- 240322 string characters out of 5732263
- 662380 words of memory out of 5000000
- 37600 multiletter control sequences out of 15000+600000
+ 15043 strings out of 473579
+ 241268 string characters out of 5732263
+ 663463 words of memory out of 5000000
+ 37625 multiletter control sequences out of 15000+600000
  621412 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,93p,836b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts
-/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lm
-r8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive
-/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/lm/lmtt12.pfb>
-Output written on thesis-ekf-template-mat-inf.pdf (18 pages, 204514 bytes).
+ 84i,17n,93p,836b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{chapter*.22} has been referenced but does not exist
+, replaced by a fixed one
+
+<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/t
+exmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/t
+ype1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2
+024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fon
+ts/type1/public/lm/lmtt12.pfb>
+Output written on thesis-ekf-template-mat-inf.pdf (25 pages, 623341 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 310 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 
