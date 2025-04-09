@@ -25,7 +25,7 @@
 \begin{document}
 
 \institute{Matematikai és Informatikai Intézet}
-\title{A szakdolgozat címe}
+\title{2D platformer játék fejlesztése unityben}
 \author{Bartus János\\Programtervező informatikus}
 \supervisor{Troll Ede\\Tanársegéd}
 \city{Eger}
@@ -51,7 +51,7 @@ A szakdolgozatom során először készítek platformer játékot, amelynek anim
 
 Forráskód elérhetősége: \href{https://github.com/bartusjani/W5OLP9_szakdolgozat}{github.com/bartusjani/W5OLP9\_szakdolgozat}
 
-Játék elérhetősége: \href{https://example.com}{example.com}
+Játék elérhetősége: \href{https://jankopepe.itch.io/diploma-game}{jankopepe.itch.io/diploma-game}
 
 Bemutató videó elérhetősége: \href{https://example.com}{example.com}
 
@@ -284,9 +284,178 @@ Az Animation ablakban lehet megnézni, módosítani, hozzáadni az animációkat
 
 \chapter{Rendszerterv}
 
+\section{A rendszer célja}
+A szakdolgozatom célja egy kétdimenziós platformer típusú videojáték fejlesztése, amelyben a játékos egy oldalsó nézetű világban irányít egy karaktert. A játék során a játékos különböző pályákon halad keresztül, miközben akadályokat küzd le, ugrásokkal manőverezik, valamint különböző típusú ellenségekkel harcol. A pályák teljesítésével a játékos fokozatosan halad előre a szinteken, egyre nehezebb kihívásokkal szembesülve.
+A fejlesztés során a grafikai elemeket -- beleértve háttereket, karakter animációkat, felhasználói felület elemeket valamit az összes dizájnhoz kapcsolódó komponenst -- egy külön grafikus készítette.  A grafikus szakdolgozati munkája szorosan kapcsolódik az én projektemhez, ugyanis ő saját szakdolgozata keretében dolgozta ki és valósította meg a játék látványvilágát. Ez az együttműködés lehetővé tette, hogy a játék egységes vizuális stílusban készüljön el, amely nemcsak esztétikai szempontból emeli a színvonalat, hanem hozzájárul a játék hangulatának és egyediségének kialakításához is. A közös munka során a látványterveket és az animációkat folyamatosan egyeztettük, hogy azok minél jobban illeszkedjenek a játékmenethez és a játék által képviselt világ hangulatához.
+\section{Projektterv}
+A projekt célja egy kétdimenziós platformer videojáték elkészítése Unity játékmotor segítségével, amelyben a játékos harcol, ugrál, és különféle akadályokat leküzdve jut tovább a szinteken. A projekt megvalósításához két fő erőforrás állt rendelkezésre: a fejlesztő (jelen szakdolgozat készítője) és a grafikus, akik külön-külön, de összehangoltan dolgoztak a játék létrehozásán.
+\subsubsection{Szerepkörök}
+\begin{itemize}
+	\item Fejlesztő \\A játék mechanikáinak, működésének, szintlogikájának és programkódjának megvalósítása. Felelős volt a Unity projekthez kapcsolódó összes technikai döntésért, valamint a grafikus által készített assetek integrálásáért.
+	\item Grafikus \\A játékhoz szükséges összes vizuális elem – háttérképek, karakterek, animációk, UI-elemek – megtervezése és elkészítése. A grafikus saját szakdolgozata keretében dolgozott, így a vizuális tartalom elkészítése önálló projektként, de szorosan együttműködve zajlott.
+\end{itemize}
 
+\subsubsection{Felelősségek}
+\begin{tabular}{|c|c|c|}
+	\hline
+	Név & Szerep & Felelősségek\\
+	\hline
+	Szakdolgozó & Fejlesztő & Játékmenet logika,programozás,hibajavítás \\
+	\hline
+	Grafikus & Látványtervező & Sprite-ok,animációk, UI elemek, háttérképek elkészítése \\
+	\hline
+\end{tabular}
+A fejlesztő és a grafikus rendszeres konzultációk során hangolták össze a játékmenetet és a látványvilágot, hogy a kész játék esztétikailag is egységes élményt nyújtson.
+
+\subsubsection{Mérföldkövek}
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{4cm}|p{12cm}|}
+		\hline
+		\textbf{Mérföldkő} & \textbf{Leírás} \\
+		\hline
+		Alapjátékmechanikák elkészítve & A játékos mozgása, ugrása, ütközésérzékelés működőképes \\
+		\hline
+		Ellenségek implementálva & Legalább egy típusú ellenség működik, harcol a játékossal \\
+		\hline
+		Első játszható szint elkészítve & Egy teljes pálya bejárható, vizuális elemek nélkül \\
+		\hline
+		Grafikai integráció befejezve & A grafikus által készített sprite-ok, animációk beépítve a játékba \\
+		\hline
+		Teljes játszható verzió készen & A játék játszható állapotban van több szinttel, harccal, vizuálisokkal \\
+		\hline
+		Tesztelés és finomhangolás & A játék stabilan fut, főbb hibák javítva \\
+		\hline
+	\end{tabular}
+	\caption{Fejlesztési mérföldkövek}
+\end{table}
+\section{Funkcionális terv}
+A funkcionális terv célja a játék funkcióinak részletes technikai leírása a fejlesztő szemszögéből, a funkcionális specifikáció alapján. A terv bemutatja a rendszer szereplőit, a fő használati eseteket és azok lefutását, a határosztályokat, valamint a menürendszer és a képernyők logikai felépítését. A játék Unity játékmotorban készült, C\# programozási nyelven.
+
+\subsection{Rendszer szereplők}
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|p{3cm}|p{11cm}|}
+		\hline
+		\textbf{Szereplő} & \textbf{Leírás} \\
+		\hline
+		Játékos & A játék fő irányítója, aki a karakter mozgását és interakcióit végzi. \\
+		\hline
+		Ellenség & AI által vezérelt ellenfél, amely a játékost támadja, vagy akadályozza. \\
+		\hline
+		Játékrendszer & A háttérben működő logika, amely kezeli a szinteket, életerőt, stb. \\
+		\hline
+	\end{tabular}
+	\caption{A játék szereplői és funkcióik}
+\end{table}
+
+\subsection{Rendszerhasználati esetek és lefutásaik}
+\begin{enumerate}
+	\item \textbf{Játék indítása} \\
+	Használati eset: A játékos elindítja a játékot a főmenüből.
+	
+	Lefutás:
+	\begin{itemize}
+		\item A főmenü megjelenik.
+		\item A játékos a „Start” gombra kattint.
+		\item A rendszer betölti az első pályát.
+	\end{itemize}
+	
+	\item \textbf{Mozgás és ugrás} \\
+	Használati eset: A játékos a karakterrel mozog és ugrik.
+	
+	Lefutás:
+	\begin{itemize}
+		\item A játékos lenyomja a bal/jobb nyílbillentyűt vagy „A” / „D” billentyűt.
+		\item A karakter ennek megfelelően mozog balra vagy jobbra.
+		\item A játékos megnyomja a „W” billentyűt, a karakter ugrik.
+	\end{itemize}
+	
+	\item \textbf{Harc ellenséggel} \\
+	Használati eset: A játékos közelharcban vagy távolsági támadással ellenséget támad.
+	
+	Lefutás:
+	\begin{itemize}
+		\item A játékos lenyomja a támadás gombot.
+		\item A karakter animációja lefut, a közelben lévő ellenség életereje csökken.
+		\item Az ellenség visszatámadhat.
+		\item Ha az életereje 0, az ellenség meghal.
+	\end{itemize}
+	
+	\item \textbf{Szoba teljesítése} \\
+	Használati eset: A játékos teljesíti a szobát.
+	
+	Lefutás:
+	\begin{itemize}
+		\item A játékos belép a szoba végét jelző trigger zónába.
+		\item A rendszer betölti a következő szobát.
+		\item A játékmenet folytatódik.
+	\end{itemize}
+\end{enumerate}
+\subsection{Menühierarchiák}
+\begin{itemize}
+	\item \textbf{Főmenü}
+	\begin{itemize}
+		\item Játék indítása
+		\item Beállítások
+		\begin{itemize}
+			\item Hang beállítások
+			\item Képernyő felbontás
+			\item Teljes képernyő
+		\end{itemize}
+		\item Kilépés
+	\end{itemize}
+	\item \textbf{PauseMenü}
+	\begin{itemize}
+		\item Folytatás
+		\item Beállítások
+		\begin{itemize}
+			\item Hang beállítások
+			\item Képernyő felbontás
+			\item Teljes képernyő
+		\end{itemize}
+		\item Kilépés
+	\end{itemize}
+\end{itemize}
+\section{Követelmények}
+A követelmények a rendszer fejlesztése során követendő irányelvek és célok, amelyek a játék funkcionalitását és működését határozzák meg. A követelmények a fejlesztési fázis során változhatnak, de az alábbiakban szereplő követelmények képezik a rendszerterv alapját. Ezek a követelmények az elkészítendő játék megvalósítását célozzák meg, és minden fontos funkciót, teljesítendő elvárást tartalmaznak.
+\subsection{Funkcionális követelmények}
+\begin{itemize}
+	\item[$\bullet$] Felhasználói felület \\A játékban világos információk jelenjenek meg a játékos számára, például életerő, állóképesség, objektív mutatása és egyéb információk.
+	\begin{itemize}
+		\item \textbf{Elvárás:}A UI-elemeknek tisztán és jól láthatóan kell elhelyezkedniük, hogy a játékos könnyen hozzáférjen a szükséges információkhoz.
+	\end{itemize}
+	\item[$\bullet$]Tárgyak kezelése\\A játékos a pályákon található tárgyakat összegyűjtheti, de azok használata nem szükséges a játék előrehaladásához.
+	\begin{itemize}
+		\item \textbf{Elvárás:} A tárgyak kezelése intuitív módon történjen, és a játékos könnyen megtalálhassa a kívánt elemeket.
+	\end{itemize}
+	\item[$\bullet$] Harc rendszer\\ A játékos támadása az ellenségekkel való közelharc során, valamint a távolsági támadások (pl. lövedékek).
+	\begin{itemize}
+		\item \textbf{Elvárás:}A harci mechanizmusoknak egyszerűnek és jól irányíthatónak kell lenniük, hogy a játékos könnyedén részt vehessen a harcokban.
+	\end{itemize}
+	\item[$\bullet$] Játékos mozgás\\ A játékos karakterének mozgatása a bal és jobb irányban, valamint ugrás végrehajtása a "W" billentyű lenyomásával.
+	\begin{itemize}
+		\item \textbf{Elvárás:} A játékos simán és folyamatosan mozoghat a pályán, ugrásai életszerűek és dinamikusak legyenek.
+	\end{itemize}
+\end{itemize}
+\subsection{Nem funkcionális követelmények}
+\begin{itemize}
+	\item[$\bullet$] Teljesítmény \\ A játék futása simának kell lennie minden célszámítógépen, legalább 30 FPS (képkocka/másodperc) sebességgel.
+	\begin{itemize}
+		\item \textbf{Elvárás:}A játéknak gyorsan reagálnia kell, és nem szabad akadoznia még nagyobb szintű grafikai elemek vagy több ellenség jelenléte esetén sem.
+	\end{itemize}
+	\item[$\bullet$] Hozzáférhetőség\\ A játék kezelőfelületének könnyen használhatónak kell lennie minden játékos számára.
+	\begin{itemize}
+		\item \textbf{Elvárás:} felhasználói felület egyszerű, könnyen navigálható és átlátható legyen.
+	\end{itemize}
+	\item[$\bullet$] Kép-- és hangminőség\\A grafikáknak és a hangoknak élesnek, tisztának kell lenniük, és nem szabad akadozniuk, illetve elcsúszniuk a játékos mozgásával.
+	\begin{itemize}
+		\item \textbf{Elvárás:} A grafikai elemeknek és hangoknak összhangban kell lenniük a játékmenettel és a játék hangulatával.
+	\end{itemize}
+\end{itemize}
+Ezek a követelmények képezik a fejlesztés alapját, és a jövőbeni fejlesztési fázisok során figyelembe kell venni őket a megfelelő tervezési és implementálási döntések meghozatalakor.
 \chapter{Saját projekt fejlesztése}
-
+ENEMYKET ÍRD LE , KEZD A PLATFORMER JÁTÉK BEMUTATÁSÁVAL, JÁTÉKOST ÍRD LE , A SZOBÁK KÖZÖTTI ÁTMENÉS, WAYPOINT MUTATÓ,
 \chapter{Tesztelés}
 
 \chapter*{Összegzés}
