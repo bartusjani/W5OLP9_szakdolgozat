@@ -9,6 +9,7 @@
 % tocnopagenum,% oldalszámozás a tartalomjegyzék után kezdődik
 ]{thesis-ekf}
 \usepackage[T1]{fontenc}
+\usepackage{hyperref}
 \PassOptionsToPackage{defaults=hu-min}{magyar.ldf}
 \usepackage[magyar]{babel}
 \usepackage{mathtools,amssymb,amsthm,pdfpages}
@@ -47,12 +48,11 @@ A számomra eddig ismeretlen platformer játék stílussal is az egyetem alatt i
 
 A szakdolgozatom során először készítek platformer játékot, amelynek animációit és grafikáit  egy grafikus tervezi és készíti el. Ez új kihívást jelent számomra, mivel a játékmenet mellett most a vizuális elemekre is nagyobb figyelmet kell fordítanom, és együtt kell működnöm egy más emberrel, hogy a játék mind vizuálisan, mind technikailag sikeres legyen. Az együtt működés lehetőséget ad arra hogy jobban megismerjem vizuális elemek kezelését, mivel eddig nem sokat dolgoztam grafikákkal.
 
-Forráskód elérhetősége:
+Forráskód elérhetősége: \href{https://github.com/bartusjani/W5OLP9_szakdolgozat}{github.com/bartusjani/W5OLP9\_szakdolgozat}
 
-Játék elérhetősége:
+Játék elérhetősége: \href{https://example.com}{example.com}
 
-Bemutató videó elérhetősége:
-
+Bemutató videó elérhetősége: \href{https://example.com}{example.com}
 
 
 \chapter{Technológiai áttekintés}
@@ -113,6 +113,50 @@ A Godot az MIT licenc alatt készült és kerül kiterjesztésre. Az MIT licenc 
 \section{Unity}
 \section{Unreal Engine}
 
+Az Unreal Engine az Epic Games által fejlesztett, nagy teljesítményű játékmotor.Az első verzióját 1998-ban adták ki. A legfrissebb verziója az Unreal Engine 5. A motor támogatja a C++ programozási nyelven való fejlesztést, de a Blueprint rendszere lehetővé teszi a vizuális programozást is. A motor teljesen ingyen használható egy bevételi határ alatt, így lehetőséget ad a kisebb fejlesztők számára is.
+
+\subsection{Blueprint}
+A Blueprint a játékmotor egyik fontos eszköze, amely lehetővé teszi a játékok,alkalmazások logikájának vizuális szkriptelését. Különösen hasznos a nem programozó felhasználóknak, mivel így mélyebb programozási tudás nélkül is képesek a projektjeiket megvalósítani.
+\subsubsection{A vizuális programozás erősségei}
+A Blueprint egy teljes játékmenet--szkriptrendszer, amely csomópont--alapú koncepción alapul. Objektumorientált osztályok vagy objektumok definiálására szolgál a motorban.Ez a rendszer rendkívül rugalmas és nagy teljesítményű,lehetővé teszi a tervezők számára, hogy az általában csak a programozók számára elérhető fogalmak és eszközök teljes skáláját használhassák.
+
+Számos előnyt kínál a fejlesztés során. Lehetővé teszi az egyszerűbb definiálását a viselkedéseknek, ami megkönnyíti a szkriptelést és a projekt logikájának kialakítását. Ideális eszköz a prototípusok készítésére, mivel gyorsítja az osztályok létrehozását,módosítását,lefordítását és tesztelését ezzel jelentős időt spórol meg.Az API-k gyorsabb felfedezését is lehetővé teszi.
+\subsubsection{Blueprint osztályok}
+A Blueprint osztály egy olyan eszköz, ami lehetővé teszi a új funkciók hozzáadását a játékmenethez kód írása nélkül.Eszközökként mentődnek el a tartalom csomagban.
+\begin{itemize}
+	\item[$\bullet$] Data--Only Blueprint \\ Ez egy olyan osztály ami csak örökölt kódot, változókat, komponenseket tartalmaz. Lehetővé teszi ezek változtatását, de új elemeket nem lehet hozzáadni. Archetípusok helyettesítésére szolgál. Teljes Blueprintté alakítható ha kódot, változókat vagy komponenseket adunk hozzá.
+	\item[$\bullet$] Level Blueprint \\ A Level Blueprint egy speciális Blueprint típus, amely a teljes szint globális eseménygrafikájaként működik. Ez a Blueprint eseményeket, műveleteket kezel szintben lévő szereplőkkel kapcsolatban.
+	\item[$\bullet$] Blueprint Utilities \\ A Blueprint Utility csak a szerkesztőre korlátozódik.Lehetővé teszi a szerkesztőben különböző  műveletek végrehajtását vagy funkciók hozzáadását a szerkesztőben. Gyakran használják szkriptek, szerkesztőbeli kiegészítők létrehozására. 
+\end{itemize}
+
+\subsection{Unreal Engine verzióinak áttekintése}
+A Unreal Engine-t folyamatosan fejlesztik , rendszeresen új funkciókkal, teljesítménybeli javításokkal és hibajavításokkal frissül.Az alábbiakban pár újabb verzióról fogok írni.
+\begin{itemize}
+	\item[$\bullet$]Unreal Engine 4.27 \\ 2021 augusztusában jelent meg. Ez a verzió mindenki számára kínál valamit kezdve a filmesektől, vizualizációs szakembereken át a játékfejlesztőkig. Ebben a kiadásban a munkafolyamatok egyszerűsítésén és a teljesítmény növelésén volt a hangsúly.
+	\item[$\bullet$]Unreal Engine 5.0 \\ 2022 áprilisában jelent meg. Ezen kiadásban a lehetővé tették a fejlesztők számára hogy next-gen valós idejű 3D tartalmakat,élményeket hozzanak létre nagyobb szabadsággal,rugalmassággal és részletességgel.Az új funkciók mint a Nanite vagy a Lumen új vizuális minőséget biztosítanak, lehetővé téve a dinamikus világok létrehozását.
+	\item[$\bullet$]Unreal Engine 5.3 \\ 2023 szeptemberében jelent meg. Ez a kiadás tovább javította a UE5 eszközöket.Fejlesztették a renderelést, világépítést, procedurális tartalomgenerálást,animációs és modellezési eszközöket, a szimulációkat. Ezáltal az Unreal Engine 5.3 kiadás tovább erősítette az Epic Games elkötelezettségét a valós idejű grafika és fejlesztői eszközök élvonalbeli fejlesztése iránt.
+	\item[$\bullet$]Unreal Engine 5.5 \\ 2024 novemberében jelent meg. Ez legfrissebb verziója az Unreal Engine-nek. Jelentős előrelépések történtek az animációk készítésében, a virtuális produkcióban és a mobiljáték--fejlesztésben területén is.Több funkció (például az in--camera--VFX, fejlesztői iteráció) elérte a gyártáskészséget. 
+\end{itemize}
+\subsection{Licenszi kérdések}
+Az Unreal Engine-t az Egpic Games licencfeltételei alapján használható.Alapvetően ingyenesen elérhető, viszont egy meghatározott bevételi küszöb felett a fejlesztő köteles fizetni a játékmotor használatáért.Az alábbi felsorolásban ismertetem a különböző licenc lehetőségeket.
+\begin{itemize}
+	\item[$\bullet$] 1 millió dollár alatti bevétel esetén \\ Ingyenes a játék fejlesztők, egyéni fejlesztők, kisebb cégek,valamint iskolák és oktatók számára.
+	\item[$\bullet$]1 millió dollár feletti bevétel esetén \\  Kétféle fizetési lehetőség közül választhat a fejlesztő:
+	\begin{itemize}
+		\item jogdíj alapú fizetés \\Ha olyan játékot vagy alkalmazást készít a fejlesztő, amely futásidőben használja az Unreal Engine kódját, és harmadik fél számára kerül licencelésre, akkor kell jogdíjat fizetnie.
+		
+		Költség: Az 1 millió dollárt meghaladó bevétel után 5\% jogdíjat kell fizetni.
+		\item Ülőhely alapú fizetés \\ Ha az Unreal Engine-t kereskedelmi célokra használja a fejlesztő,és az elmúlt 12 hónapban több mint 1 millió dollár bevételt termelt,és nem olyan játékot vagy alkalmazást készít, amely futásidőben használja az engine kódját és harmadik félnek licencelhető, akkor ülőhely(seat) licenc díjat kell fizetnie.
+		Költség: Évi 777 549 Ft / ülőhely.
+	\end{itemize}
+\end{itemize}
+\subsection{A motor fő erősségei}
+Az Unreal Engine számos erősséggel rendelkezik, amelyek hozzájárulnak ahhoz, hogy az egyik legnépszerűbb játékmotor legyen a piacon. Íme néhány főbb erőssége:
+\begin{itemize}
+	\item[$\bullet$] Grafikai teljesítmény \\Kiváló vizuális minőséget kínál, beleértve a valós idejű ray tracinget, amely valósághű fény- és árnyékhatásokat biztosít.
+	\item[$\bullet$] Blueprint rendszer \\ A vizuális szkriptnyelv lehetővé teszi, hogy kódolás nélkül fejlesszünk játékokat, így gyors prototípusokat készíthetünk.
+	\item[$\bullet$] Platform támogatás \\Az Unreal Engine támogatja a legtöbb nagy platformot, beleértve a PC-t, konzolokat, mobil eszközöket és VR/AR eszközöket. Ez lehetővé teszi a fejlesztők számára, hogy széles körű közönséghez juttassák el alkotásaikat.
+\end{itemize}
 \chapter{Rendszerterv}
 
 
