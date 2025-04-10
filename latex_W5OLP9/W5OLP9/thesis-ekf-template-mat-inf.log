@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  9 APR 2025 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  10 APR 2025 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,7 +471,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 )
 (./thesis-ekf-template-mat-inf.aux
 
-LaTeX Warning: Label `fig:kep' multiply defined.
+LaTeX Warning: Label `UnityScene' multiply defined.
 
 )
 \openout1 = `thesis-ekf-template-mat-inf.aux'.
@@ -618,7 +618,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 LaTeX Info: Redefining \cal on input line 577.
 LaTeX Info: Redefining \mit on input line 578.
 )
-<eszterhazy-logo-hu.pdf, id=144, 256.07971pt x 88.04292pt>
+<eszterhazy-logo-hu.pdf, id=200, 256.07971pt x 88.04292pt>
 File: eszterhazy-logo-hu.pdf Graphic file (type pdf)
 <use eszterhazy-logo-hu.pdf>
 Package pdftex.def Info: eszterhazy-logo-hu.pdf  used on input line 33.
@@ -658,7 +658,7 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (42.72897pt too wide) in paragraph at lines 99--100
+Overfull \hbox (42.72897pt too wide) in paragraph at lines 98--99
 \T1/lmr/m/n/12 2016 feb-ru-ár-já-ban je-lent meg.A Go-dot 2.0-ban ja-ví-tot-ták
  je-le-net-pél-dá-nyo-sí-tást.Bevezették
  []
@@ -669,7 +669,7 @@ Overfull \hbox (42.72897pt too wide) in paragraph at lines 99--100
 xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [8]
-Overfull \hbox (14.05852pt too wide) in paragraph at lines 118--119
+Overfull \hbox (14.05852pt too wide) in paragraph at lines 117--118
 \T1/lmr/m/n/12 A Blu-e-print a já-ték-mo-tor egyik fon-tos esz-kö-ze, amely le-
 he-t®-vé te-szi a já-té-kok,alkalmazások
  []
@@ -677,7 +677,7 @@ he-t®-vé te-szi a já-té-kok,alkalmazások
 
 
 [9]
-Overfull \hbox (23.00725pt too wide) in paragraph at lines 136--137
+Overfull \hbox (23.00725pt too wide) in paragraph at lines 135--136
 \T1/lmr/m/n/12 ket.Fejlesztették a rend-ere-lést, vi-lág-épí-tést, pro-ce-du-rá
 -lis tar-ta-lom-ge-ne-rá-lást,animációs
  []
@@ -703,7 +703,7 @@ Overfull \hbox (9.72212pt too wide) in paragraph at lines 164--165
 [15]
 
 [16]
-<UnityEditorKep.png, id=275, 1156.32pt x 582.978pt>
+<UnityEditorKep.png, id=406, 1156.32pt x 582.978pt>
 File: UnityEditorKep.png Graphic file (type png)
 <use UnityEditorKep.png>
 Package pdftex.def Info: UnityEditorKep.png  used on input line 255.
@@ -715,9 +715,15 @@ Overfull \hbox (4.31387pt too wide) in paragraph at lines 266--267
  []
 
 
+Overfull \hbox (70.38168pt too wide) in paragraph at lines 266--267
+\T1/lmr/m/n/12 Itt le-het mó-do-sí-ta-ni a ki-je-lölt Ga-me-Ob-ject tu-laj-don-
+sá-ga-it, hoz-zá-ad-ni/eltávolítani komponenseket.[[]] 
+ []
+
+
 
 [17 <./UnityEditorKep.png>]
-<UnityAnimatorKep.png, id=287, 752.21025pt x 327.624pt>
+<UnityAnimatorKep.png, id=424, 752.21025pt x 327.624pt>
 File: UnityAnimatorKep.png Graphic file (type png)
 <use UnityAnimatorKep.png>
 Package pdftex.def Info: UnityAnimatorKep.png  used on input line 276.
@@ -760,6 +766,12 @@ Overfull \hbox (38.22635pt too wide) in paragraph at lines 313--330
 [22]
 
 [23]
+Overfull \hbox (1.36742pt too wide) in paragraph at lines 462--463
+\T1/lmr/m/n/12 hasz-nál-va le-he-t®-vé te-szi a pro-jek-tek tá-ro-lá-sát, meg-o
+sz-tá-sát és a fej-lesz-t®k kö-zöt-ti együtt-
+ []
+
+
 
 [24]
 3. fejezet.
@@ -768,67 +780,401 @@ Overfull \hbox (38.22635pt too wide) in paragraph at lines 313--330
 [25
 
 ]
+
+[26]
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 553--554
+
+ []
+
+
+
+[28]
+
+[29]
+
+[30]
+
+[31]
 4. fejezet.
 
 
-[26
+[32
 
 ]
 
-[27
+[33
 
 ]
 
-[28
+[34]
+
+[35
 
 ]
 
-[29
+[36
 
 ]
-<nyilatkozat/nyilatkozat.pdf, id=356, 597.50829pt x 845.0471pt>
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
+32.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 3503) in paragraph at lines 631--633
+[]\T1/lmr/m/sc/12 Godot En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 GDScript\T1/lm
+r/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . godotengine . org
+ / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--633
+\T1/lmtt/m/n/12 stable / tutorials / scripting / gdscript / gdscript _ basics .
+ html$[] \T1/lmr/m/n/12 [Le-tölt-ve:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 640--642
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 643--645
+
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 646--648
+[]\T1/lmr/m/sc/12 Godot En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Li-cen-ces\T1/
+lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . godotengine . o
+rg / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--648
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--652
+[]\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Blu-e-print\T
+1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--652
+\T1/lmtt/m/n/12 epicgames . com / documentation / en-[]us / unreal-[]engine /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--652
+\T1/lmtt/m/n/12 coding-[]in-[]unreal-[]engine-[]blueprint-[]vs . -[]cplusplus$[
+] \T1/lmr/m/n/12 [Le-tölt-ve: 2025-04-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+[]\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Blu-e-print c
+las-ses\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+\T1/lmtt/m/n/12 dev . epicgames . com / documentation / en-[]us / unreal-[]engi
+ne /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+\T1/lmtt/m/n/12 overview-[]of-[]blueprints-[]visual-[]scripting-[]in-[]unreal-[
+]engine$[] \T1/lmr/m/n/12 [Le-tölt-ve:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 653--655
+
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 656--658
+[]\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 4.27
+\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev . epicgames . 
+com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
+\T1/lmtt/m/n/12 documentation / en-[]us / unreal-[]engine / unreal-[]engine-[]4
+ . 27-[]release-[]notes ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
+
+ []
+
+
+
+[37
+
+]
+Underfull \hbox (badness 8019) in paragraph at lines 659--661
+[]\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 5.0\
+T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev . epicgames . c
+om /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--661
+\T1/lmtt/m/n/12 documentation / en-[]us / unreal-[]engine / unreal-[]engine-[]5
+ . 0-[]release-[]notes ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--661
+
+ []
+
+
+Underfull \hbox (badness 8019) in paragraph at lines 662--664
+[]\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 5.3\
+T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev . epicgames . c
+om /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--664
+\T1/lmtt/m/n/12 documentation / en-[]us / unreal-[]engine / unreal-[]engine-[]5
+ . 3-[]release-[]notes ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 662--664
+
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 665--667
+[]\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 5.5\
+T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / www . unrealengine 
+. com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 665--667
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--670
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 671--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--677
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 681--683
+
+ []
+
+
+
+[38]
+Underfull \hbox (badness 7133) in paragraph at lines 693--696
+[]\T1/lmr/m/sc/12 UnityGameObject\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Ga-me-Ob-ject
+\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . c
+om /
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 697--699
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Int-ro-duc-ti-on to com
+-po-nents\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . un
+ity3d . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 700--702
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Trans-forms\T1/lmr/m/n/
+12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Manual 
+/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 703--705
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Col-l-i-der2D\T1/lmr/m/
+n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Manua
+l /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--718
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 719--721
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 722--724
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 728--730
+
+ []
+
+
+Underfull \hbox (badness 6691) in paragraph at lines 731--733
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Inspec-tor win-dow\T1/l
+mr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / 
+Manual /
+ []
+
+
+
+[39
+pdfTeX warning (ext4): destination with the same identifier (name{cite.UnitySce
+ne}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.733 \bibitem{UnityHierarchy}
+                              ]
+Underfull \hbox (badness 4859) in paragraph at lines 734--736
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Hi-e-rarchy win-dow\T1/
+lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com /
+ Manual /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Pro-ject view\T1/lmr/m/
+n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Manua
+l /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
+
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 740--742
+[]\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Ani-ma-ti-on win-dow\T1
+/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com 
+/ Manual /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--742
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 743--745
+
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 747--749
+[]\T1/lmr/m/sc/12 Github\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Abo-ut Git-Hub and Git
+\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . github . co
+m / en /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--749
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--752
+
+ []
+
+<nyilatkozat/nyilatkozat.pdf, id=629, 597.50829pt x 845.0471pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
-Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 482.
+Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 755.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
-Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 482.
+Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 755.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<nyilatkozat/nyilatkozat.pdf, id=359, page=1, 597.50829pt x 845.0471pt>
+<nyilatkozat/nyilatkozat.pdf, id=632, page=1, 597.50829pt x 845.0471pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 482.
+ 755.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 482.
+ 755.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
-[30
-
-]
+[40]
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 482.
+ 755.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 482.
+ 755.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 482.
+ 755.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[31
+[41
 
  <./nyilatkozat/nyilatkozat.pdf>] (./thesis-ekf-template-mat-inf.aux)
  ***********
@@ -839,29 +1185,39 @@ L3 programming layer <2024-09-10>
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `thesis-ekf-template-mat-inf.out' has not cha
-nged.
-(rerunfilecheck)             Checksum: 271611FB99664BADAFF77377214579D5;6207.
+
+Package rerunfilecheck Warning: File `thesis-ekf-template-mat-inf.out' has chan
+ged.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis-ekf-template-mat-inf.out':
+(rerunfilecheck)             Before: EBA73E9A6D775FC4D530DFAB61C7D2AC;8982
+(rerunfilecheck)             After:  4B7C7EACD79BE515CA0860932C5D5B64;9105.
  ) 
 Here is how much of TeX's memory you used:
- 15079 strings out of 473579
- 241756 string characters out of 5732263
- 665472 words of memory out of 5000000
- 37638 multiletter control sequences out of 15000+600000
- 621412 words of font info for 87 fonts, out of 8000000 for 9000
+ 15245 strings out of 473579
+ 244286 string characters out of 5732263
+ 669860 words of memory out of 5000000
+ 37733 multiletter control sequences out of 15000+600000
+ 621730 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,93p,897b,625s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts
-/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lm
-r8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive
-/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/f
-onts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/l
-m/lmtt12.pfb>
-Output written on thesis-ekf-template-mat-inf.pdf (31 pages, 639599 bytes).
+ 84i,17n,93p,897b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{chapter*.30} has been referenced but does not exist
+, replaced by a fixed one
+
+<c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/t
+exmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/t
+ype1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2
+024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fon
+ts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/
+lmtt12.pfb>
+Output written on thesis-ekf-template-mat-inf.pdf (41 pages, 682680 bytes).
 PDF statistics:
- 455 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 750 PDF objects out of 1000 (max. 8388607)
+ 669 compressed objects within 7 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 428 words of extra memory for PDF output out of 10000 (max. 10000000)
 
