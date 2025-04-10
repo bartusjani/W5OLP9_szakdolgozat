@@ -70,7 +70,8 @@
 \select@language {magyar} \contentsline {subsubsection}{Waypoint mutató}{31}{section*.29}%
 \select@language {magyar} \contentsline {chapter}{\numberline {4}Tesztelés}{32}{chapter.4}%
 \select@language {magyar} \contentsline {section}{\numberline {4.1}Playtest}{32}{section.4.1}%
-\select@language {magyar} \contentsline {chapter}{Összegzés}{33}{chapter*.31}%
-\select@language {magyar} \contentsline {section}{\numberline {4.2}Bővítési terv}{34}{section.4.2}%
-\select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{35}{chapter*.32}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{37}{chapter*.34}%
+\select@language {magyar} \contentsline {section}{\numberline {4.2}Unit teszt}{33}{section.4.2}%
+\select@language {magyar} \contentsline {chapter}{Összegzés}{34}{chapter*.30}%
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Bővítési terv}{35}{section.4.3}%
+\select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{36}{chapter*.31}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{38}{chapter*.33}%

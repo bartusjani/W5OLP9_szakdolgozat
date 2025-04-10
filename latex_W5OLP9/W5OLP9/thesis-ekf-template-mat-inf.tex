@@ -602,7 +602,13 @@ A tesztelés a szoftverfejlesztés egyik legfontosabb és elengedhetetlen lépé
 Ha a tesztelést kihagyják a fejlesztési folyamatból, akkor sokkal nehezebb azonosítani azokat a rejtett hibákat, amelyek esetleg csak bizonyos körülmények között vagy a játékosok különböző interakcióival lépnek fel. 
 Én két féle tesztelési módot alkalmaztam a projektben: Playtest--et ahol körültekintően kipróbáltam minden lehetséges dolgot, itt barátaim is besegítettek a hibák keresésében. Alkalmaztam a Unity--n belül Unit testeket amit a unity Test Framework moduljával csinálta.
 \section{Playtest}
-\section*{Unit teszt}
+A játék fejlesztése során már a korai fázisokban megkezdtem a play tesztelést, hogy biztosítsam a funkcionalitás és a játékélmény folyamatos fejlődését. A tesztelés során különös figyelmet fordítottam arra, hogy minden új funkció alapos kipróbáláson menjen keresztül. Ez lehetőséget adott arra, hogy a fejlesztési ciklus minden szakaszában azonosítani tudjam a hibákat és problémákat, valamint azokat a lehető leghamarabb kijavítsam. Az azonnali hibajavításra való törekvés biztosította, hogy a játékélmény ne szenvedjen csorbát, és hogy a felhasználói élmény ne romoljon a fejlesztési időszak alatt.
+
+Amikor a játék fejlesztése már olyan szintre ért, hogy több ellenség és szoba is bekerült a játékba, úgy döntöttem, hogy a barátaimnak is elküldöm az akkori verziót kipróbálásra. Ez a lépés lehetőséget biztosított arra, hogy külső szemlélők is visszajelzéseket adjanak, és így biztos lehettem abban, hogy esetleg olyan hibákat, amelyek felett én átsiklottam, ők könnyen észrevesznek. A barátaim nemcsak logikai hibákat találtak, hanem hasznos javaslatokkal is segítettek. Például tippeket adtak a karakterek animációival kapcsolatban, hogy hogyan lehetne azokat gyorsabbá vagy lassabbá tenni, hogy jobban illeszkedjenek a játékmenet dinamikájához és a felhasználói élményhez. Az ő visszajelzéseik rendkívül hasznosak voltak, mivel lehetővé tették, hogy finomhangoljam a játék különböző aspektusait, és a játékélmény még élvezetesebbé váljon. Ezen kívül az ő friss szemszögük segített a játékmenet újabb rétegeinek kidolgozásában is, amelyek a fejlesztés következő szakaszaiban komoly előnyökkel jártak.
+\section{Unit teszt}
+A Unity rendszerén belül a unit tesztelés célja, hogy külön-külön, izolált módon teszteljük a kód egyes részeit, és biztosítsuk, hogy azok a várt módon működjenek. A unit tesztek lehetővé teszik, hogy a fejlesztők gyorsan és hatékonyan azonosítsák a hibákat a kód egyes funkcióiban anélkül, hogy az egész rendszert végig kellene futtatniuk. A Unity saját unit tesztelési rendszert biztosít, amely a Test Runner eszközként ismert, és amely lehetővé teszi a fejlesztők számára, hogy különálló tesztkészleteket készítsenek, valamint automatikusan lefuttassák azokat a kód változásainak ellenőrzésére.
+
+A unit tesztelés Unity-ben a TestManager eszközzel történik, amely lehetővé teszi egy külön assembly (kódcsomag) létrehozását kifejezetten a tesztek számára. Ez a külön assembly biztosítja, hogy a tesztek izolált környezetben fussanak, és nem befolyásolják a játék egyéb működő elemeit. A tesztek lehetnek például a logikai egységek, algoritmusok vagy adatkezelési funkciók ellenőrzésére, mindezt anélkül, hogy az éles játékfunkciók működését zavarnánk.\cite{UnityTestRunner}
 \chapter*{Összegzés}
 \addcontentsline{toc}{chapter}{Összegzés}
 A projekt célja egy összetett játékmechanikai rendszer megvalósítása volt, amely magában foglalja a felhasználói felületet, a tárgyak kezelését, a harcrendszert, valamint a játékos mozgásának logikáját és grafikáját. Az alábbiakban összefoglalom a megvalósított rendszerek fejlesztési folyamatát és azok működését.
@@ -742,6 +748,9 @@ https://docs.unity3d.com/Manual/Components.html
 \bibitem{UnityAnimatorComponent}
 \textsc{Unity}: \emph{Animator component}, elérhető:
 \url{https://docs.unity3d.com/Manual/class-Animator.html} [Letöltve: 2025-04-10]\\
+\bibitem{UnityTestRunner}
+\textsc{Untiy}: \emph{Test framework introduction}, elérhető:
+\url{https://docs.unity3d.com/6000.2/Documentation/Manual/test-framework/test-framework-introduction.html} [Letöltve: 2025-04-10]\\
 
 \bibitem{GithubAndGit}
 \textsc{Github}: \emph{About GitHub and Git}, elérhető:
