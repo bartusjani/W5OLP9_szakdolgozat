@@ -609,6 +609,46 @@ Amikor a játék fejlesztése már olyan szintre ért, hogy több ellenség és 
 A Unity rendszerén belül a unit tesztelés célja, hogy külön-külön, izolált módon teszteljük a kód egyes részeit, és biztosítsuk, hogy azok a várt módon működjenek. A unit tesztek lehetővé teszik, hogy a fejlesztők gyorsan és hatékonyan azonosítsák a hibákat a kód egyes funkcióiban anélkül, hogy az egész rendszert végig kellene futtatniuk. A Unity saját unit tesztelési rendszert biztosít, amely a Test Runner eszközként ismert, és amely lehetővé teszi a fejlesztők számára, hogy különálló tesztkészleteket készítsenek, valamint automatikusan lefuttassák azokat a kód változásainak ellenőrzésére.
 
 A unit tesztelés Unity-ben a TestManager eszközzel történik, amely lehetővé teszi egy külön assembly (kódcsomag) létrehozását kifejezetten a tesztek számára. Ez a külön assembly biztosítja, hogy a tesztek izolált környezetben fussanak, és nem befolyásolják a játék egyéb működő elemeit. A tesztek lehetnek például a logikai egységek, algoritmusok vagy adatkezelési funkciók ellenőrzésére, mindezt anélkül, hogy az éles játékfunkciók működését zavarnánk.\cite{UnityTestRunner}
+
+\section{Teszt jegyző könyv}
+
+A tesztelési folyamat során több karakter mechanikáját is alaposan megvizsgáltam, beleértve a játékos karakterének mozgását és támadásait, valamint a különböző ellenségek, mint a skorpió és a főellenség mozgási viselkedését. A célom az volt, hogy megbizonyosodjam a karakterek és ellenségek működésének helyességéről, valamint hogy biztosítsam azok megfelelő reagálását a játékban előforduló különböző helyzetekre.
+Ezek a tesztek segítettek az egyes mechanikák helyes működésének ellenőrzésében, és hozzájárultak a játék dinamikájának finomhangolásához.
+A tesztelési folyamatok átláthatóságának növelése érdekében jegyzőkönyvet készítettem a végrehajtott unit tesztekről. Ez a dokumentáció segíti a tesztek könnyebb nyomon követhetőségét és értelmezését, valamint biztosítja, hogy a tesztelési eredmények megfelelően rögzítésre kerüljenek.
+\begin{table}[h!]
+\centering
+\begin{tabular}{|p{9cm}|p{2cm}|p{5cm}|}
+	\hline
+	\textbf{Teszt Esemény} & \textbf{Eredmény} & \textbf{Megjegyzés}\\
+	\hline
+	Játékos lövedéket blokkol& Sikeres & Megállítja a lövedéket\\
+	\hline
+	Játékos gyors támadás utáni gyors kombóra váltás& Sikeres& Helyesen működik\\
+	\hline
+	Játékos jobbra fordul& Sikeres& Helyesen vált irányt\\
+	\hline
+	Játékos talajon állásának tesztelése& Sikeres&  Igaz-at ad ha a talajon áll\\
+	\hline
+	Játékos ugrásának tesztelése&Sikeres & Ugrani csak talajról tud\\
+	\hline
+	Főellenség a játékos felé fordul&Sikeres & Helyesen fordul\\
+	\hline
+	Főellenség megáll amikor közel ér a játékoshoz&Sikeres & Mozgása megáll \\
+	\hline
+	Skorpió a játékos felé fordul&Sikeres & Helyesen fordul\\
+	\hline
+	Skorpió járőrözésének helyessége&Sikeres & Helyesen járőrözik\\
+	\hline
+	Skorpió megáll amikor közel ér a játékoshoz& Sikeres& Mozgása megáll\\
+	\hline
+\end{tabular}
+\caption{Teszt jegyzőkönyv}
+\end{table}
+\section{Összefoglaló}
+A playtestelés rendkívül fontos szerepet játszott a fejlesztési folyamatban, mivel nemcsak a játékmenet logikai aspektusait, hanem a felhasználói élményt is képes voltam tesztelni és finomhangolni.
+A playtestelés során számos olyan problémára derült fény, amelyet a szigorúan logikai tesztelés nem feltétlenül tár fel. Például, bár a játék mechanikai elemei jól működtek az elméleti tesztek során, a valós játékélmény során más szempontok is fontosak: a sebesség, az irányítás érzékenysége, az animációk folyamatossága, vagy az, hogy a játékosok hogyan érzékelik a környezetet és az ellenségeket. A playtestek lehetőséget adtak arra is, hogy az esetleges unalmas vagy túl nehéz szakaszokat észrevegyem, és olyan finomhangolásokat végezzek, amelyek segítik a játék gördülékenyebbé tételét.
+
+A Unit tesztek megírása Unityben sokkal nagyobb kihívásnak bizonyult, mint azt előzetesen gondoltam. Bár a tesztelés elmélete egyszerűnek tűnt, a gyakorlatban számos bonyodalom merült fel, amelyek a fejlesztés során felmerülő komplexitásokkal és a Unity specifikus működésével kapcsolatosak.
 \chapter*{Összegzés}
 \addcontentsline{toc}{chapter}{Összegzés}
 A projekt célja egy összetett játékmechanikai rendszer megvalósítása volt, amely magában foglalja a felhasználói felületet, a tárgyak kezelését, a harcrendszert, valamint a játékos mozgásának logikáját és grafikáját. Az alábbiakban összefoglalom a megvalósított rendszerek fejlesztési folyamatát és azok működését.

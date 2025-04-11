@@ -71,7 +71,9 @@
 \select@language {magyar} \contentsline {chapter}{\numberline {4}Tesztelés}{32}{chapter.4}%
 \select@language {magyar} \contentsline {section}{\numberline {4.1}Playtest}{32}{section.4.1}%
 \select@language {magyar} \contentsline {section}{\numberline {4.2}Unit teszt}{33}{section.4.2}%
-\select@language {magyar} \contentsline {chapter}{Összegzés}{34}{chapter*.30}%
-\select@language {magyar} \contentsline {section}{\numberline {4.3}Bővítési terv}{35}{section.4.3}%
-\select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{36}{chapter*.31}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{38}{chapter*.33}%
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Teszt jegyző könyv}{33}{section.4.3}%
+\select@language {magyar} \contentsline {section}{\numberline {4.4}Összefoglaló}{34}{section.4.4}%
+\select@language {magyar} \contentsline {chapter}{Összegzés}{35}{chapter*.30}%
+\select@language {magyar} \contentsline {section}{\numberline {4.5}Bővítési terv}{36}{section.4.5}%
+\select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{37}{chapter*.31}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{39}{chapter*.33}%
