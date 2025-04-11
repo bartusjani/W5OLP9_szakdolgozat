@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MiniBossMovement : MonoBehaviour
 {
-    Transform player;
+    public Transform player;
 
     public float speed = 3f;
     public float stopDis = 1f;
@@ -46,7 +46,7 @@ public class MiniBossMovement : MonoBehaviour
         if (rb.linearVelocity.y == 0) rb.linearVelocity = moveDir * speed;
     }
 
-    IEnumerator TargetingPlayer()
+    public IEnumerator TargetingPlayer()
     {
         animator.SetTrigger("GettingUp");
         yield return new WaitForSeconds(1f);
@@ -72,7 +72,7 @@ public class MiniBossMovement : MonoBehaviour
             mba.ChoosePhase();
         }
     }
-    void FlipTowardsPlayer()
+    public void FlipTowardsPlayer()
     {
         if(player.position.x<transform.position.x && facingRight)
         {

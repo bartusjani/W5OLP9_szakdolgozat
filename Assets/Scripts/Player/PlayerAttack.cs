@@ -205,7 +205,7 @@ public class PlayerAttack : MonoBehaviour
         
     }
 
-    void DealDamage(Transform attackPoint, float range, int damage)
+    public void DealDamage(Transform attackPoint, float range, int damage)
     {
         Collider2D[] hit = Physics2D.OverlapCircleAll(attackPoint.position, range, enemyLayers);
 
@@ -215,7 +215,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (isBlocking && collision.CompareTag("Bullet"))
         {

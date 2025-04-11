@@ -17,7 +17,7 @@ public class EnemyMovement : MonoBehaviour
     public bool isChasing=false;
     public float chaseDistance=2f;
 
-    float stopDis = 2f;
+    public float stopDis = 2f;
     Vector2 moveDir;
     RaycastHit2D groundInfo;
     bool facingRight = true;
@@ -70,7 +70,7 @@ public class EnemyMovement : MonoBehaviour
         groundInfo = Physics2D.Raycast(groundCheck.position, Vector2.down, 2f);
         if (rb.linearVelocity.y == 0) rb.linearVelocity = moveDir * speed;
     }
-    void Patroling()
+    public void Patroling()
     {
         Transform targetPoint = patrolPoints[patrolDestination];
         moveDir = (targetPoint.position - transform.position).normalized;
@@ -97,7 +97,7 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-    void TargetingPlayer()
+    public void TargetingPlayer()
     {
         if (player == null) return;
         //Debug.Log("Targetel");
@@ -113,7 +113,7 @@ public class EnemyMovement : MonoBehaviour
             
         }
     }
-    void FlipTowardsPlayer()
+    public void FlipTowardsPlayer()
     {
         if (player.position.x < transform.position.x && facingRight)
         {

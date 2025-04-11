@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
     bool isGrounded = true;
-    Animator animator;
+    public Animator animator;
 
 
     private bool canDash=true;
@@ -21,9 +21,9 @@ public class Movement : MonoBehaviour
     private float dashingCooldown = 1f;
 
 
-    [SerializeField] private Rigidbody2D rb;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] public Rigidbody2D rb;
+    [SerializeField] public Transform groundCheck;
+    [SerializeField] public LayerMask groundLayer;
 
 
     private void Start()
