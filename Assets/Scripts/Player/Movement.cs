@@ -11,8 +11,12 @@ public class Movement : MonoBehaviour
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
     bool isGrounded = true;
+
     public Animator animator;
 
+    public PlayerStamina playerStamina;
+    private float staminaUseInterval=2f;
+    private float staminaUseTimer=0f;
 
     private bool canDash=true;
     private bool isDashing;
@@ -20,16 +24,18 @@ public class Movement : MonoBehaviour
     private float dashingTime = 0.2f;
     private float dashingCooldown = 1f;
 
-
     [SerializeField] public Rigidbody2D rb;
     [SerializeField] public Transform groundCheck;
     [SerializeField] public LayerMask groundLayer;
 
+    float runStamina = 10f;
+    float dashStamina = 20f;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerStamina = GetComponent<PlayerStamina>();
     }
 
     void Update()
@@ -56,20 +62,29 @@ public class Movement : MonoBehaviour
             
         }
 
-        if(Input.GetKeyDown(KeyCode.Space) && canDash)
+        if(Input.GetKeyDown(KeyCode.Space) && canDash&& playerStamina.stamina > dashStamina)
         {  
             StartCoroutine(Dash());
         }
-        else if(Input.GetKeyDown(KeyCode.Space) && canDash && !isGrounded==false)
+        else if(Input.GetKeyDown(KeyCode.Space) && canDash && !isGrounded==false && playerStamina.stamina >dashStamina)
         {
             StartCoroutine(JumpDash());
         }
 
        
 
-        if (Input.GetKey(KeyCode.S) && IsGrounded())
+        if (Input.GetKey(KeyCode.S) && IsGrounded()&& playerStamina.stamina > runStamina)
         {
             Run();
+            staminaUseTimer += Time.deltaTime;
+            if (staminaUseTimer >= staminaUseInterval)
+            {
+                if (playerStamina != null)
+                {
+                    playerStamina.TakeStamina(1);
+                }
+                staminaUseTimer = 0f;
+            }
         }
         else
         {
@@ -96,6 +111,7 @@ public class Movement : MonoBehaviour
         animator.SetBool("isDashing", canDash);
         canDash = false;
         isDashing = true;
+        playerStamina.TakeStamina(10);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
@@ -114,6 +130,7 @@ public class Movement : MonoBehaviour
         animator.SetBool("isJumping", true);
         canDash = false;
         isDashing = true;
+        playerStamina.TakeStamina(15);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         rb.linearVelocity = new Vector2(transform.localScale.x * dashingPower, 0f);
