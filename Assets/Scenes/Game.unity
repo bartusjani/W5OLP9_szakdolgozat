@@ -2138,6 +2138,8 @@ GameObject:
   - component: {fileID: 105671540}
   - component: {fileID: 105671542}
   - component: {fileID: 105671541}
+  - component: {fileID: 105671543}
+  - component: {fileID: 105671544}
   m_Layer: 0
   m_Name: KeepersTeleport
   m_TagString: Untagged
@@ -2176,8 +2178,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1384447565}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &105671542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2224,6 +2230,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &105671543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105671539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &105671544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105671539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 105671541}
+  secondTP: {fileID: 1384447566}
 --- !u!1 &113900265
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,7 +3164,7 @@ Transform:
   m_GameObject: {fileID: 199937862}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -62.38, y: -25.92, z: 0}
+  m_LocalPosition: {x: -73.2, y: -25.7, z: 0}
   m_LocalScale: {x: 0.17527866, y: 0.13314809, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10744,6 +10778,8 @@ GameObject:
   - component: {fileID: 779427914}
   - component: {fileID: 779427915}
   - component: {fileID: 779427916}
+  - component: {fileID: 779427917}
+  - component: {fileID: 779427918}
   m_Layer: 0
   m_Name: BossGroundDoorTrigger
   m_TagString: Untagged
@@ -10847,8 +10883,40 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 832438306}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
+--- !u!114 &779427917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779427912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &779427918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779427912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 779427916}
+  secondTP: {fileID: 832438307}
 --- !u!1 &793944880
 GameObject:
   m_ObjectHideFlags: 0
@@ -10940,7 +11008,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.61, y: 47.63, z: 0}
+  m_LocalPosition: {x: 3.5, y: 47.4, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11421,6 +11489,8 @@ GameObject:
   - component: {fileID: 826961089}
   - component: {fileID: 826961091}
   - component: {fileID: 826961090}
+  - component: {fileID: 826961092}
+  - component: {fileID: 826961093}
   m_Layer: 0
   m_Name: WarRTeleport
   m_TagString: Untagged
@@ -11459,8 +11529,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1665878915}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &826961091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11507,6 +11581,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &826961092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826961088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &826961093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826961088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 826961090}
+  secondTP: {fileID: 1665878916}
 --- !u!1 &832438305
 GameObject:
   m_ObjectHideFlags: 0
@@ -11518,6 +11620,8 @@ GameObject:
   - component: {fileID: 832438306}
   - component: {fileID: 832438308}
   - component: {fileID: 832438307}
+  - component: {fileID: 832438309}
+  - component: {fileID: 832438310}
   m_Layer: 0
   m_Name: BossRoomTeleport
   m_TagString: Untagged
@@ -11556,8 +11660,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 779427913}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &832438308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11604,6 +11712,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.3359547, y: 2.8574266}
   m_EdgeRadius: 0
+--- !u!114 &832438309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832438305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &832438310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832438305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 832438307}
+  secondTP: {fileID: 779427916}
 --- !u!1 &834887943
 GameObject:
   m_ObjectHideFlags: 0
@@ -15880,6 +16016,8 @@ GameObject:
   - component: {fileID: 1269146481}
   - component: {fileID: 1269146483}
   - component: {fileID: 1269146482}
+  - component: {fileID: 1269146484}
+  - component: {fileID: 1269146485}
   m_Layer: 0
   m_Name: LibraryTeleport
   m_TagString: Untagged
@@ -15918,8 +16056,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1307249077}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1269146483
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15966,6 +16108,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1269146484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269146480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1269146485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269146480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1307249078}
+  secondTP: {fileID: 1269146482}
 --- !u!1 &1269190489
 GameObject:
   m_ObjectHideFlags: 0
@@ -16144,6 +16314,8 @@ GameObject:
   - component: {fileID: 1307249077}
   - component: {fileID: 1307249079}
   - component: {fileID: 1307249078}
+  - component: {fileID: 1307249080}
+  - component: {fileID: 1307249081}
   m_Layer: 0
   m_Name: ResearchRoomTeleport
   m_TagString: Untagged
@@ -16182,8 +16354,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1269146481}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1307249079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16230,6 +16406,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1307249080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307249076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1307249081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307249076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1307249078}
+  secondTP: {fileID: 1269146482}
 --- !u!1 &1316296647
 GameObject:
   m_ObjectHideFlags: 0
@@ -16676,6 +16880,8 @@ GameObject:
   - component: {fileID: 1352939077}
   - component: {fileID: 1352939079}
   - component: {fileID: 1352939078}
+  - component: {fileID: 1352939080}
+  - component: {fileID: 1352939081}
   m_Layer: 0
   m_Name: BossRoomTeleportFromLibrary
   m_TagString: Untagged
@@ -16714,8 +16920,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1391043538}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1352939079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16762,6 +16972,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1352939080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352939076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1352939081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352939076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1352939078}
+  secondTP: {fileID: 1391043536}
 --- !u!1 &1356305234
 GameObject:
   m_ObjectHideFlags: 0
@@ -29333,6 +29571,8 @@ GameObject:
   - component: {fileID: 1384447565}
   - component: {fileID: 1384447567}
   - component: {fileID: 1384447566}
+  - component: {fileID: 1384447568}
+  - component: {fileID: 1384447569}
   m_Layer: 0
   m_Name: WarTeleport
   m_TagString: Untagged
@@ -29371,8 +29611,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 105671540}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1384447567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29419,6 +29663,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1384447568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384447564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1384447569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384447564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1384447566}
+  secondTP: {fileID: 105671541}
 --- !u!1 &1390546558
 GameObject:
   m_ObjectHideFlags: 0
@@ -29676,6 +29948,8 @@ GameObject:
   - component: {fileID: 1391043538}
   - component: {fileID: 1391043537}
   - component: {fileID: 1391043536}
+  - component: {fileID: 1391043539}
+  - component: {fileID: 1391043540}
   m_Layer: 0
   m_Name: LibraryRoomTeleport
   m_TagString: Untagged
@@ -29699,8 +29973,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1352939077}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1391043537
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29762,6 +30040,34 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1777604164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1391043539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391043535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1391043540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391043535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1391043536}
+  secondTP: {fileID: 1352939078}
 --- !u!1 &1391064357
 GameObject:
   m_ObjectHideFlags: 0
@@ -30169,7 +30475,9 @@ GameObject:
   - component: {fileID: 1423417861}
   - component: {fileID: 1423417863}
   - component: {fileID: 1423417862}
-  - component: {fileID: 1423417864}
+  - component: {fileID: 1423417865}
+  - component: {fileID: 1423417867}
+  - component: {fileID: 1423417866}
   m_Layer: 0
   m_Name: GroundDoorTeleport
   m_TagString: Wall
@@ -30253,7 +30561,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.5032735, y: 1.2731836}
   m_EdgeRadius: 0
---- !u!114 &1423417864
+--- !u!114 &1423417865
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -30262,12 +30570,47 @@ MonoBehaviour:
   m_GameObject: {fileID: 1423417860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6c3c89c39070084f8355e1e72952733, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1423417866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423417860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1423417867}
+  secondTP: {fileID: 1765251600}
+--- !u!114 &1423417867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423417860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889a0cc7de1bace438375033bc5352ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
+  isResearchRoom: 0
   player: {fileID: 793944882}
-  sewerRoom: {fileID: 378295046}
+  room: {fileID: 1765251597}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
+  WarRoomScorpion1: {fileID: 0}
+  WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 0}
 --- !u!1 &1428060719
 GameObject:
   m_ObjectHideFlags: 0
@@ -31046,8 +31389,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1459019109}
   - component: {fileID: 1459019111}
-  - component: {fileID: 1459019110}
   - component: {fileID: 1459019112}
+  - component: {fileID: 1459019113}
+  - component: {fileID: 1459019114}
   m_Layer: 0
   m_Name: DoorTrigger
   m_TagString: Untagged
@@ -31070,22 +31414,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 53846641}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1459019110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459019108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f081d0c5bee52b45a5f710a992b50ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactText: {fileID: 1435260285}
-  player: {fileID: 793944882}
-  tutorialRoom: {fileID: 1470795833}
-  fader: {fileID: 0}
 --- !u!61 &1459019111
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31146,6 +31474,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1468824687}
   fadeSpeed: 1
+--- !u!114 &1459019113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459019108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889a0cc7de1bace438375033bc5352ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactText: {fileID: 1435260285}
+  isResearchRoom: 0
+  player: {fileID: 793944882}
+  room: {fileID: 1470795833}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
+  WarRoomScorpion1: {fileID: 0}
+  WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
+--- !u!114 &1459019114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459019108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1459019113}
+  secondTP: {fileID: 1470795838}
 --- !u!1 &1468824685
 GameObject:
   m_ObjectHideFlags: 0
@@ -31163,7 +31527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1468824686
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31232,8 +31596,9 @@ GameObject:
   - component: {fileID: 1470795833}
   - component: {fileID: 1470795835}
   - component: {fileID: 1470795834}
-  - component: {fileID: 1470795836}
   - component: {fileID: 1470795837}
+  - component: {fileID: 1470795838}
+  - component: {fileID: 1470795839}
   m_Layer: 0
   m_Name: DoorPopUpTrigger
   m_TagString: Untagged
@@ -31318,22 +31683,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.6076717, y: 4.223763}
   m_EdgeRadius: 0
---- !u!114 &1470795836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1470795832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c700f585ad8c1234f8e7dad4f444d20a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tr: {fileID: 953931274}
-  interactText: {fileID: 1435260285}
-  player: {fileID: 793944882}
-  combatTutorialRoom: {fileID: 80416895}
 --- !u!114 &1470795837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31348,6 +31697,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1468824687}
   fadeSpeed: 1
+--- !u!114 &1470795838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470795832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889a0cc7de1bace438375033bc5352ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactText: {fileID: 1435260285}
+  isResearchRoom: 0
+  player: {fileID: 793944882}
+  room: {fileID: 1459019109}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
+  WarRoomScorpion1: {fileID: 0}
+  WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
+--- !u!114 &1470795839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470795832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1470795838}
+  secondTP: {fileID: 1459019113}
 --- !u!1 &1472826973
 GameObject:
   m_ObjectHideFlags: 0
@@ -34393,6 +34778,8 @@ GameObject:
   - component: {fileID: 1665878915}
   - component: {fileID: 1665878917}
   - component: {fileID: 1665878916}
+  - component: {fileID: 1665878918}
+  - component: {fileID: 1665878919}
   m_Layer: 0
   m_Name: StoneRuneTeleport
   m_TagString: Untagged
@@ -34431,8 +34818,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 826961089}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1665878917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34479,6 +34870,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1665878918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665878914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1665878919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665878914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1665878916}
+  secondTP: {fileID: 826961090}
 --- !u!1 &1668729083
 GameObject:
   m_ObjectHideFlags: 0
@@ -34877,6 +35296,8 @@ GameObject:
   - component: {fileID: 1679519668}
   - component: {fileID: 1679519670}
   - component: {fileID: 1679519669}
+  - component: {fileID: 1679519671}
+  - component: {fileID: 1679519672}
   m_Layer: 0
   m_Name: WarRoomTeleport
   m_TagString: Untagged
@@ -34915,8 +35336,12 @@ MonoBehaviour:
   isResearchRoom: 1
   player: {fileID: 793944882}
   room: {fileID: 1913175773}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 933866610}
   WarRoomScorpion2: {fileID: 1668729083}
+  tr: {fileID: 953931274}
 --- !u!61 &1679519670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -34963,6 +35388,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1679519671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679519667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1679519672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679519667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1679519669}
+  secondTP: {fileID: 1913175774}
 --- !u!1 &1680831107
 GameObject:
   m_ObjectHideFlags: 0
@@ -35726,6 +36179,8 @@ GameObject:
   - component: {fileID: 1765251599}
   - component: {fileID: 1765251598}
   - component: {fileID: 1765251600}
+  - component: {fileID: 1765251601}
+  - component: {fileID: 1765251602}
   m_Layer: 0
   m_Name: StaticEnemyTrigger
   m_TagString: Untagged
@@ -35823,8 +36278,40 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 818908124}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
+--- !u!114 &1765251601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765251596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1765251602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765251596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1765251600}
+  secondTP: {fileID: 1423417867}
 --- !u!1 &1773931421
 GameObject:
   m_ObjectHideFlags: 0
@@ -37504,6 +37991,8 @@ GameObject:
   - component: {fileID: 1913175773}
   - component: {fileID: 1913175775}
   - component: {fileID: 1913175774}
+  - component: {fileID: 1913175776}
+  - component: {fileID: 1913175777}
   m_Layer: 0
   m_Name: ResearchTeleport
   m_TagString: Untagged
@@ -37542,8 +38031,12 @@ MonoBehaviour:
   isResearchRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1679519668}
+  isFading: 0
+  faderImage: {fileID: 1468824687}
+  teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  tr: {fileID: 953931274}
 --- !u!61 &1913175775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37590,6 +38083,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.008354, y: 2.5380025}
   m_EdgeRadius: 0
+--- !u!114 &1913175776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913175772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c574a5f61daf814b99a5101be4be5f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1468824687}
+  fadeSpeed: 1
+--- !u!114 &1913175777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913175772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5468ced7065c9e7459a496a0c9ef21ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstTP: {fileID: 1913175774}
+  secondTP: {fileID: 1679519669}
 --- !u!1 &1935813879
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class RoomTP : MonoBehaviour
 
     bool isPlayerInTrigger = false;
     public bool isResearchRoom = false;
+    public bool isBossRoom = false;
 
     public Transform player;
     Movement playerMovement;
@@ -16,7 +17,7 @@ public class RoomTP : MonoBehaviour
     public Transform room;
 
     ScreenFading fader;
-    private bool isFading = false;
+    public bool isFading = false;
     public Image faderImage;
 
     public float teleportCooldown = 1.5f;
@@ -25,10 +26,15 @@ public class RoomTP : MonoBehaviour
 
     public GameObject WarRoomScorpion1;
     public GameObject WarRoomScorpion2;
+    GroundDoorTrigger gd;
+    public Trigger tr;
 
     private void Start()
     {
         fader = GetComponent<ScreenFading>();
+        lastTeleportTime = -teleportCooldown;
+        gd = GetComponent<GroundDoorTrigger>();
+        tr = FindFirstObjectByType<Trigger>();
     }
     private void Update()
     {
@@ -39,7 +45,22 @@ public class RoomTP : MonoBehaviour
                 WarRoomScorpion1.SetActive(true);
                 WarRoomScorpion2.SetActive(true);
             }
-            if (Input.GetKeyDown(KeyCode.E) && CanTeleport())
+            if (isBossRoom)
+            {
+                if (Input.GetKeyDown(KeyCode.E) && EnemyHealth.isBossDead)
+                {
+                    StartCoroutine(TeleportWithFade());
+                }
+            }
+            else if (Input.GetKeyDown(KeyCode.E) && tr.isDoorOpen)
+            {
+                StartCoroutine(TeleportWithFade());
+            }
+            //else if (Input.GetKeyDown(KeyCode.E) && gd.groundDoorTrigger && CanTeleport())
+            //{
+            //    StartCoroutine(TeleportWithFade());
+            //}
+            else if (Input.GetKeyDown(KeyCode.E) && CanTeleport())
             {
                 StartCoroutine(TeleportWithFade());
             }
@@ -50,11 +71,25 @@ public class RoomTP : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            isPlayerInTrigger = true;
-            playerMovement = player.GetComponent<Movement>();
-            playerRb = player.GetComponent<Rigidbody2D>();
-            interactText.SetActive(true);
-            faderImage.gameObject.SetActive(true);
+            if (isBossRoom)
+            {
+                if (EnemyHealth.isBossDead)
+                {
+                    isPlayerInTrigger = true;
+                    playerMovement = player.GetComponent<Movement>();
+                    playerRb = player.GetComponent<Rigidbody2D>();
+                    interactText.SetActive(true);
+                    faderImage.gameObject.SetActive(true);
+                }
+            }
+            else
+            {
+                isPlayerInTrigger = true;
+                playerMovement = player.GetComponent<Movement>();
+                playerRb = player.GetComponent<Rigidbody2D>();
+                interactText.SetActive(true);
+                faderImage.gameObject.SetActive(true);
+            }
         }
     }
 
@@ -76,7 +111,7 @@ public class RoomTP : MonoBehaviour
 
     IEnumerator TeleportWithFade()
     {
-        if (isFading || !CanTeleport()) yield break;
+        if (isFading) yield break;
 
         isFading = true;
         lastTeleportTime = Time.time;

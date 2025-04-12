@@ -12,16 +12,6 @@ public class BossDoorTriggers : MonoBehaviour
 
     public bool isPlayerInTrigger = false;
 
-    private void Update()
-    {
-        if (isPlayerInTrigger)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                player.position = room.position;
-            }
-        }
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player") && EnemyHealth.isBossDead)
@@ -29,7 +19,7 @@ public class BossDoorTriggers : MonoBehaviour
             isPlayerInTrigger = true;
             libraryTP.SetActive(true);
         }
-        else if (collision.gameObject.tag == "Player")
+        else if (collision.CompareTag("Player"))
         {
             bossHpBar.SetActive(true);
             boss.SetActive(true);

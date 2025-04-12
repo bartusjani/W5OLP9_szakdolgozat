@@ -48,7 +48,7 @@ public class MiniBossAttacks : MonoBehaviour
     public void ChoosePhase()
     {
 
-        if(eh.Health < 250)
+        if(eh.Health < 150)
         {
             phase2 = true;
             Phase2();

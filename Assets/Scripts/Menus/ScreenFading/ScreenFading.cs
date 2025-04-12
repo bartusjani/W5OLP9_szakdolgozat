@@ -32,30 +32,31 @@ public class ScreenFading : MonoBehaviour
         isFading = true;
         targetAlpha = target;
 
-        while (!Mathf.Approximately(fadeImage.color.a, targetAlpha))
+        Color currentColor = fadeImage.color;
+
+        while (!Mathf.Approximately(currentColor.a, targetAlpha))
         {
             float newAlpha = Mathf.MoveTowards(
-                fadeImage.color.a,
-                targetAlpha,
-                fadeSpeed * Time.deltaTime
-            );
+            currentColor.a,
+            targetAlpha,
+            fadeSpeed * Time.deltaTime);
 
-            fadeImage.color = new Color(
-                fadeImage.color.r,
-                fadeImage.color.g,
-                fadeImage.color.b,
-                newAlpha
-            );
+            currentColor.a = newAlpha;
+            fadeImage.color = currentColor;
 
             yield return null;
         }
+
+        currentColor.a = targetAlpha;
+        fadeImage.color = currentColor;
 
         isFading = false;
     }
 
     public bool IsFadingComplete()
     {
-        return !isFading;
+        //Debug.Log("Current alpha: " + fadeImage.color.a);
+        return Mathf.Approximately(fadeImage.color.a, 0f) || Mathf.Approximately(fadeImage.color.a, 1f);
     }
 
 }
