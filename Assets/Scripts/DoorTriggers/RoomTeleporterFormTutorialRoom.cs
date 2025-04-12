@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class RoomTeleporterFromTutorialRoom: MonoBehaviour
@@ -9,10 +10,12 @@ public class RoomTeleporterFromTutorialRoom: MonoBehaviour
 
     public Transform player;
     public Transform combatTutorialRoom;
+    ScreenFading fader;
 
     private void Start()
     {
         tr = FindFirstObjectByType<Trigger>();
+        fader = GetComponent<ScreenFading>();
     }
     private void Update()
     {
@@ -21,7 +24,7 @@ public class RoomTeleporterFromTutorialRoom: MonoBehaviour
             
             if (Input.GetKeyDown(KeyCode.E))
             {
-                player.position = combatTutorialRoom.position;
+                StartCoroutine(TeleportWithFade());
             }
         }
     }
@@ -42,5 +45,24 @@ public class RoomTeleporterFromTutorialRoom: MonoBehaviour
             interactText.SetActive(false);
             isPlayerInTrigger = false;
         }
+    }
+
+    IEnumerator TeleportWithFade()
+    {
+        
+        Movement playerMovement = player.GetComponent<Movement>();
+        if (playerMovement != null) playerMovement.enabled = false;
+
+        
+        fader.FadeToBlack();
+
+        
+        yield return new WaitUntil(() => fader.IsFadingComplete());
+
+        player.position = combatTutorialRoom.position;
+
+        fader.FadeToClear();
+
+        if (playerMovement != null) playerMovement.enabled = true;
     }
 }
