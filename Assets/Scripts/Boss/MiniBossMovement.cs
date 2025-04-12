@@ -7,7 +7,7 @@ public class MiniBossMovement : MonoBehaviour
 
     public float speed = 3f;
     public float stopDis = 1f;
-
+    public bool isDashing = false;
     private Vector2 moveDir;
     private bool facingRight = true;
 
@@ -74,13 +74,17 @@ public class MiniBossMovement : MonoBehaviour
     }
     public void FlipTowardsPlayer()
     {
-        if(player.position.x<transform.position.x && facingRight)
-        {
-            Flip();
-        }
-        else if(player.position.x > transform.position.x && !facingRight)
-        {
-            Flip();
+        if (!isDashing) 
+        { 
+            if(player.position.x<transform.position.x && facingRight)
+            {
+                Flip();
+            }
+            else if(player.position.x > transform.position.x && !facingRight)
+            {
+                Flip();
+            }
+
         }
     }
     void Flip()

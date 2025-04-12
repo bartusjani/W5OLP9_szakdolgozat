@@ -2176,6 +2176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1384447565}
   isFading: 0
@@ -2183,6 +2184,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &105671542
 BoxCollider2D:
@@ -3145,8 +3147,8 @@ GameObject:
   - component: {fileID: 199937869}
   - component: {fileID: 199937870}
   - component: {fileID: 199937871}
-  - component: {fileID: 199937875}
   - component: {fileID: 199937873}
+  - component: {fileID: 199937875}
   - component: {fileID: 199937874}
   m_Layer: 7
   m_Name: Boss
@@ -3154,7 +3156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &199937863
 Transform:
   m_ObjectHideFlags: 0
@@ -3270,6 +3272,7 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 3
   stopDis: 1
+  isDashing: 0
 --- !u!114 &199937871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3288,6 +3291,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 256
+  player: {fileID: 793944882}
   isBlocking: 0
   attackRange: 2
   areaAttackRange: 5
@@ -10881,6 +10885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 1
   player: {fileID: 793944882}
   room: {fileID: 832438306}
   isFading: 0
@@ -10888,6 +10893,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!114 &779427917
 MonoBehaviour:
@@ -11008,7 +11014,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 47.4, z: 0}
+  m_LocalPosition: {x: -93.7, y: 34.28, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11527,6 +11533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1665878915}
   isFading: 0
@@ -11534,6 +11541,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &826961091
 BoxCollider2D:
@@ -11658,6 +11666,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 779427913}
   isFading: 0
@@ -11665,6 +11674,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &832438308
 BoxCollider2D:
@@ -16054,6 +16064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1307249077}
   isFading: 0
@@ -16061,6 +16072,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1269146483
 BoxCollider2D:
@@ -16352,6 +16364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1269146481}
   isFading: 0
@@ -16359,6 +16372,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1307249079
 BoxCollider2D:
@@ -16918,6 +16932,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1391043538}
   isFading: 0
@@ -16925,6 +16940,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1352939079
 BoxCollider2D:
@@ -29609,6 +29625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 105671540}
   isFading: 0
@@ -29616,6 +29633,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1384447567
 BoxCollider2D:
@@ -29971,6 +29989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1352939077}
   isFading: 0
@@ -29978,6 +29997,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1391043537
 BoxCollider2D:
@@ -30603,6 +30623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1765251597}
   isFading: 0
@@ -30610,7 +30631,8 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
-  tr: {fileID: 0}
+  gd: {fileID: 1423417862}
+  tr: {fileID: 953931274}
 --- !u!1 &1428060719
 GameObject:
   m_ObjectHideFlags: 0
@@ -31488,6 +31510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1470795833}
   isFading: 0
@@ -31495,6 +31518,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!114 &1459019114
 MonoBehaviour:
@@ -31711,6 +31735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1459019109}
   isFading: 0
@@ -31718,6 +31743,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!114 &1470795839
 MonoBehaviour:
@@ -34816,6 +34842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 826961089}
   isFading: 0
@@ -34823,6 +34850,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1665878917
 BoxCollider2D:
@@ -35334,6 +35362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 1
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1913175773}
   isFading: 0
@@ -35341,6 +35370,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 933866610}
   WarRoomScorpion2: {fileID: 1668729083}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1679519670
 BoxCollider2D:
@@ -36276,6 +36306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 818908124}
   isFading: 0
@@ -36283,6 +36314,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!114 &1765251601
 MonoBehaviour:
@@ -38029,6 +38061,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactText: {fileID: 1435260285}
   isResearchRoom: 0
+  isBossRoom: 0
   player: {fileID: 793944882}
   room: {fileID: 1679519668}
   isFading: 0
@@ -38036,6 +38069,7 @@ MonoBehaviour:
   teleportCooldown: 1.5
   WarRoomScorpion1: {fileID: 0}
   WarRoomScorpion2: {fileID: 0}
+  gd: {fileID: 0}
   tr: {fileID: 953931274}
 --- !u!61 &1913175775
 BoxCollider2D:

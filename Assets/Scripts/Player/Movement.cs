@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
     private float jumpingPower = 20f;
     private bool isFacingRight = true;
     bool isGrounded = true;
-
+    
     public Animator animator;
 
     public PlayerStamina playerStamina;

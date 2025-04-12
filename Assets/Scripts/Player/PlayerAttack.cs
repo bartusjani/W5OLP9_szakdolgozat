@@ -32,6 +32,7 @@ public class PlayerAttack : MonoBehaviour
     public float areaAttackRange = 3f;
     float attackTime = 0f;
     public int attackRate = 2;
+    bool isAttacking = false;
 
     private void Start()
     {
@@ -40,7 +41,7 @@ public class PlayerAttack : MonoBehaviour
     void Update()
     {
 
-        if (Time.time >= attackTime)
+        if (Time.time >= attackTime && !isAttacking)
         {
             
             if(Input.GetKeyDown(KeyCode.Tab) && canBlock &&movement.IsGrounded())
@@ -132,6 +133,7 @@ public class PlayerAttack : MonoBehaviour
 
     IEnumerator QuickAttack()
     {
+        isAttacking = true;
         Debug.Log("quick attack");
 
         animator.SetBool("isAttacking",true);
@@ -142,24 +144,28 @@ public class PlayerAttack : MonoBehaviour
         DealDamage(attackPoint, attackRange, damage);
 
         yield return new WaitForSeconds(1f);
+        isAttacking = false;
     }
 
     IEnumerator StrongAttack()
     {
+        isAttacking = true;
         Debug.Log("strong attack");
 
-        animator.SetBool("isStrongAt", true);
+        animator.SetTrigger("isStrongAt");
 
         yield return new WaitForSeconds(0.8f);
 
-        animator.SetBool("isStrongAt", false);
+        //animator.SetBool("isStrongAt", false);
 
         DealDamage(attackPoint, attackRange, strongDamage);
 
         yield return new WaitForSeconds(1f);
+        isAttacking = false;
     }
     IEnumerator QuickAttackCombo()
     {
+        isAttacking = true;
         Debug.Log("quick combo attack");
 
         animator.SetBool("isComboAt", true);
@@ -171,9 +177,11 @@ public class PlayerAttack : MonoBehaviour
         DealDamage(attackPoint, attackRange, damage + damage);
 
         yield return new WaitForSeconds(1f);
+        isAttacking = false;
     }
     IEnumerator JumpAttack()
     {
+        isAttacking = true;
         Debug.Log("jump attack");
 
         animator.SetBool("isAttacking", true);
@@ -185,9 +193,11 @@ public class PlayerAttack : MonoBehaviour
         DealDamage(jumpAttackPoint, attackRange, damage);
 
         yield return new WaitForSeconds(1f);
+        isAttacking = false;
     }
     IEnumerator AreaAttack()
     {
+        isAttacking = true;
         animator.SetBool("isAreaAttack", true);
         Debug.Log("area attack");
 
@@ -200,9 +210,10 @@ public class PlayerAttack : MonoBehaviour
 
         DealDamage(areaAttackPoint, areaAttackRange, areaDamage);
 
-        yield return new WaitForSeconds(attackTime);
+        yield return new WaitForSeconds(1f);
+        isAttacking = false;
 
-        
+
     }
 
     public void DealDamage(Transform attackPoint, float range, int damage)

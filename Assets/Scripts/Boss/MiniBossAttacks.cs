@@ -1,6 +1,8 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class MiniBossAttacks : MonoBehaviour
 {
@@ -9,6 +11,7 @@ public class MiniBossAttacks : MonoBehaviour
     public Transform areaAttackPoint;
     public Transform slashAttackPoint;
     public LayerMask playerLayer;
+    public Transform player;
     Rigidbody2D rb;
     Animator animator;
     Collider2D bossCollider;
@@ -95,12 +98,12 @@ public class MiniBossAttacks : MonoBehaviour
     }
     void Phase2()
     {
-        Debug.Log("nextattackTime" + nextAttackTime+"Time.time"+Time.time);
+        //Debug.Log("nextattackTime" + nextAttackTime+"Time.time"+Time.time);
         if (Time.time >= nextAttackTime)
         {
             
             int attackRoll = Random.Range(0, 100);
-            Debug.Log("attackroll"+attackRoll);
+            //Debug.Log("attackroll"+attackRoll);
 
             if (Random.Range(0f, 1f) <= blockChance)
             {
@@ -163,40 +166,59 @@ public class MiniBossAttacks : MonoBehaviour
     {
 
         Debug.Log("forward s");
-
+        GetComponent<MiniBossMovement>().isDashing = true;
         Collider2D playerCollider = GameObject.FindGameObjectWithTag("Player")?.GetComponent<Collider2D>();
 
         animator.SetBool("DashAttack", true);
         Physics2D.IgnoreCollision(bossCollider, playerCollider, true);
 
-        float attackMoveSpeed = 10f;
-        float attackDuration = 0.3f;
-        float elapsedTime = 0f;
+        float attackMoveSpeed = 15f;
+
 
         Vector2 startPosition = rb.position;
 
-        int direction = transform.localScale.x > 0 ? 1 : -1;
-        Vector2 targetPosition = (Vector2)transform.position+new Vector2(5f * direction, 0);
 
-
-        while (elapsedTime < attackDuration)
+        Vector2 targetPosition;
+        if (transform.position.x<player.position.x)
         {
-            
-            rb.linearVelocity = (targetPosition - startPosition).normalized * attackMoveSpeed;
+            targetPosition = player.position + new Vector3(10f,0,0);
+        }
+        else
+        {
+            targetPosition = player.position - new Vector3(10f, 0, 0);
+        }
+
+        
+        float distance = Vector2.Distance(startPosition, targetPosition);
+        float attackTime = distance / attackMoveSpeed;
+        float elapsedTime = 0f;
+        bool wasRanThroughPlayer=false;
+        while (elapsedTime < attackTime)
+        {
+            //damage when ran into player
+            if(Vector2.Distance(rb.position, player.position) < 2f && !wasRanThroughPlayer)
+            {
+                Debug.Log("AAAAAAAAAAAAAAA");
+                wasRanThroughPlayer = true;
+                DealDamage(slashDamage);
+            }
+            rb.MovePosition(Vector2.Lerp(startPosition, targetPosition, elapsedTime / attackTime));
             elapsedTime += Time.deltaTime;
             yield return null;
+
         }
 
         rb.linearVelocity = Vector2.zero;
-        transform.position = targetPosition;
+        //transform.position = targetPosition;
+
+        Physics2D.IgnoreCollision(bossCollider, playerCollider, false);
 
         yield return new WaitForSeconds(1f);
-
-        DealDamage(attackPoint, slashDamage);
+        GetComponent<MiniBossMovement>().isDashing = false;
+        //DealDamage(attackPoint, slashDamage);
         animator.SetBool("DashAttack", false);
         
-        yield return new WaitForSeconds(2f);
-        Physics2D.IgnoreCollision(bossCollider, playerCollider, false);
+        //yield return new WaitForSeconds(2f);
     }
 
     IEnumerator PreformQuickSlash()
@@ -213,6 +235,11 @@ public class MiniBossAttacks : MonoBehaviour
         DealDamage(attackPoint, quickDamage);
         yield return new WaitForSeconds(0.5f);
         //attack = false;
+    }
+
+    void DealDamage(int damage)
+    {
+        player.GetComponent<PlayerHealth>()?.TakeDamage(damage);
     }
 
     void DealDamage(Transform attackPoint,int damage)

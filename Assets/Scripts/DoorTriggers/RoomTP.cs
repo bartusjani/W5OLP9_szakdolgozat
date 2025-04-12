@@ -14,6 +14,7 @@ public class RoomTP : MonoBehaviour
     public Transform player;
     Movement playerMovement;
     Rigidbody2D playerRb;
+    Animator animator;
     public Transform room;
 
     ScreenFading fader;
@@ -26,15 +27,15 @@ public class RoomTP : MonoBehaviour
 
     public GameObject WarRoomScorpion1;
     public GameObject WarRoomScorpion2;
-    GroundDoorTrigger gd;
+    public GroundDoorTrigger gd;
     public Trigger tr;
 
     private void Start()
     {
         fader = GetComponent<ScreenFading>();
         lastTeleportTime = -teleportCooldown;
-        gd = GetComponent<GroundDoorTrigger>();
         tr = FindFirstObjectByType<Trigger>();
+        
     }
     private void Update()
     {
@@ -56,10 +57,14 @@ public class RoomTP : MonoBehaviour
             {
                 StartCoroutine(TeleportWithFade());
             }
-            //else if (Input.GetKeyDown(KeyCode.E) && gd.groundDoorTrigger && CanTeleport())
-            //{
-            //    StartCoroutine(TeleportWithFade());
-            //}
+            else if (gd!=null)
+            {
+                if (Input.GetKeyDown(KeyCode.E) && gd.groundDoorTrigger && CanTeleport())
+                {
+                    StartCoroutine(TeleportWithFade());
+                }
+
+            }
             else if (Input.GetKeyDown(KeyCode.E) && CanTeleport())
             {
                 StartCoroutine(TeleportWithFade());
@@ -78,6 +83,7 @@ public class RoomTP : MonoBehaviour
                     isPlayerInTrigger = true;
                     playerMovement = player.GetComponent<Movement>();
                     playerRb = player.GetComponent<Rigidbody2D>();
+                    animator = player.GetComponent<Animator>();
                     interactText.SetActive(true);
                     faderImage.gameObject.SetActive(true);
                 }
@@ -87,6 +93,7 @@ public class RoomTP : MonoBehaviour
                 isPlayerInTrigger = true;
                 playerMovement = player.GetComponent<Movement>();
                 playerRb = player.GetComponent<Rigidbody2D>();
+                animator = player.GetComponent<Animator>();
                 interactText.SetActive(true);
                 faderImage.gameObject.SetActive(true);
             }
@@ -143,6 +150,7 @@ public class RoomTP : MonoBehaviour
             playerMovement.enabled = false;
             playerRb.linearVelocity = Vector2.zero;
             playerRb.bodyType = RigidbodyType2D.Kinematic;
+            animator.SetFloat("xVelocity", 0f);
         }
         else
         {
