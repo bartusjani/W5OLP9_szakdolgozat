@@ -136,14 +136,12 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("quick attack");
 
-        animator.SetBool("isAttacking",true);
+        animator.SetTrigger("isAttacking");
         yield return new WaitForSeconds(0.8f);
-
-        animator.SetBool("isAttacking", false);
 
         DealDamage(attackPoint, attackRange, damage);
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
         isAttacking = false;
     }
 
@@ -156,8 +154,6 @@ public class PlayerAttack : MonoBehaviour
 
         yield return new WaitForSeconds(0.8f);
 
-        //animator.SetBool("isStrongAt", false);
-
         DealDamage(attackPoint, attackRange, strongDamage);
 
         yield return new WaitForSeconds(1f);
@@ -168,11 +164,8 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("quick combo attack");
 
-        animator.SetBool("isComboAt", true);
-
+        animator.SetTrigger("isComboAt");
         yield return new WaitForSeconds(1f);
-
-        animator.SetBool("isComboAt", false);
 
         DealDamage(attackPoint, attackRange, damage + damage);
 
@@ -184,12 +177,9 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         Debug.Log("jump attack");
 
-        animator.SetBool("isAttacking", true);
+        animator.SetTrigger("isAttacking");
 
         yield return new WaitForSeconds(1f);
-
-        animator.SetBool("isAttacking", false);
-
         DealDamage(jumpAttackPoint, attackRange, damage);
 
         yield return new WaitForSeconds(1f);
@@ -198,15 +188,13 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator AreaAttack()
     {
         isAttacking = true;
-        animator.SetBool("isAreaAttack", true);
+        animator.SetTrigger("isAreaAttack");
         Debug.Log("area attack");
 
         float attackDur =1.01f;
 
 
         yield return new WaitForSeconds(attackDur);
-
-        animator.SetBool("isAreaAttack", false);
 
         DealDamage(areaAttackPoint, areaAttackRange, areaDamage);
 
