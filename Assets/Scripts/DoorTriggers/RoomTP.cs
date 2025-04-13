@@ -10,6 +10,7 @@ public class RoomTP : MonoBehaviour
     bool isPlayerInTrigger = false;
     public bool isResearchRoom = false;
     public bool isBossRoom = false;
+    public bool isTutorialRoom = false;
 
     public Transform player;
     Movement playerMovement;
@@ -53,9 +54,12 @@ public class RoomTP : MonoBehaviour
                     StartCoroutine(TeleportWithFade());
                 }
             }
-            else if (Input.GetKeyDown(KeyCode.E) && tr.isDoorOpen)
+            if (isTutorialRoom)
             {
-                StartCoroutine(TeleportWithFade());
+                if (Input.GetKeyDown(KeyCode.E) && tr.isDoorOpen)
+                {
+                    StartCoroutine(TeleportWithFade());
+                }
             }
             else if (gd!=null)
             {

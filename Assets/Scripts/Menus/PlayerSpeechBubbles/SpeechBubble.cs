@@ -2,12 +2,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PopUpBubble : MonoBehaviour
+public class SpeechBubble : MonoBehaviour
 {
-    public TMP_Text PopUpText;
+    public TMP_Text speechText;
 
     public void SetText(string text)
     {
-        PopUpText.text = text;
+        speechText.text = text;
     }
 }

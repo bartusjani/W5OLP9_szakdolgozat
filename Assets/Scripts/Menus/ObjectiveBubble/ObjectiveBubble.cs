@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PopUpBubble : MonoBehaviour
+public class ObjectiveBubble : MonoBehaviour
 {
     public TMP_Text PopUpText;
 

@@ -1,23 +1,26 @@
-using System.Collections;
 using UnityEngine;
 
-public class ControllerPopUpBubble : MonoBehaviour
+public class ControllerObjectiveBubble : MonoBehaviour
 {
-    public PopUpBubble prefab;
+    public ObjectiveBubble prefab;
     public string message;
 
-    private PopUpBubble activeBubble;
+    private ObjectiveBubble activeBubble;
 
     bool isPlayerInTrigger = false;
-    private bool wasSpeaking=false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            
             isPlayerInTrigger = true;
-            SetPopUp(message);
+            if (activeBubble == null)
+            {
+                Transform parent = GameObject.Find("ObjectiveBubbles").transform;
+
+                activeBubble = Instantiate(prefab, parent);
+                activeBubble.SetText(message);
+            }
         }
         else
         {
@@ -35,16 +38,6 @@ public class ControllerPopUpBubble : MonoBehaviour
                 Destroy(activeBubble.gameObject);
                 activeBubble = null;
             }
-        }
-    }
-    void SetPopUp(string message)
-    {
-        if (activeBubble == null)
-        {
-            Transform parent = GameObject.Find("PopUps").transform;
-
-            activeBubble = Instantiate(prefab, parent);
-            activeBubble.SetText(message);
         }
     }
 }
