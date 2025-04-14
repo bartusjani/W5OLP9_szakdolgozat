@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
+using TextAsset = UnityEngine.TextAsset;
 
 public class AllPopupController : MonoBehaviour
 {
@@ -21,6 +23,16 @@ public class AllPopupController : MonoBehaviour
 
     public GameObject platformerHelp;
     int helpCounter = 0;
+
+    TextAsset popUpTexts;
+    string popUpText = "";
+
+    TextAsset objectiveTexts;
+    string objectiveText = "";
+
+    TextAsset speechTexts;
+    string speechText = ""; 
+
 
     public Trigger tr;
     public bool isTutorialRoom = false;
@@ -48,14 +60,15 @@ public class AllPopupController : MonoBehaviour
                 isPlayerInTrigger = true;
                 if (!wasSpeaking)
                 {
-
-                    StartCoroutine(SetPopUp(popMessage,objMessage, speechMessage));
+                    ChooseTexts(0);
+                    StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
                 }
                 else
                 {
                     if (activeBubble == null && objActiveBubble == null)
                     {
-                        StartCoroutine(SetPopUp(popMessage,objMessage));
+                        ChooseTexts(1);
+                        StartCoroutine(SetPopUp(popUpText,objectiveText));
                     }
                 }
             }
@@ -66,14 +79,15 @@ public class AllPopupController : MonoBehaviour
             isPlayerInTrigger = true;
             if (!wasSpeaking)
             {
-
-                StartCoroutine(SetPopUp(popMessage, objMessage, speechMessage));
+                ChooseTexts(0);
+                StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
             }
             else
             {
                 if (activeBubble == null && objActiveBubble == null)
                 {
-                    StartCoroutine(SetPopUp(popMessage, objMessage));
+                    ChooseTexts(0);
+                    StartCoroutine(SetPopUp(popUpText, objectiveText));
                 }
             }
         }
@@ -119,7 +133,7 @@ public class AllPopupController : MonoBehaviour
             Transform parent = GameObject.Find("PopUps").transform;
 
             activeBubble = Instantiate(popPrefab, parent);
-            activeBubble.SetText(popMessage);
+            activeBubble.SetText(message);
 
 
             yield return new WaitForSeconds(1f);
@@ -139,10 +153,10 @@ public class AllPopupController : MonoBehaviour
             activeBubble = Instantiate(popPrefab, parent);
             activeBubble.SetText(message);
 
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.2f);
             SetObjective(objMessage);
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.2f);
             SetSpeech(speechMessage);
             wasSpeaking = true;
         }
@@ -169,5 +183,22 @@ public class AllPopupController : MonoBehaviour
             speechActiveBubble.SetText(message);
             wasSpeaking = true;
         }
+    }
+
+    void ChooseTexts(int index)
+    {
+
+        objectiveTexts = Resources.Load<TextAsset>("ObjectiveTexts");
+        string[] objectSorok = objectiveTexts.text.Split('\n');
+        objectiveText = objectSorok[index].Trim();
+
+        speechTexts = Resources.Load<TextAsset>("SpeechTexts");
+        string[] speechSorok = speechTexts.text.Split('\n');
+        speechText = speechSorok[index].Trim();
+
+        popUpTexts = Resources.Load<TextAsset>("PopUpTexts");
+        string[] popUpSorok = popUpTexts.text.Split('\n');
+        popUpText = popUpSorok[index].Trim();
+
     }
 }
