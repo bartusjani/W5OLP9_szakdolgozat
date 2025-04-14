@@ -6,10 +6,7 @@ using UnityEngine.UI;
 public class Trigger : MonoBehaviour
 {
 
-    public bool isDoorOpen = false;
     public GameObject interactText;
-    bool isPlayerInTrigger = false;
-    bool wasSpeaking = false;
 
     public PopUpBubble popUpPrefab;
     string popUpMessage;
@@ -30,9 +27,14 @@ public class Trigger : MonoBehaviour
 
     public Transform doorWaypointTarget;
     public WayPointUI waypoint;
-    bool onlypopUp = false;
 
     ItemAdder itemAdder;
+
+    public bool isDoorOpen = false;
+    bool onlypopUp = false;
+    bool isPlayerInTrigger = false;
+    bool wasSpeaking = false;
+    bool wasButtonPressed = false;
 
     public InventoryPage invPage;
     public Sprite itemImage;
@@ -41,13 +43,15 @@ public class Trigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isPlayerInTrigger)
         {
+            wasButtonPressed = true;
             itemAdder=gameObject.GetComponent<ItemAdder>();
-            itemAdder.AddItemToInv(invPage,itemImage,"aaaaa","bbbbbb");
+            itemAdder.AddItemToInv(invPage,itemImage,"title","description");
             interactText.SetActive(false);
             if (!wasSpeaking)
             {
+                onlypopUp = true;
                 ChooseTexts(2);
-                StartCoroutine(SetPopUp(objMessage, speechMessage));
+                StartCoroutine(SetPopUp(popUpMessage,objMessage, speechMessage));
             }
 
            waypoint.SetTarget(doorWaypointTarget.transform);
@@ -61,8 +65,12 @@ public class Trigger : MonoBehaviour
         {
             interactText.SetActive(true);
             isPlayerInTrigger = true;
-            ChooseTexts(2);
-            StartCoroutine(SetPopUp(popUpMessage));
+            if (!wasButtonPressed)
+            {
+                ChooseTexts(2);
+                SetPopUp(popUpMessage);
+                onlypopUp = false;
+            }
         }
     }
 
@@ -89,11 +97,14 @@ public class Trigger : MonoBehaviour
                 speechActiveBubble = null;
             }
             StopAllCoroutines();
-            GetComponent<Collider2D>().enabled = false;
+            if (wasButtonPressed)
+            {
+                GetComponent<Collider2D>().enabled = false;
+            }
         }
     }
 
-    IEnumerator SetPopUp(string message)
+    void SetPopUp(string message)
     {
         if (activeBubble == null)
         {
@@ -101,38 +112,17 @@ public class Trigger : MonoBehaviour
 
             activeBubble = Instantiate(popUpPrefab, parent);
             activeBubble.SetText(message);
-            yield return new WaitForSeconds(2f);
-            if (activeBubble != null) 
-            {
-                Destroy(activeBubble.gameObject);
-                activeBubble = null;
-
-            }
+            
         }
     }
-    IEnumerator SetPopUp(string message,string objMessage)
+    IEnumerator SetPopUp(string message,string objMessage, string speechMessage)
     {
-        if (activeBubble == null || objActiveBubble==null)
+        if (objActiveBubble == null || activeBubble == null)
         {
             if (activeBubble != null)
             {
                 Destroy(activeBubble.gameObject);
             }
-            Transform parent = GameObject.Find("PopUps").transform;
-
-            activeBubble = Instantiate(popUpPrefab, parent);
-            activeBubble.SetText(message);
-
-            yield return new WaitForSeconds(0.2f);
-            SetObjective(objMessage);
-
-        }
-    }
-
-    IEnumerator SetPopUp(string message,string objMessage, string speechMessage)
-    {
-        if (activeBubble == null)
-        {
             Transform parent = GameObject.Find("PopUps").transform;
 
             activeBubble = Instantiate(popUpPrefab, parent);

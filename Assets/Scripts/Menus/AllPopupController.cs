@@ -9,15 +9,15 @@ public class AllPopupController : MonoBehaviour
     public static AllPopupController Instance => instance;
 
     public PopUpBubble popPrefab;
-    public string popMessage;
+    string popMessage;
 
 
     public ObjectiveBubble objPrefab;
-    public string objMessage;
+    string objMessage;
 
 
     public SpeechBubble speechPrefab;
-    public string speechMessage;
+    string speechMessage;
 
 
     private PopUpBubble activeBubble;
@@ -42,6 +42,7 @@ public class AllPopupController : MonoBehaviour
     public bool isTutorialRoom = false;
     bool isPlayerInTrigger = false;
     private bool wasSpeaking = false;
+
     public int textIndex = 1;
     private void Awake()
     {
@@ -88,6 +89,7 @@ public class AllPopupController : MonoBehaviour
                             StartCoroutine(SetPopUp(popUpText,objectiveText));
                         }
                     }
+                    wasSpeaking = false;
                 }
             }
         }

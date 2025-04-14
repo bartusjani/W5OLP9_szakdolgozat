@@ -84,6 +84,12 @@ public class RoomTP : MonoBehaviour
         {
             if (!wasCountAdded)
             {
+                if (AllPopupController.Instance.textIndex + 1 == 2)
+                {
+                    AllPopupController.Instance.textIndex++;
+                    AllPopupController.Instance.textIndex++;
+
+                }
                 AllPopupController.Instance.textIndex++;
                 wasCountAdded = true;
             }

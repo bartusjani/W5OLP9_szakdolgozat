@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public EnemyHpBar hpBar;
     public GameObject bossHpBar;
     public GameObject bossTrigger;
+    public GameObject libraryTeleport;
     public static event Action OnAnyEnemyDeath;
 
     public bool isBoss = false;
@@ -90,6 +91,7 @@ public class EnemyHealth : MonoBehaviour
         if (isBoss)
         {
             bossTrigger.SetActive(true);
+            libraryTeleport.SetActive(true);
             bossHpBar.SetActive(false);
             isBossDead = true;
         }

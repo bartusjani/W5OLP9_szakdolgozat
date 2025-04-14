@@ -14,6 +14,8 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
     TextAsset objectiveText;
     TextAsset speechText;
 
+    public WayPointUI waypoint;
+    public Transform doorWaypointTarget;
     bool wasSpeaking = false;
     private bool isPlayerInTrigger;
 
@@ -25,6 +27,7 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
             ChooseTexts(0);
             SetSpeech(speechMessage);
             SetObj(objMessage);
+            waypoint.SetTarget(doorWaypointTarget.transform);
         }
         else
         {
