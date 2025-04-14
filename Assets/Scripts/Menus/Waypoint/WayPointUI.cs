@@ -8,7 +8,7 @@ public class WayPointUI : MonoBehaviour
     float screenEdge = 50f;
 
     bool isNewTarget = false;
-    float hideDis = 50f;
+    float hideDis = 20f;
 
     void Update()
     {

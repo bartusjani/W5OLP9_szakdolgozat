@@ -31,12 +31,14 @@ public class RoomTP : MonoBehaviour
     public GroundDoorTrigger gd;
     public Trigger tr;
 
+    bool wasCountAdded = false;
+    public GameObject secondDoor;
+
     private void Start()
     {
         fader = GetComponent<ScreenFading>();
         lastTeleportTime = -teleportCooldown;
         tr = FindFirstObjectByType<Trigger>();
-        
     }
     private void Update()
     {
@@ -80,6 +82,11 @@ public class RoomTP : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            if (!wasCountAdded)
+            {
+                AllPopupController.Instance.textIndex++;
+                wasCountAdded = true;
+            }
             if (isBossRoom)
             {
                 if (EnemyHealth.isBossDead)
@@ -104,6 +111,7 @@ public class RoomTP : MonoBehaviour
         }
     }
 
+    private bool hasToTurnOff = false;
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -112,6 +120,10 @@ public class RoomTP : MonoBehaviour
             isFading = false;
             interactText.SetActive(false);
             faderImage.gameObject.SetActive(false);
+            if (secondDoor!=null)
+            {
+                hasToTurnOff = true;
+            }
         }
     }
 
@@ -123,7 +135,8 @@ public class RoomTP : MonoBehaviour
     IEnumerator TeleportWithFade()
     {
         if (isFading) yield break;
-
+        
+        wasCountAdded = false;
         isFading = true;
         lastTeleportTime = Time.time;
 
@@ -144,6 +157,11 @@ public class RoomTP : MonoBehaviour
         FreezePlayer(false);
         yield return new WaitForSeconds(1f);
         isFading = false;
+        if (hasToTurnOff && secondDoor!=null)
+        {
+            hasToTurnOff = false;
+            secondDoor.SetActive(false);
+        }
 
     }
 

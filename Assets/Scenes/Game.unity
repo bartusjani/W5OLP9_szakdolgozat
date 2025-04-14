@@ -2237,6 +2237,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &105671542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7307,6 +7308,38 @@ Transform:
   - {fileID: 706539920}
   m_Father: {fileID: 1437761661}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &507627373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507627374}
+  m_Layer: 0
+  m_Name: RespawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &507627374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507627373}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.071995, y: 7.5731, z: 0.03289561}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1643083856}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11463,6 +11496,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!114 &779427917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11582,7 +11616,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.61, y: 4.19, z: 0}
+  m_LocalPosition: {x: -15.04, y: 0.01, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12112,6 +12146,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &826961091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12246,6 +12281,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &832438308
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13098,6 +13134,7 @@ GameObject:
   - component: {fileID: 953931273}
   - component: {fileID: 953931272}
   - component: {fileID: 953931274}
+  - component: {fileID: 953931275}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Trigger
@@ -13180,14 +13217,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDoorOpen: 0
   interactText: {fileID: 1435260285}
-  prefab: {fileID: 1927633351992585087, guid: 89bee9ed7e9e8424a8779f8ed87afd3f, type: 3}
-  message: The door is open.
-  image: {fileID: 7838326672286406463, guid: 7feaa1d8ce660b04e8bec30499418724, type: 3}
-  objMessage: Open the door.
+  popUpPrefab: {fileID: 1927633351992585087, guid: 89bee9ed7e9e8424a8779f8ed87afd3f, type: 3}
+  objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
-  speechMessage: speech
   doorWaypointTarget: {fileID: 469841302}
   waypoint: {fileID: 1978266586}
+  invPage: {fileID: 407128972}
+  itemImage: {fileID: 2850451628129521432, guid: be2f044b469fb5943b8e9388813c4a89, type: 3}
+--- !u!114 &953931275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953931270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e767c2227d92d47a6747a6c4dff39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &961474221
 GameObject:
   m_ObjectHideFlags: 0
@@ -16786,6 +16834,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1269146483
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17072,10 +17121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c5861c18c0e14149b25bb89e060a374, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
-  message: What happend?
+  speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   objPrefab: {fileID: 1927633351992585087, guid: 89bee9ed7e9e8424a8779f8ed87afd3f, type: 3}
-  objMessage: Find an Exit.
 --- !u!61 &1296441754
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17182,6 +17229,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1307249079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17751,6 +17799,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1352939079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30445,6 +30494,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1384447567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30810,6 +30860,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1391043537
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31309,6 +31360,7 @@ GameObject:
   - component: {fileID: 1423417865}
   - component: {fileID: 1423417867}
   - component: {fileID: 1423417866}
+  - component: {fileID: 1423417868}
   m_Layer: 0
   m_Name: GroundDoorTeleport
   m_TagString: Wall
@@ -31346,6 +31398,7 @@ MonoBehaviour:
   groundDoorTrigger: 0
   groundDoorTarget: {fileID: 498744781}
   wp: {fileID: 1978266586}
+  secondDoor: {fileID: 1459019108}
 --- !u!61 &1423417863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31445,6 +31498,29 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 1423417862}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
+--- !u!114 &1423417868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423417860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecfbc9a713532bb42b240698d21ebddd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popPrefab: {fileID: 0}
+  popMessage: 
+  objPrefab: {fileID: 0}
+  objMessage: 
+  speechPrefab: {fileID: 0}
+  speechMessage: 
+  platformerHelp: {fileID: 0}
+  tr: {fileID: 0}
+  isTutorialRoom: 0
+  textIndex: 1
 --- !u!1 &1428060719
 GameObject:
   m_ObjectHideFlags: 0
@@ -32228,8 +32304,8 @@ GameObject:
   - component: {fileID: 1459019114}
   - component: {fileID: 1459019115}
   m_Layer: 0
-  m_Name: DoorTrigger
-  m_TagString: Untagged
+  m_Name: SecondDoor
+  m_TagString: SecondDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32334,6 +32410,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 1459019108}
 --- !u!114 &1459019114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32369,6 +32446,7 @@ MonoBehaviour:
   platformerHelp: {fileID: 0}
   tr: {fileID: 0}
   isTutorialRoom: 0
+  textIndex: 1
 --- !u!1 &1468824685
 GameObject:
   m_ObjectHideFlags: 0
@@ -32459,8 +32537,9 @@ GameObject:
   - component: {fileID: 1470795837}
   - component: {fileID: 1470795838}
   - component: {fileID: 1470795839}
+  - component: {fileID: 1470795841}
   m_Layer: 0
-  m_Name: DoorPopUpTrigger
+  m_Name: FirstDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32580,6 +32659,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 1459019108}
 --- !u!114 &1470795839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32615,6 +32695,20 @@ MonoBehaviour:
   platformerHelp: {fileID: 1997767552}
   tr: {fileID: 953931274}
   isTutorialRoom: 1
+  textIndex: 1
+--- !u!114 &1470795841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470795832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54fc81fef83acdb46838cbe47a7c4c37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tr: {fileID: 953931274}
 --- !u!1 &1472826973
 GameObject:
   m_ObjectHideFlags: 0
@@ -34979,6 +35073,97 @@ Transform:
   m_Children: []
   m_Father: {fileID: 933866611}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1643083855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643083856}
+  - component: {fileID: 1643083858}
+  - component: {fileID: 1643083857}
+  m_Layer: 0
+  m_Name: CombatRoomPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643083856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643083855}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.51, y: -9.34, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 507627374}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1643083857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643083855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc90cfe4ceef07040b8311b27d41ea03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1643083858
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643083855}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1644747015
 GameObject:
   m_ObjectHideFlags: 0
@@ -35707,6 +35892,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1665878917
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36228,6 +36414,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 1668729083}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1679519670
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -37223,6 +37410,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!114 &1765251601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38979,6 +39167,7 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
+  secondDoor: {fileID: 0}
 --- !u!61 &1913175775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -39739,7 +39928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef9147df4224ff342be4b11ef7f8ff84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1446053742}
+  target: {fileID: 469841302}
   icon: {fileID: 1978266585}
 --- !u!114 &1978266587
 MonoBehaviour:
@@ -41677,6 +41866,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 2046116826}
+  - {fileID: 507627374}
   - {fileID: 793944882}
   - {fileID: 457912829}
   - {fileID: 1507086414}

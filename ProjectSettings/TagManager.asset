@@ -13,6 +13,7 @@ TagManager:
   - Wall
   - Trigger
   - WayPoint
+  - SecondDoor
   layers:
   - Default
   - TransparentFX

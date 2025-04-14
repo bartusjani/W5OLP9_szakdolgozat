@@ -8,6 +8,7 @@ public class GroundDoorTrigger : MonoBehaviour
     public WayPointUI wp;
     private int allScorpions;
     private int deadScorpions = 0;
+    public GameObject secondDoor;
 
 
     private void Start()
@@ -27,6 +28,7 @@ public class GroundDoorTrigger : MonoBehaviour
         if(deadScorpions>= allScorpions)
         {
             //Debug.Log("All died");
+            secondDoor.SetActive(true);
             groundDoorTrigger = true;
             wp.SetTarget(groundDoorTarget);
         }

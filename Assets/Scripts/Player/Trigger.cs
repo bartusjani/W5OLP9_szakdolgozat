@@ -11,32 +11,43 @@ public class Trigger : MonoBehaviour
     bool isPlayerInTrigger = false;
     bool wasSpeaking = false;
 
-    public PopUpBubble prefab;
-    public string message;
-    public Sprite image;
+    public PopUpBubble popUpPrefab;
+    string popUpMessage;
 
-    public string objMessage;
+    public ObjectiveBubble objPrefab;
+    string objMessage;
 
     public SpeechBubble speechPrefab;
-    public string speechMessage;
+    string speechMessage;
 
     private PopUpBubble activeBubble;
-    private PopUpBubble objActiveBubble;
+    private ObjectiveBubble objActiveBubble;
     private SpeechBubble speechActiveBubble;
 
+    private TextAsset popUpText;
+    private TextAsset speechText;
+    private TextAsset objectiveText;
 
     public Transform doorWaypointTarget;
     public WayPointUI waypoint;
+    bool onlypopUp = false;
+
+    ItemAdder itemAdder;
+
+    public InventoryPage invPage;
+    public Sprite itemImage;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && isPlayerInTrigger)
         {
-            
+            itemAdder=gameObject.GetComponent<ItemAdder>();
+            itemAdder.AddItemToInv(invPage,itemImage,"aaaaa","bbbbbb");
             interactText.SetActive(false);
             if (!wasSpeaking)
             {
-                StartCoroutine(SetPopUp(message,objMessage, speechMessage));
+                ChooseTexts(2);
+                StartCoroutine(SetPopUp(objMessage, speechMessage));
             }
 
            waypoint.SetTarget(doorWaypointTarget.transform);
@@ -50,6 +61,8 @@ public class Trigger : MonoBehaviour
         {
             interactText.SetActive(true);
             isPlayerInTrigger = true;
+            ChooseTexts(2);
+            StartCoroutine(SetPopUp(popUpMessage));
         }
     }
 
@@ -75,22 +88,43 @@ public class Trigger : MonoBehaviour
                 Destroy(speechActiveBubble.gameObject);
                 speechActiveBubble = null;
             }
+            StopAllCoroutines();
             GetComponent<Collider2D>().enabled = false;
         }
     }
 
-
-    IEnumerator SetPopUp(string message,string objMessage)
+    IEnumerator SetPopUp(string message)
     {
         if (activeBubble == null)
         {
             Transform parent = GameObject.Find("PopUps").transform;
 
-            activeBubble = Instantiate(prefab, parent);
+            activeBubble = Instantiate(popUpPrefab, parent);
+            activeBubble.SetText(message);
+            yield return new WaitForSeconds(2f);
+            if (activeBubble != null) 
+            {
+                Destroy(activeBubble.gameObject);
+                activeBubble = null;
+
+            }
+        }
+    }
+    IEnumerator SetPopUp(string message,string objMessage)
+    {
+        if (activeBubble == null || objActiveBubble==null)
+        {
+            if (activeBubble != null)
+            {
+                Destroy(activeBubble.gameObject);
+            }
+            Transform parent = GameObject.Find("PopUps").transform;
+
+            activeBubble = Instantiate(popUpPrefab, parent);
             activeBubble.SetText(message);
 
-            yield return new WaitForSeconds(1f);
-            SetObjcective(objMessage);
+            yield return new WaitForSeconds(0.2f);
+            SetObjective(objMessage);
 
         }
     }
@@ -101,25 +135,25 @@ public class Trigger : MonoBehaviour
         {
             Transform parent = GameObject.Find("PopUps").transform;
 
-            activeBubble = Instantiate(prefab, parent);
+            activeBubble = Instantiate(popUpPrefab, parent);
             activeBubble.SetText(message);
 
-            yield return new WaitForSeconds(1f);
-            SetObjcective(objMessage);
+            yield return new WaitForSeconds(0.2f);
+            SetObjective(objMessage);
 
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.1f);
             SetSpeech(speechMessage);
             wasSpeaking = true;
         }
     }
 
-    void SetObjcective(string message)
+    void SetObjective(string message)
     {
         if (objActiveBubble == null)
         {
-            Transform parent = GameObject.Find("PopUps").transform;
+            Transform parent = GameObject.Find("ObjectiveBubbles").transform;
 
-            objActiveBubble = Instantiate(prefab, parent);
+            objActiveBubble = Instantiate(objPrefab, parent);
             objActiveBubble.SetText(message);
 
         }
@@ -134,5 +168,28 @@ public class Trigger : MonoBehaviour
             speechActiveBubble.SetText(message);
             //wasSpeaking = true;
         }
+    }
+
+    void ChooseTexts(int index)
+    {
+        popUpText = Resources.Load<TextAsset>("PopUpTexts");
+        string[] popUpSorok = popUpText.text.Split('\n');
+        popUpMessage = popUpSorok[index].Trim();
+        if (!onlypopUp)
+        {
+            popUpText = Resources.Load<TextAsset>("PopUpTexts");
+            popUpSorok = popUpText.text.Split('\n');
+            popUpMessage = popUpSorok[index-1].Trim();
+            onlypopUp = true;
+        }
+
+        objectiveText = Resources.Load<TextAsset>("ObjectiveTexts");
+        string[] objectSorok = objectiveText.text.Split('\n');
+        objMessage = objectSorok[index].Trim();
+
+        speechText = Resources.Load<TextAsset>("SpeechTexts");
+        string[] speechSorok = speechText.text.Split('\n');
+        speechMessage = speechSorok[index].Trim();
+
     }
 }

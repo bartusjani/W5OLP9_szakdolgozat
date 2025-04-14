@@ -2,14 +2,17 @@ using UnityEngine;
 
 public class SpeechAndObjectiveTrigger : MonoBehaviour
 {
-    public SpeechBubble prefab;
-    private SpeechBubble activeBubble;
-    public string message;
+    public SpeechBubble speechPrefab;
+    private SpeechBubble speechActiveBubble;
+    string speechMessage;
 
 
     public PopUpBubble objPrefab;
     private PopUpBubble objActiveBubble;
-    public string objMessage;
+    string objMessage;
+
+    TextAsset objectiveText;
+    TextAsset speechText;
 
     bool wasSpeaking = false;
     private bool isPlayerInTrigger;
@@ -19,7 +22,8 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInTrigger = true;
-            SetSpeech(message);
+            ChooseTexts(0);
+            SetSpeech(speechMessage);
             SetObj(objMessage);
         }
         else
@@ -31,10 +35,10 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         isPlayerInTrigger = false;
-        if (activeBubble != null)
+        if (speechActiveBubble != null)
         {
-            Destroy(activeBubble.gameObject);
-            activeBubble = null;
+            Destroy(speechActiveBubble.gameObject);
+            speechActiveBubble = null;
         }
         if(objActiveBubble!=null)
         {
@@ -46,12 +50,12 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
 
     void SetSpeech(string message)
     {
-        if (activeBubble == null && !wasSpeaking)
+        if (speechActiveBubble == null && !wasSpeaking)
         {
             Transform parent = GameObject.Find("PlayerSpeechBubbles").transform;
 
-            activeBubble = Instantiate(prefab, parent);
-            activeBubble.SetText(message);
+            speechActiveBubble = Instantiate(speechPrefab, parent);
+            speechActiveBubble.SetText(message);
             wasSpeaking = true;
         }
     }
@@ -65,5 +69,18 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
             objActiveBubble = Instantiate(objPrefab, parent);
             objActiveBubble.SetText(message);
         }
+    }
+
+
+    void ChooseTexts(int index)
+    {
+
+        objectiveText = Resources.Load<TextAsset>("ObjectiveTexts");
+        string[] objectSorok = objectiveText.text.Split('\n');
+        objMessage = objectSorok[index].Trim();
+
+        speechText = Resources.Load<TextAsset>("SpeechTexts");
+        string[] speechSorok = speechText.text.Split('\n');
+        speechMessage = speechSorok[0].Trim();
     }
 }
