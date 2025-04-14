@@ -96,12 +96,12 @@ Alapértelmezés szerint veremalapú objektumokként tárolódnak, amely érték
 	\item Basis \\ Egy 3x3-as mátrix amit 3D forgatás és skálázásra használnak.
 \end{itemize}
 \subsection{A Godot verzóinak áttekintése}
-A Godot Engine-t folyamatosan fejlesztik , rendszeresen új funkciókkal, teljesítménybeli javításokkal és hibajavításokkal frissül.Az alábbiakban a legfontosabb verziókról fogok írni.
+A Godot Engine-t folyamatosan fejlesztik, rendszeresen új funkciókkal, teljesítménybeli javításokkal és hibajavításokkal frissül.Az alábbiakban a legfontosabb verziókról fogok írni.
 \begin{itemize}
 	\item[$\bullet$] Godot 1.0 \\ 2014 decemberében jelent meg a Godot Engine első stabil verziója. Több száz hibát javítottak és a közösség is jelentősen megnövekedett.\cite{Godot1.0}
 	\item[$\bullet$] Godot 2.0 \\ 2016 februárjában jelent meg.A Godot 2.0-ban javították jelenetpéldányosítást.Bevezették a jelenet öröklést és egy új szöveges jelenetformátumot ami könnyeben kezelhető, Git kompatibilis és gyorsabb. Továbbá támogatja az onready kulcsszót és singeltonokat.\cite{Godot2.0}
 	\item[$\bullet$] Godot 3.0 \\ 2018 januárjában jelent meg. A Godot 3.0-ban új fizikai alapú 3D renderelő kapott helyet. Behozták a GDNative-ot  ami egy új keretrendszer amivel könnyen bővíthető a Godot C/C++ nyelven a motor újrafordítás nélkül.\cite{Godot3.0}
-	\item [$\bullet$] Godot 4.0\\  2023 márciusában jelent meg és jelentős javításokat hozott .  A Godot 4.0-ban a 2D munkafolyamatokban új tilemap szerkesztőt vezettek be amivel könnyebb a szint tervezés. A 3D területén a shader-ek és VFX rendszerek újításokon estek át, emellett jelentős fejlesztéseket kapott és shader szerkesztő is.\cite{Godot4.0}
+	\item [$\bullet$] Godot 4.0\\  2023 márciusában jelent meg és jelentős javításokat hozott.  A Godot 4.0-ban a 2D munkafolyamatokban új tilemap szerkesztőt vezettek be amivel könnyebb a szint tervezés. A 3D területén a shader-ek és VFX rendszerek újításokon estek át, emellett jelentős fejlesztéseket kapott és shader szerkesztő is.\cite{Godot4.0}
 \end{itemize}
 Most a legfrissebb verziója a Godot 4.4.1 amit 2025 márciusában adtak ki.
 \subsection{Licenszi kérdések}
@@ -132,7 +132,7 @@ A Blueprint osztály egy olyan eszköz, ami lehetővé teszi a új funkciók hoz
 \end{itemize}
 
 \subsection{Unreal Engine verzióinak áttekintése}
-A Unreal Engine-t folyamatosan fejlesztik , rendszeresen új funkciókkal, teljesítménybeli javításokkal és hibajavításokkal frissül.Az alábbiakban pár újabb verzióról fogok írni.
+A Unreal Engine-t folyamatosan fejlesztik, rendszeresen új funkciókkal, teljesítménybeli javításokkal és hibajavításokkal frissül.Az alábbiakban pár újabb verzióról fogok írni.
 \begin{itemize}
 	\item[$\bullet$]Unreal Engine 4.27 \\ 2021 augusztusában jelent meg. Ez a verzió mindenki számára kínál valamit kezdve a filmesektől, vizualizációs szakembereken át a játékfejlesztőkig. Ebben a kiadásban a munkafolyamatok egyszerűsítésén és a teljesítmény növelésén volt a hangsúly.\cite{Unreal4.27}
 	\item[$\bullet$]Unreal Engine 5.0 \\ 2022 áprilisában jelent meg. Ezen kiadásban a lehetővé tették a fejlesztők számára hogy next-gen valós idejű 3D tartalmakat,élményeket hozzanak létre nagyobb szabadsággal,rugalmassággal és részletességgel.Az új funkciók mint a Nanite vagy a Lumen új vizuális minőséget biztosítanak, lehetővé téve a dinamikus világok létrehozását.\cite{Unreal5.0}
@@ -173,7 +173,11 @@ A Unityben a programozás alapértelmezetten  C\#--ban történik.A C\# egy obje
 	\item[$\bullet$]Kivételkezelés\\A C\# támogatja a kivételkezelést.Try--catch blokkokat alkalmaz, amely lehetővé teszi a hibák hatékony kezelését és a program hibamentes futását.
 	\item[$\bullet$]Kompatibilitás a .NET és Mono környezetekkel\\A C\# kódot futtathatjuk a .NET keretrendszeren és az open-source Mono környezeten is, így lehetővé téve az alkalmazások futtatását különböző platformokon mint például Windows,Linux és macOS.
 \end{itemize}
-\subsection{fontosabb verziók}
+\subsubsection{Fontos metódusok a Unityben}
+A Unity életciklusában a Start, Update és FixedUpdate metódusok kulcsszerepet játszanak a szkriptek működésében. A Start egyszer hajtódik végre, amikor az objektum aktívvá válik, míg az Update minden egyes képkockán fut, biztosítva a folyamatos működést, például a bemenetek feldolgozását. A FixedUpdate a fizikai számításokat végzi el, és rendszeresen hívódik meg az időközönkénti frissítésekkel, így ideális a fizikai interakciók kezelésére.\cite{UnityEvents} Létezik a LateUpdate is ami az összes Update után fut le. Ez hasznos a szkriptek végrehajtásának sorrendjében. Ha a játékos kamerája követi a karaktert, és azt szeretnénk, hogy a kamera a karakter mozgása után álljon be a megfelelő pozícióra, akkor a LateUpdate tökéletes választás.\cite{UnityLateUpdate}
+
+A fizikai események, mint az OnTriggerEnter és OnCollisionEnter, akkor aktiválódnak, amikor egy Collider objektum másik Colliderrel érintkezik, és lehetőséget biztosítanak az interakciók kezelésére, például a találatok vagy az objektumok közötti ütközések esetén.\cite{UnityEvents}
+\subsection{Fontosabb verziók}
 A Unity folyamatosan fejlődő és frissülő játékmotor, amelyet az Unity Technologies fejlesztett ki.Az alábbiakban pár verziójáról fogok írni.
 \begin{itemize}
 	\item[$\bullet$]Unity 4.0\\2012 novemberében jelent meg. A Unity 4.0--nak a célja a meglévő technológia javítása és új funkciók bevezetése volt. Főbb újítások:
@@ -191,7 +195,7 @@ A Unity folyamatosan fejlődő és frissülő játékmotor, amelyet az Unity Tec
 		\item Ai és vizuális fejlesztések \\Az Adaptive Probe Volumes (APV) automatikusan elhelyezi a fénypróbákat, így gyorsabbá téve a fényalapú közvetett világításokkal való munkát.Az új Sentis AI lehetővé teszi a testreszabott AI modellek gyors integrálását.\cite{Unity6}
 	\end{itemize}
 \end{itemize}
-\subsection{licenszelési kérdések}
+\subsection{Licenszelési kérdések}
 A Unity licencelési rendszer különböző típusú felhasználók és fejlesztők számára biztosít hozzáférést a motor különböző funkcióihoz. Az alábbi felsorolásban írok egyes licencekről.
 \begin{itemize}
 	\item[$\bullet$] Unity Student \\ Ingyenes. kizárólág diákok vehetik igénybe.
@@ -199,7 +203,7 @@ A Unity licencelési rendszer különböző típusú felhasználók és fejleszt
 	\item[$\bullet$] Unity Pro\\200\$ /hónap. Ezzel lehet konzolokra is kiadni.
 	\item[$\bullet$] Unity Enterprise\\A legnagyobb vállalatok számára kínált lehetőség. Ez a verzió a legfejlettebb eszközöket és prémium támogatást biztosít, és általában személyre szabott megoldásokat kínál.\cite{UnityLicences}
 \end{itemize}
-\subsection{főbb erősségei}
+\subsection{Főbb erősségei}
 A Unity számos erősséggel rendelkezik, ebből párat részletesebben leírok.
 \begin{itemize}
 	\item[$\bullet$]Egyszerűsített multiplayer játékfejlesztés \\  A Unity 6 integrált multiplayer platformot kínál, amely gyorsítja a játékok online funkcióinak fejlesztését és tesztelését, megkönnyítve a többjátékos élmények létrehozását. 
@@ -215,7 +219,7 @@ A Unity-ben a fejlesztés jelenetekben (scenes) történik, amelyek a játék va
 Unityben a GameObject reprezentál mindent ami egy jeleneten belül lehet. A GameObject osztály sok metódussal rendelkezik amivel segíti a programozást, például GameObjectek közötti keresés,üzenetküldés, a GameObjectekhez kapcsolt komponensek hozzáadása vagy eltávolítása.\cite{UnityGameObject}
 
 \subsubsection{Komponensek}
-A komponensek minden GameObjectnek funkcionális darabjai.A komponensek szerkesztésével lehet a GameObjectek viselkedését módosítani.Komponenst lehet hozzáadni,szerkeszteni vagy törölni a GameObjectről .Egy GameObjectnek lehet több komponense is, viszont egy Transform komponenssel muszáj rendelkeznie, mivel ezzel lehet a GameObjectnek meghatározni a helyét, forgatását és a méretarányát.\cite{UnityComponents}
+A komponensek minden GameObjectnek funkcionális darabjai.A komponensek szerkesztésével lehet a GameObjectek viselkedését módosítani.Komponenst lehet hozzáadni,szerkeszteni vagy törölni a GameObjectről. Egy GameObjectnek lehet több komponense is, viszont egy Transform komponenssel muszáj rendelkeznie, mivel ezzel lehet a GameObjectnek meghatározni a helyét, forgatását és a méretarányát.\cite{UnityComponents}
 
 Ebben a szekcióban bemutatom részletesebben azokat a komponenseket amiket használtam a szakdolgozatom fejlesztése során.
 
@@ -262,15 +266,23 @@ Az Editor egy grafikus felület ahol a fejlesztők összeállítják a jelenetek
 \end{figure}
 
 \subsubsection{Scene View}
-A Scene View az Editor egyik legfontosabb része. Itt láthatod vizuálisan,szerkesztheted a játékot. A GameObjecteket itt választhatod ki, itt módosíthatod őket. A Scene View egy interaktív ablak amely megkönnyíti a jelenetek felépítését.\cite{UnityScene}
+A Scene View az Editor egyik legfontosabb része. Itt láthatod vizuálisan, szerkesztheted a játékot. A GameObjecteket itt választhatod ki, itt módosíthatod őket. A Scene View egy interaktív ablak, amely megkönnyíti a jelenetek felépítését.
+A jelenet nézete szabadon forgatható, nagyítható és mozgatható, így bármilyen szögből megvizsgálhatod az objektumokat. A különböző eszközök (például Move, Rotate, Scale) segítségével közvetlenül módosíthatod az objektumok elhelyezkedését a térben. Lehetőség van 2D és 3D nézet között váltani, attól függően, milyen típusú játékot fejlesztesz. A Scene View támogatja a rétegek és világítási módok megjelenítését is, ami segíti a jelenet pontos vizuális beállítását.\cite{UnityScene}
 \subsubsection{Game View}
-A Game View a játék végső, futtatott állapotát mutatja. Ez a nézet a projektben elhelyezett kamerák által renderelt képet jeleníti meg.\cite{UnityGameView}
+A Game View a játék végső, futtatott állapotát mutatja. Ez a nézet a projektben elhelyezett kamerák által renderelt képet jeleníti meg. A Game View gyakorlatilag azt mutatja, amit a játékos is lát majd játék közben.
+Ebben a nézetben tesztelhetők a játékmenet-elemek, például a mozgás, támadás vagy UI működése. A Game View támogatja a különböző felbontások és képarányok kipróbálását, így ellenőrizheted, hogyan viselkedik a játék többféle képernyőméreten. Beállíthatók simulated aspect ratio értékek, például telefonos, tabletes vagy monitoros nézetek is. Ezen kívül a Stat és Gizmos gombok segítségével megjeleníthetők technikai információk, például FPS, memóriahasználat vagy segédvonalak a hibakereséshez.\cite{UnityGameView}
 
 \subsubsection{Inspector}
-Az Inspector ablakban található a kijelölt GameObject összes tulajdonsága,komponense. Itt lehet módosítani a kijelölt GameObject tulajdonságait, hozzáadni/eltávolítani komponenseket.\cite{UnityIspector}
+Az Inspector ablakban található a kijelölt GameObject összes tulajdonsága és hozzárendelt komponense. Az Inspector dinamikusan frissül attól függően, hogy milyen objektum van kijelölve a Hierarchy vagy a Project ablakban. Itt lehet módosítani a GameObject pozícióját, forgatását, méretét (a Transform komponens segítségével), valamint egyéb hozzáadott komponensek beállításait is, mint például a Sprite Renderer, Rigidbody2D, Collider, Script-ek, stb.
+
+Az Inspector lehetővé teszi új komponensek hozzáadását a "Add Component" gomb segítségével, vagy meglévő komponensek eltávolítását és átrendezését. Továbbá, ha egy GameObject-hez egyedi C\# script van csatolva, az Inspectoron keresztül meg lehet adni annak publikus változóit, például referenciákat más GameObjectekre, sebességértékeket, animátor vezérlőket, és egyéb paramétereket, így nem szükséges a kódban módosítani ezeket.
+
+Az Inspector ablak támogatja a Prefab objektumok kezelését is – lehetőség van Prefab példányok módosítására, valamint a változások alkalmazására vagy visszavonására az egész Prefabra nézve. Emellett az Inspector lehetőséget biztosít arra is, hogy az értékeket játék közben megfigyeljük és akár futásidőben módosítsuk őket, ami segít a tesztelésben és hibakeresésben is.\cite{UnityIspector}
 
 \subsubsection{Hierarchy window}
-Ebben az ablakban minden GameObject megjelenik a jelenetben,Ezt az ablakot lehet használni a GameObjectek rendszerezésére.\cite{UnityIspector}
+Ebben az ablakban minden GameObject megjelenik, amely a jelenetben található. Ezt az ablakot, amit Hierarchy ablaknak nevezünk, elsősorban a GameObjectek rendszerezésére és hierarchikus elrendezésére használjuk. Lehetőség van szülő-gyerek kapcsolatok létrehozására egyszerűen úgy, hogy egy objektumot ráhúzunk egy másikra – így a kapcsolt objektum együtt mozoghat vagy örökölheti a szülő tulajdonságait. A Hierarchy ablakban új GameObjecteket is létrehozhatunk a jobb gombos menü segítségével, például üres objektumot, 2D sprite-ot, kamerát vagy UI elemet.
+
+A Hierarchy ablak segítségével gyorsan kiválaszthatjuk az objektumokat a szerkesztéshez, illetve átnevezhetjük őket a jobb áttekinthetőség érdekében. A jól szervezett Hierarchy jelentősen megkönnyíti a projektek kezelését, különösen akkor, ha több száz objektum van jelenetben. A Hierarchy a jelenet vizuális felépítésének tükrözésére szolgál, és együttműködik az Inspector és a Scene ablakokkal.\cite{UnityIspector}
 \subsubsection{Project window}
 Ebben az ablakban megjelenik minden fájl/mappa ami a projektben van, itt tudsz navigálni a fájlok között.\cite{UnityProject}
 \subsubsection{Animator window}
@@ -425,21 +437,27 @@ A funkcionális terv célja a játék funkcióinak részletes technikai leírás
 A követelmények a rendszer fejlesztése során követendő irányelvek és célok, amelyek a játék funkcionalitását és működését határozzák meg. A követelmények a fejlesztési fázis során változhatnak, de az alábbiakban szereplő követelmények képezik a rendszerterv alapját. Ezek a követelmények az elkészítendő játék megvalósítását célozzák meg, és minden fontos funkciót, teljesítendő elvárást tartalmaznak.
 \subsection{Funkcionális követelmények}
 \begin{itemize}
-	\item[$\bullet$] Felhasználói felület \\A játékban világos információk jelenjenek meg a játékos számára, például életerő, állóképesség, objektív mutatása és egyéb információk.
+	\item[$\bullet$] Felhasználói felület \\A játék képernyőjének bal felső sarkában jelenik meg a játékos életereje és állóképessége, egy könnyen olvasható, csík formájában.A jobb felső sarokban az objektívet és információt tartalmazó üzenetek jelennek meg, a képernyő alján megjelenelő szövegbuborékokban lehet olvasni a karakter dialógusait, ezek a játék menete alapján frissülnek és új információkat adnak.
 	\begin{itemize}
-		\item \textbf{Elvárás:}A UI-elemeknek tisztán és jól láthatóan kell elhelyezkedniük, hogy a játékos könnyen hozzáférjen a szükséges információkhoz.
+		\item \textbf{Elvárás:} A UI-elemek skálázható méretűek és jól látható betűtípust használnak. A fontos információk mindig láthatóak, és nem takarják ki a játéktér fontos részeit.
 	\end{itemize}
-	\item[$\bullet$]Tárgyak kezelése\\A játékos a pályákon található tárgyakat összegyűjtheti, de azok használata nem szükséges a játék előrehaladásához.
+	\item[$\bullet$]Tárgyak kezelése\\A pályákon elhelyezett tárgyak nem befolyásolják közvetlenül a játék előrehaladását, azonban háttértörténeti információkat tartalmaznak. A játékos az I betű lenyomása után megtekintheti a tárgyak listáját, a képernyő közepén megjelenő ablakban.
 	\begin{itemize}
-		\item \textbf{Elvárás:} A tárgyak kezelése intuitív módon történjen, és a játékos könnyen megtalálhassa a kívánt elemeket.
+		\item \textbf{Elvárás:}Az invetory-ban a tárgyakra való kattintás után a tárgyak listája mellett megjelenik a tárgy neve és leírása. Az UI a Canvas rendszerre épül, és a tárgylista Scroll View komponenssel görgethető.
 	\end{itemize}
-	\item[$\bullet$] Harc rendszer\\ A játékos támadása az ellenségekkel való közelharc során, valamint a távolsági támadások (pl. lövedékek).
+	\item[$\bullet$] Harc rendszer\\ A játékos kizárólag közelharci támadásokat hajthat végre, amelyeket
+	kijelölt billentyűk lenyomásával aktiválhat. A támadásokhoz különféle animációk társulnak (pl. alaptámadás, ugrótámadás, erős ütés), amelyek az Animator komponens segítségével váltakoznak a játékos aktuális állapota szerint (pl. talajon vagy levegőben van-e).
+	
+	Az ellenségek többsége szintén közelharcra képes, és meghatározott támadási mintát követ: például a játékos közelébe érve visszatámadnak, vagy egy rövid töltési idő után gyors támadást hajtanak végre. Az egyik speciális ellenség képes távolsági támadásra, lövedék kilövésére, így a játékosnak nagyobb figyelmet kell fordítania a pozícionálásra.
 	\begin{itemize}
-		\item \textbf{Elvárás:}A harci mechanizmusoknak egyszerűnek és jól irányíthatónak kell lenniük, hogy a játékos könnyedén részt vehessen a harcokban.
+		\item \textbf{Elvárás:}A közelharci rendszer gyors és reszponzív, lehetővé téve a játékos számára, hogy kombókat hajtson végre (például egymás utáni támadásokkal) és speciális mozdulatokat alkalmazzon ugrás vagy futás közben. A támadásokhoz ütközésérzékelés (BoxCollider2D, Raycast stb.) társul, amely pontosan meghatározza, hogy a támadás eltalálta-e az ellenséget.
 	\end{itemize}
-	\item[$\bullet$] Játékos mozgás\\ A játékos karakterének mozgatása a bal és jobb irányban, valamint ugrás végrehajtása a "W" billentyű lenyomásával.
+	\item[$\bullet$] Játékos mozgás\\A karakter mozgása az A,D betűk lenyomásával történik alapvetően, de a bal és jobb irányú nyílbillentyűkkel is lehet irányítani, míg az ugrás a „W” vagy a fel nyíl lenyomásával hajtható végre. A mozgás Rigidbody2D komponenssel történik, a súrlódást és gravitációt figyelembe véve.
 	\begin{itemize}
-		\item \textbf{Elvárás:} A játékos simán és folyamatosan mozoghat a pályán, ugrásai életszerűek és dinamikusak legyenek.
+		\item \textbf{Elvárás:}A karakter mozgása folyamatos és dinamikus, amit a FixedUpdate() metódusban történő sebességfrissítés garantál. Az animációk (Animator komponenssel) automatikusan reagálnak a mozgás sebességére és irányára (xVelocity, yVelocity változók alapján).
+		Az ugrás csak akkor aktiválódik, ha a karakter talajon van, amit a OverlapCircle segítségével ellenőriz a rendszer. Az ugrás ereje egy fix jumpingPower értéken alapul.
+		
+		A karakter irányt vált, ha ellenkező irányba kezd mozogni, amit a Flip() függvény valósít meg a transform.localScale.x tükrözésével.
 	\end{itemize}
 \end{itemize}
 \subsection{Nem funkcionális követelmények}
@@ -480,7 +498,7 @@ A játékos egy karaktert irányít, aki képes:
 	\item[$\bullet$] ugrani
 	\item[$\bullet$] különféle támadásokat végrehajtani mint például a gyors, erős területi, ugró támadás.
 \end{itemize}
-A karakter rendelkezik életerővel, amely csökken, ha az ellenségek megsebesítik. Ha az életerő eléri a nullát, a karakter meghal, és a játék az utolsó checkpoint-tól indul újra.A karakter rendelkezik még állóképességgel is , amely csökken, ha fut vagy erős,területi támadást használ.
+A karakter rendelkezik életerővel, amely csökken, ha az ellenségek megsebesítik. Ha az életerő eléri a nullát, a karakter meghal, és a játék az utolsó checkpoint-tól indul újra.A karakter rendelkezik még állóképességgel is, amely csökken, ha fut vagy erős,területi támadást használ.
 A karakter mozgása és animációi pontosan követik a játékos parancsait, ezzel biztosítva a gördülékeny játékmenetet.
 \subsection{Ellenségek}
 
@@ -510,7 +528,7 @@ A játékban többféle ellenség jelenik meg, amelyek különböző támadási 
 		\end{itemize}
 		\item \textbf{Támadásai}: A támadásai távol harciak:
 		\begin{itemize}
-			\item Egy lövedéket lő ki a játékos felé. Ha ez a lövedék egy akadálynak ütközik, például egy falnak vagy a játékos pajzsának ,akkor a lövedék megsemmisül, és nem okoz sebzést.
+			\item Egy lövedéket lő ki a játékos felé. Ha ez a lövedék egy akadálynak ütközik, például egy falnak vagy a játékos pajzsának,akkor a lövedék megsemmisül, és nem okoz sebzést.
 			\item Ha a lövedék eléri a játékost, akkor sebzést okoz.
 		\end{itemize}
 		
@@ -615,34 +633,34 @@ A unit tesztelés Unity-ben a TestManager eszközzel történik, amely lehetőv�
 
 \section{Teszt jegyző könyv}
 
-A tesztelési folyamat során több karakter mechanikáját is alaposan megvizsgáltam, beleértve a játékos karakterének mozgását és támadásait, valamint a különböző ellenségek, mint a skorpió és a főellenség mozgási viselkedését. A célom az volt, hogy megbizonyosodjam a karakterek és ellenségek működésének helyességéről, valamint hogy biztosítsam azok megfelelő reagálását a játékban előforduló különböző helyzetekre.
-Ezek a tesztek segítettek az egyes mechanikák helyes működésének ellenőrzésében, és hozzájárultak a játék dinamikájának finomhangolásához.
+A unit tesztelési folyamatok során alaposan ellenőriztem a játékos és az ellenségek mechanikáit, hogy megbizonyosodjak azok helyes működéséről. Az alábbiakban bemutatom a különböző teszteket, amelyek a játékos mozgására, támadásaira, és az ellenségek viselkedésére vonatkoznak.
+\begin{itemize}
+	\item[$\bullet$] \textbf{Játékos mozgás tesztek:} A tesztek biztosítják, hogy a játékos megfelelően mozogjon, az irányváltás helyesen történjen, és az ugrás megfelelően növelje a függőleges sebességet. Az IsGrounded és Jump tesztek az alapvető mozgást, míg a Flip teszt az irányváltást ellenőrzi
+	\item[$\bullet$]\textbf{Játékos támadás tesztek:} A tesztek a támadásokat és a kombinációkat ellenőrzik, például a ComboStep biztosítja a támadások sorrendiségét, míg a BlockingBullet teszt a blokkolás működését figyeli.
+	\item[$\bullet$]\textbf{Skorpió mozgás tesztek:} A skorpió mozgását és viselkedését vizsgálják, beleértve a járőrözést, a játékos célzást és a fordulást, hogy megfelelően reagáljon a játékos közeledésére.
+\end{itemize}
 A tesztelési folyamatok átláthatóságának növelése érdekében jegyzőkönyvet készítettem a végrehajtott unit tesztekről. Ez a dokumentáció segíti a tesztek könnyebb nyomon követhetőségét és értelmezését, valamint biztosítja, hogy a tesztelési eredmények megfelelően rögzítésre kerüljenek.
 \begin{table}[h!]
 \centering
 \begin{tabular}{|p{9cm}|p{2cm}|p{5cm}|}
 	\hline
-	\textbf{Teszt Esemény} & \textbf{Eredmény} & \textbf{Megjegyzés}\\
+	\textbf{Teszt neve} & \textbf{Eredmény} & \textbf{Megjegyzés}\\
 	\hline
-	Játékos lövedéket blokkol& Sikeres & Megállítja a lövedéket\\
+	BlockingBullet\_SetsBlockingState& Sikeres & Megállítja a lövedéket\\
 	\hline
-	Játékos gyors támadás utáni gyors kombóra váltás& Sikeres& Helyesen működik\\
+	ComboStep\_IncrementsCorrectly& Sikeres& Helyesen működik\\
 	\hline
-	Játékos jobbra fordul& Sikeres& Helyesen vált irányt\\
+	SimulateMoveRight& Sikeres& Helyesen vált irányt\\
 	\hline
-	Játékos talajon állásának tesztelése& Sikeres&  Igaz-at ad ha a talajon áll\\
+	IsGrounded\_ReturnsFalse\_WhenNoGround& Sikeres&  Igaz-at ad ha a talajon áll\\
 	\hline
-	Játékos ugrásának tesztelése&Sikeres & Ugrani csak talajról tud\\
+	 Jump\_WhenGrounded\_ShouldIncreaseYVelocity&Sikeres & Ugrani csak talajról tud\\
 	\hline
-	Főellenség a játékos felé fordul&Sikeres & Helyesen fordul\\
+	FlipTowardsPlayer\_FlipsCorrectly&Sikeres & Helyesen fordul\\
 	\hline
-	Főellenség megáll amikor közel ér a játékoshoz&Sikeres & Mozgása megáll \\
+	Patroling\_MovesTowardsNextPoint&Sikeres & Helyesen járőrözik\\
 	\hline
-	Skorpió a játékos felé fordul&Sikeres & Helyesen fordul\\
-	\hline
-	Skorpió járőrözésének helyessége&Sikeres & Helyesen járőrözik\\
-	\hline
-	Skorpió megáll amikor közel ér a játékoshoz& Sikeres& Mozgása megáll\\
+	TargetingPlayer\_StopsWhenCloseEnough& Sikeres& Mozgása megáll\\
 	\hline
 \end{tabular}
 \caption{Teszt jegyzőkönyvből kiragadott pár teszt leírása}
@@ -788,6 +806,12 @@ https://docs.unity3d.com/Manual/Components.html
 \bibitem{UnityTestRunner}
 \textsc{Untiy}: \emph{Test framework introduction}, elérhető:
 \url{https://docs.unity3d.com/6000.2/Documentation/Manual/test-framework/test-framework-introduction.html} [Letöltve: 2025-04-10]\\
+\bibitem{UnityEvents}
+\textsc{Untiy}: \emph{Event functions}, elérhető:
+\url{https://docs.unity3d.com/Manual/event-functions.html} [Letöltve: 2025-04-14]\\
+\bibitem{UnityLateUpdate}
+\textsc{Untiy}: \emph{Late Update}, elérhető:
+\url{https://docs.unity3d.com/ScriptReference/MonoBehaviour.LateUpdate.html} [Letöltve: 2025-04-14]\\
 
 \bibitem{GithubAndGit}
 \textsc{Github}: \emph{About GitHub and Git}, elérhető:

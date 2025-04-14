@@ -10,70 +10,71 @@
 \select@language {magyar} \contentsline {subsubsection}{A vizuális programozás erősségei}{9}{section*.4}%
 \select@language {magyar} \contentsline {subsubsection}{Blueprint osztályok}{9}{section*.5}%
 \select@language {magyar} \contentsline {subsection}{\numberline {1.2.2}Unreal Engine verzióinak áttekintése}{10}{subsection.1.2.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {1.2.3}Licenszi kérdések}{11}{subsection.1.2.3}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.2.3}Licenszi kérdések}{10}{subsection.1.2.3}%
 \select@language {magyar} \contentsline {subsection}{\numberline {1.2.4}A motor fő erősségei}{11}{subsection.1.2.4}%
 \select@language {magyar} \contentsline {section}{\numberline {1.3}Unity}{12}{section.1.3}%
 \select@language {magyar} \contentsline {subsection}{\numberline {1.3.1}Programozási nyelv}{12}{subsection.1.3.1}%
 \select@language {magyar} \contentsline {subsubsection}{C\# Főbb jellemzői}{12}{section*.6}%
-\select@language {magyar} \contentsline {subsection}{\numberline {1.3.2}fontosabb verziók}{12}{subsection.1.3.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {1.3.3}licenszelési kérdések}{14}{subsection.1.3.3}%
-\select@language {magyar} \contentsline {subsection}{\numberline {1.3.4}főbb erősségei}{14}{subsection.1.3.4}%
+\select@language {magyar} \contentsline {subsubsection}{Fontos metódusok a Unityben}{12}{section*.7}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.3.2}Fontosabb verziók}{13}{subsection.1.3.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.3.3}Licenszelési kérdések}{14}{subsection.1.3.3}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.3.4}Főbb erősségei}{14}{subsection.1.3.4}%
 \select@language {magyar} \contentsline {subsection}{\numberline {1.3.5}Jelenetek}{15}{subsection.1.3.5}%
 \select@language {magyar} \contentsline {subsection}{\numberline {1.3.6}GameObject}{15}{subsection.1.3.6}%
-\select@language {magyar} \contentsline {subsubsection}{Komponensek}{15}{section*.7}%
-\select@language {magyar} \contentsline {subsubsection}{Transform}{15}{section*.8}%
-\select@language {magyar} \contentsline {subsubsection}{Collider}{15}{section*.9}%
-\select@language {magyar} \contentsline {subsubsection}{RigidBody}{16}{section*.10}%
-\select@language {magyar} \contentsline {subsubsection}{Sprite renderer}{16}{section*.11}%
-\select@language {magyar} \contentsline {subsubsection}{Light}{16}{section*.12}%
-\select@language {magyar} \contentsline {subsubsection}{Script}{16}{section*.13}%
-\select@language {magyar} \contentsline {subsubsection}{Animator}{16}{section*.14}%
-\select@language {magyar} \contentsline {subsubsection}{Prefab}{17}{section*.15}%
+\select@language {magyar} \contentsline {subsubsection}{Komponensek}{15}{section*.8}%
+\select@language {magyar} \contentsline {subsubsection}{Transform}{16}{section*.9}%
+\select@language {magyar} \contentsline {subsubsection}{Collider}{16}{section*.10}%
+\select@language {magyar} \contentsline {subsubsection}{RigidBody}{16}{section*.11}%
+\select@language {magyar} \contentsline {subsubsection}{Sprite renderer}{16}{section*.12}%
+\select@language {magyar} \contentsline {subsubsection}{Light}{16}{section*.13}%
+\select@language {magyar} \contentsline {subsubsection}{Script}{17}{section*.14}%
+\select@language {magyar} \contentsline {subsubsection}{Animator}{17}{section*.15}%
+\select@language {magyar} \contentsline {subsubsection}{Prefab}{17}{section*.16}%
 \select@language {magyar} \contentsline {subsection}{\numberline {1.3.7}Editor}{17}{subsection.1.3.7}%
-\select@language {magyar} \contentsline {subsubsection}{Scene View}{17}{section*.16}%
-\select@language {magyar} \contentsline {subsubsection}{Game View}{17}{section*.17}%
-\select@language {magyar} \contentsline {subsubsection}{Inspector}{18}{section*.18}%
-\select@language {magyar} \contentsline {subsubsection}{Hierarchy window}{18}{section*.19}%
-\select@language {magyar} \contentsline {subsubsection}{Project window}{18}{section*.20}%
-\select@language {magyar} \contentsline {subsubsection}{Animator window}{18}{section*.21}%
-\select@language {magyar} \contentsline {subsubsection}{Animation window}{18}{section*.22}%
-\select@language {magyar} \contentsline {chapter}{\numberline {2}Rendszerterv}{19}{chapter.2}%
-\select@language {magyar} \contentsline {section}{\numberline {2.1}A rendszer célja}{19}{section.2.1}%
-\select@language {magyar} \contentsline {section}{\numberline {2.2}Projektterv}{19}{section.2.2}%
-\select@language {magyar} \contentsline {subsubsection}{Szerepkörök}{20}{section*.23}%
-\select@language {magyar} \contentsline {subsubsection}{Felelősségek}{20}{section*.24}%
-\select@language {magyar} \contentsline {subsubsection}{Mérföldkövek}{20}{section*.25}%
-\select@language {magyar} \contentsline {section}{\numberline {2.3}Funkcionális terv}{20}{section.2.3}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.3.1}Rendszer szereplők}{21}{subsection.2.3.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.3.2}Rendszerhasználati esetek és lefutásaik}{21}{subsection.2.3.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.3.3}Menühierarchiák}{22}{subsection.2.3.3}%
-\select@language {magyar} \contentsline {section}{\numberline {2.4}Követelmények}{22}{section.2.4}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.4.1}Funkcionális követelmények}{23}{subsection.2.4.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.4.2}Nem funkcionális követelmények}{23}{subsection.2.4.2}%
-\select@language {magyar} \contentsline {section}{\numberline {2.5}Használt fejlesztői eszközök}{24}{section.2.5}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.5.1}Unity}{24}{subsection.2.5.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.5.2}Github,Git}{24}{subsection.2.5.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {2.5.3}Trello}{24}{subsection.2.5.3}%
-\select@language {magyar} \contentsline {chapter}{\numberline {3}Saját projekt fejlesztése}{25}{chapter.3}%
-\select@language {magyar} \contentsline {section}{\numberline {3.1}A platformer játék bemutatása}{25}{section.3.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.1.1}A játékos karakter}{25}{subsection.3.1.1}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.1.2}Ellenségek}{26}{subsection.3.1.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.1.3}Pályarészek közötti átjárás}{28}{subsection.3.1.3}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.1.4}Waypoint mutató}{29}{subsection.3.1.4}%
-\select@language {magyar} \contentsline {section}{\numberline {3.2}Játékmechanikák és algoritmusok}{29}{section.3.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.2.1}Mozgás és irányítás}{29}{subsection.3.2.1}%
-\select@language {magyar} \contentsline {subsubsection}{Ellenségek Mozgása}{29}{section*.26}%
-\select@language {magyar} \contentsline {subsubsection}{Csatornai ellenség}{29}{section*.27}%
-\select@language {magyar} \contentsline {subsubsection}{Skorpió ellenség}{30}{section*.28}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.2.2}Támadások}{30}{subsection.3.2.2}%
-\select@language {magyar} \contentsline {subsection}{\numberline {3.2.3}Pályarészek közti átjárás logikája}{30}{subsection.3.2.3}%
-\select@language {magyar} \contentsline {subsubsection}{Waypoint mutató}{31}{section*.29}%
-\select@language {magyar} \contentsline {chapter}{\numberline {4}Tesztelés}{32}{chapter.4}%
-\select@language {magyar} \contentsline {section}{\numberline {4.1}Playtest}{32}{section.4.1}%
-\select@language {magyar} \contentsline {section}{\numberline {4.2}Unit teszt}{33}{section.4.2}%
-\select@language {magyar} \contentsline {section}{\numberline {4.3}Teszt jegyző könyv}{33}{section.4.3}%
-\select@language {magyar} \contentsline {section}{\numberline {4.4}Összefoglaló}{33}{section.4.4}%
-\select@language {magyar} \contentsline {chapter}{Összegzés}{35}{chapter*.30}%
-\select@language {magyar} \contentsline {section}{\numberline {4.5}Bővítési terv}{35}{section.4.5}%
-\select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{36}{chapter*.31}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{38}{chapter*.33}%
+\select@language {magyar} \contentsline {subsubsection}{Scene View}{17}{section*.17}%
+\select@language {magyar} \contentsline {subsubsection}{Game View}{18}{section*.18}%
+\select@language {magyar} \contentsline {subsubsection}{Inspector}{18}{section*.19}%
+\select@language {magyar} \contentsline {subsubsection}{Hierarchy window}{19}{section*.20}%
+\select@language {magyar} \contentsline {subsubsection}{Project window}{19}{section*.21}%
+\select@language {magyar} \contentsline {subsubsection}{Animator window}{19}{section*.22}%
+\select@language {magyar} \contentsline {subsubsection}{Animation window}{19}{section*.23}%
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Rendszerterv}{21}{chapter.2}%
+\select@language {magyar} \contentsline {section}{\numberline {2.1}A rendszer célja}{21}{section.2.1}%
+\select@language {magyar} \contentsline {section}{\numberline {2.2}Projektterv}{21}{section.2.2}%
+\select@language {magyar} \contentsline {subsubsection}{Szerepkörök}{22}{section*.24}%
+\select@language {magyar} \contentsline {subsubsection}{Felelősségek}{22}{section*.25}%
+\select@language {magyar} \contentsline {subsubsection}{Mérföldkövek}{22}{section*.26}%
+\select@language {magyar} \contentsline {section}{\numberline {2.3}Funkcionális terv}{22}{section.2.3}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.3.1}Rendszer szereplők}{23}{subsection.2.3.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.3.2}Rendszerhasználati esetek és lefutásaik}{23}{subsection.2.3.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.3.3}Menühierarchiák}{24}{subsection.2.3.3}%
+\select@language {magyar} \contentsline {section}{\numberline {2.4}Követelmények}{24}{section.2.4}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.4.1}Funkcionális követelmények}{25}{subsection.2.4.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.4.2}Nem funkcionális követelmények}{26}{subsection.2.4.2}%
+\select@language {magyar} \contentsline {section}{\numberline {2.5}Használt fejlesztői eszközök}{27}{section.2.5}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.5.1}Unity}{27}{subsection.2.5.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.5.2}Github,Git}{27}{subsection.2.5.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {2.5.3}Trello}{27}{subsection.2.5.3}%
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Saját projekt fejlesztése}{28}{chapter.3}%
+\select@language {magyar} \contentsline {section}{\numberline {3.1}A platformer játék bemutatása}{28}{section.3.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.1.1}A játékos karakter}{28}{subsection.3.1.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.1.2}Ellenségek}{29}{subsection.3.1.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.1.3}Pályarészek közötti átjárás}{31}{subsection.3.1.3}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.1.4}Waypoint mutató}{32}{subsection.3.1.4}%
+\select@language {magyar} \contentsline {section}{\numberline {3.2}Játékmechanikák és algoritmusok}{32}{section.3.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.2.1}Mozgás és irányítás}{32}{subsection.3.2.1}%
+\select@language {magyar} \contentsline {subsubsection}{Ellenségek Mozgása}{32}{section*.27}%
+\select@language {magyar} \contentsline {subsubsection}{Csatornai ellenség}{32}{section*.28}%
+\select@language {magyar} \contentsline {subsubsection}{Skorpió ellenség}{33}{section*.29}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.2.2}Támadások}{33}{subsection.3.2.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {3.2.3}Pályarészek közti átjárás logikája}{33}{subsection.3.2.3}%
+\select@language {magyar} \contentsline {subsubsection}{Waypoint mutató}{34}{section*.30}%
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Tesztelés}{35}{chapter.4}%
+\select@language {magyar} \contentsline {section}{\numberline {4.1}Playtest}{35}{section.4.1}%
+\select@language {magyar} \contentsline {section}{\numberline {4.2}Unit teszt}{36}{section.4.2}%
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Teszt jegyző könyv}{36}{section.4.3}%
+\select@language {magyar} \contentsline {section}{\numberline {4.4}Összefoglaló}{37}{section.4.4}%
+\select@language {magyar} \contentsline {chapter}{Összegzés}{38}{chapter*.31}%
+\select@language {magyar} \contentsline {section}{\numberline {4.5}Bővítési terv}{38}{section.4.5}%
+\select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{39}{chapter*.32}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{41}{chapter*.34}%
