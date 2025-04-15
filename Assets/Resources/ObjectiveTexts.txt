@@ -1,9 +1,5 @@
-Search for exit.
 Get magic from sunlight to open door.
-Open door.
 Kill every enemy.
-Find the next door.
-Find the sewer entrance.
 Kill every enemy.
 Find exit.
 Kill the boss.
@@ -13,3 +9,4 @@ Find Exit. Secondary: Findout more information what happend to this place.
 Found Exit. Secondary: Findout more information what happend to this place.
 Kill the soldiers.
 Get to the top of the power to see area better. Secondary: Findout more information what happend to this place.
+13

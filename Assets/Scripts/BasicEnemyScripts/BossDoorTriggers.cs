@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class BossDoorTriggers : MonoBehaviour
@@ -23,7 +24,7 @@ public class BossDoorTriggers : MonoBehaviour
         {
             bossHpBar.SetActive(true);
             boss.SetActive(true);
-            trigger.SetActive(false);
+            StartCoroutine(SetActiveFalse(trigger));
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -32,5 +33,11 @@ public class BossDoorTriggers : MonoBehaviour
         {
             isPlayerInTrigger = false;
         }
+    }
+
+    IEnumerator SetActiveFalse(GameObject gameObject)
+    {
+        yield return new WaitForSeconds(3f);
+        gameObject.SetActive(false);
     }
 }

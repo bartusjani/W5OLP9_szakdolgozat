@@ -21,10 +21,6 @@ public class AllPopupController : MonoBehaviour
     private PopUpBubble activeBubble;
     private ObjectiveBubble objActiveBubble;
     private SpeechBubble speechActiveBubble;
-
-    public GameObject platformerHelp;
-    int helpCounter = 0;
-
     TextAsset popUpTexts;
     string popUpText = "";
 
@@ -37,9 +33,13 @@ public class AllPopupController : MonoBehaviour
 
 
     public Trigger tr;
+    public WayPointUI wp;
+    public Transform target;
+
     bool isPlayerInTrigger = false;
     public bool wasSpeaking = false;
-
+    public bool isRoom = false;
+    public bool isSewer = false;
 
     private void Update()
     {
@@ -53,43 +53,62 @@ public class AllPopupController : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        if (collision.CompareTag("Player") && !tr.isDoorOpen)
+        if (tr != null)
         {
+            if (collision.CompareTag("Player") && !tr.isDoorOpen)
+            {
 
-            isPlayerInTrigger = true;
-            if (!wasSpeaking)
-            {
-                ChooseTexts(PopUpCounter.Instance.textIndex);
-                StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
-            }
-            else
-            {
-                if (activeBubble == null && objActiveBubble == null)
+                isPlayerInTrigger = true;
+                if (!wasSpeaking)
                 {
                     ChooseTexts(PopUpCounter.Instance.textIndex);
-                    if (objCounter == 1)
-                    {
-                        SetPopUp(popUpText);
-                        objCounter = 0;
-                    }
-                    else
-                    {
-                        StartCoroutine(SetPopUp(popUpText, objectiveText));
-                    }
+                    StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
+                    if (wp != null) wp.SetTarget(target);
                 }
-                wasSpeaking = false;
+                else
+                {
+                    if (activeBubble == null && objActiveBubble == null)
+                    {
+                        ChooseTexts(PopUpCounter.Instance.textIndex);
+                        if (objCounter == 1)
+                        {
+                            SetPopUp(popUpText);
+                            objCounter = 0;
+                        }
+                        else
+                        {
+                            StartCoroutine(SetPopUp(popUpText, objectiveText));
+                        }
+                    }
+                    wasSpeaking = false;
+                }
             }
         }
-        
-        if (collision.CompareTag("Player"))
+
+        if (isSewer)
+        {
+            StartCoroutine(SetObj(objectiveText));
+        }
+        else if (collision.CompareTag("Player"))
         {
 
             isPlayerInTrigger = true;
+            if (isSewer)
+            {
+                StartCoroutine(SetObj(objectiveText));
+            }
             if (!wasSpeaking)
             {
-                ChooseTexts(PopUpCounter.Instance.textIndex);
-                StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
+                if (isRoom)
+                {
+                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    StartCoroutine(SetPopUp(speechText,objectiveText));
+                }
+                else
+                {
+                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
+                }
             }
             else
             {
@@ -129,11 +148,19 @@ public class AllPopupController : MonoBehaviour
 
         if (activeBubble == null)
         {
-            SetPopUp(message);
-            yield return new WaitForSeconds(1f);
-            SetObjective(objMessage);
+            if (isRoom)
+            {
+                SetObjective(objMessage);
+                yield return new WaitForSeconds(0.2f);
+                SetSpeech(message);
+            }
+            else
+            {
+                SetPopUp(message);
+                yield return new WaitForSeconds(1f);
+                SetObjective(objMessage);
 
-
+            }
         }
     }
 
@@ -152,6 +179,7 @@ public class AllPopupController : MonoBehaviour
             wasSpeaking = true;
         }
     }
+    
 
     void SetPopUp(string message)
     {
@@ -165,6 +193,11 @@ public class AllPopupController : MonoBehaviour
         }
     }
 
+    IEnumerator SetObj(string message)
+    {
+        SetObjective(message);
+        yield return new WaitForSeconds(2f);
+    }
     void SetObjective(string message)
     {
         if (objActiveBubble == null)
@@ -201,7 +234,7 @@ public class AllPopupController : MonoBehaviour
 
         popUpTexts = Resources.Load<TextAsset>("PopUpTexts");
         string[] popUpSorok = popUpTexts.text.Split('\n');
-        popUpText = popUpSorok[index-1].Trim();
+        popUpText = popUpSorok[index].Trim();
 
 
         Debug.Log($"textIndex: {index}");

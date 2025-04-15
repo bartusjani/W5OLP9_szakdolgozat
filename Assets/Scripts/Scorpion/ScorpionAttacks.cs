@@ -68,7 +68,7 @@ public class ScorpionAttacks : MonoBehaviour
 
     IEnumerator QuickSlash()
     {
-        
+        if (isBlocking) yield break;
         Debug.Log("quick");
         animator.SetBool("isQuickAttack", true);
 
@@ -80,6 +80,7 @@ public class ScorpionAttacks : MonoBehaviour
    
     IEnumerator StrongSlash()
     {
+        if (isBlocking) yield break;
         animator.SetBool("isStrongAttack",true);
         Debug.Log("strong");
         yield return new WaitForSeconds(1f);

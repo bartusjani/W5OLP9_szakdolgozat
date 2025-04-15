@@ -9,6 +9,7 @@ public class GroundDoorTrigger : MonoBehaviour
     private int allScorpions;
     private int deadScorpions = 0;
     public GameObject secondDoor;
+    public bool allDead=false;
 
 
     private void Start()
@@ -27,10 +28,11 @@ public class GroundDoorTrigger : MonoBehaviour
 
         if(deadScorpions>= allScorpions)
         {
+            allDead = true;
             //Debug.Log("All died");
             secondDoor.SetActive(true);
             groundDoorTrigger = true;
-            wp.SetTarget(groundDoorTarget);
+            
         }
     }
 

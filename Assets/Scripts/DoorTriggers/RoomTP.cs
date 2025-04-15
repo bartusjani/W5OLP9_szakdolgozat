@@ -83,13 +83,6 @@ public class RoomTP : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //if (!wasCountAdded)
-            //{
-            //    Debug.Log(AllPopupController.Instance.textIndex);
-            //    AllPopupController.Instance.textIndex++;
-            //    wasCountAdded = true;
-            //}
-
             if (isBossRoom)
             {
                 if (EnemyHealth.isBossDead)
@@ -173,13 +166,16 @@ public class RoomTP : MonoBehaviour
             firstDoor.GetComponent<Collider2D>().enabled = false;
         }
         wasCountAdded = false;
-        gameObject.GetComponent<AllPopupController>().wasSpeaking = false;
+        if (gameObject.GetComponent<AllPopupController>() != null)
+        {
+            gameObject.GetComponent<AllPopupController>().wasSpeaking = false;
         
 
-        gameObject.GetComponent<AllPopupController>().ClearAllBubbles();
+            gameObject.GetComponent<AllPopupController>().ClearAllBubbles();
 
-        yield return new WaitForSeconds(0.2f);
-        gameObject.GetComponent<AllPopupController>().RefreshBubbles();
+            yield return new WaitForSeconds(0.2f);
+            gameObject.GetComponent<AllPopupController>().RefreshBubbles();
+        }
 
     }
 

@@ -7,8 +7,8 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
     string speechMessage;
 
 
-    public PopUpBubble objPrefab;
-    private PopUpBubble objActiveBubble;
+    public ObjectiveBubble objPrefab;
+    private ObjectiveBubble objActiveBubble;
     string objMessage;
 
     TextAsset objectiveText;
@@ -60,6 +60,7 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
             speechActiveBubble = Instantiate(speechPrefab, parent);
             speechActiveBubble.SetText(message);
             wasSpeaking = true;
+            PopUpCounter.Instance.secondTextIndex++;
         }
     }
 
@@ -78,11 +79,11 @@ public class SpeechAndObjectiveTrigger : MonoBehaviour
     void ChooseTexts(int index)
     {
 
-        objectiveText = Resources.Load<TextAsset>("ObjectiveTexts");
+        objectiveText = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondObjectiveTexts");
         string[] objectSorok = objectiveText.text.Split('\n');
         objMessage = objectSorok[index].Trim();
 
-        speechText = Resources.Load<TextAsset>("SpeechTexts");
+        speechText = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondSpeechTexts");
         string[] speechSorok = speechText.text.Split('\n');
         speechMessage = speechSorok[0].Trim();
     }

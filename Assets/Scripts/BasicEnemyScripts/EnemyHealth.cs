@@ -14,6 +14,7 @@ public class EnemyHealth : MonoBehaviour
 
     public bool isBoss = false;
     public static bool isBossDead = false;
+    public bool isStaticDead = false;
     public bool isScorpion = false;
     public bool isHuman = false;
     public bool isStaticEnemy = false;
@@ -68,6 +69,7 @@ public class EnemyHealth : MonoBehaviour
             if (health <= 0)
             {
                 Die(1.2f);
+                isStaticDead = true;
                 wp.SetTarget(bossRoomTarget);
             }
         }

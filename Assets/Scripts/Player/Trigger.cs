@@ -67,7 +67,7 @@ public class Trigger : MonoBehaviour
             isPlayerInTrigger = true;
             if (!wasButtonPressed)
             {
-                ChooseTexts(2);
+                ChooseTexts(1);
                 SetPopUp(popUpMessage);
                 onlypopUp = false;
             }
@@ -134,6 +134,7 @@ public class Trigger : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             SetSpeech(speechMessage);
             wasSpeaking = true;
+            PopUpCounter.Instance.secondTextIndex++;
         }
     }
 
@@ -169,17 +170,17 @@ public class Trigger : MonoBehaviour
         {
             popUpText = Resources.Load<TextAsset>("PopUpTexts");
             popUpSorok = popUpText.text.Split('\n');
-            popUpMessage = popUpSorok[index-1].Trim();
+            popUpMessage = popUpSorok[index].Trim();
             onlypopUp = true;
         }
 
-        objectiveText = Resources.Load<TextAsset>("ObjectiveTexts");
+        objectiveText = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondObjectiveTexts");
         string[] objectSorok = objectiveText.text.Split('\n');
-        objMessage = objectSorok[index].Trim();
+        objMessage = objectSorok[index-1].Trim();
 
-        speechText = Resources.Load<TextAsset>("SecondSpeechTexts");
+        speechText = Resources.Load<TextAsset>("SecondPopUpsInARoom/SecondSpeechTexts");
         string[] speechSorok = speechText.text.Split('\n');
-        speechMessage = speechSorok[0].Trim();
+        speechMessage = speechSorok[index].Trim();
 
     }
 }
