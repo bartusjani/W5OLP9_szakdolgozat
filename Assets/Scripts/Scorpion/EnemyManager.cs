@@ -31,6 +31,7 @@ public class GroundDoorTrigger : MonoBehaviour
             allDead = true;
             //Debug.Log("All died");
             secondDoor.SetActive(true);
+            secondDoor.GetComponent<AllPopupController>().enabled = false;
             groundDoorTrigger = true;
             
         }

@@ -21,14 +21,7 @@ public class PlayerHealth : MonoBehaviour
         pa = GetComponent<PlayerAttack>();
     }
 
-    private void Update()
-    {
-        if (died)
-        {
-            health = maxHealth;
-            healthbar.SetMaxHealth(maxHealth);
-        }
-    }
+
     public void TakeDamage(int damage)
     {
         if (pa.isBlocking)
@@ -42,7 +35,10 @@ public class PlayerHealth : MonoBehaviour
     }
     public void Die()
     {
-        died = true;
+        
         pr.Respawn();
+        health = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
+
     }
 }

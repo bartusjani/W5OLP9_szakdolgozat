@@ -14333,11 +14333,11 @@ MonoBehaviour:
   objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   tr: {fileID: 0}
+  wp: {fileID: 0}
+  target: {fileID: 0}
   wasSpeaking: 0
   isRoom: 0
   isSewer: 0
-  isCombatHelpNeeded: 0
-  isBlockHelpNeeded: 0
 --- !u!1 &793944880
 GameObject:
   m_ObjectHideFlags: 0
@@ -14430,7 +14430,7 @@ Transform:
   m_GameObject: {fileID: 793944880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.3, y: 3.3, z: 0}
+  m_LocalPosition: {x: 4.47, y: -0.01, z: 0}
   m_LocalScale: {x: 0.06702013, y: 0.06353308, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14559,7 +14559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a52bf2838bd8c4dbaba662309a06bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 200
+  maxHealth: 100
   healthbar: {fileID: 1097686210}
   isBlocking: 0
 --- !u!95 &793944888
@@ -14603,7 +14603,7 @@ MonoBehaviour:
   shield: {fileID: 2107940935}
   damage: 10
   strongDamage: 15
-  areaDamage: 150
+  areaDamage: 20
   isBlocking: 0
   blockCooldown: 3
   comboStep: 0
@@ -37280,8 +37280,8 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 1423417862}
   tr: {fileID: 953931274}
-  secondDoor: {fileID: 0}
-  firstDoor: {fileID: 0}
+  secondDoor: {fileID: 1765251596}
+  firstDoor: {fileID: 1423417860}
 --- !u!1 &1428060719
 GameObject:
   m_ObjectHideFlags: 0
@@ -38417,11 +38417,11 @@ MonoBehaviour:
   objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   tr: {fileID: 953931274}
+  wp: {fileID: 0}
+  target: {fileID: 0}
   wasSpeaking: 0
   isRoom: 1
   isSewer: 0
-  isCombatHelpNeeded: 1
-  isBlockHelpNeeded: 0
 --- !u!1 &1468824685
 GameObject:
   m_ObjectHideFlags: 0
@@ -38620,7 +38620,7 @@ MonoBehaviour:
   gd: {fileID: 0}
   tr: {fileID: 953931274}
   secondDoor: {fileID: 1459019108}
-  firstDoor: {fileID: 0}
+  firstDoor: {fileID: 1470795832}
 --- !u!114 &1470795839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38651,11 +38651,11 @@ MonoBehaviour:
   objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   tr: {fileID: 953931274}
+  wp: {fileID: 1978266586}
+  target: {fileID: 1446053742}
   wasSpeaking: 0
   isRoom: 0
   isSewer: 0
-  isCombatHelpNeeded: 0
-  isBlockHelpNeeded: 0
 --- !u!114 &1470795841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43066,8 +43066,8 @@ MonoBehaviour:
   WarRoomScorpion2: {fileID: 0}
   gd: {fileID: 0}
   tr: {fileID: 953931274}
-  secondDoor: {fileID: 0}
-  firstDoor: {fileID: 0}
+  secondDoor: {fileID: 1470795832}
+  firstDoor: {fileID: 1765251596}
 --- !u!114 &1765251601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43112,11 +43112,11 @@ MonoBehaviour:
   objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   tr: {fileID: 0}
+  wp: {fileID: 0}
+  target: {fileID: 0}
   wasSpeaking: 0
   isRoom: 0
   isSewer: 1
-  isCombatHelpNeeded: 0
-  isBlockHelpNeeded: 0
 --- !u!114 &1765251604
 MonoBehaviour:
   m_ObjectHideFlags: 0
