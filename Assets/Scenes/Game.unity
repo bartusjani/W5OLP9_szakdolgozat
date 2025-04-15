@@ -36634,7 +36634,6 @@ MonoBehaviour:
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   platformerHelp: {fileID: 5832302366737180362, guid: 89bee9ed7e9e8424a8779f8ed87afd3f, type: 3}
   tr: {fileID: 0}
-  isTutorialRoom: 0
   wasSpeaking: 0
   textIndex: 1
 --- !u!1 &1428060719
@@ -37569,7 +37568,7 @@ Transform:
   m_GameObject: {fileID: 1459019108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24.43, y: -3.19, z: 0}
+  m_LocalPosition: {x: -24.5, y: -3.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37691,8 +37690,7 @@ MonoBehaviour:
   objPrefab: {fileID: -7007988736051805242, guid: fa8846e8a1c83134db38290ddc9752bf, type: 3}
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   platformerHelp: {fileID: 0}
-  tr: {fileID: 0}
-  isTutorialRoom: 0
+  tr: {fileID: 953931274}
   wasSpeaking: 0
   textIndex: 1
 --- !u!1 &1468824685
@@ -37924,7 +37922,6 @@ MonoBehaviour:
   speechPrefab: {fileID: 3453286428051075319, guid: 7f2b58aa6743d5d47bea507c18af0318, type: 3}
   platformerHelp: {fileID: 1997767552}
   tr: {fileID: 953931274}
-  isTutorialRoom: 1
   wasSpeaking: 0
   textIndex: 1
 --- !u!114 &1470795841

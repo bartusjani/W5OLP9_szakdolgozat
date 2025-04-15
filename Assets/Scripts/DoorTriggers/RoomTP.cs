@@ -33,6 +33,7 @@ public class RoomTP : MonoBehaviour
 
     bool wasCountAdded = false;
     public GameObject secondDoor;
+    public GameObject firstDoor;
 
     private void Start()
     {
@@ -82,12 +83,12 @@ public class RoomTP : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (!wasCountAdded)
-            {
-                Debug.Log(AllPopupController.Instance.textIndex);
-                AllPopupController.Instance.textIndex++;
-                wasCountAdded = true;
-            }
+            //if (!wasCountAdded)
+            //{
+            //    Debug.Log(AllPopupController.Instance.textIndex);
+            //    AllPopupController.Instance.textIndex++;
+            //    wasCountAdded = true;
+            //}
 
             if (isBossRoom)
             {
@@ -138,7 +139,8 @@ public class RoomTP : MonoBehaviour
     IEnumerator TeleportWithFade()
     {
         if (isFading) yield break;
-        
+        PopUpCounter.Instance.textIndex++;
+
         isFading = true;
         lastTeleportTime = Time.time;
 
@@ -159,22 +161,25 @@ public class RoomTP : MonoBehaviour
         FreezePlayer(false);
         yield return new WaitForSeconds(1f);
         isFading = false;
-        
-        if (hasToTurnOff && secondDoor!=null)
+
+        if (hasToTurnOff && secondDoor != null)
         {
             yield return new WaitForSeconds(3f);
             hasToTurnOff = false;
             secondDoor.SetActive(false);
         }
+        if (firstDoor != null)
+        {
+            firstDoor.GetComponent<Collider2D>().enabled = false;
+        }
         wasCountAdded = false;
-        AllPopupController.Instance.wasSpeaking = false;
-        AllPopupController.Instance.textIndex++;
+        gameObject.GetComponent<AllPopupController>().wasSpeaking = false;
         
 
-        AllPopupController.Instance.ClearAllBubbles();
+        gameObject.GetComponent<AllPopupController>().ClearAllBubbles();
 
         yield return new WaitForSeconds(0.2f);
-        AllPopupController.Instance.RefreshBubbles();
+        gameObject.GetComponent<AllPopupController>().RefreshBubbles();
 
     }
 

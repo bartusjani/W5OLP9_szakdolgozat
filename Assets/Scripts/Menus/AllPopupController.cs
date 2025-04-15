@@ -5,8 +5,6 @@ using TextAsset = UnityEngine.TextAsset;
 
 public class AllPopupController : MonoBehaviour
 {
-    private static AllPopupController instance;
-    public static AllPopupController Instance => instance;
 
     public PopUpBubble popPrefab;
     string popMessage;
@@ -39,88 +37,68 @@ public class AllPopupController : MonoBehaviour
 
 
     public Trigger tr;
-    public bool isTutorialRoom = false;
     bool isPlayerInTrigger = false;
     public bool wasSpeaking = false;
 
-    public int textIndex = 1;
-    int lastTextIndex = -1;
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            instance = this;
-        }
-    }
+
     private void Update()
     {
-        if (textIndex != lastTextIndex)
+        if (PopUpCounter.Instance.textIndex != PopUpCounter.Instance.lastTextIndex)
         {
             RefreshBubbles();
-            lastTextIndex = textIndex;
-        }
-        if (isTutorialRoom)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                platformerHelp.SetActive(false);
-            }
+            PopUpCounter.Instance.lastTextIndex = PopUpCounter.Instance.textIndex;
         }
     }
+
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (isTutorialRoom)
+        
+        if (collision.CompareTag("Player") && !tr.isDoorOpen)
         {
-            if (collision.CompareTag("Player") && !tr.isDoorOpen)
-            {
 
-                isPlayerInTrigger = true;
-                if (!wasSpeaking)
+            isPlayerInTrigger = true;
+            if (!wasSpeaking)
+            {
+                ChooseTexts(PopUpCounter.Instance.textIndex);
+                StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
+            }
+            else
+            {
+                if (activeBubble == null && objActiveBubble == null)
                 {
-                    //ChooseTexts(textIndex);
-                    StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
-                }
-                else
-                {
-                    if (activeBubble == null && objActiveBubble == null)
+                    ChooseTexts(PopUpCounter.Instance.textIndex);
+                    if (objCounter == 1)
                     {
-                        //ChooseTexts(textIndex);
-                        if (objCounter == 1)
-                        {
-                            SetPopUp(popUpText);
-                            objCounter = 0;
-                        }
-                        else
-                        {
-                            StartCoroutine(SetPopUp(popUpText,objectiveText));
-                        }
+                        SetPopUp(popUpText);
+                        objCounter = 0;
                     }
-                    wasSpeaking = false;
+                    else
+                    {
+                        StartCoroutine(SetPopUp(popUpText, objectiveText));
+                    }
                 }
+                wasSpeaking = false;
             }
         }
+        
         if (collision.CompareTag("Player"))
         {
 
             isPlayerInTrigger = true;
             if (!wasSpeaking)
             {
-                //ChooseTexts(textIndex);
+                ChooseTexts(PopUpCounter.Instance.textIndex);
                 StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
             }
             else
             {
                 if (activeBubble == null && objActiveBubble == null)
                 {
-                    //ChooseTexts(textIndex);
+                    ChooseTexts(PopUpCounter.Instance.textIndex);
                     StartCoroutine(SetPopUp(popUpText, objectiveText));
                 }
             }
-        }
-
-        else
-        {
-            isPlayerInTrigger = true;
         }
     }
 
@@ -143,11 +121,6 @@ public class AllPopupController : MonoBehaviour
             {
                 Destroy(speechActiveBubble.gameObject);
                 speechActiveBubble = null;
-            }
-            if (isTutorialRoom && helpCounter==0 && !tr.isDoorOpen)
-            {
-                platformerHelp.SetActive(true);
-                helpCounter = 1;
             }
         }
     }
@@ -260,9 +233,9 @@ public class AllPopupController : MonoBehaviour
 
     public void RefreshBubbles()
     {
-        Debug.Log($"RefreshBubbles called for textIndex: {textIndex}");
+        Debug.Log($"RefreshBubbles called for textIndex: {PopUpCounter.Instance.textIndex}");
 
-        ChooseTexts(textIndex);
+        ChooseTexts(PopUpCounter.Instance.textIndex);
         ClearAllBubbles();
     }
 }
