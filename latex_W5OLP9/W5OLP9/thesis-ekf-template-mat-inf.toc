@@ -77,4 +77,4 @@
 \select@language {magyar} \contentsline {chapter}{Összegzés}{38}{chapter*.31}%
 \select@language {magyar} \contentsline {section}{\numberline {4.5}Bővítési terv}{38}{section.4.5}%
 \select@language {magyar} \contentsline {chapter}{Ábrák jegyzéke}{39}{chapter*.32}%
-\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{41}{chapter*.34}%
+\select@language {magyar} \contentsline {chapter}{Irodalomjegyz\'ek}{40}{chapter*.33}%

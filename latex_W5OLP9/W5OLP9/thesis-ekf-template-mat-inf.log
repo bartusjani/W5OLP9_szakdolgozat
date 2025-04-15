@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  15 APR 2025 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  15 APR 2025 21:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,41 +658,17 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (42.72897pt too wide) in paragraph at lines 102--103
-\T1/lmr/m/n/12 2016 feb-ru-ár-já-ban je-lent meg.A Go-dot 2.0-ban ja-ví-tot-ták
- je-le-net-pél-dá-nyo-sí-tást.Bevezették
- []
-
-
 
 [7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/texlive/2024/te
 xmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [8]
-Overfull \hbox (14.05852pt too wide) in paragraph at lines 121--122
-\T1/lmr/m/n/12 A Blu-e-print a já-ték-mo-tor egyik fon-tos esz-kö-ze, amely le-
-he-t®-vé te-szi a já-té-kok,alkalmazások
- []
-
-
 
 [9]
-Overfull \hbox (23.00725pt too wide) in paragraph at lines 139--140
-\T1/lmr/m/n/12 ket.Fejlesztették a rend-ere-lést, vi-lág-épí-tést, pro-ce-du-rá
--lis tar-ta-lom-ge-ne-rá-lást,animációs
- []
-
-
 
 [10]
 
 [11]
-Overfull \hbox (9.72212pt too wide) in paragraph at lines 168--169
-\T1/lmr/m/n/12 orientált prog-ra-mo-zá-si nyelv,amelyet a Mic-ro-soft fej-leszt
-, és nép-sze-r¶ nyelv mi-vel könnyen
- []
-
-
 
 [12]
 
@@ -822,10 +798,6 @@ Overfull \hbox (50.22635pt too wide) in paragraph at lines 640--661
 [39
 
 ]
-
-[40
-
-]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
 88.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -940,7 +912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 712--714
 
 
 
-[41
+[40
 
 ]
 Underfull \hbox (badness 8019) in paragraph at lines 715--717
@@ -1017,7 +989,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 737--739
 
 
 
-[42]
+[41]
 Underfull \hbox (badness 7133) in paragraph at lines 749--752
 []\T1/lmr/m/sc/12 UnityGameObject\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Ga-me-Ob-ject
 \T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . c
@@ -1079,7 +1051,7 @@ Manual /
 
 
 
-[43
+[42
 pdfTeX warning (ext4): destination with the same identifier (name{cite.UnitySce
 ne}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1177,47 +1149,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 815--817
 
  []
 
-<nyilatkozat/nyilatkozat.pdf, id=676, 597.50829pt x 845.0471pt>
+<nyilatkozat/nyilatkozat.pdf, id=670, 597.23125pt x 845.1575pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 820.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 820.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<nyilatkozat/nyilatkozat.pdf, id=679, page=1, 597.50829pt x 845.0471pt>
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<nyilatkozat/nyilatkozat.pdf, id=673, page=1, 597.23125pt x 845.1575pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
  820.
-(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
  820.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 
 
-[44]
+[43]
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
  820.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
  820.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 
 
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
  820.
-(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[45
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+[44
 
  <./nyilatkozat/nyilatkozat.pdf>] (./thesis-ekf-template-mat-inf.aux)
  ***********
@@ -1230,11 +1202,11 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-ekf-template-mat-inf.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: EFC056B93B1938E96E1A5A77580EEFC3;9575.
+(rerunfilecheck)             Checksum: B3A7EECF96A4132D17852F0765119710;9575.
  ) 
 Here is how much of TeX's memory you used:
- 15261 strings out of 473579
- 244491 string characters out of 5732263
+ 15259 strings out of 473579
+ 244473 string characters out of 5732263
  669976 words of memory out of 5000000
  37740 multiletter control sequences out of 15000+600000
  621730 words of font info for 88 fonts, out of 8000000 for 9000
@@ -1247,10 +1219,10 @@ r8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive
 /2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/f
 onts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/l
 m/lmtt12.pfb>
-Output written on thesis-ekf-template-mat-inf.pdf (45 pages, 698475 bytes).
+Output written on thesis-ekf-template-mat-inf.pdf (44 pages, 889412 bytes).
 PDF statistics:
- 802 PDF objects out of 1000 (max. 8388607)
- 716 compressed objects within 8 object streams
- 178 named destinations out of 1000 (max. 500000)
+ 778 PDF objects out of 1000 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 176 named destinations out of 1000 (max. 500000)
  460 words of extra memory for PDF output out of 10000 (max. 10000000)
 
