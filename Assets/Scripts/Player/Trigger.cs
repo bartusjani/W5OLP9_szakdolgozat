@@ -177,9 +177,9 @@ public class Trigger : MonoBehaviour
         string[] objectSorok = objectiveText.text.Split('\n');
         objMessage = objectSorok[index].Trim();
 
-        speechText = Resources.Load<TextAsset>("SpeechTexts");
+        speechText = Resources.Load<TextAsset>("SecondSpeechTexts");
         string[] speechSorok = speechText.text.Split('\n');
-        speechMessage = speechSorok[index].Trim();
+        speechMessage = speechSorok[0].Trim();
 
     }
 }

@@ -57,7 +57,7 @@ Jelenlegi forráskód elérhetősége:\href{example.com}{example.com}
 
 Játék elérhetősége: \href{https://jankopepe.itch.io/diploma-game}{jankopepe.itch.io/diploma-game}
 
-Bemutató videó elérhetősége: \href{https://example.com}{example.com}
+Bemutató videó elérhetősége: \href{https://youtu.be/SSNWiU138hQ}{youtu.be/SSNWiU138hQ}
 
 
 \chapter{Technológiai áttekintés}
@@ -312,54 +312,49 @@ A projekt célja egy kétdimenziós platformer videojáték elkészítése Unity
 \end{itemize}
 
 \subsubsection{Felelősségek}
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|p{3cm}|p{2cm}|p{9cm}|}
 	\hline
 	Név & Szerep & Felelősségek\\
 	\hline
-	Szakdolgozó & Fejlesztő & Játékmenet logika,programozás,hibajavítás \\
+	Szakdolgozó & Fejlesztő &Játékmenet logika, programozás és hibajavítás, amelyek során a játékmenet mechanikáit fejlesztem, és a felmerülő hibákat gyorsan orvoslom. \\
 	\hline
-	Grafikus & Látványtervező & Sprite-ok,animációk, UI elemek, háttérképek elkészítése \\
+	Grafikus & Látvány tervező & Sprite-ok, animációk, UI elemek és háttérképek elkészítése, amelyek segítik a vizuális élmény megteremtését és a játék világának kifejeződését. \\
 	\hline
 \end{tabular}
+
 A fejlesztő és a grafikus rendszeres konzultációk során hangolták össze a játékmenetet és a látványvilágot, hogy a kész játék esztétikailag is egységes élményt nyújtson.
 
 \subsubsection{Mérföldkövek}
-\begin{table}[h!]
-	\centering
-	\begin{tabular}{|p{4cm}|p{12cm}|}
-		\hline
-		\textbf{Mérföldkő} & \textbf{Leírás} \\
-		\hline
-		Alapjátékmechanikák elkészítve & A játékos mozgása, ugrása, ütközésérzékelés működőképes \\
-		\hline
-		Ellenségek implementálva & Legalább egy típusú ellenség működik, harcol a játékossal \\
-		\hline
-		Első játszható szint elkészítve & Egy teljes pálya bejárható, vizuális elemek nélkül \\
-		\hline
-		Grafikai integráció befejezve & A grafikus által készített sprite-ok, animációk beépítve a játékba \\
-		\hline
-		Teljes játszható verzió készen & A játék játszható állapotban van több szinttel, harccal, vizuálisokkal \\
-		\hline
-		Tesztelés és finomhangolás & A játék stabilan fut, főbb hibák javítva \\
-		\hline
-	\end{tabular}
-	\caption{Fejlesztési mérföldkövek}
-\end{table}
+
+\begin{itemize}
+	\item \textbf{Alap játékmechanikák elkészítve} \\
+	A játékos mozgása, ugrása és az ütközésérzékelés már működőképes. A karakter irányítható, képes a pályaelemekre reagálni, és a mozgásmechanikák stabil alapot adnak a játékmenethez.
+	\item \textbf{Ellenségek implementálva}\\
+	Az összes ellenség működik, képes felismerni a játékost, üldözni, illetve támadást kezdeményezni. Az alap harcrendszer már működik.
+	\item \textbf{Első játszható szint elkészítve}\\
+	Elkészült egy teljes pálya, amely bejárható a játékos által. Bár a vizuális elemek még hiányoznak, a szint szerkezete és funkcionalitása már tesztelhető.
+	\item \textbf{Grafikai integráció befejezve}\\
+	A grafikus által készített sprite-ok és animációk beépítésre kerültek. A karakterek, ellenségek és környezeti elemek már vizuálisan is megjelennek a játékban.
+	\item \textbf{Teljes játszható verzió készen}\\
+	A játék több szinttel, működő harcrendszerrel és vizuális tartalmakkal játszható állapotban van. Az alap játékmenet teljes egészében kipróbálható.
+	\item \textbf{Tesztelés és finomhangolás}\\
+	A játék stabilan fut, a főbb hibák javítva lettek. A mechanikák finomhangolásra kerültek, a játékmenet kiegyensúlyozott és gördülékeny.
+\end{itemize}
 \section{Funkcionális terv}
 A funkcionális terv célja a játék funkcióinak részletes technikai leírása a fejlesztő szemszögéből, a funkcionális specifikáció alapján. A terv bemutatja a rendszer szereplőit, a fő használati eseteket és azok lefutását, a határosztályokat, valamint a menürendszer és a képernyők logikai felépítését. A játék Unity játékmotorban készült, C\# programozási nyelven.
 
 \subsection{Rendszer szereplők}
 \begin{table}[h!]
 	\centering
-	\begin{tabular}{|p{3cm}|p{11cm}|}
+	\begin{tabular}{|p{2cm}|p{11cm}|}
 		\hline
 		\textbf{Szereplő} & \textbf{Leírás} \\
 		\hline
-		Játékos & A játék fő irányítója, aki a karakter mozgását és interakcióit végzi. \\
+		Játékos &A játék fő irányítója, aki a karakter mozgását, támadásait és interakcióit végzi, miközben különböző akadályokat és kihívásokat old meg a játék során. \\
 		\hline
-		Ellenség & AI által vezérelt ellenfél, amely a játékost támadja, vagy akadályozza. \\
+		Ellenség &AI által vezérelt ellenfél, amely a játékost támadja, vagy akadályozza, reagálva a játékos mozgására és stratégiájára, hogy fokozza a játék kihívását. \\
 		\hline
-		Játékrendszer & A háttérben működő logika, amely kezeli a szinteket, életerőt, stb. \\
+		Játék--rendszer & A háttérben működő logika, amely kezeli a szintek váltását, a karakterek életerejét, pontszámokat és egyéb alapvető játékelemeket, biztosítva a zökkenőmentes és dinamikus játékmenetet. \\
 		\hline
 	\end{tabular}
 	\caption{A játék szereplői és funkcióik}

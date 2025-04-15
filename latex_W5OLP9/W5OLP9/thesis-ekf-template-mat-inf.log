@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  14 APR 2025 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.29)  15 APR 2025 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -743,23 +743,18 @@ Overfull \hbox (5.15022pt too wide) in paragraph at lines 304--306
 [21
 
 ]
-Overfull \hbox (20.54868pt too wide) in paragraph at lines 315--325
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
-[]\T1/lmr/m/n/12 Alapjátékmechanikák
- []
-
-
-Overfull \hbox (38.22635pt too wide) in paragraph at lines 329--346
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[]\T1/lmr/m/n/12 Látvány
  []
 
 
 
 [22]
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]\T1/lmr/m/n/12 Játék--
+ []
+
+
 
 [23]
 
@@ -768,7 +763,7 @@ Overfull \hbox (38.22635pt too wide) in paragraph at lines 329--346
 [25]
 
 [26]
-Overfull \hbox (1.36742pt too wide) in paragraph at lines 484--485
+Overfull \hbox (1.36742pt too wide) in paragraph at lines 479--480
 \T1/lmr/m/n/12 hasz-nál-va le-he-t®-vé te-szi a pro-jek-tek tá-ro-lá-sát, meg-o
 sz-tá-sát és a fej-lesz-t®k kö-zöt-ti együtt-
  []
@@ -786,7 +781,7 @@ sz-tá-sát és a fej-lesz-t®k kö-zöt-ti együtt-
 [29]
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
@@ -805,12 +800,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 575--576
 [35
 
 ]
-Overfull \hbox (2.82578pt too wide) in paragraph at lines 647--647
+Overfull \hbox (2.82578pt too wide) in paragraph at lines 642--642
 []\T1/lmr/bx/n/12 Eredmény| 
  []
 
 
-Overfull \hbox (50.22635pt too wide) in paragraph at lines 645--666
+Overfull \hbox (50.22635pt too wide) in paragraph at lines 640--661
  [][] 
  []
 
@@ -832,114 +827,114 @@ Overfull \hbox (50.22635pt too wide) in paragraph at lines 645--666
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-93.
+88.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 3503) in paragraph at lines 692--694
+Underfull \hbox (badness 3503) in paragraph at lines 687--689
 []\T1/lmr/m/sc/12 Godot En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 GDScript\T1/lm
 r/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . godotengine . org
  / en /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
+Underfull \hbox (badness 10000) in paragraph at lines 687--689
 \T1/lmtt/m/n/12 stable / tutorials / scripting / gdscript / gdscript _ basics .
  html$[] \T1/lmr/m/n/12 [Le-tölt-ve:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--697
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--700
+Underfull \hbox (badness 10000) in paragraph at lines 693--695
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 701--703
+Underfull \hbox (badness 10000) in paragraph at lines 696--698
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 704--706
+Underfull \hbox (badness 10000) in paragraph at lines 699--701
 
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 707--709
+Underfull \hbox (badness 6284) in paragraph at lines 702--704
 []\T1/lmr/m/sc/12 Godot En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Li-cen-ces\T1/
 lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . godotengine . o
 rg / en /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 707--709
+Underfull \hbox (badness 10000) in paragraph at lines 702--704
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--713
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 []\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Blu-e-print\T
 1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--713
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 \T1/lmtt/m/n/12 epicgames . com / documentation / en-[]us / unreal-[]engine /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--713
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 \T1/lmtt/m/n/12 coding-[]in-[]unreal-[]engine-[]blueprint-[]vs . -[]cplusplus$[
 ] \T1/lmr/m/n/12 [Le-tölt-ve: 2025-04-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--713
+Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--716
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
 []\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Blu-e-print c
 las-ses\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--716
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
 \T1/lmtt/m/n/12 dev . epicgames . com / documentation / en-[]us / unreal-[]engi
 ne /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--716
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
 \T1/lmtt/m/n/12 overview-[]of-[]blueprints-[]visual-[]scripting-[]in-[]unreal-[
 ]engine$[] \T1/lmr/m/n/12 [Le-tölt-ve:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 714--716
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
 
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 717--719
+Underfull \hbox (badness 7963) in paragraph at lines 712--714
 []\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 4.27
 \T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev . epicgames . 
 com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
+Underfull \hbox (badness 10000) in paragraph at lines 712--714
 \T1/lmtt/m/n/12 documentation / en-[]us / unreal-[]engine / unreal-[]engine-[]4
  . 27-[]release-[]notes ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
+Underfull \hbox (badness 10000) in paragraph at lines 712--714
 
  []
 
@@ -948,135 +943,135 @@ Underfull \hbox (badness 10000) in paragraph at lines 717--719
 [41
 
 ]
-Underfull \hbox (badness 8019) in paragraph at lines 720--722
+Underfull \hbox (badness 8019) in paragraph at lines 715--717
 []\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 5.0\
 T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev . epicgames . c
 om /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 715--717
 \T1/lmtt/m/n/12 documentation / en-[]us / unreal-[]engine / unreal-[]engine-[]5
  . 0-[]release-[]notes ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 720--722
+Underfull \hbox (badness 10000) in paragraph at lines 715--717
 
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 723--725
+Underfull \hbox (badness 8019) in paragraph at lines 718--720
 []\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 5.3\
 T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / dev . epicgames . c
 om /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--725
+Underfull \hbox (badness 10000) in paragraph at lines 718--720
 \T1/lmtt/m/n/12 documentation / en-[]us / unreal-[]engine / unreal-[]engine-[]5
  . 3-[]release-[]notes ?
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--725
+Underfull \hbox (badness 10000) in paragraph at lines 718--720
 
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 726--728
+Underfull \hbox (badness 1418) in paragraph at lines 721--723
 []\T1/lmr/m/sc/12 Unreal En-gi-ne\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Vers-ion 5.5\
 T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / www . unrealengine 
 . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 726--728
+Underfull \hbox (badness 10000) in paragraph at lines 721--723
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 729--731
+Underfull \hbox (badness 10000) in paragraph at lines 724--726
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--734
+Underfull \hbox (badness 10000) in paragraph at lines 727--729
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 736--738
+Underfull \hbox (badness 10000) in paragraph at lines 731--733
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 739--741
+Underfull \hbox (badness 10000) in paragraph at lines 734--736
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 742--744
+Underfull \hbox (badness 10000) in paragraph at lines 737--739
 
  []
 
 
 
 [42]
-Underfull \hbox (badness 7133) in paragraph at lines 754--757
+Underfull \hbox (badness 7133) in paragraph at lines 749--752
 []\T1/lmr/m/sc/12 UnityGameObject\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Ga-me-Ob-ject
 \T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . c
 om /
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 758--760
+Underfull \hbox (badness 1394) in paragraph at lines 753--755
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Int-ro-duc-ti-on to com
 -po-nents\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . un
 ity3d . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 761--763
+Underfull \hbox (badness 10000) in paragraph at lines 756--758
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Trans-forms\T1/lmr/m/n/
 12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Manual 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 764--766
+Underfull \hbox (badness 10000) in paragraph at lines 759--761
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Col-l-i-der2D\T1/lmr/m/
 n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Manua
 l /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 777--779
+Underfull \hbox (badness 10000) in paragraph at lines 772--774
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 780--782
+Underfull \hbox (badness 10000) in paragraph at lines 775--777
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 783--785
+Underfull \hbox (badness 10000) in paragraph at lines 778--780
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 786--788
+Underfull \hbox (badness 10000) in paragraph at lines 781--783
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 789--791
+Underfull \hbox (badness 10000) in paragraph at lines 784--786
 
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 792--794
+Underfull \hbox (badness 6691) in paragraph at lines 787--789
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Inspec-tor win-dow\T1/l
 mr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / 
 Manual /
@@ -1089,118 +1084,118 @@ pdfTeX warning (ext4): destination with the same identifier (name{cite.UnitySce
 ne}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.794 \bibitem{UnityHierarchy}
+l.789 \bibitem{UnityHierarchy}
                               ]
-Underfull \hbox (badness 4859) in paragraph at lines 795--797
+Underfull \hbox (badness 4859) in paragraph at lines 790--792
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Hi-e-rarchy win-dow\T1/
 lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com /
  Manual /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 795--797
+Underfull \hbox (badness 10000) in paragraph at lines 790--792
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 798--800
+Underfull \hbox (badness 10000) in paragraph at lines 793--795
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Pro-ject view\T1/lmr/m/
 n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Manua
 l /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 798--800
+Underfull \hbox (badness 10000) in paragraph at lines 793--795
 
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 801--803
+Underfull \hbox (badness 2875) in paragraph at lines 796--798
 []\T1/lmr/m/sc/12 Unity\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Ani-ma-ti-on win-dow\T1
 /lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com 
 / Manual /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 801--803
+Underfull \hbox (badness 10000) in paragraph at lines 796--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--806
+Underfull \hbox (badness 10000) in paragraph at lines 799--801
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--809
+Underfull \hbox (badness 10000) in paragraph at lines 802--804
 []\T1/lmr/m/sc/12 Untiy\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Test fra-me-work int-ro
 -duc-ti-on\T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--809
+Underfull \hbox (badness 10000) in paragraph at lines 802--804
 \T1/lmtt/m/n/12 unity3d . com / 6000 . 2 / Documentation / Manual / test-[]fram
 ework /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--809
+Underfull \hbox (badness 10000) in paragraph at lines 802--804
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
+Underfull \hbox (badness 10000) in paragraph at lines 805--807
 []\T1/lmr/m/sc/12 Untiy\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Event func-tions\T1/lmr
 /m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . unity3d . com / Ma
 nual /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 810--812
+Underfull \hbox (badness 10000) in paragraph at lines 805--807
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 813--815
+Underfull \hbox (badness 10000) in paragraph at lines 808--810
 
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 817--819
+Underfull \hbox (badness 1735) in paragraph at lines 812--814
 []\T1/lmr/m/sc/12 Github\T1/lmr/m/n/12 : \T1/lmr/m/it/12 Abo-ut Git-Hub and Git
 \T1/lmr/m/n/12 , el-ér-he-t®: []$\T1/lmtt/m/n/12 https : / / docs . github . co
 m / en /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--819
+Underfull \hbox (badness 10000) in paragraph at lines 812--814
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--822
+Underfull \hbox (badness 10000) in paragraph at lines 815--817
 
  []
 
-<nyilatkozat/nyilatkozat.pdf, id=677, 597.50829pt x 845.0471pt>
+<nyilatkozat/nyilatkozat.pdf, id=676, 597.50829pt x 845.0471pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
-Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 825.
+Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 820.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf>
-Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 825.
+Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf  used on input line 820.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<nyilatkozat/nyilatkozat.pdf, id=680, page=1, 597.50829pt x 845.0471pt>
+<nyilatkozat/nyilatkozat.pdf, id=679, page=1, 597.50829pt x 845.0471pt>
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 825.
+ 820.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 825.
+ 820.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
@@ -1208,19 +1203,19 @@ Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 825.
+ 820.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 825.
+ 820.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 
 File: nyilatkozat/nyilatkozat.pdf Graphic file (type pdf)
 <use nyilatkozat/nyilatkozat.pdf, page 1>
 Package pdftex.def Info: nyilatkozat/nyilatkozat.pdf , page1 used on input line
- 825.
+ 820.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [45
 
@@ -1238,8 +1233,8 @@ nged.
 (rerunfilecheck)             Checksum: EFC056B93B1938E96E1A5A77580EEFC3;9575.
  ) 
 Here is how much of TeX's memory you used:
- 15262 strings out of 473579
- 244500 string characters out of 5732263
+ 15261 strings out of 473579
+ 244491 string characters out of 5732263
  669976 words of memory out of 5000000
  37740 multiletter control sequences out of 15000+600000
  621730 words of font info for 88 fonts, out of 8000000 for 9000
@@ -1252,10 +1247,10 @@ r8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive
 /2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/f
 onts/type1/public/lm/lmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/l
 m/lmtt12.pfb>
-Output written on thesis-ekf-template-mat-inf.pdf (45 pages, 697169 bytes).
+Output written on thesis-ekf-template-mat-inf.pdf (45 pages, 698475 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 717 compressed objects within 8 object streams
- 179 named destinations out of 1000 (max. 500000)
+ 802 PDF objects out of 1000 (max. 8388607)
+ 716 compressed objects within 8 object streams
+ 178 named destinations out of 1000 (max. 500000)
  460 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -41,9 +41,10 @@ public class AllPopupController : MonoBehaviour
     public Trigger tr;
     public bool isTutorialRoom = false;
     bool isPlayerInTrigger = false;
-    private bool wasSpeaking = false;
+    public bool wasSpeaking = false;
 
     public int textIndex = 1;
+    int lastTextIndex = -1;
     private void Awake()
     {
         if (Instance == null)
@@ -53,6 +54,11 @@ public class AllPopupController : MonoBehaviour
     }
     private void Update()
     {
+        if (textIndex != lastTextIndex)
+        {
+            RefreshBubbles();
+            lastTextIndex = textIndex;
+        }
         if (isTutorialRoom)
         {
             if (Input.GetKeyDown(KeyCode.E))
@@ -71,14 +77,14 @@ public class AllPopupController : MonoBehaviour
                 isPlayerInTrigger = true;
                 if (!wasSpeaking)
                 {
-                    ChooseTexts(textIndex);
+                    //ChooseTexts(textIndex);
                     StartCoroutine(SetPopUp(popUpText,objectiveText, speechText));
                 }
                 else
                 {
                     if (activeBubble == null && objActiveBubble == null)
                     {
-                        ChooseTexts(textIndex);
+                        //ChooseTexts(textIndex);
                         if (objCounter == 1)
                         {
                             SetPopUp(popUpText);
@@ -99,14 +105,14 @@ public class AllPopupController : MonoBehaviour
             isPlayerInTrigger = true;
             if (!wasSpeaking)
             {
-                ChooseTexts(textIndex);
+                //ChooseTexts(textIndex);
                 StartCoroutine(SetPopUp(popUpText, objectiveText, speechText));
             }
             else
             {
                 if (activeBubble == null && objActiveBubble == null)
                 {
-                    ChooseTexts(textIndex);
+                    //ChooseTexts(textIndex);
                     StartCoroutine(SetPopUp(popUpText, objectiveText));
                 }
             }
@@ -224,5 +230,39 @@ public class AllPopupController : MonoBehaviour
         string[] popUpSorok = popUpTexts.text.Split('\n');
         popUpText = popUpSorok[index-1].Trim();
 
+
+        Debug.Log($"textIndex: {index}");
+        Debug.Log($"PopUpText: {popUpText}");
+        Debug.Log($"ObjectiveText: {objectiveText}");
+        Debug.Log($"SpeechText: {speechText}");
+    }
+
+    public void ClearAllBubbles()
+    {
+        if (activeBubble != null)
+        {
+            Destroy(activeBubble.gameObject);
+            activeBubble = null;
+        }
+
+        if (objActiveBubble != null)
+        {
+            Destroy(objActiveBubble.gameObject);
+            objActiveBubble = null;
+        }
+
+        if (speechActiveBubble != null)
+        {
+            Destroy(speechActiveBubble.gameObject);
+            speechActiveBubble = null;
+        }
+    }
+
+    public void RefreshBubbles()
+    {
+        Debug.Log($"RefreshBubbles called for textIndex: {textIndex}");
+
+        ChooseTexts(textIndex);
+        ClearAllBubbles();
     }
 }

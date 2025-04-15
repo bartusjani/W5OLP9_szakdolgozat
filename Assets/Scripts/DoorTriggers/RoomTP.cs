@@ -84,15 +84,11 @@ public class RoomTP : MonoBehaviour
         {
             if (!wasCountAdded)
             {
-                if (AllPopupController.Instance.textIndex + 1 == 2)
-                {
-                    AllPopupController.Instance.textIndex++;
-                    AllPopupController.Instance.textIndex++;
-
-                }
+                Debug.Log(AllPopupController.Instance.textIndex);
                 AllPopupController.Instance.textIndex++;
                 wasCountAdded = true;
             }
+
             if (isBossRoom)
             {
                 if (EnemyHealth.isBossDead)
@@ -122,6 +118,7 @@ public class RoomTP : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            
             isPlayerInTrigger = false;
             isFading = false;
             interactText.SetActive(false);
@@ -142,7 +139,6 @@ public class RoomTP : MonoBehaviour
     {
         if (isFading) yield break;
         
-        wasCountAdded = false;
         isFading = true;
         lastTeleportTime = Time.time;
 
@@ -163,11 +159,22 @@ public class RoomTP : MonoBehaviour
         FreezePlayer(false);
         yield return new WaitForSeconds(1f);
         isFading = false;
+        
         if (hasToTurnOff && secondDoor!=null)
         {
+            yield return new WaitForSeconds(3f);
             hasToTurnOff = false;
             secondDoor.SetActive(false);
         }
+        wasCountAdded = false;
+        AllPopupController.Instance.wasSpeaking = false;
+        AllPopupController.Instance.textIndex++;
+        
+
+        AllPopupController.Instance.ClearAllBubbles();
+
+        yield return new WaitForSeconds(0.2f);
+        AllPopupController.Instance.RefreshBubbles();
 
     }
 
